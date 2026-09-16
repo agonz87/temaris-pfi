@@ -1,0 +1,2415 @@
+// ==========================================================================
+// BANCO DE PREGUNTAS — Incorporación al mundo profesional (módulo MFG4)
+// Programas de Formación e Inserción · Módulo de formación general · 50 h
+// Formato GIFT para importar en Moodle · Codificación UTF-8
+//
+// IMPORTACIÓN: Banco de preguntas > Importar > Formato GIFT > subir este archivo.
+// Se crean solas 7 categorías bajo "Temario MFG4", una por bloque del currículo.
+//
+// Las preguntas están redactadas a partir de las frases dictadas del temario
+// y siguen el mismo orden de sesiones, para poder montar cada prueba filtrando
+// por categoría.
+//
+// CORRESPONDENCIA CON LAS PRUEBAS DEL CURSO
+//   Prueba 1 (sesión 6)  -> categoría 01
+//   Prueba 2 (sesión 18) -> categoría 02
+//   Prueba 3 (sesión 26) -> categoría 03
+//   Prueba 4 (sesión 35) -> categoría 04
+//   Prueba 5 (sesión 41) -> categoría 05
+//   Prueba 6 (sesión 50) -> categorías 05, 06 y 07
+//
+// AVISO: las preguntas marcadas con // [CADUCA] contienen datos que se
+// actualizan cada año (SMI, cuotas, tipos de cotización). Revisar en septiembre.
+// ==========================================================================
+
+$CATEGORY: Temario MFG4/01 Autoconocimiento
+
+// ---------- Sesión 1 · El módulo, el trabajo y el empleo ----------
+
+::B1-01:: ¿Cuántas horas tiene el módulo MFG4 Incorporación al mundo profesional? {
+=50 horas
+~100 horas
+~35 horas
+~264 horas
+}
+
+::B1-02:: ¿Qué es el trabajo? {
+=Toda actividad que produce un bien o un servicio útil, se cobre o no se cobre
+~Sólo la actividad por la que se cobra un salario
+~Cualquier actividad que se hace fuera de casa
+~La actividad de una empresa privada
+}
+
+::B1-03:: ¿Qué es el empleo? {
+=El trabajo que se hace a cambio de dinero
+~Cualquier actividad útil
+~El oficio concreto de una persona
+~El contrato de trabajo
+}
+
+::B1-04:: ¿Qué es la ocupación? {
+=El oficio concreto que ejerce una persona
+~El dinero que cobra al mes
+~El sector económico en el que trabaja
+~El número de horas que hace a la semana
+}
+
+::B1-05:: Todo empleo es trabajo, pero no todo trabajo es empleo. {TRUE#Correcto. El trabajo doméstico o el voluntariado son trabajo y no son empleo.}
+
+::B1-06:: Todo trabajo es empleo. {FALSE#Es al revés\: todo empleo es trabajo, pero hay trabajo que no es empleo.}
+
+::B1-07:: Cuidar a un familiar sin cobrar nada, ¿qué es? {
+=Trabajo, pero no empleo
+~Empleo, pero no trabajo
+~Ni trabajo ni empleo
+~Una ocupación remunerada
+}
+
+::B1-08:: Un pintor autónomo que factura 800 euros por pintar un piso, ¿qué está haciendo? {
+=Un empleo\: es trabajo a cambio de dinero, aunque no tenga jefe
+~Trabajo pero no empleo, porque no tiene jefe
+~Ni trabajo ni empleo
+~Voluntariado
+}
+
+::B1-09:: Además de ingresos, ¿qué aporta el trabajo? {
+=Derechos, tiempo estructurado, relaciones, identidad y aprendizaje
+~Solamente vacaciones pagadas
+~Nada más\: el dinero es lo único
+~Únicamente experiencia para el currículum
+}
+
+::B1-10:: ¿Por qué se dice que estar mucho tiempo en paro hace daño aunque haya dinero en casa? {
+=Porque se pierden a la vez los derechos, el tiempo estructurado, las relaciones y la identidad que da el trabajo
+~Porque el paro es obligatorio devolverlo
+~Porque no se puede salir de casa
+~Porque se pierde la nacionalidad
+}
+
+// ---------- Sesión 2 · Intereses, capacidades y motivaciones ----------
+
+::B1-11:: ¿Qué es el autoconocimiento? {
+=Saber describirse a uno mismo con datos y no con impresiones
+~Saber qué estudios tiene uno
+~Conocer el mercado de trabajo
+~Saber cuánto se quiere cobrar
+}
+
+::B1-12:: Los intereses responden a la pregunta… {
+=¿Qué me gusta?
+~¿Qué se me da bien?
+~¿Por qué lo hago?
+~¿Cuánto cobro?
+}
+
+::B1-13:: Las capacidades responden a la pregunta… {
+=¿Qué se me da bien?
+~¿Qué me gusta?
+~¿Por qué lo hago?
+~¿Dónde quiero trabajar?
+}
+
+::B1-14:: Las motivaciones responden a la pregunta… {
+=¿Por qué lo hago?
+~¿Qué me gusta?
+~¿Qué se me da bien?
+~¿Con quién trabajo?
+}
+
+::B1-15:: "Se me da bien tratar con gente enfadada" es un ejemplo de… {
+=Capacidad
+~Interés
+~Motivación extrínseca
+~Ocupación
+}
+
+::B1-16:: Hacer algo porque la actividad en sí misma te compensa es motivación… {
+=Intrínseca
+~Extrínseca
+~Vocacional
+~Transversal
+}
+
+::B1-17:: Trabajar únicamente por el sueldo es motivación… {
+=Extrínseca
+~Intrínseca
+~Profesional
+~Social
+}
+
+::B1-18:: La motivación extrínseca por sí sola no suele aguantar mucho tiempo. {TRUE#Correcto. Quien sólo trabaja por el sueldo se va en cuanto llega un mal mes.}
+
+::B1-19:: "Me gusta pero no se me da bien". ¿Qué es lo sensato? {
+=Formarme y practicar\: casi todas las capacidades se entrenan
+~Descartarlo para siempre
+~Presentarme igual y no decir nada
+~Cambiar de intereses
+}
+
+::B1-20:: Las capacidades son innatas y no se pueden cambiar. {FALSE#Falso. Casi todas las capacidades se entrenan con formación y horas de práctica.}
+
+// ---------- Sesión 3 · Competencias ----------
+
+::B1-21:: ¿Qué es una competencia? {
+=La capacidad de resolver una situación real de trabajo
+~Un título oficial
+~Una asignatura del curso
+~Un tipo de contrato
+}
+
+::B1-22:: ¿Cuáles son las tres partes de una competencia? {
+=Saber, saber hacer y saber estar
+~Ver, oír y callar
+~Título, carné y experiencia
+~Interés, capacidad y motivación
+}
+
+::B1-23:: Las competencias técnicas son… {
+=Las del oficio, y se acreditan con títulos y carnés
+~Las que sirven en cualquier oficio
+~Las actitudes personales
+~Las que fija el convenio
+}
+
+::B1-24:: La puntualidad es una competencia… {
+=Transversal
+~Técnica
+~Contractual
+~Salarial
+}
+
+::B1-25:: ¿Por qué se compara el conjunto de competencias con un iceberg? {
+=Porque lo que se ve (títulos y carnés) es la punta, y lo que decide si te quedas está debajo
+~Porque las competencias se enfrían con el tiempo
+~Porque sólo las tienen algunas personas
+~Porque se aprenden en invierno
+}
+
+::B1-26:: Cuando una empresa no renueva a una persona joven, el motivo más frecuente es… {
+=Faltas, retrasos y actitud, más que falta de conocimientos técnicos
+~No tener un título universitario
+~No saber idiomas
+~La edad
+}
+
+::B1-27:: ¿Cuáles son las capacidades clave que se evalúan en la formación profesional? {
+=Autonomía, responsabilidad, trabajo en equipo, resolución de problemas, organización, comunicación y adaptación al cambio
+~Fuerza, resistencia, velocidad y agilidad
+~Lectura, escritura y cálculo
+~Puntualidad y nada más
+}
+
+::B1-28:: En una entrevista, decir "soy responsable" sin más… {
+=No sirve\: un adjetivo sin un ejemplo concreto no vale nada
+~Es lo más importante que se puede decir
+~Basta si se dice con seguridad
+~Sustituye a la experiencia
+}
+
+// ---------- Sesión 4 · Autoestima e identidad digital ----------
+
+::B1-29:: El autoconcepto es… {
+=La idea que tengo de mí mismo
+~El valor que me doy
+~Lo capaz que me veo para una tarea concreta
+~Lo que los demás piensan de mí
+}
+
+::B1-30:: La autoestima es… {
+=El valor que me doy a mí mismo
+~La idea descriptiva que tengo de mí
+~Lo capaz que me veo para una tarea concreta
+~El sueldo que creo merecer
+}
+
+::B1-31:: "Me veo capaz de montar ese cuadro, pero no de llamar por teléfono a un cliente". ¿De qué estamos hablando? {
+=Autoeficacia
+~Autoconcepto
+~Autoestima
+~Identidad digital
+}
+
+::B1-32:: ¿Qué es la identidad digital? {
+=Lo que se puede saber de mí buscando en internet
+~Mi DNI electrónico
+~Mi contraseña del móvil
+~El número de seguidores que tengo
+}
+
+::B1-33:: ¿Qué es la huella digital? {
+=El rastro que voy dejando en internet, lo pretenda o no
+~El lector de huella del móvil
+~Una firma electrónica
+~El historial del navegador que se borra solo
+}
+
+::B1-34:: Muchas empresas buscan en internet el nombre de un candidato antes de la entrevista. {TRUE#Correcto, y no sólo las grandes\: el dueño de un taller pequeño también lo hace.}
+
+::B1-35:: ¿Por qué conviene tener una dirección de correo con nombre y apellido? {
+=Porque es lo primero que ve de mí quien recibe mi currículum
+~Porque es obligatorio por ley
+~Porque los otros correos no funcionan
+~Porque lo exige el SOC
+}
+
+::B1-36:: Te dicen que no en un proceso de selección. ¿Cuál es la lectura correcta? {
+=Había una vacante y muchos candidatos\: miro qué mejorar y sigo
+~No valgo para esto
+~Siempre me pasará lo mismo
+~Todo se me da mal
+}
+
+// ---------- Sesión 5 · El DAFO ----------
+
+::B1-37:: ¿Qué significan las siglas DAFO? {
+=Debilidades, Amenazas, Fortalezas y Oportunidades
+~Datos, Análisis, Formación y Objetivos
+~Deberes, Actitudes, Faltas y Obligaciones
+~Desarrollo, Aprendizaje, Formación y Ocupación
+}
+
+::B1-38:: ¿Para qué sirve un DAFO? {
+=Para ver de un vistazo cómo estoy ante un objetivo concreto
+~Para calcular la nota final del módulo
+~Para redactar un contrato
+~Para calcular el salario
+}
+
+::B1-39:: En un DAFO, ¿qué elementos son internos? {
+=Las fortalezas y las debilidades
+~Las amenazas y las oportunidades
+~Las fortalezas y las oportunidades
+~Todos son internos
+}
+
+::B1-40:: En un DAFO, ¿qué elementos son externos? {
+=Las oportunidades y las amenazas
+~Las fortalezas y las debilidades
+~Las debilidades y las amenazas
+~Ninguno\: todos dependen de mí
+}
+
+::B1-41:: ¿Cuál es la pregunta que decide si algo es interno o externo en un DAFO? {
+=¿Esto lo puedo cambiar yo?
+~¿Esto es bueno o malo?
+~¿Esto pasa ahora o pasará más adelante?
+~¿Esto lo sabe mi familia?
+}
+
+::B1-42:: "No tengo carné de conducir" es… {
+=Una debilidad, porque es interna y la puedo cambiar
+~Una amenaza, porque es externa
+~Una oportunidad
+~Una fortaleza
+}
+
+::B1-43:: "Se están jubilando muchos instaladores en mi comarca" es… {
+=Una oportunidad, porque es externa y me favorece
+~Una fortaleza, porque es interna
+~Una debilidad
+~Una amenaza
+}
+
+::B1-44:: "En mi pueblo no hay empresas de mi sector" es… {
+=Una amenaza
+~Una debilidad
+~Una fortaleza
+~Una oportunidad
+}
+
+::B1-45:: Un DAFO sólo sirve de verdad si… {
+=Acaba en decisiones\: corregir, enseñar, aprovechar y esquivar
+~Está escrito a ordenador
+~Lo firma el tutor
+~Tiene más de veinte elementos
+}
+
+::B1-46:: Un DAFO se hace siempre respecto a un objetivo concreto. {TRUE#Correcto. Sin objetivo, no se sabe qué es una fortaleza y qué no lo es.}
+
+$CATEGORY: Temario MFG4/02 Itinerario formativo y profesional
+
+// ---------- Sesión 7 · El perfil profesional ----------
+
+::B2-01:: ¿Qué es un perfil profesional? {
+=La descripción oficial de lo que sabe hacer quien ha superado una formación
+~El currículum de una persona
+~La lista de asignaturas de un curso
+~El contrato de trabajo
+}
+
+::B2-02:: ¿Qué tres partes tiene un perfil profesional? {
+=Competencia general, unidades de competencia y ocupaciones
+~Teoría, práctica y examen
+~Horas, créditos y nota
+~Derechos, deberes y sanciones
+}
+
+::B2-03:: ¿Qué es una unidad de competencia? {
+=Un trozo del oficio\: algo que se sabe hacer por separado
+~Una hora de clase
+~Un módulo del curso
+~Una empresa del sector
+}
+
+::B2-04:: En un perfil profesional, la lista de ocupaciones sirve para… {
+=Saber qué puestos de trabajo se pueden buscar con esa formación
+~Saber cuánto se va a cobrar
+~Conocer el horario del curso
+~Elegir tutor
+}
+
+::B2-05:: ¿Da el PFI el título de graduado en ESO? {
+=No, pero da acceso a los caminos que sí lo dan
+~Sí, automáticamente al acabar
+~Sí, si se aprueba con más de un 7
+~No, y además cierra el paso a grado medio
+}
+
+::B2-06:: ¿Qué nivel de certificado de profesionalidad acredita un PFI? {
+=Nivel 1
+~Nivel 2
+~Nivel 3
+~Ninguno
+}
+
+::B2-07:: En un perfil de nivel 1, la expresión "bajo supervisión" significa… {
+=Que se trabaja con la indicación de alguien con más experiencia, que es lo que espera la empresa de quien entra
+~Que no se puede tocar nada
+~Que el trabajo no se paga
+~Que hay que estar en prácticas siempre
+}
+
+// ---------- Sesión 8 · Autoevaluación de competencias ----------
+
+::B2-08:: ¿Qué es autoevaluarse? {
+=Valorar uno mismo su nivel en cada competencia
+~Ponerse la nota del examen
+~Que te evalúe un compañero
+~Hacer un test de personalidad
+}
+
+::B2-09:: ¿Cuáles son los cuatro niveles de la escala de dominio? {
+=No lo sé, lo he visto, lo sé hacer y lo domino
+~Suspenso, aprobado, notable y excelente
+~Aprendiz, oficial, encargado y jefe
+~Bajo, medio, alto y experto
+}
+
+::B2-10:: "Lo he hecho una vez con el profesor al lado". ¿Qué nivel es? {
+=Nivel 2\: lo he visto
+~Nivel 3\: lo sé hacer
+~Nivel 4\: lo domino
+~Nivel 1\: no lo sé
+}
+
+::B2-11:: ¿Cuál es el salto importante de la escala de dominio? {
+=Del 2 al 3\: pasar de hacerlo acompañado a hacerlo solo
+~Del 1 al 2
+~Del 3 al 4
+~No hay ninguno importante
+}
+
+::B2-12:: Para poder decir que estás en nivel 3 tienes que poder decir… {
+=Cuándo lo hiciste, dónde y con qué resultado
+~Que te gusta
+~Quién te lo enseñó
+~Cuánto cobrarías por hacerlo
+}
+
+::B2-13:: Venderse de menos y venderse de más son los dos errores de una autoevaluación. {TRUE#Correcto. Los dos cuestan trabajos\: uno impide que te llamen y el otro se descubre en la primera semana.}
+
+// ---------- Sesión 9 · Yacimientos y empleabilidad ----------
+
+::B2-14:: ¿Qué es un yacimiento de empleo? {
+=Una actividad en la que hace falta gente y va a hacer falta más
+~Una oficina de empleo
+~Una empresa que contrata mucho
+~Un tipo de contrato
+}
+
+::B2-15:: ¿Cuál de estos es un yacimiento de empleo actual? {
+=La atención a personas mayores y la dependencia
+~La fabricación de máquinas de escribir
+~El revelado de fotografía en papel
+~La venta de enciclopedias a domicilio
+}
+
+::B2-16:: ¿Por qué los oficios manuales cualificados son hoy un yacimiento de empleo? {
+=Porque se jubilan más oficiales de los que entran
+~Porque el trabajo es más fácil que antes
+~Porque no hace falta formación
+~Porque los sueldos son muy bajos
+}
+
+::B2-17:: ¿Qué es la empleabilidad? {
+=La facilidad que tengo para encontrar y mantener un empleo
+~El sueldo que puedo pedir
+~El número de contratos que he tenido
+~La empresa donde trabajo
+}
+
+::B2-18:: ¿Cuál de estos factores de empleabilidad depende de mí? {
+=Sacarme el carné de conducir
+~Cómo va la economía
+~Cuántas empresas hay en mi comarca
+~El transporte público que llega al polígono
+}
+
+::B2-19:: ¿Cuál de estos factores de empleabilidad NO depende de mí? {
+=Cuánta gente busca lo mismo que yo
+~Mi formación
+~Mi experiencia
+~Mis carnés
+}
+
+::B2-20:: ¿Se publican todas las ofertas de trabajo? {
+=No\: muchas de oficio se cubren preguntando y por contactos
+~Sí, por ley todas se publican
+~Sí, todas están en el SOC
+~Sí, todas están en los portales de empleo
+}
+
+// ---------- Sesión 10 · Después del PFI ----------
+
+::B2-21:: ¿Cuáles son los tres caminos al acabar un PFI? {
+=Trabajar, sacar el graduado en ESO o entrar en un ciclo de grado medio
+~Trabajar, repetir curso o irse
+~Universidad, oposiciones o paro
+~Solamente trabajar
+}
+
+::B2-22:: Los tres caminos al acabar el PFI son excluyentes entre sí. {FALSE#Falso. Se combinan\: trabajar de día y estudiar de tarde es lo más frecuente.}
+
+::B2-23:: ¿Cómo se puede entrar en un ciclo formativo de grado medio sin el graduado en ESO? {
+=Con la prueba de acceso a grado medio
+~No se puede de ninguna manera
+~Pagando la matrícula completa
+~Con una carta de recomendación de la empresa
+}
+
+::B2-24:: Haber superado un PFI, respecto a la prueba de acceso a grado medio… {
+=Exime de una parte de la prueba y suma puntos
+~No tiene ninguna relación
+~Impide presentarse a la prueba
+~Obliga a esperar dos años
+}
+
+::B2-25:: Haber superado el PFI, respecto al graduado en el centro de adultos… {
+=Convalida una parte\: no se empieza de cero
+~No sirve absolutamente de nada
+~Da el graduado directamente
+~Obliga a repetir la ESO entera
+}
+
+::B2-26:: ¿En qué meses se abren normalmente las inscripciones a pruebas de acceso y matrículas? {
+=Entre marzo y mayo, estando todavía en clase
+~En julio, al acabar el curso
+~En septiembre del año siguiente
+~En diciembre
+}
+
+::B2-27:: ¿A partir de qué edad se puede hacer la prueba libre del graduado en ESO? {
+=A partir de los 18 años cumplidos en el año de la prueba
+~A partir de los 16
+~A partir de los 21
+~A cualquier edad
+}
+
+// ---------- Sesión 11 · Formación permanente ----------
+
+::B2-28:: ¿Qué es la formación permanente? {
+=Seguir formándose durante toda la vida laboral
+~Estudiar una carrera universitaria
+~Repetir un curso
+~La formación obligatoria hasta los 16 años
+}
+
+::B2-29:: ¿Qué acredita un certificado de profesionalidad? {
+=Que sé hacer una ocupación, con validez en todo el Estado
+~Que he asistido a clase
+~Que tengo el graduado en ESO
+~Que he aprobado un examen teórico
+}
+
+::B2-30:: ¿Cuántos niveles tienen los certificados de profesionalidad? {
+=Tres
+~Dos
+~Cuatro
+~Cinco
+}
+
+::B2-31:: ¿Se puede conseguir un certificado de profesionalidad sin hacer un curso? {
+=Sí, acreditando la experiencia laboral
+~No, nunca
+~Sí, pagando una tasa
+~Sí, con una carta de la empresa
+}
+
+::B2-32:: ¿Qué es el SOC? {
+=El servicio público de empleo de Catalunya
+~Un sindicato
+~Una empresa de trabajo temporal
+~Un tipo de contrato
+}
+
+::B2-33:: ¿Qué tres cosas ofrece el SOC que interesan a quien busca trabajo? {
+=Inscripción como demandante, cursos de formación gratuitos y orientación profesional
+~Contratos, nóminas y despidos
+~Préstamos, becas y vivienda
+~Solamente el pago del paro
+}
+
+::B2-34:: ¿Qué carné suele abrir más ofertas en los oficios de campo? {
+=El carné de conducir B
+~El de manipulador de alimentos
+~El de la biblioteca
+~El carné joven
+}
+
+::B2-35:: El curso de prevención de riesgos laborales de nivel básico es… {
+=Un requisito habitual para poder entrar en muchas obras
+~Un título universitario
+~Voluntario y sin ninguna utilidad
+~Un carné de conducir especial
+}
+
+// ---------- Sesión 12 · El objetivo profesional ----------
+
+::B2-36:: ¿Qué es un objetivo profesional? {
+=Una frase que dice qué trabajo busco, dónde, en qué condiciones y cuándo
+~El sueldo que quiero cobrar
+~El título que quiero sacarme
+~La empresa donde quiero trabajar, sin más
+}
+
+::B2-37:: ¿Cuáles son los cuatro elementos de un objetivo profesional? {
+=Qué, dónde, cómo y cuándo
+~Quién, qué, por qué y para qué
+~Sueldo, horario, empresa y jefe
+~Título, carné, experiencia e idiomas
+}
+
+::B2-38:: ¿Qué diferencia un objetivo de un deseo? {
+=Que se puede comprobar si se ha cumplido
+~Que es más ambicioso
+~Que lo escribe el profesor
+~Que se cumple siempre
+}
+
+::B2-39:: "Quiero trabajar de algo" es… {
+=Un deseo, no un objetivo\: no se puede comprobar si se cumple
+~Un objetivo perfectamente válido
+~Un objetivo alternativo
+~Una competencia transversal
+}
+
+::B2-40:: ¿Para qué sirve tener un objetivo profesional alternativo? {
+=Para tener preparada una segunda opción realista
+~Para rendirse antes
+~Para no tener que decidir nada
+~Para cobrar dos sueldos
+}
+
+// ---------- Sesión 13 · La escalera de los oficios ----------
+
+::B2-41:: ¿En qué categoría entra normalmente alguien que acaba un PFI? {
+=Auxiliar o ayudante
+~Oficial de 1.ª
+~Encargado
+~Técnico titulado
+}
+
+::B2-42:: Al subir de categoría dentro de un oficio, ¿qué es lo que más cambia? {
+=La autonomía, la responsabilidad y tener que resolver lo imprevisto
+~La ropa de trabajo
+~El horario de entrada
+~Nada, sólo el sueldo
+}
+
+::B2-43:: ¿Qué acelera el salto de auxiliar a oficial? {
+=Sacarse un ciclo formativo de grado medio
+~Cambiar de empresa cada dos meses
+~Esperar a que pase el tiempo
+~Pedirlo por escrito
+}
+
+::B2-44:: ¿Dónde están fijadas las categorías profesionales de un sector? {
+=En el convenio colectivo
+~En el Estatuto de los Trabajadores
+~En el contrato de cada trabajador
+~Las decide el encargado
+}
+
+// ---------- Sesión 16 · El itinerario ----------
+
+::B2-45:: ¿Qué es un itinerario formativo y profesional? {
+=El camino desde donde estoy hasta mi objetivo, escrito en pasos con fecha
+~El horario de clase
+~La lista de empresas del sector
+~Otro nombre para el objetivo profesional
+}
+
+::B2-46:: ¿Cuáles son los tres plazos de un itinerario? {
+=Corto (este curso), medio (uno o dos años) y largo (tres a cinco años)
+~Diario, semanal y mensual
+~Pasado, presente y futuro
+~Mañana, tarde y noche
+}
+
+::B2-47:: ¿Qué plazo del itinerario tiene que estar más detallado? {
+=El corto\: es el único que se puede empezar mañana
+~El largo, porque es el importante
+~Todos por igual
+~Ninguno\: un itinerario no lleva fechas
+}
+
+::B2-48:: ¿Qué cuatro cosas tiene un paso bien escrito de un itinerario? {
+=Qué, cuándo, cómo y con quién
+~Qué, quién, cuánto y dónde
+~Objetivo, deseo, plan y sueño
+~Sólo el qué y el cuándo
+}
+
+::B2-49:: ¿Por qué se escribe en cada paso a quién se le va a preguntar? {
+=Porque casi todo lo que se abandona se abandona al aparecer una duda administrativa
+~Para rellenar la tabla
+~Porque lo exige el SOC
+~Para que lo firme esa persona
+}
+
+::B2-50:: Un itinerario realista incluye qué hacer si algo no sale. {TRUE#Correcto. Es lo que distingue un plan de una lista de deseos.}
+
+$CATEGORY: Temario MFG4/03 El trabajo y la actividad económica
+
+// ---------- Sesión 19 · Necesidades, bienes y servicios ----------
+
+::B3-01:: ¿Qué es una necesidad? {
+=La sensación de que falta algo
+~Un producto que se compra
+~Un servicio público
+~Un gasto obligatorio
+}
+
+::B3-02:: ¿Qué es la escasez? {
+=Que las necesidades son muchas y los recursos limitados, y por eso hay que elegir
+~Que no hay comida
+~Que hay poca gente trabajando
+~Que los precios son altos
+}
+
+::B3-03:: ¿Cuáles son las necesidades básicas? {
+=Las que hay que cubrir para vivir dignamente\: comer, beber, dormir bajo techo, abrigarse
+~Las que crea la publicidad
+~Las que se cubren con dinero
+~Las que dependen del trabajo
+}
+
+::B3-04:: ¿Qué son las necesidades creadas? {
+=Las que genera la publicidad y la presión del grupo, y que se sienten como necesidades sin serlo
+~Las que vienen de nacimiento
+~Las que crea el Estado
+~Las que no se pueden cubrir nunca
+}
+
+::B3-05:: ¿Qué es un bien? {
+=Una cosa que se puede tocar y guardar
+~Una acción que alguien hace para mí
+~Un derecho laboral
+~Un impuesto
+}
+
+::B3-06:: ¿Qué es un servicio? {
+=Una acción que alguien hace para mí y que se consume mientras se presta
+~Una cosa que se puede tocar
+~Un tipo de necesidad
+~Un bien de producción
+}
+
+::B3-07:: Un corte de pelo es… {
+=Un servicio
+~Un bien de consumo
+~Un bien de producción
+~Una necesidad básica
+}
+
+::B3-08:: Una furgoneta de una empresa de reparto es… {
+=Un bien de producción\: sirve para producir otros bienes o servicios
+~Un bien de consumo
+~Un servicio público
+~Una necesidad creada
+}
+
+::B3-09:: La sanidad pública y la educación son… {
+=Servicios públicos, prestados por el Estado
+~Bienes de consumo
+~Bienes de producción
+~Necesidades creadas
+}
+
+// ---------- Sesión 20 · Sectores y agentes ----------
+
+::B3-10:: ¿Qué hace el sector primario? {
+=Obtiene recursos de la naturaleza
+~Transforma los recursos
+~Presta servicios
+~Investiga y gestiona información
+}
+
+::B3-11:: La construcción pertenece al sector… {
+=Secundario
+~Primario
+~Terciario
+~Cuaternario
+}
+
+::B3-12:: Reparar una caldera averiada en una casa pertenece al sector… {
+=Terciario, porque es un servicio
+~Primario
+~Secundario siempre
+~A ninguno
+}
+
+::B3-13:: ¿Por qué se dice que los oficios de instalación están a caballo entre dos sectores? {
+=Porque montar una instalación nueva es secundario y repararla o mantenerla es terciario
+~Porque trabajan en dos empresas a la vez
+~Porque cobran de dos convenios
+~Porque cambian de sector cada año
+}
+
+::B3-14:: ¿Cuáles son los tres agentes económicos? {
+=Familias, empresas y Estado
+~Bancos, empresas y sindicatos
+~Trabajadores, parados y jubilados
+~Primario, secundario y terciario
+}
+
+::B3-15:: En el flujo circular de la economía, las familias… {
+=Aportan trabajo y consumen bienes y servicios
+~Sólo pagan impuestos
+~Producen bienes y contratan
+~No intervienen
+}
+
+::B3-16:: ¿Qué hace el Estado en el flujo circular de la economía? {
+=Recauda impuestos y con ellos presta servicios públicos
+~Sólo cobra impuestos
+~Contrata a todos los trabajadores
+~Fabrica los bienes de consumo
+}
+
+// ---------- Sesión 21 · Factores de producción ----------
+
+::B3-17:: ¿Cuáles son los tres factores de producción? {
+=Tierra, trabajo y capital
+~Primario, secundario y terciario
+~Familias, empresas y Estado
+~Bienes, servicios y necesidades
+}
+
+::B3-18:: ¿Qué recibe a cambio el factor trabajo? {
+=El salario
+~El beneficio
+~La renta
+~El interés
+}
+
+::B3-19:: ¿Qué recibe a cambio el factor capital? {
+=El beneficio o el interés
+~El salario
+~La renta
+~Nada
+}
+
+::B3-20:: Las máquinas, las herramientas y las furgonetas de una empresa son… {
+=Capital
+~Tierra
+~Trabajo
+~Un servicio
+}
+
+::B3-21:: ¿Cuáles son las fases de un proceso productivo? {
+=Entradas, transformación, salidas y control
+~Compra, venta y cobro
+~Diseño, fabricación y publicidad
+~Contratar, producir y despedir
+}
+
+::B3-22:: ¿Qué es la productividad? {
+=Cuánto se produce con los recursos que se emplean
+~Cuántas horas se trabajan
+~Cuánto se cobra al mes
+~El número de trabajadores de una empresa
+}
+
+::B3-23:: ¿Cuáles son las cuatro vías por las que sube la productividad? {
+=Mejor formación, mejores herramientas, mejor organización y especialización
+~Más horas, más presión, menos descansos y menos vacaciones
+~Más publicidad, más clientes, más precio y más beneficio
+~Más impuestos, más ayudas, más subvenciones y más crédito
+}
+
+::B3-24:: ¿Por qué unos trabajos se pagan más que otros? {
+=Porque generan más valor por hora y porque hay poca gente disponible para hacerlos
+~Porque son más duros físicamente
+~Porque duran más horas
+~Porque los hacen personas con más edad
+}
+
+// ---------- Sesión 22 · Oferta y demanda ----------
+
+::B3-25:: ¿Qué es la demanda? {
+=Cuánto quiere comprar la gente a cada precio
+~Cuánto quieren vender las empresas
+~El precio de equilibrio
+~La cantidad producida
+}
+
+::B3-26:: ¿Qué es la oferta? {
+=Cuánto quieren vender las empresas a cada precio
+~Cuánto quiere comprar la gente
+~El salario mínimo
+~El número de trabajadores
+}
+
+::B3-27:: ¿Dónde está el precio de equilibrio? {
+=Donde se cruzan la oferta y la demanda
+~Donde lo fija el Estado
+~Donde lo decide el vendedor
+~Donde acaba la producción
+}
+
+::B3-28:: Si algo escasea, su precio… {
+=Sube
+~Baja
+~No cambia
+~Desaparece
+}
+
+::B3-29:: Si aumenta mucho la oferta de un producto y la demanda no cambia, el precio… {
+=Baja
+~Sube
+~Se mantiene igual
+~Se duplica
+}
+
+::B3-30:: En el mercado de trabajo, ¿quién ofrece trabajo? {
+=Las personas que quieren trabajar
+~Las empresas
+~El Estado
+~Los sindicatos
+}
+
+::B3-31:: En el mercado de trabajo, ¿quién demanda trabajo? {
+=Las empresas
+~Los trabajadores
+~Los sindicatos
+~El SOC
+}
+
+::B3-32:: ¿Cómo se llama el precio del trabajo? {
+=Salario
+~Renta
+~Beneficio
+~Interés
+}
+
+::B3-33:: Si escasean los profesionales de un oficio, su salario… {
+=Tiende a subir
+~Tiende a bajar
+~No cambia nunca
+~Lo fija el trabajador solo
+}
+
+::B3-34:: Si hay muchos candidatos para un mismo puesto, el salario ofrecido… {
+=Tiende a bajar
+~Tiende a subir
+~Se mantiene siempre igual
+~Lo fija el candidato
+}
+
+// ---------- Sesión 23 · El mercado de trabajo ----------
+
+::B3-35:: ¿Quién forma la población en edad de trabajar? {
+=Las personas de 16 años o más
+~Todas las personas del país
+~Sólo quienes tienen un contrato
+~Las personas de 18 a 65 años
+}
+
+::B3-36:: ¿Qué es la población activa? {
+=Los ocupados más los parados
+~Sólo los que trabajan
+~Todos los mayores de 16 años
+~Toda la población
+}
+
+::B3-37:: Un estudiante de 17 años que no busca trabajo es… {
+=Población inactiva
+~Parado
+~Ocupado
+~No cuenta por ser menor de edad
+}
+
+::B3-38:: Una persona jubilada es población… {
+=Inactiva
+~Activa
+~Ocupada
+~Parada
+}
+
+::B3-39:: ¿Cómo se calcula la tasa de paro? {
+=Parados dividido entre población activa, por cien
+~Parados dividido entre población total, por cien
+~Parados dividido entre ocupados, por cien
+~Parados dividido entre los mayores de 16 años, por cien
+}
+
+::B3-40:: ¿Cómo se calcula la tasa de actividad? {
+=Población activa dividido entre población de 16 o más años, por cien
+~Población activa dividido entre población total, por cien
+~Ocupados dividido entre parados, por cien
+~Ocupados dividido entre población activa, por cien
+}
+
+::B3-41:: Alguien deja de buscar trabajo porque se ha cansado. ¿Qué pasa con la tasa de paro? {
+=Baja, aunque esa persona siga sin trabajo
+~Sube
+~No cambia nada
+~Se duplica
+}
+
+::B3-42:: La tasa de paro se calcula sobre la población total. {FALSE#Falso. Se calcula sobre la población activa, que son los ocupados más los parados.}
+
+::B3-43:: Cuando en las noticias dicen que ha bajado el paro, ¿cuál es la cifra que no se puede maquillar? {
+=Si ha subido o no la ocupación
+~El número de empresas
+~El precio de la vivienda
+~La tasa de actividad
+}
+
+// ---------- Sesión 24 · Trabajo no remunerado ----------
+
+::B3-44:: El trabajo doméstico no remunerado… {
+=Es trabajo, pero no es empleo y no cotiza
+~No es trabajo
+~Es empleo y cotiza
+~Sólo cuenta si se cobra
+}
+
+::B3-45:: ¿Quién realiza mayoritariamente el trabajo doméstico y de cuidados? {
+=Las mujeres, en todos los países y en todas las clases sociales
+~Los hombres
+~Se reparte por igual
+~Empresas contratadas
+}
+
+::B3-46:: ¿Por qué quien ha dedicado muchos años a cuidar suele tener peor pensión? {
+=Porque el trabajo de cuidados no cotiza
+~Porque se jubila antes
+~Porque no ha trabajado nunca
+~Porque lo decide la empresa
+}
+
+::B3-47:: ¿Qué es el tercer sector? {
+=Las entidades sin ánimo de lucro\: asociaciones, fundaciones y ONG
+~El sector terciario o de servicios
+~Las empresas públicas
+~El conjunto de trabajadores autónomos
+}
+
+::B3-48:: ¿Se puede poner el voluntariado en el currículum? {
+=Sí\: es experiencia y demuestra competencias
+~No, porque no se cobra
+~Sólo si duró más de un año
+~Sólo si lo pide la empresa
+}
+
+// ---------- Sesión 25 · Desigualdad de género ----------
+
+::B3-49:: ¿Qué es la segregación horizontal? {
+=Que hombres y mujeres acaban en sectores y oficios distintos
+~Que hay pocas mujeres en los puestos de dirección
+~Que se cobra distinto por el mismo puesto
+~Que hay separación física en el centro de trabajo
+}
+
+::B3-50:: ¿Qué es el techo de cristal? {
+=La barrera invisible que hace que haya menos mujeres cuanto más arriba se mira en una empresa
+~Una norma escrita que lo prohíbe
+~La jornada parcial
+~Un tipo de contrato temporal
+}
+
+::B3-51:: ¿Qué es la brecha salarial? {
+=La diferencia media de lo que cobran hombres y mujeres a lo largo del año
+~Pagar distinto por el mismo puesto, que es legal
+~La diferencia entre salario bruto y neto
+~La diferencia entre convenios
+}
+
+::B3-52:: ¿Cuál es una causa real de la brecha salarial? {
+=Más jornada parcial e interrupciones de carrera por cuidados
+~Que las mujeres trabajan menos por pereza
+~Que la ley permite pagarles menos
+~Que tienen menos estudios
+}
+
+::B3-53:: Pagar menos a una mujer que a un hombre por el mismo puesto y el mismo trabajo es ilegal. {TRUE#Correcto, y se puede denunciar. La brecha salarial se produce por otras vías.}
+
+::B3-54:: ¿Cuál es la causa de fondo de la desigualdad laboral entre hombres y mujeres? {
+=El reparto desigual del trabajo no remunerado de casa y de cuidados
+~La diferencia de fuerza física
+~La falta de leyes de igualdad
+~La edad de jubilación
+}
+
+$CATEGORY: Temario MFG4/04 El mundo de la empresa
+
+// ---------- Sesión 27 · Qué es una empresa ----------
+
+::B4-01:: ¿Qué es una empresa? {
+=Una organización que combina factores de producción para producir y vender bienes o servicios, asumiendo un riesgo
+~Un edificio con máquinas
+~Un grupo de trabajadores
+~Un tipo de contrato
+}
+
+::B4-02:: ¿Por qué se dice que una empresa asume un riesgo? {
+=Porque paga las nóminas y los gastos antes de saber si va a vender
+~Porque trabaja con maquinaria peligrosa
+~Porque puede tener accidentes
+~Porque paga impuestos
+}
+
+::B4-03:: La marca, la cartera de clientes y el saber hacer de una empresa son elementos… {
+=Inmateriales
+~Materiales
+~Humanos
+~Del entorno
+}
+
+::B4-04:: Las naves, las máquinas y las existencias de una empresa son elementos… {
+=Materiales
+~Inmateriales
+~Humanos
+~Del entorno
+}
+
+::B4-05:: Los clientes, los proveedores, la competencia y la administración forman… {
+=El entorno de la empresa
+~Los elementos humanos
+~El organigrama
+~El capital
+}
+
+::B4-06:: ¿Cuál es el objetivo principal de una empresa privada? {
+=Obtener beneficio, aunque no sea el único objetivo que tiene
+~Dar trabajo a la gente
+~Pagar impuestos
+~Crecer todo lo posible
+}
+
+::B4-07:: ¿Cuáles son las cuatro áreas funcionales de una empresa? {
+=Producción, comercial, financiera y recursos humanos
+~Taller, almacén, oficina y tienda
+~Dirección, mandos, oficiales y auxiliares
+~Compras, ventas, caja y personal
+}
+
+::B4-08:: En una empresa de tres personas no existen las cuatro áreas funcionales. {FALSE#Falso. Existen igual\: las hace el propio dueño, normalmente por la tarde.}
+
+::B4-09:: Hacer un presupuesto a un cliente es una tarea del área… {
+=Comercial
+~De producción
+~Financiera
+~De recursos humanos
+}
+
+::B4-10:: Organizar el curso de prevención de riesgos de la plantilla es una tarea del área… {
+=De recursos humanos
+~Comercial
+~De producción
+~Financiera
+}
+
+// ---------- Sesión 28 · Tipos de empresa ----------
+
+::B4-11:: Una empresa de 8 trabajadores es… {
+=Una microempresa
+~Una empresa pequeña
+~Una mediana empresa
+~Una gran empresa
+}
+
+::B4-12:: Una empresa de 30 trabajadores es… {
+=Una empresa pequeña
+~Una microempresa
+~Una mediana empresa
+~Una gran empresa
+}
+
+::B4-13:: ¿A partir de cuántos trabajadores se considera una gran empresa? {
+=250
+~50
+~100
+~500
+}
+
+::B4-14:: ¿Qué son las pymes? {
+=Las pequeñas y medianas empresas, de menos de 250 trabajadores
+~Las empresas públicas
+~Las cooperativas
+~Las empresas de trabajo temporal
+}
+
+::B4-15:: Un autónomo que no puede pagar sus deudas… {
+=Responde con sus bienes personales\: tiene responsabilidad ilimitada
+~Sólo pierde lo que puso en el negocio
+~No responde de nada
+~Responde el Estado por él
+}
+
+::B4-16:: ¿Qué significa responsabilidad limitada? {
+=Que como máximo se pierde lo aportado a la empresa
+~Que no se responde de nada
+~Que se responde con la vivienda familiar
+~Que la deuda la paga el banco
+}
+
+::B4-17:: En una cooperativa de trabajo asociado… {
+=Los trabajadores son socios y cada persona tiene un voto
+~Manda quien ha puesto más dinero
+~No hay trabajadores
+~Es siempre de titularidad pública
+}
+
+::B4-18:: ¿Qué es una empresa pública? {
+=Una empresa de titularidad del Estado, una comunidad autónoma o un ayuntamiento
+~Una empresa que cotiza en bolsa
+~Una empresa sin ánimo de lucro
+~Una cooperativa
+}
+
+::B4-19:: Tres socios quieren montar un taller con una inversión de 40.000 euros y un préstamo. ¿Qué forma jurídica es la más razonable? {
+=Una sociedad limitada, por la responsabilidad limitada
+~Que cada uno se haga autónomo por separado
+~Una empresa pública
+~Una asociación sin ánimo de lucro
+}
+
+::B4-20:: ¿Qué se aprende más rápido, por lo general, en una empresa pequeña? {
+=Un poco de todo, porque se tocan muchas tareas distintas
+~Sólo una tarea muy especializada
+~Nada\: no hay formación posible
+~Únicamente tareas administrativas
+}
+
+// ---------- Sesión 29 · Ingresos, costes y beneficio ----------
+
+::B4-21:: ¿Cómo se calcula el beneficio? {
+=Ingresos menos costes
+~Ingresos más costes
+~Costes menos salarios
+~Ingresos menos impuestos solamente
+}
+
+::B4-22:: Si el beneficio es negativo se llama… {
+=Pérdida
+~Déficit salarial
+~Coste fijo
+~Amortización
+}
+
+::B4-23:: ¿Qué son los costes fijos? {
+=Los que se pagan aunque no se venda nada
+~Los que suben y bajan con la producción
+~Los que paga el trabajador
+~Los que se pagan una sola vez
+}
+
+::B4-24:: El alquiler de la nave es un coste… {
+=Fijo
+~Variable
+~Inmaterial
+~De producción
+}
+
+::B4-25:: El material y la gasolina de las furgonetas son costes… {
+=Variables
+~Fijos
+~Inmateriales
+~No son costes
+}
+
+::B4-26:: ¿Por qué un mes sin facturar supone perder dinero y no simplemente ganar cero? {
+=Porque los costes fijos se siguen pagando igual
+~Porque suben los impuestos
+~Porque hay que pagar más a los trabajadores
+~No es cierto\: se gana cero
+}
+
+::B4-27:: ¿Le cuesta a la empresa lo mismo que cobra el trabajador? {
+=No\: hay que sumar la Seguridad Social, los costes fijos y las horas que no se facturan
+~Sí, exactamente lo mismo
+~Le cuesta menos
+~Depende del convenio
+}
+
+::B4-28:: ¿Por qué muchos talleres cierran dos semanas en agosto? {
+=Porque la facturación cae y los costes fijos siguen\: concentrar las vacaciones reduce la pérdida
+~Porque lo obliga la ley
+~Porque no hay electricidad en verano
+~Porque los clientes pagan menos en agosto
+}
+
+// ---------- Sesión 30 · Organigrama y puestos ----------
+
+::B4-29:: ¿Qué es un organigrama? {
+=El dibujo de la estructura de la empresa\: qué áreas tiene y quién depende de quién
+~El horario de trabajo
+~La lista de clientes
+~El convenio colectivo
+}
+
+::B4-30:: ¿Qué es un puesto de trabajo? {
+=El conjunto de tareas que hace una persona
+~Una parte de la empresa con una función
+~El escalón que fija el convenio
+~El lugar físico donde se trabaja
+}
+
+::B4-31:: ¿Qué es una categoría profesional? {
+=El escalón que fija el convenio colectivo y del que depende el salario
+~El nombre del puesto que decide la empresa
+~El área funcional
+~El tipo de contrato
+}
+
+::B4-32:: ¿Quién fija la categoría profesional y el salario que le corresponde? {
+=El convenio colectivo
+~El encargado
+~El propio trabajador
+~El cliente
+}
+
+::B4-33:: Tienes una duda técnica trabajando en una obra. ¿A quién preguntas primero? {
+=Al oficial con el que estás trabajando
+~Al gerente de la empresa
+~Al cliente
+~A nadie\: se resuelve como se pueda
+}
+
+::B4-34:: ¿Por qué conviene respetar la cadena de mando? {
+=Porque saltarse eslabones deja mal al encargado, que es quien informa sobre ti
+~Porque lo dice el Estatuto de los Trabajadores
+~Porque si no, no se cobra
+~Porque lo exige el cliente
+}
+
+// ---------- Sesión 31 · Autoocupación ----------
+
+::B4-35:: ¿Qué es la autoocupación? {
+=Crear tu propio puesto de trabajo en vez de buscar que te contraten
+~Trabajar en una empresa pública
+~Estar en paro cobrando prestación
+~Hacer horas extra
+}
+
+::B4-36:: ¿Cuál es un inconveniente real de ser autónomo? {
+=Que se paga una cuota mensual haya trabajo o no, y que no se cobra paro igual que un asalariado
+~Que no se puede elegir el horario
+~Que no se puede facturar a empresas
+~Que hace falta un título universitario
+}
+
+::B4-37:: Para un autónomo, las vacaciones son… {
+=Días sin ingresos
+~Días pagados por la empresa
+~Días que paga la Seguridad Social
+~Obligatorias por convenio
+}
+
+::B4-38:: ¿Cuáles son las cuatro partes de una idea de negocio? {
+=Producto o servicio, clientela, imagen e inversión
+~Local, jefe, empleados y horario
+~Ingresos, costes, beneficio y pérdida
+~Qué, dónde, cómo y cuándo
+}
+
+::B4-39:: Además de las cuatro partes, ¿cuál es la pregunta que decide una idea de negocio? {
+=Qué tengo yo que no tenga el de al lado
+~Cuánto dinero quiero ganar
+~Cuántos trabajadores voy a contratar
+~En qué banco voy a abrir la cuenta
+}
+
+::B4-40:: Facturar 3.200 euros al mes como autónomo, ¿es ganar 3.200 euros? {
+=No\: hay que descontar la cuota, los gastos, el material y los impuestos
+~Sí, todo es suyo
+~Sí, menos el IVA
+~Sí, si no tiene trabajadores
+}
+
+::B4-41:: ¿Qué es un falso autónomo? {
+=Alguien dado de alta como autónomo que en realidad trabaja como asalariado. Es ilegal
+~Un autónomo que factura poco
+~Un autónomo sin gestoría
+~Un autónomo que trabaja para varias empresas
+}
+
+::B4-42:: Ser falso autónomo es legal si las dos partes están de acuerdo. {FALSE#Falso. Es ilegal, con independencia de lo que firmen las partes.}
+
+::B4-43:: ¿Qué es el espíritu emprendedor? {
+=Iniciativa, asumir riesgos calculados, aguantar la frustración y ponerse en marcha sin que te lo digan
+~Tener dinero para montar una empresa
+~Ser autónomo
+~Tener un título de administración
+}
+
+::B4-44:: El espíritu emprendedor sólo sirve si montas tu propia empresa. {FALSE#Falso. Se valora igual trabajando para otro\: es la autonomía y la iniciativa que piden las empresas.}
+
+// ---------- Sesión 32 · Globalización ----------
+
+::B4-45:: ¿Qué es la globalización? {
+=Que las economías del mundo están cada vez más conectadas\: se produce en un sitio, se monta en otro y se vende en todas partes
+~Que todo el mundo habla inglés
+~Que hay más turismo internacional
+~Que existe internet
+}
+
+::B4-46:: ¿Cuál de estos factores ha hecho posible la globalización? {
+=El transporte barato, sobre todo el contenedor marítimo
+~El aumento de los salarios en todo el mundo
+~La subida de los aranceles
+~La reducción del comercio internacional
+}
+
+::B4-47:: ¿Cuál es un efecto positivo de la globalización? {
+=Productos más baratos y más variedad, y poder vender a todo el mundo
+~La pérdida de empleo industrial
+~La explotación laboral
+~El impacto ambiental del transporte
+}
+
+::B4-48:: ¿Cuál es un efecto negativo de la globalización? {
+=La presión a la baja sobre salarios y condiciones de trabajo
+~Que los productos sean más baratos
+~Que se comparta tecnología
+~Que se pueda trabajar en otro país
+}
+
+::B4-49:: La globalización sólo tiene efectos negativos. {FALSE#Falso. Tiene efectos positivos y negativos a la vez, y por eso es un fenómeno discutido.}
+
+::B4-50:: ¿Qué es la deslocalización? {
+=Trasladar la producción a otro país donde sale más barata
+~Cambiar el domicilio de la empresa dentro del mismo municipio
+~Cerrar una empresa
+~Contratar a trabajadores extranjeros
+}
+
+::B4-51:: ¿Cuál de estos trabajos NO se puede deslocalizar? {
+=Reparar la caldera de un piso
+~Fabricar camisetas en serie
+~Atender llamadas de un servicio telefónico
+~Llevar la contabilidad de una empresa
+}
+
+::B4-52:: ¿Por qué los oficios de instalación y mantenimiento están protegidos frente a la deslocalización? {
+=Porque exigen estar físicamente donde está el cliente
+~Porque están subvencionados
+~Porque lo prohíbe el convenio
+~Porque no usan materiales importados
+}
+
+$CATEGORY: Temario MFG4/05 Marco normativo laboral
+
+// ---------- Sesión 36 · El Estatuto de los Trabajadores ----------
+
+::B5-01:: ¿Qué es el Estatuto de los Trabajadores? {
+=La ley básica del trabajo por cuenta ajena en España
+~Un convenio colectivo
+~El reglamento interno de cada empresa
+~Un tipo de contrato
+}
+
+::B5-02:: ¿A quién se aplica el Estatuto de los Trabajadores? {
+=A quien trabaja para otra persona a cambio de un salario y bajo su organización
+~A los autónomos
+~A los funcionarios
+~A los estudiantes en prácticas no laborales
+}
+
+::B5-03:: Firmas un papel renunciando a tus vacaciones. ¿Qué valor tiene? {
+=Ninguno\: los derechos del Estatuto no se pueden renunciar
+~Es válido porque lo has firmado
+~Es válido si hay dos testigos
+~Es válido durante el primer año
+}
+
+::B5-04:: ¿Cuál es la jerarquía de las normas laborales, de mayor a menor? {
+=Ley, convenio colectivo y contrato de trabajo
+~Contrato, convenio y ley
+~Convenio, ley y contrato
+~Todas están al mismo nivel
+}
+
+::B5-05:: Un contrato de trabajo, respecto al convenio colectivo… {
+=Puede mejorarlo, pero nunca empeorarlo
+~Puede empeorarlo si el trabajador lo acepta
+~Está por encima del convenio
+~No tiene ninguna relación con él
+}
+
+::B5-06:: El convenio da 32 días de vacaciones y el contrato pone 25. ¿Qué se aplica? {
+=Los 32 días del convenio\: el contrato no puede empeorarlo
+~Los 25 del contrato, porque es lo firmado
+~Los 30 del Estatuto
+~Se negocia cada año
+}
+
+::B5-07:: ¿Cuál es un derecho básico reconocido en el Estatuto de los Trabajadores? {
+=La no discriminación en la contratación, el salario y la promoción
+~Elegir uno mismo su horario
+~No hacer tareas que no gusten
+~Cobrar por adelantado
+}
+
+::B5-08:: ¿Cuál es un deber básico de la persona trabajadora? {
+=Cumplir las medidas de prevención de riesgos laborales
+~Aceptar cualquier orden, sea cual sea
+~Hacer horas extra siempre que se lo pidan
+~No afiliarse a un sindicato
+}
+
+::B5-09:: Te mandan subir a un tejado mojado sin arnés ni línea de vida. ¿Puedes negarte? {
+=Sí\: es un riesgo grave e inminente y el deber de obedecer no lo cubre
+~No\: hay que cumplir las órdenes siempre
+~Sólo si eres delegado de prevención
+~Sólo si hay un inspector presente
+}
+
+::B5-10:: Una empresa te paga en mano, sin nómina y sin darte de alta. Esto es… {
+=Ilegal\: sin alta no hay cotización, ni paro, ni baja, ni cobertura por accidente
+~Legal si las dos partes están de acuerdo
+~Legal durante los tres primeros meses
+~Legal si eres menor de edad
+}
+
+// ---------- Sesión 37 · Jornada, descansos y vacaciones ----------
+
+::B5-11:: ¿Cuál es la jornada máxima ordinaria? {
+=40 horas semanales de media en cómputo anual
+~48 horas semanales
+~35 horas semanales
+~No hay máximo legal
+}
+
+::B5-12:: ¿Cuántas horas extraordinarias se pueden hacer como máximo al año? {
+=80
+~40
+~120
+~No hay límite
+}
+
+::B5-13:: Un trabajador de 17 años, ¿puede hacer horas extra? {
+=No, en ningún caso
+~Sí, si él quiere
+~Sí, hasta 40 al año
+~Sí, si lo autorizan sus padres
+}
+
+::B5-14:: ¿Cuánto descanso corresponde en una jornada continuada de más de 6 horas? {
+=15 minutos
+~30 minutos
+~1 hora
+~Ninguno
+}
+
+::B5-15:: ¿Cuántas horas de descanso tiene que haber entre el final de una jornada y el inicio de la siguiente? {
+=12
+~8
+~10
+~No está regulado
+}
+
+::B5-16:: Sales del trabajo a las 22:00 y te dicen que entres al día siguiente a las 7:00. Esto es… {
+=Ilegal\: sólo hay 9 horas de descanso y la ley exige 12
+~Legal, porque son más de 8 horas
+~Legal si lo acepta el trabajador
+~Legal si se pagan como horas extra
+}
+
+::B5-17:: ¿Cuál es el descanso semanal mínimo? {
+=Día y medio ininterrumpido
+~Un día
+~Dos días
+~Medio día
+}
+
+::B5-18:: ¿Cuántos días naturales de vacaciones son el mínimo legal al año? {
+=30
+~22
+~15
+~45
+}
+
+::B5-19:: ¿Se pueden cambiar las vacaciones por dinero? {
+=No mientras dura el contrato\: sólo se liquidan si el contrato acaba sin haberlas disfrutado
+~Sí, siempre que el trabajador lo pida
+~Sí, si lo autoriza el convenio
+~Sí, en empresas de menos de 10 trabajadores
+}
+
+::B5-20:: ¿Cuántos días de permiso retribuido corresponden por matrimonio o registro de pareja? {
+=15 días naturales
+~2 días
+~5 días
+~Ninguno
+}
+
+::B5-21:: Tienes un examen de la prueba de acceso a grado medio un martes por la mañana. ¿Puedes faltar al trabajo? {
+=Sí\: es permiso retribuido por examen de formación reglada y no te lo descuentan
+~No\: hay que cogerlo de vacaciones
+~Sí, pero sin cobrar
+~Sólo si la empresa lo autoriza por escrito
+}
+
+::B5-22:: La empresa está obligada a registrar cada día tu jornada. {TRUE#Correcto, desde 2019, y debe conservar ese registro cuatro años.}
+
+::B5-23:: ¿Para qué sirve el registro de jornada? {
+=Es la prueba principal si se reclaman horas extra no pagadas
+~Para calcular el IRPF
+~Para que la empresa controle a los clientes
+~Para el cálculo de las vacaciones solamente
+}
+
+// ---------- Sesión 38 · El contrato de trabajo ----------
+
+::B5-24:: ¿Qué es un contrato de trabajo? {
+=Un acuerdo para prestar servicios por cuenta ajena, bajo la organización de otro, a cambio de una retribución
+~Un papel que fija sólo el horario
+~El convenio colectivo del sector
+~El alta en la Seguridad Social
+}
+
+::B5-25:: ¿Está obligada la empresa a darte una copia del contrato? {
+=Sí
+~No
+~Sólo si lo pides por escrito
+~Sólo en contratos indefinidos
+}
+
+::B5-26:: ¿Cuál es la palabra más importante del contrato para saber dónde mirar todo lo demás? {
+=El convenio colectivo aplicable
+~El nombre de la empresa
+~La fecha de inicio
+~El número de cuenta bancaria
+}
+
+::B5-27:: Si un contrato no tiene una causa que justifique que sea temporal, ¿qué es? {
+=Indefinido\: es la regla general
+~Nulo
+~De obra y servicio
+~De formación
+}
+
+::B5-28:: ¿Qué es un contrato fijo discontinuo? {
+=Un contrato indefinido para trabajos de temporada que se repiten cada año
+~Un contrato temporal de un mes
+~Un contrato sin salario
+~Un contrato de prueba
+}
+
+::B5-29:: ¿Qué permite el contrato formativo en alternancia? {
+=Compaginar el trabajo con la formación, obteniendo el título o certificado al final
+~Trabajar sin cobrar
+~Hacer prácticas sin contrato
+~Trabajar sólo los fines de semana
+}
+
+::B5-30:: El periodo de prueba… {
+=Debe constar por escrito en el contrato\: si no consta, no existe
+~Se aplica siempre, esté escrito o no
+~Dura un año como mínimo
+~Es un tiempo en el que no se cobra
+}
+
+::B5-31:: Durante el periodo de prueba… {
+=Se cobra, se cotiza y se tienen todos los demás derechos
+~No se cobra
+~No se cotiza a la Seguridad Social
+~No se tiene ningún derecho
+}
+
+::B5-32:: Si en el contrato te ponen una categoría inferior a la que realmente haces… {
+=Cobrarás menos de lo que te corresponde, y se puede reclamar demostrando las tareas que haces
+~No pasa nada, porque el nombre da igual
+~Es imposible\: la categoría la elige el trabajador
+~Sólo afecta a las vacaciones
+}
+
+// ---------- Sesión 39 · Cambios y final del contrato ----------
+
+::B5-33:: ¿Qué tres cosas le pueden pasar a un contrato de trabajo? {
+=Modificación, suspensión y extinción
+~Renovación, prórroga y despido
+~Alta, baja y finiquito
+~Firma, registro y archivo
+}
+
+::B5-34:: Estar de baja médica es… {
+=Una suspensión\: el contrato se para pero se conserva el puesto
+~Una extinción del contrato
+~Un despido objetivo
+~Una modificación de condiciones
+}
+
+::B5-35:: ¿Cuál de estas situaciones es una extinción del contrato? {
+=Una baja voluntaria del trabajador
+~Una baja médica
+~Una excedencia por cuidado de un hijo
+~Un ERTE
+}
+
+::B5-36:: ¿Cuánto es la indemnización de un despido objetivo? {
+=20 días de salario por año trabajado
+~33 días por año
+~45 días por año
+~Ninguna
+}
+
+::B5-37:: ¿Cuánta indemnización corresponde en un despido disciplinario procedente? {
+=Ninguna
+~20 días por año
+~33 días por año
+~12 días por año
+}
+
+::B5-38:: Un despido declarado improcedente supone… {
+=Readmisión o una indemnización de 33 días de salario por año
+~Readmisión obligatoria siempre
+~Ninguna consecuencia
+~Una multa para el trabajador
+}
+
+::B5-39:: ¿Cuándo se declara nulo un despido? {
+=Cuando vulnera derechos fundamentales o afecta a situaciones especialmente protegidas
+~Cuando la empresa no tiene dinero
+~Cuando el trabajador llevaba poco tiempo
+~Cuando no hay contrato escrito
+}
+
+::B5-40:: ¿Cuántos días hay para reclamar un despido? {
+=20 días hábiles desde que te lo comunican
+~30 días naturales
+~6 meses
+~Un año
+}
+
+::B5-41:: ¿Cuál es el primer paso para reclamar un despido? {
+=Presentar la papeleta de conciliación, que es gratuita y no requiere abogado
+~Denunciar en el juzgado directamente
+~Ir a la policía
+~Escribir al convenio
+}
+
+::B5-42:: ¿Qué incluye un finiquito? {
+=Los días trabajados, las vacaciones no disfrutadas y la parte proporcional de las pagas extra
+~Sólo la indemnización por despido
+~Sólo las vacaciones
+~El salario de los tres meses siguientes
+}
+
+::B5-43:: El finiquito sólo se cobra cuando a uno lo despiden. {FALSE#Falso. Se cobra siempre que acaba un contrato, incluso si la persona se va voluntariamente.}
+
+::B5-44:: ¿Cómo se firma un finiquito con el que no estás de acuerdo? {
+=Poniendo al lado "no conforme", para poder seguir reclamando
+~No se firma nunca
+~Se firma y ya no se puede hacer nada
+~Se firma con el nombre de otra persona
+}
+
+::B5-45:: Un trabajador cobra 1.500 euros brutos al mes y lleva 3 años. Le despiden por causas económicas. ¿Cuánto le corresponde aproximadamente? {
+=3.000 euros (50 euros de salario diario por 60 días)
+~1.500 euros
+~4.500 euros
+~Nada
+}
+
+// ---------- Sesión 40 · Convenio, sindicatos y prevención ----------
+
+::B5-46:: ¿Qué es un convenio colectivo? {
+=Un acuerdo entre la representación de los trabajadores y la de los empresarios que fija las condiciones de trabajo de un sector o empresa
+~Una ley aprobada por el Parlamento
+~El contrato individual de cada trabajador
+~El reglamento interno de una empresa
+}
+
+::B5-47:: Un convenio colectivo se aplica… {
+=A todas las empresas y personas de su ámbito, estén afiliadas o no
+~Sólo a los afiliados al sindicato que lo firmó
+~Sólo a los trabajadores fijos
+~Sólo a las empresas de más de 50 trabajadores
+}
+
+::B5-48:: ¿Cuál de estas cosas fija un convenio colectivo? {
+=Las tablas salariales y la clasificación profesional
+~El precio de venta de los productos
+~Los impuestos que paga la empresa
+~El horario de los clientes
+}
+
+::B5-49:: ¿Se puede consultar el convenio colectivo del propio sector? {
+=Sí\: es público y está publicado en el boletín oficial y en las webs de los sindicatos
+~No\: es un documento interno de la empresa
+~Sólo los afiliados pueden verlo
+~Sólo se puede ver pagando
+}
+
+::B5-50:: ¿Qué es un sindicato? {
+=Una asociación de personas trabajadoras para defender sus intereses
+~Una asociación de empresas
+~Un organismo público
+~Una empresa de trabajo temporal
+}
+
+::B5-51:: Afiliarse a un sindicato es… {
+=Voluntario, y da derecho a asesoramiento jurídico
+~Obligatorio al firmar un contrato
+~Obligatorio sólo en empresas grandes
+~Un motivo de despido
+}
+
+::B5-52:: En una empresa de 20 trabajadores, ¿qué representación hay? {
+=Delegados de personal
+~Comité de empresa
+~Ninguna representación
+~Sólo el sindicato de fuera
+}
+
+::B5-53:: ¿A partir de cuántos trabajadores hay comité de empresa? {
+=50
+~11
+~25
+~100
+}
+
+::B5-54:: ¿De quién es responsabilidad la seguridad en el trabajo? {
+=De la empresa
+~Del trabajador
+~De la mutua
+~Del cliente
+}
+
+::B5-55:: ¿Quién paga los equipos de protección individual? {
+=La empresa, y no se descuentan de la nómina
+~El trabajador
+~Se pagan a medias
+~La Seguridad Social
+}
+
+::B5-56:: Te descuentan de la nómina, sin avisarte, el coste de unas botas de seguridad. Esto es… {
+=Ilegal\: los equipos de protección los paga la empresa
+~Legal si están en el contrato
+~Legal la primera vez
+~Legal si el trabajador las rompió
+}
+
+::B5-57:: Ante un riesgo grave e inminente, el trabajador… {
+=Puede interrumpir el trabajo y abandonar el puesto sin ser sancionado
+~Debe seguir trabajando y avisar después
+~Debe pedir permiso al cliente
+~Debe llamar a la mutua antes de parar
+}
+
+::B5-58:: La formación en prevención de riesgos… {
+=Se hace en horario de trabajo y la paga la empresa
+~La paga el trabajador
+~Se hace los fines de semana sin cobrar
+~Es voluntaria y no la ofrece nadie
+}
+
+$CATEGORY: Temario MFG4/06 Búsqueda de empleo
+
+// ---------- Sesión 42 · El proceso y los canales ----------
+
+::B6-01:: ¿Cuáles son las fases del proceso de búsqueda de empleo? {
+=Saber qué busco, preparar el currículum, buscar, contactar y hacer seguimiento, y entrevistarme
+~Apuntarme al paro y esperar
+~Estudiar, aprobar y trabajar
+~Escribir, enviar y olvidar
+}
+
+::B6-02:: ¿Cuál es el canal que más empleo produce en los oficios? {
+=Los contactos personales
+~Los portales de empleo
+~Los anuncios en prensa
+~Las oposiciones
+}
+
+::B6-03:: ¿Qué es la autocandidatura? {
+=Presentarte en una empresa que no ha publicado ninguna oferta
+~Contratarte a ti mismo
+~Presentarte a unas oposiciones
+~Rellenar el formulario del SOC
+}
+
+::B6-04:: ¿Qué es el mercado oculto de trabajo? {
+=Los puestos que no se publican y se cubren por contactos o por autocandidaturas
+~El trabajo sin contrato
+~Las ofertas de empresas extranjeras
+~Las ofertas que sólo salen en verano
+}
+
+::B6-05:: ¿Se publican todas las ofertas de trabajo en los portales? {
+=No\: una parte muy grande no se publica nunca
+~Sí, todas por ley
+~Sí, todas menos las públicas
+~Sí, todas menos las de autónomos
+}
+
+::B6-06:: En una empresa de trabajo temporal (ETT), ¿quién te contrata? {
+=La ETT, que te cede a una empresa usuaria
+~La empresa donde vas a trabajar
+~Nadie\: no hay contrato
+~El SOC
+}
+
+::B6-07:: ¿Qué significa activar la red de contactos? {
+=Conseguir que mucha gente sepa exactamente qué trabajo estoy buscando
+~Tener enchufe en una empresa
+~Tener muchos seguidores en redes sociales
+~Apuntarse a varios portales
+}
+
+::B6-08:: ¿Para qué sirve una tabla de seguimiento de la búsqueda? {
+=Para saber dónde dejé el currículum y a quién tengo que volver a llamar
+~Para apuntar las horas trabajadas
+~Para calcular la nómina
+~Para llevar las cuentas del mes
+}
+
+::B6-09:: ¿Qué es lo primero que hay que hacer en el SOC al acabar el curso? {
+=Inscribirse como demandante de empleo
+~Pedir la prestación por desempleo
+~Pedir un préstamo
+~Matricularse en un ciclo
+}
+
+// ---------- Sesión 43 · El currículum ----------
+
+::B6-10:: ¿Para qué sirve un currículum? {
+=Para conseguir que te llamen a una entrevista
+~Para que te den el trabajo directamente
+~Para cobrar el paro
+~Para firmar el contrato
+}
+
+::B6-11:: ¿Cuáles son las cinco partes de un currículum? {
+=Datos personales, objetivo profesional, formación, experiencia y otros datos
+~Nombre, edad, aficiones, amigos y teléfono
+~Portada, índice, desarrollo, conclusión y bibliografía
+~Título, sueldo, horario, empresa y jefe
+}
+
+::B6-12:: ¿En qué orden se pone la formación y la experiencia? {
+=De lo más reciente a lo más antiguo
+~De lo más antiguo a lo más reciente
+~Por orden alfabético
+~Por orden de importancia personal
+}
+
+::B6-13:: ¿Cuántos folios debe ocupar el currículum de una persona joven? {
+=Uno
+~Tres o cuatro
+~Al menos dos
+~Los que hagan falta
+}
+
+::B6-14:: ¿Cuenta la FCT como experiencia en el currículum? {
+=Sí, y hay que ponerla detallando las tareas que se hacían
+~No, porque no se cobra
+~Sólo si duró más de un año
+~Sólo si después te contrataron
+}
+
+::B6-15:: En el apartado de experiencia hay que escribir… {
+=Qué hacías exactamente, no sólo el nombre del cargo
+~Sólo el nombre de la empresa
+~Cuánto cobrabas
+~El motivo por el que te fuiste
+}
+
+::B6-16:: "Responsable, dinámico y trabajador" en un currículum… {
+=No aporta nada\: lo pone todo el mundo y no lo demuestra nadie
+~Es lo más importante del currículum
+~Hay que ponerlo siempre al principio
+~Sustituye a la experiencia
+}
+
+::B6-17:: ¿Qué NO conviene poner en un currículum? {
+=El DNI, el estado civil y una lista de adjetivos
+~El teléfono
+~La formación
+~La experiencia
+}
+
+::B6-18:: ¿Qué es un portafolio? {
+=Una carpeta con fotos de los trabajos que has hecho
+~Una cartera para el dinero
+~Un tipo de contrato
+~Una carpeta de documentos oficiales
+}
+
+::B6-19:: ¿Por qué el portafolio es especialmente útil en los oficios manuales? {
+=Porque el trabajo bien hecho se ve, y una foto demuestra más que media página de texto
+~Porque es obligatorio por convenio
+~Porque sustituye al currículum
+~Porque lo exigen los portales de empleo
+}
+
+::B6-20:: ¿Qué es un videocurrículum? {
+=Un vídeo corto de 60 a 90 segundos presentándote
+~Una entrevista grabada por la empresa
+~Un curso en vídeo
+~Un anuncio de televisión
+}
+
+// ---------- Sesión 44 · Carta de presentación ----------
+
+::B6-21:: ¿Qué añade la carta de presentación al currículum? {
+=Por qué escribes a esa empresa concreta y qué puedes aportarles
+~Repite el currículum pero más largo
+~Los datos personales
+~Nada\: es sólo un trámite
+}
+
+::B6-22:: ¿Cuántos párrafos tiene una carta de presentación? {
+=Cuatro
+~Uno
+~Diez
+~No tiene estructura fija
+}
+
+::B6-23:: ¿Qué va en el primer párrafo de una carta de presentación? {
+=Quién eres y por qué escribes, con una frase que demuestre que sabes quiénes son
+~El sueldo que quieres cobrar
+~Tu formación completa
+~Una despedida
+}
+
+::B6-24:: ¿Cuál es el mejor cierre de una carta de presentación? {
+="Les llamaré la próxima semana"\: el siguiente paso lo das tú
+~"Quedo a la espera de su respuesta"
+~"Espero que me cojan"
+~No hace falta ningún cierre
+}
+
+::B6-25:: ¿En qué formato se envía el currículum por correo electrónico? {
+=En PDF, con un nombre de archivo que incluya tu nombre y apellido
+~Como foto hecha con el móvil
+~Copiado dentro del cuerpo del correo
+~En un enlace a la nube sin permisos
+}
+
+::B6-26:: ¿Qué conviene apuntar al entregar un currículum en mano? {
+=El nombre de la persona que te atiende
+~El horario de la empresa
+~El número de trabajadores
+~Nada
+}
+
+::B6-27:: ¿Cuál es un buen asunto para un correo de candidatura? {
+="Candidatura auxiliar de montaje - Nombre Apellido"
+~"Hola"
+~"Trabajo"
+~Dejarlo en blanco
+}
+
+// ---------- Sesión 45 · La entrevista ----------
+
+::B6-28:: ¿Qué hay que preparar antes de una entrevista? {
+=Informarse de la empresa, releer el propio currículum y llevar tres ejemplos preparados
+~Un discurso aprendido de memoria
+~Nada\: es mejor improvisar
+~El contrato firmado
+}
+
+::B6-29:: ¿Con cuánta antelación conviene llegar a una entrevista? {
+=Unos 10 minutos antes
+~Media hora antes
+~Justo a la hora
+~Cinco minutos tarde no pasa nada
+}
+
+::B6-30:: ¿Cómo se contesta a una pregunta sobre cómo eres? {
+=Con un ejemplo\: situación, qué hice y resultado
+~Con tres adjetivos
+~Diciendo que eres muy trabajador
+~Cambiando de tema
+}
+
+::B6-31:: "Háblame de ti". ¿Cuánto debe durar la respuesta? {
+=Alrededor de un minuto
+~Cinco minutos
+~Quince segundos
+~Todo lo que haga falta
+}
+
+::B6-32:: "¿Cuál es tu punto débil?". ¿Cómo se contesta? {
+=Con uno real, diciendo qué haces para mejorarlo
+~"No tengo ninguno"
+~"Soy demasiado perfeccionista"
+~Cambiando de tema
+}
+
+::B6-33:: "¿Cuánto quieres cobrar?". ¿Cuál es la mejor respuesta? {
+="Lo que marque el convenio para mi categoría"
+~"Lo que sea, me da igual"
+~"3.000 euros"
+~No contestar
+}
+
+::B6-34:: Te preguntan en una entrevista si piensas tener hijos. ¿Estás obligado a contestar? {
+=No\: preguntarlo para decidir una contratación es discriminación
+~Sí, hay que contestar a todo
+~Sí, si es una empresa pequeña
+~Sólo si eres mujer
+}
+
+::B6-35:: ¿Conviene hacer preguntas al final de una entrevista? {
+=Sí\: demuestra interés y casi nadie las hace
+~No, queda mal
+~Sólo si te lo piden
+~Sólo sobre el sueldo
+}
+
+::B6-36:: ¿Cuál de estas es una buena pregunta para hacer al final de una entrevista? {
+="¿Qué tipo de contrato y qué convenio se aplica?"
+~"¿Cuántos días puedo faltar sin que pase nada?"
+~"¿Se puede llegar tarde?"
+~"¿Cuándo son las vacaciones más largas?"
+}
+
+::B6-37:: En una entrevista es mejor prometer disponibilidad total aunque no puedas cumplirla. {FALSE#Falso. Prometer lo que no se puede cumplir se paga a las dos semanas y cuesta el trabajo.}
+
+$CATEGORY: Temario MFG4/07 El salario y la nómina
+
+// ---------- Sesión 47 · El salario ----------
+
+::B7-01:: ¿Qué es el salario? {
+=La totalidad de lo que se percibe por el trabajo, en dinero o en especie
+~Sólo el salario base
+~El dinero que llega a la cuenta
+~Lo que fija el Estatuto de los Trabajadores
+}
+
+::B7-02:: ¿De qué dos partes se compone el salario? {
+=Salario base y complementos salariales
+~Bruto y neto
+~Devengos y deducciones
+~Fijo y variable
+}
+
+::B7-03:: ¿Qué determina el salario base de una persona trabajadora? {
+=Su categoría profesional según el convenio colectivo
+~Lo que decide el encargado
+~Los años que lleva en la empresa solamente
+~El número de horas extra que hace
+}
+
+::B7-04:: ¿Cuál de estos es un complemento salarial? {
+=El plus de nocturnidad
+~Las dietas
+~El plus de transporte
+~La indemnización por despido
+}
+
+::B7-05:: Las dietas y el plus de transporte son… {
+=Percepciones no salariales\: compensan un gasto y no retribuyen el trabajo
+~Salario base
+~Complementos salariales
+~Deducciones de la nómina
+}
+
+::B7-06:: ¿Qué es el Salario Mínimo Interprofesional? {
+=La cantidad mínima que se puede pagar por una jornada completa, sea cual sea el sector
+~El salario medio de un sector
+~El salario máximo que se puede cobrar
+~El salario de los funcionarios
+}
+
+::B7-07:: ¿Quién fija el Salario Mínimo Interprofesional? {
+=El Gobierno cada año, oídos los sindicatos y la patronal
+~Cada empresa
+~El trabajador al firmar el contrato
+~El sindicato del sector
+}
+
+::B7-08:: El SMI es un suelo y la mayoría de convenios fijan salarios por encima. {TRUE#Correcto. Lo que se aplica de verdad es la tabla salarial del convenio del sector.}
+
+::B7-09:: Si se trabaja a media jornada, el SMI que corresponde es… {
+=La mitad, en proporción a la jornada
+~El SMI completo
+~No se aplica el SMI
+~Lo que diga la empresa
+}
+
+::B7-10:: ¿Qué es el salario bruto? {
+=Todo lo que la empresa te reconoce, antes de cotizaciones e IRPF
+~Lo que llega a tu cuenta
+~El salario mínimo
+~Sólo el salario base
+}
+
+::B7-11:: ¿Qué es el salario neto? {
+=Lo que llega a tu cuenta después de cotizaciones e IRPF
+~Todo lo que la empresa te reconoce
+~El salario base más los complementos
+~El salario antes de impuestos
+}
+
+::B7-12:: ¿Qué se descuenta del bruto para llegar al neto? {
+=Las cotizaciones a la Seguridad Social y la retención de IRPF
+~Sólo el IRPF
+~El IVA
+~Nada\: bruto y neto son lo mismo
+}
+
+::B7-13:: ¿Cuántas pagas extraordinarias hay al año como mínimo? {
+=Dos
+~Una
+~Ninguna
+~Cuatro
+}
+
+::B7-14:: Si las pagas extra están prorrateadas… {
+=Se cobra más cada mes, pero en verano y en Navidad no llega nada extra
+~Se cobra más al año en total
+~Se cobra menos al año en total
+~No hay derecho a pagas extra
+}
+
+::B7-15:: 1.400 euros brutos al mes en 14 pagas frente a 1.400 euros brutos en 12 pagas… {
+=Es mejor en 14 pagas\: son 2.800 euros más al año
+~Es exactamente lo mismo
+~Es mejor en 12 pagas
+~Depende del convenio
+}
+
+::B7-16:: Cuando en una entrevista te dicen un número de sueldo, ¿qué tres cosas hay que preguntar? {
+=Si es bruto o neto, en cuántas pagas y si es anual o mensual
+~Quién lo paga, cuándo y dónde
+~Si hay que devolverlo, cuándo y cómo
+~Si sube cada año, cuánto y por qué
+}
+
+// ---------- Sesión 48 · La nómina ----------
+
+::B7-17:: ¿Qué es la nómina? {
+=El recibo justificativo del pago del salario, que la empresa debe entregar cada mes
+~Un resumen anual de ingresos
+~El contrato de trabajo
+~El justificante del banco
+}
+
+::B7-18:: ¿Cuáles son las tres partes de una nómina? {
+=Encabezamiento, devengos y deducciones
+~Bruto, neto y total
+~Salario, IRPF e IVA
+~Base, tipo y cuota
+}
+
+::B7-19:: ¿Qué son los devengos? {
+=Todo lo que suma\: salario base, complementos, horas extra y percepciones no salariales
+~Todo lo que resta de la nómina
+~Los impuestos que paga la empresa
+~Las vacaciones pendientes
+}
+
+::B7-20:: ¿Qué son las deducciones de una nómina? {
+=Todo lo que resta\: cotizaciones a la Seguridad Social e IRPF
+~Todo lo que suma
+~Las pagas extra
+~Los complementos salariales
+}
+
+::B7-21:: Total devengado menos total a deducir es igual a… {
+=Líquido total a percibir
+~Base de cotización
+~Salario base
+~Salario bruto
+}
+
+// [CADUCA] Revisar los tipos de cotización vigentes cada septiembre
+::B7-22:: ¿Cuánto cotiza aproximadamente la persona trabajadora a la Seguridad Social? {
+=Alrededor del 6,35 por ciento de su base de cotización
+~El 21 por ciento
+~El 30 por ciento
+~Nada\: lo paga todo la empresa
+}
+
+// [CADUCA] Revisar los tipos de cotización vigentes cada septiembre
+::B7-23:: ¿Qué tres conceptos incluye la cotización que aparece en tu nómina? {
+=Contingencias comunes, desempleo y formación profesional
+~IRPF, IVA e impuesto de sociedades
+~Vacaciones, pagas extra y antigüedad
+~Nocturnidad, peligrosidad y transporte
+}
+
+::B7-24:: El 1,55 por ciento que te descuentan por desempleo sirve para… {
+=Tu futuro derecho a cobrar el paro
+~Pagar el IRPF
+~La formación de la empresa
+~Las vacaciones
+}
+
+::B7-25:: La cotización por contingencias comunes cubre… {
+=La enfermedad común, el accidente no laboral y la jubilación
+~Sólo el paro
+~Sólo la formación
+~Los accidentes de trabajo únicamente
+}
+
+::B7-26:: ¿Qué es la retención de IRPF de la nómina? {
+=Un adelanto del impuesto sobre la renta, que se ajusta en la declaración
+~Un dinero que se pierde
+~Una cotización social
+~Un descuento que se queda la empresa
+}
+
+::B7-27:: ¿Quién paga más cotización a la Seguridad Social por un trabajador? {
+=La empresa, que paga bastante más que el propio trabajador
+~El trabajador
+~Pagan lo mismo
+~No cotiza nadie por debajo del SMI
+}
+
+::B7-28:: ¿Por qué es importante cotizar? {
+=Porque es lo que da derecho al paro, a la baja médica y a la pensión
+~Porque lo exige el banco
+~Porque así sube el salario base
+~Porque reduce el IRPF a cero
+}
+
+::B7-29:: Una nómina sin ninguna línea de prorrata de pagas extra en los devengos indica que… {
+=Las pagas extra se cobran aparte\: es una nómina de 14 pagas
+~No hay derecho a pagas extra
+~El contrato es temporal
+~La empresa no cotiza
+}
+
+// ---------- Sesión 49 · Seguridad Social ----------
+
+::B7-30:: ¿Qué es la Seguridad Social? {
+=El sistema público que protege a las personas trabajadoras cuando no pueden trabajar o dejan de hacerlo
+~Una compañía de seguros privada
+~Un sindicato
+~Un impuesto municipal
+}
+
+::B7-31:: ¿Quién financia la Seguridad Social? {
+=El trabajador y la empresa, y la empresa aporta bastante más
+~Sólo el trabajador
+~Sólo el Estado
+~Sólo las grandes empresas
+}
+
+::B7-32:: ¿Cuántos días hay que haber cotizado para tener derecho a la prestación por desempleo? {
+=360 días en los 6 años anteriores
+~30 días
+~180 días
+~No hace falta ninguno
+}
+
+::B7-33:: Además de haber cotizado lo suficiente, ¿qué hace falta para cobrar el paro? {
+=Haber perdido el trabajo sin quererlo
+~Haber trabajado en más de una empresa
+~Tener más de 25 años
+~Estar afiliado a un sindicato
+}
+
+::B7-34:: Si dejas el trabajo voluntariamente, ¿cobras el paro? {
+=No\: la baja voluntaria no da derecho a prestación
+~Sí, igual que si te despiden
+~Sí, pero la mitad
+~Sí, si avisaste con 15 días
+}
+
+::B7-35:: ¿Cuánta prestación por desempleo corresponde por cada año cotizado? {
+=Unos 4 meses de prestación por cada año trabajado
+~Un mes por año
+~Un año por año
+~Siempre 6 meses, independientemente de lo cotizado
+}
+
+::B7-36:: ¿Qué hace falta para cobrar por un accidente de trabajo? {
+=Sólo estar de alta\: no se exige periodo previo de cotización
+~180 días cotizados
+~360 días cotizados
+~Un año de antigüedad en la empresa
+}
+
+::B7-37:: ¿Cuántos días hay que tener cotizados para cobrar por una baja de enfermedad común? {
+=180 días en los 5 años anteriores
+~Ninguno
+~360 días
+~30 días
+}
+
+::B7-38:: ¿Por qué importa que un accidente ocurrido trabajando se declare como accidente de trabajo? {
+=Porque está mucho mejor cubierto que una enfermedad común
+~Porque así la empresa paga menos
+~Porque se cobra más tarde
+~Porque lo exige el convenio
+}
+
+::B7-39:: Si te haces daño trabajando, lo que hay que hacer es… {
+=Decirlo en el momento y que quede por escrito
+~Esperar unos días por si se pasa
+~Decir que te lo hiciste en casa
+~Avisar sólo si hay que ir al hospital
+}
+
+::B7-40:: ¿Qué es el informe de vida laboral? {
+=El documento donde consta todo lo que he cotizado\: empresas, fechas y días
+~El contrato de trabajo
+~La nómina anual
+~El certificado de profesionalidad
+}
+
+::B7-41:: ¿Para qué sirve la vida laboral? {
+=Para comprobar que las empresas me han dado de alta y saber cuántos días llevo cotizados
+~Para calcular el IRPF de la empresa
+~Para pedir una beca
+~Para renovar el carné de conducir
+}
+
+::B7-42:: ¿Cuánto cuesta pedir el informe de vida laboral? {
+=Nada\: es gratuito
+~Unos 20 euros
+~Depende de los años cotizados
+~Sólo lo puede pedir la empresa
+}
+
+::B7-43:: Te despiden y te piden que firmes una baja voluntaria "para que sea más rápido". ¿Qué haces? {
+=No firmar\: perderías el paro y la indemnización, y pedir la carta de despido
+~Firmar, porque así se cobra antes
+~Firmar y reclamar después sin plazo
+~Firmar si te lo pide el encargado
+}
+
+::B7-44:: Trabajar cobrando en mano y sin alta supone perder… {
+=El paro, la baja médica, la cobertura por accidente y la pensión futura
+~Sólo las vacaciones
+~Sólo la paga extra
+~Nada importante si el sueldo es mayor
+}
+
+::B7-45:: Alguien lleva 8 meses cotizados y le acaba el contrato temporal. ¿Tiene derecho a la prestación contributiva por desempleo? {
+=No\: no llega a los 360 días. Podría acceder a un subsidio según su situación
+~Sí, la prestación completa
+~Sí, pero la mitad
+~No tiene derecho a nada en ningún caso
+}
+

@@ -1,0 +1,1690 @@
+// ==========================================================================
+// BANCO DE PREGUNTAS — Instalaciones eléctricas y domóticas (módulo 3013)
+// PFI EE01 · Auxiliar de montajes de instalaciones electrotécnicas en edificios
+// Formato GIFT para importar en Moodle · Codificación UTF-8
+//
+// IMPORTACIÓN: Banco de preguntas > Importar > Formato GIFT > subir este archivo.
+// Se crean solas 9 categorías bajo "Temario 3013".
+// Las preguntas están redactadas a partir de las frases dictadas del temario.
+// ==========================================================================
+
+
+$CATEGORY: Temario 3013/01 El oficio y la seguridad
+
+::B1-01:: ¿Qué significan las siglas REBT? {
+=Reglamento Electrotécnico de Baja Tensión
+~Registro Español de Baja Tensión
+~Reglamento Eléctrico de Baja Tensión
+~Reglamento Electrotécnico de Baja Temperatura
+}
+
+::B1-02:: Hasta cuántos voltios en corriente alterna se considera baja tensión. Escribe solo el número. {#1000}
+
+::B1-03:: ¿Qué son las ITC-BT? {
+=Las instrucciones técnicas complementarias en que se divide el REBT
+~Las inspecciones técnicas de baja tensión
+~Los certificados que firma el instalador
+~Las categorías de empresa instaladora
+}
+
+::B1-04:: La empresa instaladora de baja tensión es la persona física que firma las instalaciones. {FALSE#La empresa es la sociedad o autónomo registrado. Quien firma es el instalador habilitado.}
+
+::B1-05:: ¿Cuántas categorías de empresa instaladora existen y cuáles son? {
+=Dos\: básica y especialista
+~Dos\: general y particular
+~Tres\: básica, media y especialista
+~Una sola, sin categorías
+}
+
+::B1-06:: Para hacer la instalación eléctrica del quirófano de un hospital hace falta una empresa de categoría... {
+=Especialista
+~Básica
+~Cualquiera de las dos
+~No hace falta empresa instaladora
+}
+
+::B1-07:: Instalar un punto de recarga de vehículo eléctrico en un garaje comunitario corresponde a una empresa de categoría... {
+=Especialista
+~Básica
+~Cualquiera de las dos
+~Lo puede hacer el propio vecino
+}
+
+::B1-08:: Cambiar el cuadro eléctrico de un piso de 90 metros cuadrados corresponde a una empresa de categoría... {
+=Básica
+~Especialista
+~Solo puede hacerlo un ingeniero
+~No requiere empresa instaladora
+}
+
+::B1-09:: ¿Quién firma el certificado de instalación, también llamado boletín? {
+=El instalador habilitado
+~El auxiliar de montajes
+~El propietario de la vivienda
+~La compañía eléctrica
+}
+
+::B1-10:: Sin el certificado de instalación, la compañía eléctrica no da suministro. {TRUE}
+
+::B1-11:: Para ser instalador habilitado de baja tensión es obligatorio tener un título universitario. {FALSE#Basta un título de FP de la familia, un certificado de profesionalidad o acreditar experiencia y superar un examen.}
+
+::B1-12:: ¿Qué mide un telurómetro? {
+=La resistencia de la puesta a tierra
+~La iluminación de un local
+~La corriente de fuga
+~La potencia contratada
+}
+
+::B1-13:: ¿Qué mide un luxómetro? {
+=La iluminación, en lux
+~La resistencia de tierra
+~El aislamiento de los cables
+~La frecuencia de la red
+}
+
+::B1-14:: Lo verdaderamente peligroso de una descarga eléctrica es la tensión, no la intensidad. {FALSE#Es al revés\: lo peligroso es la intensidad que atraviesa el cuerpo.}
+
+::B1-15:: ¿Cuántos puntos de contacto hacen falta para que la corriente atraviese el cuerpo? {#2}
+
+::B1-16:: A partir de cuántos miliamperios se produce fibrilación ventricular. Escribe solo el número. {#30}
+
+::B1-17:: ¿A cuántos miliamperios corta el interruptor diferencial de una vivienda? {#30}
+
+::B1-18:: Con una corriente de entre 10 y 25 miliamperios, lo que le ocurre a una persona es que... {
+=No puede soltarse
+~No nota absolutamente nada
+~Sufre quemaduras de tercer grado
+~Se produce la muerte instantánea
+}
+
+::B1-19:: ¿Qué es un contacto directo? {
+=Tocar una parte de la instalación que tiene tensión
+~Tocar una carcasa metálica que no debería tener tensión
+~Recibir un arco eléctrico sin llegar a tocar nada
+~Tocar el conductor de protección
+}
+
+::B1-20:: ¿Qué es un contacto indirecto? {
+=Tocar una masa o carcasa que se ha puesto en tensión por un fallo
+~Tocar un cable pelado
+~Tocar los bornes de un enchufe
+~Tocar el conductor de tierra
+}
+
+::B1-21:: ¿Cuál es el recorrido más peligroso de la corriente por el cuerpo? {
+=Mano-mano o mano izquierda-pie, porque atraviesa el corazón
+~Pie derecho-pie izquierdo
+~Mano-codo del mismo brazo
+~Todos son igual de peligrosos
+}
+
+::B1-22:: Una persona con las manos mojadas tiene aproximadamente una resistencia de... {
+=500 ohmios
+~2.500 ohmios
+~10.000 ohmios
+~1 megaohmio
+}
+
+::B1-23:: Un arco eléctrico puede superar los... {
+=3.000 grados centígrados
+~100 grados centígrados
+~500 grados centígrados
+~50 grados centígrados
+}
+
+::B1-24:: Relaciona cada regla de oro con su número de orden. {
+=Desconectar -> Primera
+=Prevenir la realimentación con candado y cartel -> Segunda
+=Verificar la ausencia de tensión -> Tercera
+=Poner a tierra y en cortocircuito -> Cuarta
+=Señalizar y delimitar la zona -> Quinta
+}
+
+::B1-25:: Al terminar un trabajo, las cinco reglas de oro se retiran en el mismo orden en que se aplicaron. {FALSE#Se retiran en orden inverso, y quien puso el candado es quien lo quita.}
+
+::B1-26:: ¿Quién debe retirar el candado de bloqueo de un cuadro? {
+=La misma persona que lo puso
+~El primero que acabe su trabajo
+~El encargado de la obra
+~Cualquier compañero del equipo
+}
+
+::B1-27:: Relaciona cada tipo de señal de seguridad con su forma y color. {
+=Prohibición -> Redonda y roja
+=Advertencia -> Triangular y amarilla
+=Obligación -> Redonda y azul
+=Salvamento -> Rectangular y verde
+=Equipos contra incendios -> Rectangular y roja
+}
+
+::B1-28:: ¿Qué significan las siglas PAS en primeros auxilios? {
+=Proteger, Avisar y Socorrer
+~Parar, Aislar y Señalizar
+~Prevenir, Actuar y Seguir
+~Proteger, Aislar y Salvar
+}
+
+::B1-29:: Ves a un compañero pegado a un cable en tensión. ¿Qué haces lo primero? {
+=Cortar la corriente antes de acercarme
+~Tirar de él con las manos para separarlo
+~Llamar al 112 y esperar sin hacer nada
+~Echarle agua para refrescarlo
+}
+
+::B1-30:: Si alguien recibe una descarga pero dice encontrarse bien, no hace falta que acuda al médico. {FALSE#Toda descarga exige revisión médica\: la fibrilación puede aparecer horas después y las quemaduras internas no se ven.}
+
+::B1-31:: ¿Qué marcado identifica a una herramienta realmente aislada? {
+=El doble triángulo y la indicación 1000 V
+~Que tenga el mango de plástico o de goma
+~Que sea de color amarillo
+~Que lleve el símbolo del rayo
+}
+
+::B1-32:: Un alicate con funda de goma pero sin marcado está igualmente ensayado para trabajar cerca de tensión. {FALSE#Solo la herramienta con el doble triángulo y la marca 1000 V ha superado el ensayo dieléctrico.}
+
+::B1-33:: ¿Para qué sirve una guía pasahilos? {
+=Para introducir los cables por dentro de un tubo ya montado
+~Para curvar el tubo sin que se estrangule
+~Para pelar el aislamiento de los conductores
+~Para marcar el trazado en la pared
+}
+
+::B1-34:: Un borne apretado de menos... {
+=Se calienta y puede provocar un incendio
+~No pasa nada mientras el aparato funcione
+~Solo afecta a la estética del montaje
+~Provoca que salte siempre el diferencial
+}
+
+::B1-35:: Relaciona cada operación con la herramienta más adecuada. {
+=Quitar 8 mm de aislamiento a un conductor -> Pelacables
+=Pasar el cable por un tubo de 6 metros -> Guía pasahilos
+=Colocar un terminal puntera -> Crimpadora
+=Marcar una línea horizontal en la pared -> Nivel
+=Abrir el hueco de una caja en pladur -> Taladro con corona
+}
+
+::B1-36:: Un auxiliar de montajes puede firmar instalaciones eléctricas por su cuenta. {FALSE#Trabaja siempre bajo la supervisión de un técnico de nivel superior y no firma instalaciones.}
+
+
+$CATEGORY: Temario 3013/02 Los materiales de la instalación
+
+::B2-01:: ¿Qué es exactamente un conductor? {
+=Solo el metal que conduce la corriente
+~El metal con su aislamiento
+~Varios cables bajo una cubierta común
+~El tubo que protege a los cables
+}
+
+::B2-02:: ¿Qué es una manguera? {
+=Varios cables agrupados bajo una cubierta común
+~Un conductor sin aislamiento
+~Un cable rígido de gran sección
+~Un tubo flexible de protección
+}
+
+::B2-03:: La designación H07V-U corresponde a un conductor... {
+=Rígido
+~Flexible
+~Libre de halógenos
+~Sin aislamiento
+}
+
+::B2-04:: La designación H07V-K corresponde a un conductor... {
+=Flexible
+~Rígido
+~De aluminio
+~Desnudo
+}
+
+::B2-05:: ¿Qué hay que colocar en el extremo de un cable flexible antes de meterlo en un borne? {
+=Un terminal puntera
+~Una regleta
+~Cinta aislante
+~Nada, se mete directamente
+}
+
+::B2-06:: ¿En qué unidad se mide la sección de un conductor? {
+=Milímetros cuadrados
+~Milímetros de diámetro
+~Metros
+~Amperios
+}
+
+::B2-07:: ¿De qué color es el conductor de protección? {=amarillo-verde =amarillo verde =verde-amarillo =verde y amarillo =amarillo y verde}
+
+::B2-08:: ¿De qué color es el conductor neutro? {=azul =azul claro}
+
+::B2-09:: Relaciona cada color con su función. {
+=Marrón -> Fase
+=Azul claro -> Neutro
+=Amarillo-verde -> Protección
+=Negro o gris -> Fases segunda y tercera
+}
+
+::B2-10:: Si no queda cable azul, se puede usar el amarillo-verde como neutro. {FALSE#El amarillo-verde está reservado en exclusiva al conductor de protección.}
+
+::B2-11:: ¿Qué sección lleva el circuito de alumbrado de una vivienda? Escribe solo el número en milímetros cuadrados. {#1.5}
+
+::B2-12:: ¿Qué sección llevan los circuitos de tomas de uso general? Escribe solo el número en milímetros cuadrados. {#2.5}
+
+::B2-13:: ¿Qué sección lleva el circuito de cocina y horno? Escribe solo el número en milímetros cuadrados. {#6}
+
+::B2-14:: ¿Qué sección lleva el circuito de lavadora, lavavajillas y termo? Escribe solo el número en milímetros cuadrados. {#4}
+
+::B2-15:: Un cable con menos sección de la necesaria... {
+=Se calienta, degrada el aislamiento y puede provocar un incendio
+~Funciona igual pero más despacio
+~Solo produce una pequeña pérdida de dinero
+~Hace saltar siempre el diferencial
+}
+
+::B2-16:: ¿Dónde se instala el tubo corrugado? {
+=Empotrado en la pared
+~Siempre en superficie
+~Solo en bandeja
+~Solo en instalaciones industriales
+}
+
+::B2-17:: ¿Qué canalización usarías en una reforma donde no se puede picar la pared? {
+=Canaleta o tubo rígido en superficie
+~Tubo corrugado empotrado
+~Bandeja enterrada
+~Cable sin canalización
+}
+
+::B2-18:: ¿Qué indican los cuatro dígitos de la designación de un tubo? {
+=Compresión, impacto, temperatura mínima y temperatura máxima
+~Diámetro, longitud, peso y color
+~Tensión, intensidad, resistencia y potencia
+~Año de fabricación y número de lote
+}
+
+::B2-19:: Un tubo marcado 3422 está pensado para instalarse... {
+=En superficie
+~Empotrado en obra
+~Enterrado
+~Sumergido
+}
+
+::B2-20:: ¿Cuántos metros como máximo puede haber entre dos cajas de registro en tramo recto? {#15}
+
+::B2-21:: ¿Cuántas curvas de 90 grados como máximo entre dos registros consecutivos? {#3}
+
+::B2-22:: El trazado de una canalización en la pared puede hacerse en diagonal si es el camino más corto. {FALSE#Solo se hace en horizontal y en vertical, paralelo a los bordes de paredes, techos y suelos.}
+
+::B2-23:: Se puede hacer un empalme dentro del tubo si queda bien aislado con cinta. {FALSE#Todo empalme va en caja de registro accesible. Nunca dentro del tubo.}
+
+::B2-24:: ¿Cuál es el orden correcto de trabajo con las canalizaciones? {
+=Montar los tubos vacíos y pasar después el cable con guía
+~Meter primero el cable y montar luego el tubo alrededor
+~Montar el tubo con el cable ya dentro
+~Da igual el orden
+}
+
+::B2-25:: Para pasar 3 conductores de 2,5 milímetros cuadrados en canalización de superficie, el diámetro de tubo es de... {
+=20 mm
+~16 mm
+~25 mm
+~32 mm
+}
+
+::B2-26:: Cuando hay más de cinco conductores en un tubo, la ocupación no puede pasar de qué porcentaje de la sección interior. Escribe solo el número. {#33}
+
+::B2-27:: ¿Dónde se hacen los empalmes de una instalación? {
+=En una caja de derivación accesible
+~Dentro del tubo
+~Dentro del cajetín del interruptor
+~En cualquier punto, si se aísla bien
+}
+
+::B2-28:: ¿Cuántos bornes tiene un interruptor? {#2}
+
+::B2-29:: ¿Cuántos bornes tiene un conmutador? {#3}
+
+::B2-30:: ¿Cuántos bornes tiene un conmutador de cruce? {#4}
+
+::B2-31:: Relaciona cada mecanismo con su número de bornes. {
+=Interruptor -> 2 bornes
+=Conmutador -> 3 bornes
+=Conmutador de cruce -> 4 bornes
+}
+
+::B2-32:: Un interruptor puede hacer las funciones de conmutador dejando un borne libre. {FALSE#Es al revés\: un conmutador puede hacer de interruptor, pero un interruptor nunca puede hacer de conmutador.}
+
+::B2-33:: ¿Qué indica la primera cifra del grado IP? {
+=La protección contra cuerpos sólidos
+~La protección contra el agua
+~La tensión máxima admisible
+~La resistencia a los golpes
+}
+
+::B2-34:: ¿Qué grado IP mínimo se exige en un mecanismo de cuarto de baño o de exterior? {
+=IP44
+~IP20
+~IP00
+~IP68
+}
+
+::B2-35:: ¿A qué altura se monta normalmente un interruptor? {
+=110 cm
+~20 cm
+~50 cm
+~200 cm
+}
+
+::B2-36:: ¿A qué altura se monta una base de enchufe de uso general? {
+=20 cm
+~110 cm
+~140 cm
+~80 cm
+}
+
+::B2-37:: ¿Qué es replantear? {
+=Dibujar en la pared dónde va cada elemento antes de taladrar
+~Volver a hacer un montaje mal ejecutado
+~Calcular la potencia de la vivienda
+~Pasar el cable por el tubo
+}
+
+::B2-38:: En un tabique de ladrillo hueco, el taladro se usa... {
+=Sin percusión, porque la percusión desmorona el hueco
+~Siempre con percusión
+~Con percusión solo si el taco es químico
+~Es indiferente
+}
+
+::B2-39:: ¿A cuántos milímetros de la caja se coloca la primera grapa? {#30}
+
+::B2-40:: ¿Cada cuántos centímetros se colocan las grapas en un tramo recto? {
+=Entre 40 y 50 cm
+~Entre 10 y 15 cm
+~Entre 100 y 120 cm
+~Donde vaya quedando bien
+}
+
+::B2-41:: El radio mínimo de curvatura de un tubo es... {
+=Tres veces el diámetro del tubo
+~Igual al diámetro del tubo
+~La mitad del diámetro del tubo
+~Diez veces el diámetro del tubo
+}
+
+::B2-42:: ¿Con qué se curva el tubo corrugado en el taller para que no se estrangule? {
+=Con una plantilla de madera de radio conocido
+~A mano y a ojo
+~Con el martillo
+~Calentándolo con el soplete
+}
+
+::B2-43:: ¿Cuántos milímetros de aislamiento se suelen pelar para un borne? {
+=Entre 8 y 10 mm
+~Entre 2 y 3 mm
+~Entre 25 y 30 mm
+~Cuanto más, mejor
+}
+
+::B2-44:: ¿Qué es dejar coca en una caja de registro? {
+=Dejar un bucle de cable sobrante para poder reparar en el futuro
+~Dejar el cable tenso y justo de medida
+~Dejar los cables sin conectar
+~Enrollar el cable alrededor del tubo
+}
+
+::B2-45:: Está permitido unir dos cables retorciéndolos y tapando con cinta aislante. {FALSE#No está permitido. Hay que usar regleta, borne de conexión o terminal, y siempre en caja registrable.}
+
+::B2-46:: Al hacer una soldadura blanda, ¿qué hay que calentar? {
+=La pieza de cobre, para que el estaño funda al tocarla
+~El estaño, y dejarlo caer sobre el cable
+~Los dos a la vez y por separado
+~Ninguno, basta con el fundente
+}
+
+::B2-47:: Una soldadura fría se reconoce porque... {
+=Queda mate, rugosa y en forma de bola
+~Queda brillante, lisa y cóncava
+~No se ve el estaño por ninguna parte
+~Queda de color azulado
+}
+
+::B2-48:: ¿A qué temperatura trabaja aproximadamente un soldador de estaño? {
+=Entre 350 y 400 grados
+~Entre 60 y 80 grados
+~Entre 100 y 150 grados
+~Más de 1.000 grados
+}
+
+
+$CATEGORY: Temario 3013/03 Esquemas y simbología
+
+::B3-01:: ¿En qué norma están definidos los símbolos eléctricos? {
+=UNE-EN 60617
+~REBT ITC-BT-25
+~ISO 9001
+~UNE 20460
+}
+
+::B3-02:: ¿Cómo se dibuja un cruce de cables que SÍ tiene conexión? {
+=Con un punto grueso en el cruce
+~Con un puente o semicírculo
+~Con las dos líneas cruzadas sin más
+~Con un círculo vacío
+}
+
+::B3-03:: Los esquemas eléctricos pueden entregarse dibujados a mano alzada si se entienden bien. {FALSE#Se dibujan siempre a regla, con trazo uniforme y líneas horizontales y verticales.}
+
+::B3-04:: ¿A qué elemento corresponde la referencia SA? {
+=Interruptor o conmutador
+~Pulsador
+~Lámpara
+~Base de enchufe
+}
+
+::B3-05:: ¿A qué elemento corresponde la referencia HL? {
+=Lámpara o punto de luz
+~Timbre
+~Interruptor
+~Motor
+}
+
+::B3-06:: ¿A qué elemento corresponde la referencia SB? {
+=Pulsador
+~Interruptor
+~Base de enchufe
+~Contactor
+}
+
+::B3-07:: ¿A qué elemento corresponde la referencia XP? {
+=Base de enchufe
+~Lámpara
+~Pulsador
+~Interruptor automático
+}
+
+::B3-08:: ¿A qué elemento corresponde la referencia HA? {
+=Timbre o zumbador
+~Lámpara
+~Motor
+~Interruptor
+}
+
+::B3-09:: Relaciona cada referencia con el elemento que designa. {
+=SA -> Interruptor o conmutador
+=SB -> Pulsador
+=HL -> Lámpara
+=HA -> Timbre o zumbador
+=XP -> Base de enchufe
+=QF -> Interruptor automático
+=M -> Motor
+}
+
+::B3-10:: ¿Cuántos tipos de esquema eléctrico hemos estudiado? {#4}
+
+::B3-11:: ¿Qué esquema explica cómo funciona el circuito y es el primero que se dibuja? {
+=El funcional o teórico
+~El multifilar
+~El unifilar
+~El topográfico
+}
+
+::B3-12:: ¿Qué esquema es el que se lleva al taller para montar, porque dibuja cada cable real con su color? {
+=El multifilar o práctico
+~El funcional
+~El unifilar
+~El topográfico
+}
+
+::B3-13:: ¿Qué esquema dibuja una sola línea, indicando con rayas cuántos conductores van por cada tramo? {
+=El unifilar
+~El multifilar
+~El funcional
+~El topográfico
+}
+
+::B3-14:: ¿Qué esquema se dibuja encima del plano de la vivienda? {
+=El topográfico
+~El unifilar
+~El funcional
+~El multifilar
+}
+
+::B3-15:: Relaciona cada esquema con la pregunta que responde. {
+=Funcional -> ¿Cómo funciona el circuito?
+=Multifilar -> ¿Qué cable va a qué borne?
+=Unifilar -> ¿Cuántos conductores y qué protecciones hay?
+=Topográfico -> ¿Dónde va físicamente cada elemento?
+}
+
+::B3-16:: En un esquema unifilar, tres rayas oblicuas cruzando la línea significan... {
+=Que por ese tramo van tres conductores
+~Que el tramo mide tres metros
+~Que hay tres puntos de luz
+~Que la protección es de tres amperios
+}
+
+::B3-17:: ¿Cuál es el orden correcto de trabajo? {
+=Enunciado, esquema funcional, esquema multifilar y montaje
+~Enunciado, montaje y después los esquemas
+~Esquema multifilar, esquema funcional y montaje
+~Montaje directo desde el enunciado
+}
+
+
+$CATEGORY: Temario 3013/04 Alumbrado y maniobra
+
+::B4-01:: ¿En qué conductor debe ir siempre el interruptor? {
+=En la fase
+~En el neutro
+~En el conductor de protección
+~Es indiferente
+}
+
+::B4-02:: Si el interruptor corta el neutro en lugar de la fase... {
+=La lámpara se apaga, pero el portalámparas sigue teniendo tensión
+~La lámpara no se apaga nunca
+~Salta el diferencial
+~No ocurre nada, es igual de seguro
+}
+
+::B4-03:: ¿Cuántos conmutadores hacen falta para encender una lámpara desde dos sitios? {#2}
+
+::B4-04:: ¿Cuántos cables van entre los dos conmutadores de un punto conmutado? {#2}
+
+::B4-05:: ¿Cuántos conmutadores de cruce hacen falta para encender desde cuatro puntos? {#2}
+
+::B4-06:: ¿Cuántos conmutadores de cruce hacen falta para encender desde tres puntos? {#1}
+
+::B4-07:: En un circuito con varios puntos de mando, los conmutadores de cruce se colocan... {
+=Siempre en medio, entre los dos conmutadores
+~Uno en cada extremo
+~En cualquier posición
+~Solo al final del circuito
+}
+
+::B4-08:: Se puede montar un punto conmutado usando dos interruptores normales. {FALSE#Hacen falta tres contactos para desviar la corriente por dos caminos. Con dos interruptores en serie, la luz solo se encendería con los dos cerrados.}
+
+::B4-09:: ¿Qué tipo de contacto tiene un pulsador? {
+=Normalmente abierto\: cierra solo mientras se aprieta
+~Normalmente cerrado en todos los casos
+~Dos posiciones estables, como el interruptor
+~Tres posiciones
+}
+
+::B4-10:: Dos pulsadores que deben hacer sonar el mismo timbre se conectan... {
+=En paralelo
+~En serie
+~Uno en la fase y otro en el neutro
+~En serie con el timbre en medio
+}
+
+::B4-11:: En un circuito, conectar dos mandos en paralelo equivale a la condición lógica... {
+=O (basta accionar uno de los dos)
+~Y (hay que accionar los dos)
+~NO (invierte la señal)
+~Ninguna de las anteriores
+}
+
+::B4-12:: Para anular un timbre se coloca un interruptor... {
+=En serie con el timbre
+~En paralelo con el timbre
+~En serie con el conductor de protección
+~En paralelo con los pulsadores
+}
+
+::B4-13:: Los receptores de una vivienda se conectan siempre en serie. {FALSE#Se conectan siempre en paralelo, para que cada uno reciba los 230 V completos y sean independientes.}
+
+::B4-14:: ¿Qué diferencia hay entre un timbre y un zumbador? {
+=El timbre golpea una campana y el zumbador vibra sin golpear
+~El timbre funciona con continua y el zumbador con alterna
+~El zumbador necesita relé y el timbre no
+~No hay ninguna diferencia
+}
+
+::B4-15:: ¿Qué es un relé? {
+=Un interruptor accionado por un electroimán
+~Un tipo de fusible
+~Un transformador de tensión
+~Un aparato de medida
+}
+
+::B4-16:: En un relé, el circuito de mando... {
+=Es el de los pulsadores y lleva poca corriente
+~Es el que alimenta a las lámparas
+~Lleva toda la corriente de la instalación
+~No existe
+}
+
+::B4-17:: ¿Qué hace un relé de escalera? {
+=Enciende con un pulso y se apaga solo al cabo del tiempo programado
+~Enciende con un pulso y apaga con el siguiente
+~Regula la intensidad de la luz
+~Detecta el movimiento
+}
+
+::B4-18:: ¿Qué hace un telerruptor? {
+=Enciende con un pulso y apaga con el pulso siguiente
+~Enciende y se apaga solo al cabo de un tiempo
+~Regula la intensidad de la luz
+~Corta la corriente si hay fuga
+}
+
+::B4-19:: A partir de cuatro puntos de mando, la solución más barata es... {
+=Un telerruptor con pulsadores en paralelo
+~Conmutadores y conmutadores de cruce
+~Un interruptor en cada puerta
+~Un detector de movimiento
+}
+
+::B4-20:: ¿Cómo funciona un regulador de luz o dimmer? {
+=Deja pasar solo una parte de cada ciclo de la corriente alterna
+~Añade resistencias en serie con la lámpara
+~Baja la frecuencia de la red
+~Corta y restablece la corriente cada segundo
+}
+
+::B4-21:: Cualquier lámpara LED se puede regular con un dimmer. {FALSE#Solo las que indican expresamente que son regulables, y con un regulador compatible.}
+
+::B4-22:: Un fluorescente con reactancia se puede regular con un dimmer convencional. {FALSE#Necesita un balasto regulable específico.}
+
+::B4-23:: ¿En qué unidad se mide la luz que da una lámpara? {
+=Lúmenes
+~Vatios
+~Lux por vatio
+~Amperios
+}
+
+::B4-24:: ¿A cuántos lúmenes equivale aproximadamente una bombilla incandescente de 60 vatios? {
+=800 lúmenes
+~60 lúmenes
+~2.000 lúmenes
+~150 lúmenes
+}
+
+::B4-25:: ¿Qué función tiene el cebador de un fluorescente? {
+=Precalentar los filamentos y luego abrirse de golpe
+~Limitar la corriente durante el funcionamiento
+~Transformar la tensión de la red
+~Corregir el factor de potencia
+}
+
+::B4-26:: ¿Qué función tiene la reactancia de un fluorescente? {
+=Generar el pico de tensión de arranque y luego limitar la corriente
+~Precalentar los filamentos
+~Encender el tubo directamente
+~Proteger contra cortocircuitos
+}
+
+::B4-27:: ¿Qué hay que retirar al sustituir un tubo fluorescente por uno LED? {
+=El cebador y la reactancia
+~Solo el cebador
+~Solo la reactancia
+~Nada, se cambia directamente
+}
+
+::B4-28:: Un tubo fluorescente que parpadea una y otra vez sin llegar a encender indica normalmente que está agotado el... {
+=Cebador
+~Tubo
+~Interruptor
+~Balasto electrónico
+}
+
+::B4-29:: Un tubo fluorescente con los dos extremos muy ennegrecidos indica que hay que cambiar... {
+=El tubo
+~El cebador
+~La reactancia
+~El interruptor
+}
+
+::B4-30:: Con un balasto electrónico hay que montar también el cebador. {FALSE#El balasto electrónico sustituye a reactancia y cebador\: no lleva cebador.}
+
+::B4-31:: Los tubos fluorescentes se pueden tirar al contenedor de vidrio. {FALSE#Contienen mercurio\: son residuo peligroso y van a punto limpio o a gestor autorizado.}
+
+::B4-32:: Relaciona cada tipo de lámpara con su eficacia aproximada. {
+=Incandescente -> 12 a 15 lm/W
+=Halógena -> 18 a 22 lm/W
+=Fluorescente -> 60 a 100 lm/W
+=LED -> 100 a 160 lm/W
+}
+
+
+$CATEGORY: Temario 3013/05 La instalación de la vivienda
+
+::B5-01:: ¿En qué unidad se mide la potencia? {
+=Vatios
+~Kilovatios hora
+~Amperios
+~Julios por voltio
+}
+
+::B5-02:: ¿En qué unidad se mide la energía eléctrica que se paga en la factura? {
+=Kilovatios hora
+~Vatios
+~Amperios
+~Voltios
+}
+
+::B5-03:: ¿Cuál es la fórmula de la potencia? {
+=P \= V x I
+~P \= V / I
+~P \= I / V
+~P \= V + I
+}
+
+::B5-04:: Para saber la intensidad que consume un aparato del que conocemos la potencia, la fórmula es... {
+=I \= P / V
+~I \= P x V
+~I \= V / P
+~I \= V x R
+}
+
+::B5-05:: Relaciona cada concepto con su comparación. {
+=Potencia -> La velocidad del coche
+=Energía -> Los kilómetros recorridos
+=Término de potencia de la factura -> Parte fija que se paga aunque no consumas
+=Término de energía de la factura -> Parte variable que marca el contador
+}
+
+::B5-06:: ¿Cómo se llama el calor que genera toda corriente al atravesar una resistencia? {=efecto Joule =Joule =efecto joule}
+
+::B5-07:: En la fórmula del efecto Joule, la intensidad está elevada al cuadrado. Si la corriente se duplica, el calor se multiplica por... {#4}
+
+::B5-08:: ¿Cuál es el orden correcto de la instalación de enlace, desde la red? {
+=Acometida, CGP, LGA, contador, derivación individual y cuadro
+~CGP, acometida, contador, LGA y cuadro
+~Acometida, contador, CGP, LGA y cuadro
+~LGA, CGP, acometida, derivación individual y cuadro
+}
+
+::B5-09:: ¿Qué significan las siglas CGP? {
+=Caja general de protección
+~Cuadro general de potencia
+~Conexión general de protección
+~Control general de potencia
+}
+
+::B5-10:: ¿Qué aloja la caja general de protección? {
+=Los fusibles que protegen la línea general de alimentación
+~El contador de la vivienda
+~El interruptor diferencial
+~Los pequeños interruptores automáticos
+}
+
+::B5-11:: ¿Hasta qué elemento es propiedad de la compañía eléctrica la instalación? {
+=Hasta la CGP
+~Hasta el contador
+~Hasta el cuadro de la vivienda
+~Hasta la primera caja de derivación
+}
+
+::B5-12:: ¿Qué significan las siglas LGA? {
+=Línea general de alimentación
+~Línea general de acometida
+~Línea general de aislamiento
+~Longitud general admisible
+}
+
+::B5-13:: ¿Qué significan las siglas DI en una instalación de enlace? {
+=Derivación individual
+~Distribución interior
+~Diferencial individual
+~Dispositivo de interrupción
+}
+
+::B5-14:: ¿De qué color es el hilo de mando que lleva la derivación individual? {=rojo}
+
+::B5-15:: ¿Cuál es la sección mínima de la derivación individual de una vivienda, en milímetros cuadrados? {#6}
+
+::B5-16:: En un edificio de un solo usuario, como un chalé, hay LGA. {FALSE#No hay LGA\: se usa una caja de protección y medida, que reúne CGP y contador.}
+
+::B5-17:: ¿Cuál es la potencia prevista en electrificación básica, en vatios? {#5750}
+
+::B5-18:: ¿Cuál es la potencia prevista en electrificación elevada, en vatios? {#9200}
+
+::B5-19:: A partir de cuántos metros cuadrados de superficie útil una vivienda es de electrificación elevada. {#160}
+
+::B5-20:: ¿Cuál de estas situaciones NO obliga por sí sola a electrificación elevada? {
+=Tener 25 puntos de luz
+~Tener aire acondicionado
+~Tener calefacción eléctrica
+~Tener instalación domótica
+}
+
+::B5-21:: Una vivienda de 200 metros cuadrados es de electrificación... {
+=Elevada
+~Básica
+~Depende del número de enchufes
+~Depende de la compañía
+}
+
+::B5-22:: ¿Por qué se aplica un coeficiente de simultaneidad a las viviendas de un edificio? {
+=Porque no todos los vecinos consumen el máximo a la vez
+~Para abaratar la factura de la comunidad
+~Porque lo exige la compañía eléctrica
+~Para compensar las pérdidas en los cables
+}
+
+::B5-23:: Los servicios generales de un edificio se calculan... {
+=Sumando su potencia entera, sin coeficiente de simultaneidad
+~Aplicando el mismo coeficiente que a las viviendas
+~A 100 vatios por metro cuadrado
+~A 10 vatios por metro cuadrado
+}
+
+::B5-24:: ¿Cuántos vatios por metro cuadrado se prevén en un local comercial? {#100}
+
+::B5-25:: ¿Cuál es la carga mínima que se prevé para un local comercial, en vatios? {#3450}
+
+::B5-26:: ¿Cuántos vatios por metro cuadrado se prevén en un garaje con ventilación natural? {#10}
+
+::B5-27:: ¿Cuántos vatios por metro cuadrado se prevén en un garaje con ventilación forzada? {#20}
+
+::B5-28:: ¿Cuántos circuitos como mínimo lleva una vivienda de electrificación básica? {#5}
+
+::B5-29:: Relaciona cada circuito con su destino. {
+=C1 -> Alumbrado
+=C2 -> Tomas de uso general y frigorífico
+=C3 -> Cocina y horno
+=C4 -> Lavadora, lavavajillas y termo
+=C5 -> Tomas de baño y auxiliares de cocina
+}
+
+::B5-30:: Relaciona cada circuito con su protección. {
+=C1 -> 10 A
+=C2 -> 16 A
+=C3 -> 25 A
+=C4 -> 20 A
+}
+
+::B5-31:: Relaciona cada circuito con su sección de cable. {
+=C1 -> 1,5 mm2
+=C2 -> 2,5 mm2
+=C3 -> 6 mm2
+=C4 -> 4 mm2
+}
+
+::B5-32:: ¿A qué circuito se conecta el frigorífico? {
+=C2
+~C1
+~C3
+~C5
+}
+
+::B5-33:: ¿A qué circuito se conecta la vitrocerámica? {
+=C3
+~C2
+~C4
+~C5
+}
+
+::B5-34:: ¿A qué circuito se conecta el lavavajillas? {
+=C4
+~C2
+~C3
+~C5
+}
+
+::B5-35:: ¿Qué PIA protege el circuito de alumbrado, en amperios? {#10}
+
+::B5-36:: ¿Qué PIA protege el circuito de cocina y horno, en amperios? {#25}
+
+::B5-37:: A partir de cuántos puntos de luz hace falta un segundo circuito de alumbrado. {#30}
+
+::B5-38:: ¿Cuál es el orden de los aparatos en el cuadro de una vivienda? {
+=ICP, IGA, diferencial y PIA
+~IGA, ICP, PIA y diferencial
+~Diferencial, ICP, IGA y PIA
+~PIA, diferencial, IGA e ICP
+}
+
+::B5-39:: La parte térmica de un magnetotérmico protege contra... {
+=Sobrecargas
+~Cortocircuitos
+~Fugas a tierra
+~Sobretensiones
+}
+
+::B5-40:: La parte magnética de un magnetotérmico protege contra... {
+=Cortocircuitos
+~Sobrecargas
+~Fugas a tierra
+~Falta de neutro
+}
+
+::B5-41:: ¿A quién o a qué protege el magnetotérmico? {
+=Al cable de la instalación
+~A las personas
+~Al contador
+~A la compañía eléctrica
+}
+
+::B5-42:: ¿A quién o a qué protege el interruptor diferencial? {
+=A las personas
+~Al cable de la instalación
+~Al contador
+~A los electrodomésticos
+}
+
+::B5-43:: ¿Cómo funciona un interruptor diferencial? {
+=Compara la corriente de ida y la de vuelta, y corta si se diferencian en más de 30 mA
+~Mide la temperatura del cable y corta si se calienta
+~Mide la tensión de la red y corta si baja
+~Cuenta los aparatos conectados
+}
+
+::B5-44:: ¿Cada cuánto tiempo hay que probar el diferencial con su botón de test? {
+=Una vez al mes
+~Una vez al año
+~Solo cuando falla algo
+~Nunca, no hace falta
+}
+
+::B5-45:: ¿Cuántos circuitos como máximo puede proteger un mismo diferencial? {#5}
+
+::B5-46:: Si un automático de 10 A salta a menudo, la solución correcta es sustituirlo por uno de 16 A. {FALSE#Eso desprotege el cable. Primero hay que buscar la causa. Y si de verdad hace falta más intensidad, se cambia antes la sección del cable.}
+
+::B5-47:: ¿Qué aparato salta cuando se supera la potencia contratada? {
+=El ICP
+~El diferencial
+~El PIA del alumbrado
+~El fusible de la CGP
+}
+
+::B5-48:: Si el diferencial salta y no rearma, el método correcto es... {
+=Bajar todos los PIA, rearmar el diferencial y subir los PIA de uno en uno
+~Bloquear el diferencial con cinta
+~Cambiar directamente el diferencial
+~Subir todos los PIA a la vez y forzar el rearme
+}
+
+::B5-49:: ¿De qué material y sección es el anillo de puesta a tierra de un edificio? {
+=Cobre desnudo de 35 mm2
+~Aluminio aislado de 16 mm2
+~Cobre aislado de 6 mm2
+~Acero galvanizado de 50 mm2
+}
+
+::B5-50:: ¿A qué profundidad mínima se entierra el anillo de puesta a tierra, en metros? {#0.8}
+
+::B5-51:: ¿Cuál debe ser la resistencia máxima de la puesta a tierra en un edificio SIN pararrayos, en ohmios? {#37}
+
+::B5-52:: ¿Cuál debe ser la resistencia máxima de la puesta a tierra en un edificio CON pararrayos, en ohmios? {#15}
+
+::B5-53:: Se puede utilizar la tubería del agua como toma de tierra. {FALSE#Nunca. Las tuberías se conectan a tierra, pero no hacen de tierra.}
+
+::B5-54:: Si hay interruptor diferencial, ya no hace falta puesta a tierra. {FALSE#Son medidas complementarias. Sin tierra, el diferencial solo actúa cuando la fuga pasa por una persona.}
+
+::B5-55:: ¿Cuál de estas NO es una medida contra contactos directos? {
+=La puesta a tierra con corte automático
+~El aislamiento de las partes activas
+~Las barreras o envolventes
+~El alejamiento de las partes en tensión
+}
+
+::B5-56:: Un aparato de clase II, con doble aislamiento, necesita conexión a tierra. {FALSE#No la necesita\: el doble aislamiento es por sí solo una medida contra contactos indirectos.}
+
+::B5-57:: ¿Para qué sirve la conexión equipotencial del cuarto de baño? {
+=Para que todas las masas metálicas estén al mismo potencial y no haya corriente entre ellas
+~Para dar tensión a los radiadores
+~Para mejorar la señal de la antena
+~Para evitar la condensación
+}
+
+::B5-58:: ¿Cuál es la tensión de contacto máxima admisible en un local húmedo, en voltios? {#24}
+
+
+$CATEGORY: Temario 3013/06 Fundamentos de electricidad
+
+::B6-01:: ¿Qué es la corriente eléctrica? {
+=El movimiento ordenado de electrones a través de un conductor
+~La acumulación de electrones en un punto
+~El calor que genera un cable
+~La diferencia de temperatura entre dos puntos
+}
+
+::B6-02:: En un material conductor, los electrones exteriores... {
+=Están libres y se mueven con facilidad de átomo en átomo
+~Están atrapados en su átomo
+~No existen
+~Se destruyen al pasar la corriente
+}
+
+::B6-03:: ¿Cuál de estos materiales NO es conductor? {
+=Porcelana
+~Cobre
+~Aluminio
+~Agua con sales
+}
+
+::B6-04:: ¿Cuál de estos materiales NO es aislante? {
+=Grafito
+~PVC
+~Goma
+~Vidrio
+}
+
+::B6-05:: ¿Cómo se llaman los materiales que conducen o no según las condiciones, y que son la base de los LED y los transistores? {=semiconductores =semiconductor}
+
+::B6-06:: ¿Cuáles son los cuatro elementos de un circuito eléctrico? {
+=Generador, conductores, receptor y elemento de mando
+~Fase, neutro, tierra y protección
+~Tensión, intensidad, resistencia y potencia
+~Cuadro, tubo, cable y mecanismo
+}
+
+::B6-07:: ¿Qué es un cortocircuito? {
+=Un camino sin receptor, de resistencia casi nula, por el que la intensidad se dispara
+~Un circuito que se ha quedado abierto
+~Un circuito demasiado corto
+~Un circuito con poca tensión
+}
+
+::B6-08:: En un circuito abierto circula corriente pero con menos intensidad. {FALSE#En un circuito abierto no circula corriente en absoluto.}
+
+::B6-09:: La corriente continua... {
+=Mantiene siempre el mismo valor y el mismo sentido, y tiene polaridad
+~Cambia de sentido 50 veces por segundo
+~No tiene polaridad
+~Solo existe en los laboratorios
+}
+
+::B6-10:: ¿Cuál es la frecuencia de la red eléctrica española, en hercios? {#50}
+
+::B6-11:: ¿Cuánto dura un ciclo completo de la red española, en segundos? {#0.02:0.001}
+
+::B6-12:: Los 230 voltios de la red son... {
+=El valor eficaz
+~El valor de pico o máximo
+~El valor medio
+~El valor mínimo
+}
+
+::B6-13:: ¿Cuál es aproximadamente el valor de pico de la red de 230 voltios? {
+=325 V
+~230 V
+~400 V
+~110 V
+}
+
+::B6-14:: ¿Por qué se impuso la corriente alterna frente a la continua? {
+=Porque se puede cambiar de tensión fácilmente con un transformador
+~Porque es más fácil de almacenar en baterías
+~Porque es menos peligrosa para las personas
+~Porque los motores solo funcionan con alterna
+}
+
+::B6-15:: Relaciona cada fuente con su tipo de corriente. {
+=Pila o batería -> Continua
+=Placa solar -> Continua
+=Red eléctrica de la vivienda -> Alterna
+=Alternador -> Alterna
+}
+
+::B6-16:: ¿En qué unidad se mide la tensión? {=voltios =voltio =V =voltis}
+
+::B6-17:: ¿En qué unidad se mide la intensidad? {=amperios =amperio =A =amperes}
+
+::B6-18:: ¿En qué unidad se mide la resistencia? {=ohmios =ohmio =ohm =ohms =ohmnios}
+
+::B6-19:: En la analogía del agua, ¿qué representa la altura del depósito? {
+=La tensión
+~La intensidad
+~La resistencia
+~La potencia
+}
+
+::B6-20:: En la analogía del agua, ¿qué representa el caudal? {
+=La intensidad
+~La tensión
+~La resistencia
+~La energía
+}
+
+::B6-21:: En la analogía del agua, ¿qué representa el estrechamiento de la tubería? {
+=La resistencia
+~La tensión
+~La intensidad
+~La potencia
+}
+
+::B6-22:: ¿Cuántos ohmios son 2,2 kiloohmios? {#2200}
+
+::B6-23:: ¿Cuántos amperios son 150 miliamperios? {#0.15:0.001}
+
+::B6-24:: ¿Cuántos voltios son 0,1 kilovoltios? {#100}
+
+::B6-25:: ¿Cuántos ohmios son 1,5 megaohmios? {#1500000}
+
+::B6-26:: Si un cable de cobre es más largo, su resistencia... {
+=Aumenta
+~Disminuye
+~No cambia
+~Se hace cero
+}
+
+::B6-27:: Si un cable de cobre tiene más sección, su resistencia... {
+=Disminuye
+~Aumenta
+~No cambia
+~Se hace infinita
+}
+
+::B6-28:: Enuncia la ley de Ohm. {
+=V \= I x R
+~V \= I / R
+~V \= R / I
+~V \= I + R
+}
+
+::B6-29:: Despejando la ley de Ohm, la intensidad es... {
+=I \= V / R
+~I \= V x R
+~I \= R / V
+~I \= V - R
+}
+
+::B6-30:: Antes de aplicar la ley de Ohm hay que... {
+=Convertir todos los valores a voltios, amperios y ohmios
+~Medir siempre con el circuito en marcha
+~Dibujar el esquema topográfico
+~Calcular primero la potencia
+}
+
+::B6-31:: En un circuito en serie, ¿qué magnitud es la misma en todos los puntos? {
+=La intensidad
+~La tensión
+~La resistencia
+~La potencia
+}
+
+::B6-32:: En un circuito en serie, la resistencia total es... {
+=La suma de todas las resistencias
+~Menor que la más pequeña
+~El producto de todas
+~Siempre igual a la mayor
+}
+
+::B6-33:: Si se funde una de tres lámparas conectadas en serie... {
+=Se apagan las tres
+~Las otras dos siguen encendidas igual
+~Las otras dos lucen más
+~Salta el diferencial
+}
+
+::B6-34:: En un circuito en serie, la resistencia que más tensión se lleva es... {
+=La de mayor valor
+~La de menor valor
+~Siempre la primera
+~Todas por igual
+}
+
+::B6-35:: ¿Qué elementos sí se montan en serie en una instalación de vivienda? {
+=Los elementos de mando y de protección, como el interruptor y el magnetotérmico
+~Las lámparas de una misma habitación
+~Las bases de enchufe
+~Los electrodomésticos de la cocina
+}
+
+::B6-36:: En un circuito en paralelo, ¿qué magnitud es la misma en todas las ramas? {
+=La tensión
+~La intensidad
+~La resistencia
+~La potencia
+}
+
+::B6-37:: En un circuito en paralelo, la intensidad total es... {
+=La suma de las intensidades parciales
+~La misma que la de cada rama
+~La menor de todas
+~El producto de las parciales
+}
+
+::B6-38:: En un circuito en paralelo, la resistencia total es... {
+=Siempre menor que la más pequeña del grupo
+~Siempre mayor que la más grande
+~La suma de todas
+~La media de todas
+}
+
+::B6-39:: ¿Cuánto valen tres resistencias de 300 ohmios conectadas en paralelo? {#100}
+
+::B6-40:: ¿Cuánto valen dos resistencias de 200 ohmios conectadas en paralelo? {#100}
+
+::B6-41:: Si se funde una de tres lámparas conectadas en paralelo... {
+=Las otras dos siguen funcionando igual
+~Se apagan las tres
+~Las otras dos lucen menos
+~Se apaga toda la vivienda
+}
+
+::B6-42:: ¿Por qué se montan en paralelo los receptores de una vivienda? {
+=Para que cada uno reciba los 230 V completos y sean independientes
+~Para ahorrar cable
+~Para que consuman menos
+~Porque lo exige la compañía eléctrica
+}
+
+::B6-43:: Para resolver un circuito mixto hay que... {
+=Reducir primero los grupos en paralelo y sumar después lo que queda en serie
+~Sumar todo directamente
+~Calcular primero la potencia total
+~Medir con el polímetro, no se puede calcular
+}
+
+::B6-44:: Al calcular un paralelo, tras sumar las inversas hay que invertir el resultado. {TRUE#Si se olvida, se obtiene 1/Rt en lugar de Rt. Comprobación\: el resultado debe ser menor que la resistencia más pequeña.}
+
+
+$CATEGORY: Temario 3013/07 Medir la instalación
+
+::B7-01:: ¿En qué borne del polímetro va siempre la punta negra? {=COM =com =Com}
+
+::B7-02:: ¿Cómo se conecta el voltímetro? {
+=En paralelo, a los lados del elemento y con el circuito en marcha
+~En serie, abriendo el circuito
+~Sin tensión y con el elemento aislado
+~Abrazando el conductor con la pinza
+}
+
+::B7-03:: ¿Cómo se conecta el amperímetro? {
+=En serie, abriendo el circuito e intercalándolo
+~En paralelo, a los lados del elemento
+~Sin tensión y con el elemento aislado
+~En paralelo con el diferencial
+}
+
+::B7-04:: ¿Cómo se mide la resistencia con el óhmmetro? {
+=Siempre sin tensión y con el elemento aislado del resto
+~Con el circuito en marcha y en paralelo
+~Con el circuito en marcha y en serie
+~Con la pinza amperimétrica
+}
+
+::B7-05:: Relaciona cada medida con su forma de conexión. {
+=Tensión -> En paralelo, con el circuito en marcha
+=Intensidad -> En serie, abriendo el circuito
+=Resistencia -> Sin tensión y con el elemento aislado
+}
+
+::B7-06:: ¿Qué posición del selector se usa para medir la tensión de la red? {
+=V con la tilde, de alterna
+~V con la raya, de continua
+~El símbolo de ohmios
+~El símbolo de amperios
+}
+
+::B7-07:: Si la pantalla del polímetro marca OL al medir una tensión, significa que... {
+=La escala elegida es demasiado pequeña
+~La escala elegida es demasiado grande
+~El polímetro está estropeado
+~No hay tensión en ese punto
+}
+
+::B7-08:: Cuando no sabemos qué valor esperar, ¿por qué escala empezamos? {
+=Por la más alta, e ir bajando hasta que la lectura sea precisa
+~Por la más baja, e ir subiendo
+~Por la intermedia
+~Da igual, el aparato se protege solo
+}
+
+::B7-09:: ¿Qué pasa si mides tensión con el selector en amperios? {
+=El polímetro hace de cable, provoca un cortocircuito y se funde su fusible
+~No mide nada, pero no pasa nada
+~Mide igual, pero con menos precisión
+~Mide la intensidad en lugar de la tensión
+}
+
+::B7-10:: Una lectura de 0 ohmios entre dos puntos significa que... {
+=Hay continuidad, están unidos
+~El circuito está abierto
+~El aparato está estropeado
+~Hay una fuga a tierra
+}
+
+::B7-11:: Una lectura de OL con el óhmmetro significa que... {
+=El circuito está abierto, no hay camino
+~Hay continuidad perfecta
+~La resistencia es de cero ohmios
+~Hay tensión en el circuito
+}
+
+::B7-12:: ¿Qué lectura esperas al medir un fusible fundido con el óhmmetro? {
+=OL
+~0 ohmios
+~230 ohmios
+~30 ohmios
+}
+
+::B7-13:: ¿Qué lectura esperas al medir un interruptor cerrado entre sus dos bornes? {
+=Aproximadamente 0 ohmios
+~OL
+~1.000 ohmios
+~230 ohmios
+}
+
+::B7-14:: ¿Para qué sirve la función de continuidad, la del símbolo de la bocina? {
+=Para saber si hay camino sin tener que mirar la pantalla, porque pita
+~Para medir la tensión de la red
+~Para medir la corriente de fuga
+~Para comprobar el aislamiento
+}
+
+::B7-15:: Relaciona cada banda de color con su cifra. {
+=Negro -> 0
+=Marrón -> 1
+=Rojo -> 2
+=Naranja -> 3
+=Amarillo -> 4
+=Verde -> 5
+=Azul -> 6
+}
+
+::B7-16:: Una resistencia con las bandas marrón, negro, rojo y oro vale... {
+=1 kiloohmio
+~100 ohmios
+~10 kiloohmios
+~1,2 kiloohmios
+}
+
+::B7-17:: Una resistencia con las bandas rojo, rojo, rojo y oro vale... {
+=2,2 kiloohmios
+~220 ohmios
+~22 kiloohmios
+~2,2 megaohmios
+}
+
+::B7-18:: Una resistencia con las bandas amarillo, violeta, marrón y oro vale... {
+=470 ohmios
+~47 ohmios
+~4,7 kiloohmios
+~740 ohmios
+}
+
+::B7-19:: Una resistencia con las bandas marrón, negro, marrón y oro vale... {
+=100 ohmios
+~10 ohmios
+~1 kiloohmio
+~110 ohmios
+}
+
+::B7-20:: ¿Qué tolerancia indica la banda de color oro? {
+=Más menos 5 por ciento
+~Más menos 1 por ciento
+~Más menos 10 por ciento
+~Más menos 20 por ciento
+}
+
+::B7-21:: Una resistencia de 1 kiloohmio con tolerancia de oro puede valer realmente entre... {
+=950 y 1.050 ohmios
+~990 y 1.010 ohmios
+~900 y 1.100 ohmios
+~800 y 1.200 ohmios
+}
+
+::B7-22:: Si conectas el amperímetro en paralelo con la red, lo que ocurre es... {
+=Un cortocircuito, porque su resistencia interna es casi nula
+~Que mide la tensión en lugar de la intensidad
+~Que no marca nada, pero no pasa nada
+~Que mide la corriente de fuga
+}
+
+::B7-23:: ¿Cuál es la ventaja principal de la pinza amperimétrica? {
+=Que mide sin tener que abrir el circuito
+~Que mide tensión y resistencia a la vez
+~Que no necesita pilas
+~Que mide con más decimales
+}
+
+::B7-24:: Si abrazas con la pinza amperimétrica la fase y el neutro a la vez, la lectura normal es... {
+=Cero, porque los campos se anulan
+~El doble de la intensidad real
+~La mitad de la intensidad real
+~La intensidad total del circuito
+}
+
+::B7-25:: Si abrazas fase y neutro con la pinza y lees 18 miliamperios, eso significa que... {
+=Hay una corriente de fuga de 18 mA
+~El circuito consume 18 mA
+~La pinza está estropeada
+~La tensión ha bajado
+}
+
+::B7-26:: Tras medir intensidad, lo último que hay que hacer con el polímetro es... {
+=Devolver la punta roja a su borne normal, para no provocar un accidente en la próxima medida
+~Guardarlo sin tocar nada
+~Dejar el selector en ohmios
+~Quitarle las pilas
+}
+
+
+$CATEGORY: Temario 3013/08 Domótica y mantenimiento
+
+::B8-01:: ¿Cómo se llama la automatización aplicada a edificios de oficinas o de servicios? {=inmótica =inmotica}
+
+::B8-02:: ¿Para qué sirve la domótica? {
+=Para ahorro energético, confort, seguridad y accesibilidad
+~Solo para ahorrar energía
+~Solo para controlar la vivienda desde el móvil
+~Para sustituir al cuadro eléctrico
+}
+
+::B8-03:: ¿Cuáles son las tres partes de cualquier automatismo? {
+=Sensor, controlador y actuador
+~Fase, neutro y tierra
+~Entrada, cable y salida
+~Generador, receptor y mando
+}
+
+::B8-04:: Relaciona cada parte del automatismo con su función. {
+=Sensor -> Capta lo que pasa
+=Controlador -> Decide qué hacer
+=Actuador -> Ejecuta la acción
+}
+
+::B8-05:: En un sistema domótico, el relé de salida que enciende la luz es... {
+=Un actuador
+~Un sensor
+~El controlador
+~Un bus de datos
+}
+
+::B8-06:: ¿Qué tipo de sistema domótico es KNX? {
+=Distribuido, con inteligencia en cada elemento y un bus de datos
+~Centralizado, con una sola central
+~Inalámbrico por wifi
+~Por corrientes portadoras
+}
+
+::B8-07:: En una reforma donde no se puede picar pared, el sistema más adecuado es... {
+=Inalámbrico
+~Bus cableado
+~Corrientes portadoras de alta tensión
+~Fibra óptica
+}
+
+::B8-08:: ¿Cómo funciona un detector de movimiento PIR? {
+=Detecta el calor de un cuerpo en movimiento por infrarrojos
+~Emite un haz de luz y detecta si se corta
+~Mide el peso sobre el suelo
+~Detecta el sonido de los pasos
+}
+
+::B8-09:: ¿A qué altura se coloca normalmente un detector de movimiento? {
+=Entre 2,2 y 2,5 metros
+~A 1,10 metros
+~A 30 centímetros del suelo
+~En el suelo
+}
+
+::B8-10:: Un detector de movimiento detecta mejor si se coloca... {
+=Perpendicular al paso de la gente
+~Enfrentado a la puerta
+~Mirando a un radiador
+~Dentro de un armario
+}
+
+::B8-11:: ¿Qué error hace que una luz gobernada por un sensor crepuscular parpadee toda la noche? {
+=Que el sensor ve la lámpara que él mismo enciende
+~Que el sensor está sucio
+~Que la lámpara es LED
+~Que el sensor está a demasiada altura
+}
+
+::B8-12:: ¿Cómo funciona un contacto magnético? {
+=Al separarse el imán, el contacto se abre y detecta la apertura
+~Mide el calor de la puerta
+~Detecta la vibración del cristal
+~Mide la luz que entra por la ventana
+}
+
+::B8-13:: ¿Dónde se coloca un detector de humo? {
+=En el techo, en el centro de la sala
+~A 30 cm del suelo
+~En una esquina, junto a la puerta
+~Justo encima de los fogones
+}
+
+::B8-14:: ¿A qué altura se coloca un detector de gas butano y por qué? {
+=A 30 cm del suelo, porque el butano pesa más que el aire
+~A 30 cm del techo, porque el butano pesa menos que el aire
+~En el centro de la pared, a 1,10 m
+~En el techo, como el de humo
+}
+
+::B8-15:: ¿A qué altura se coloca un detector de gas natural y por qué? {
+=A 30 cm del techo, porque pesa menos que el aire
+~A 30 cm del suelo, porque pesa más que el aire
+~A 1,10 m de altura
+~Dentro del mueble de la cocina
+}
+
+::B8-16:: Para que una luz se encienda solo si hay movimiento Y además es de noche, los dos sensores se conectan... {
+=En serie
+~En paralelo
+~Uno en la fase y otro en el neutro
+~En paralelo con la lámpara
+}
+
+::B8-17:: Para que una alarma suene si se abre cualquiera de dos ventanas, los contactos se conectan... {
+=En paralelo
+~En serie
+~Uno en cada circuito distinto
+~En serie con el interruptor general
+}
+
+::B8-18:: En la cocina, para evitar falsas alarmas al freír, lo adecuado es instalar un detector... {
+=Térmico, en lugar de óptico de humo
+~Óptico de humo, pero más alto
+~De gas natural
+~De movimiento
+}
+
+::B8-19:: ¿Cuál es la diferencia entre mantenimiento preventivo y correctivo? {
+=El preventivo se hace antes de que falle y el correctivo cuando ya ha fallado
+~El preventivo lo hace el usuario y el correctivo la compañía
+~El preventivo es obligatorio y el correctivo voluntario
+~No hay ninguna diferencia
+}
+
+::B8-20:: ¿Cuál es el orden correcto del método de búsqueda de averías? {
+=Preguntar, mirar, acotar, medir, reparar y comprobar
+~Medir, reparar, preguntar y comprobar
+~Mirar, reparar, medir y documentar
+~Sustituir piezas hasta que funcione
+}
+
+::B8-21:: ¿Qué significa acotar una avería? {
+=Preguntarse a cuántos afecta\: a toda la casa, a un circuito o a un solo punto
+~Medir la longitud del cable averiado
+~Poner cinta de señalización
+~Apuntar la avería en el parte de trabajo
+}
+
+::B8-22:: Si se va la luz de todo el edificio pero la calle tiene luz, la avería está... {
+=En la acometida, la CGP o la LGA
+~En el cuadro de una vivienda
+~En la red de distribución
+~En un solo circuito
+}
+
+::B8-23:: Si en una vivienda solo han dejado de funcionar los enchufes y las luces van bien, lo más probable es que... {
+=Haya saltado el PIA del circuito C2
+~Haya saltado el IGA
+~Se haya ido la luz del edificio
+~Esté averiado el contador
+}
+
+::B8-24:: Un cliente nota que el embellecedor de un enchufe está amarillento y huele a plástico caliente. La causa más probable es... {
+=Una conexión floja, que calienta por efecto Joule
+~Que la lámpara está fundida
+~Que el diferencial está averiado
+~Que falta el conductor de protección
+}
+
+::B8-25:: Ante un diferencial que salta a menudo, está permitido bloquearlo para que deje de molestar. {FALSE#Nunca. La protección no es el problema\: está avisando de uno.}
+
+::B8-26:: Puentear un fusible que se funde repetidamente es una solución aceptable si es urgente. {FALSE#Nunca se puentea un fusible. Hay que localizar la causa.}
+
+::B8-27:: Relaciona cada rutina de mantenimiento preventivo con su periodicidad o su motivo. {
+=Probar el diferencial con el botón de test -> Una vez al mes
+=Repasar aprietes en cuadro y cajas -> Es la causa número uno de incendio eléctrico
+=Buscar plásticos amarillentos y olor a quemado -> Indican calentamiento por mal contacto
+}
+
+::B8-28:: Lo último que hay que hacer al terminar una reparación es... {
+=Comprobar el funcionamiento y dejarlo documentado
+~Recoger las herramientas y marcharse
+~Cobrar la factura
+~Avisar a la compañía eléctrica
+}
+
+
+$CATEGORY: Temario 3013/09 Cálculos
+
+::C-01:: Un motor por el que circulan 7 A tiene en sus bornes 140 V. Calcula su resistencia en ohmios. {#20}
+
+::C-02:: ¿Qué intensidad circula por una resistencia de 10 ohmios sometida a 220 V? Responde en amperios. {#22}
+
+::C-03:: Por un hilo de cobre de 25 ohmios circulan 140 A. Calcula la tensión en voltios. {#3500}
+
+::C-04:: Una resistencia de 23 kiloohmios se conecta a 24 V. Calcula la intensidad en miliamperios. {#1.04:0.05}
+
+::C-05:: Una persona con las manos húmedas tiene 1.000 ohmios de resistencia y toca un cable de 230 V. Calcula la intensidad en miliamperios. {#230}
+
+::C-06:: Un termo consume 6,5 A a 230 V. Calcula su resistencia en ohmios. {#35.4:0.5}
+
+::C-07:: Un horno tiene una potencia de 2.300 W y funciona a 230 V. Calcula la intensidad en amperios. {#10}
+
+::C-08:: Una vitrocerámica de 5.400 W funciona a 230 V. Calcula la intensidad en amperios. {#23.5:0.3}
+
+::C-09:: Una lavadora de 2.200 W funciona a 230 V. Calcula la intensidad en amperios. {#9.57:0.15}
+
+::C-10:: Un secador de 1.800 W funciona a 230 V. Calcula la intensidad en amperios. {#7.83:0.15}
+
+::C-11:: El alumbrado de un aula tiene 500 W y está encendido 8 horas al día. ¿Cuántos kWh consume al día? {#4}
+
+::C-12:: Si el kWh cuesta 0,20 euros, ¿cuánto cuesta al día tener encendidos 500 W durante 8 horas? Responde en euros. {#0.8:0.01}
+
+::C-13:: Tres resistencias en serie de 100, 220 y 470 ohmios. Calcula la resistencia total en ohmios. {#790}
+
+::C-14:: Tres resistencias en serie de 100, 220 y 470 ohmios conectadas a 12 V. Calcula la intensidad en miliamperios. {#15.2:0.3}
+
+::C-15:: Cuatro lámparas de 250 ohmios en serie conectadas a 380 V. Calcula la resistencia total en ohmios. {#1000}
+
+::C-16:: Cuatro lámparas de 250 ohmios en serie conectadas a 380 V. Calcula la tensión en cada lámpara, en voltios. {#95}
+
+::C-17:: Tres resistencias en paralelo de 100, 200 y 300 ohmios. Calcula la resistencia total en ohmios. {#54.5:1}
+
+::C-18:: Dos resistencias de 200 ohmios en paralelo. Calcula la resistencia total en ohmios. {#100}
+
+::C-19:: Una resistencia de 100 ohmios en serie con dos de 200 ohmios en paralelo, todo a 12 V. Calcula la resistencia total en ohmios. {#200}
+
+::C-20:: Una resistencia de 100 ohmios en serie con dos de 200 ohmios en paralelo, todo a 12 V. Calcula la intensidad total en miliamperios. {#60}
+
+::C-21:: Un edificio tiene 12 viviendas de 5.750 W. El coeficiente de simultaneidad para 12 viviendas es 9,9. Calcula la carga de las viviendas en vatios. {#56925}
+
+::C-22:: Un garaje de 700 metros cuadrados con ventilación natural. Calcula su carga prevista en vatios. {#7000}
+
+::C-23:: Tres locales comerciales de 50 metros cuadrados cada uno. Calcula la carga total prevista en vatios. {#15000}
+
+::C-24:: Un regulador admite 300 W. ¿Cuántas lámparas halógenas de 60 W puedes conectar como máximo? {#5}
+
+::C-25:: Veinte pantallas fluorescentes de 2x36 W más 8 W de pérdidas cada una. Calcula la potencia total en vatios. {#1600}

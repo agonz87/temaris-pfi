@@ -1,0 +1,2888 @@
+// ==========================================================================
+// BANCO DE PREGUNTAS — Formación básica en prevención de riesgos laborales (MPRL)
+// PFI EE01 · Auxiliar de montajes de instalaciones electrotécnicas en edificios
+// Formato GIFT para importar en Moodle · Codificación UTF-8
+//
+// IMPORTACIÓN: Banco de preguntas > Importar > Formato GIFT > subir este archivo.
+// Se crean solas 9 categorías bajo "Temario MPRL".
+// Las preguntas están redactadas a partir de las frases dictadas del temario
+// (Temario_MPRL_Teoria.html), sesión por sesión. Lo que se dicta es lo que se pregunta.
+// ==========================================================================
+
+
+$CATEGORY: Temario MPRL/01 Trabajo, salud y daños
+
+::B1-01:: Según la Organización Mundial de la Salud, ¿qué es la salud? {
+=El estado de completo bienestar físico, mental y social, y no solo la ausencia de enfermedad
+~La ausencia de enfermedad
+~No tener ninguna lesión ni dolor
+~Estar en condiciones de trabajar
+}
+
+::B1-02:: ¿Qué es un peligro? {
+=La cosa que puede causar daño
+~La posibilidad de sufrir una lesión
+~La lesión que ya se ha producido
+~La medida que evita el accidente
+}
+
+::B1-03:: ¿Qué es un daño laboral? {
+=La lesión o la enfermedad que ya se ha producido
+~El objeto que puede hacer daño
+~La probabilidad de sufrir una lesión
+~El incumplimiento de una norma de seguridad
+}
+
+::B1-04:: Completa la definición legal. Riesgo laboral es... {
+=la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo
+~cualquier situación peligrosa que exista en la empresa
+~la lesión sufrida durante la jornada de trabajo
+~el incumplimiento de la normativa de prevención
+}
+
+::B1-05:: Un cuadro eléctrico con tensión y sin tapa es un ejemplo de... {
+=peligro
+~riesgo
+~daño
+~medida preventiva
+}
+
+::B1-06:: ¿Qué dos factores se combinan para valorar un riesgo? {
+=La probabilidad de que ocurra y la gravedad de sus consecuencias
+~El coste de la medida y el tiempo disponible
+~El número de trabajadores y las horas de exposición
+~La antigüedad del trabajador y su formación
+}
+
+::B1-07:: Un riesgo con probabilidad baja pero consecuencias muy dañinas se puede ignorar. {FALSE#Sigue siendo un riesgo moderado o importante. Por eso el riesgo eléctrico se trata siempre, aunque el accidente sea poco frecuente.}
+
+::B1-08:: ¿Qué es la cultura preventiva? {
+=Que la seguridad forme parte de cómo se trabaja todos los días
+~Hacer un curso de prevención una vez al año
+~Tener el plan de prevención archivado en la oficina
+~Repartir equipos de protección individual a la plantilla
+}
+
+::B1-09:: Señala el motivo que NO es una ventaja de invertir en prevención para la empresa. {
+=Permite reducir la plantilla
+~Reduce la incertidumbre y los costes imprevistos
+~Mejora la organización general de la empresa
+~Aumenta la satisfacción y el rendimiento de los trabajadores
+}
+
+::B1-10:: Aproximadamente, ¿cuántas personas mueren cada año en España en accidente de trabajo? {
+=Unas 700
+~Unas 70
+~Unas 7.000
+~Unas 70.000
+}
+
+::B1-11:: ¿Qué es una condición de trabajo? {
+=Cualquier característica del trabajo que pueda influir en la salud del trabajador
+~Únicamente la maquinaria y las herramientas que se utilizan
+~El horario y el salario pactados en el contrato
+~Las normas internas de la empresa
+}
+
+::B1-12:: ¿Qué es un factor de riesgo? {
+=Cualquier objeto, sustancia o característica de la organización que contribuya a provocar un daño en la salud
+~La lesión que sufre el trabajador
+~La medida de protección que se aplica
+~El resultado del reconocimiento médico
+}
+
+::B1-13:: ¿Cuántas familias de factores de riesgo existen? {#4}
+
+::B1-14:: ¿Cuál de estas NO es una de las cuatro familias de factores de riesgo? {
+=Condiciones económicas
+~Condiciones de seguridad
+~Condiciones medioambientales
+~Condiciones psicosociales
+}
+
+::B1-15:: Las condiciones de seguridad producen sobre todo... {
+=accidentes, que ocurren de golpe
+~enfermedades, que aparecen poco a poco
+~trastornos musculares por repetición
+~estrés y ansiedad
+}
+
+::B1-16:: Las condiciones medioambientales producen sobre todo... {
+=enfermedades, que aparecen poco a poco
+~accidentes, que ocurren de golpe
+~lesiones por sobreesfuerzo
+~insatisfacción laboral
+}
+
+::B1-17:: El ruido del martillo percutor pertenece a la familia de las condiciones... {
+=medioambientales
+~de seguridad
+~ergonómicas
+~psicosociales
+}
+
+::B1-18:: Trabajar tres horas con los brazos por encima de los hombros pertenece a la familia de las condiciones... {
+=ergonómicas
+~de seguridad
+~medioambientales
+~psicosociales
+}
+
+::B1-19:: Que el encargado te meta prisa constantemente para acabar antes de las dos pertenece a la familia de las condiciones... {
+=psicosociales
+~de seguridad
+~medioambientales
+~ergonómicas
+}
+
+::B1-20:: Un cuadro eléctrico sin tapa pertenece a la familia de las condiciones... {
+=de seguridad
+~medioambientales
+~ergonómicas
+~psicosociales
+}
+
+::B1-21:: Ordena la frase que resume el módulo. Hay que conocer las condiciones de trabajo para... {
+=identificar los riesgos, aplicar medidas de prevención y evitar los daños
+~repartir los equipos de protección individual que correspondan
+~cumplir con las inspecciones de trabajo
+~calcular la indemnización en caso de accidente
+}
+
+::B1-22:: ¿En qué artículo de la Ley General de la Seguridad Social se define el accidente de trabajo? {
+=En el artículo 156
+~En el artículo 157
+~En el artículo 15
+~En el artículo 22
+}
+
+::B1-23:: Completa la definición legal. Accidente de trabajo es toda lesión corporal que el trabajador sufra... {
+=con ocasión o por consecuencia del trabajo que ejecute por cuenta ajena
+~durante su jornada laboral dentro del centro de trabajo
+~por culpa de un incumplimiento de la empresa
+~mientras utiliza maquinaria o herramientas de la empresa
+}
+
+::B1-24:: ¿Qué es un accidente in itinere? {
+=El que ocurre al ir o al volver del trabajo por el camino habitual y sin desviarse
+~El que ocurre conduciendo durante la jornada por encargo de la empresa
+~El que ocurre en el centro de trabajo durante el horario laboral
+~Cualquier accidente de tráfico que sufra un trabajador
+}
+
+::B1-25:: ¿Qué es un accidente en misión? {
+=El que ocurre fuera del centro haciendo un encargo de la empresa
+~El que ocurre al ir o volver del trabajo
+~El que ocurre durante el descanso para comer
+~El que sufre un trabajador desplazado a otro país
+}
+
+::B1-26:: Un trabajador de parques y jardines se rompe una pierna en la calle mientras hace unas compras en la ferretería por encargo de la empresa. ¿Qué es? {
+=Accidente de trabajo en misión
+~Accidente in itinere
+~Accidente no laboral
+~Enfermedad común
+}
+
+::B1-27:: Un trabajador sale de la obra a las 18\:00, se queda tomando algo hasta las 21\:00 y al volver a casa tiene un accidente. ¿Es accidente in itinere? {FALSE#Se rompe el in itinere\: ha habido una interrupción prolongada del trayecto por un motivo personal.}
+
+::B1-28:: Una trabajadora sale de la hípica donde trabaja, tiene un accidente con la moto camino de casa y se rompe una pierna. ¿Es accidente de trabajo? {TRUE#Es un accidente in itinere\: trayecto habitual de vuelta, sin interrupciones.}
+
+::B1-29:: Un guía de montaña se va a esquiar el domingo con sus amigas y se hace un esguince. ¿Qué tipo de daño es? {
+=Accidente no laboral
+~Accidente de trabajo convencional
+~Accidente in itinere
+~Enfermedad profesional
+}
+
+::B1-30:: Un trabajador que ya tenía lesionadas las vértebras lumbares debe estar muchas horas de pie y pide la baja por lumbalgia. ¿Qué es? {
+=Accidente de trabajo por lesión previa agravada
+~Enfermedad común
+~Accidente no laboral
+~Enfermedad profesional
+}
+
+::B1-31:: ¿Qué es un incidente laboral? {
+=Un suceso que podría haber causado un daño pero no lo causó
+~Un accidente leve que no produce baja médica
+~Una enfermedad profesional en fase inicial
+~Un incumplimiento de la normativa de prevención
+}
+
+::B1-32:: ¿Por qué hay que comunicar los incidentes aunque no haya habido heridos? {
+=Porque avisan de dónde está el fallo sin que nadie resulte herido
+~Porque la ley obliga a indemnizar al trabajador
+~Porque cuentan como accidente a efectos de estadística
+~Porque permiten sancionar al responsable
+}
+
+::B1-33:: Por cada accidente grave suele haber... {
+=decenas de accidentes leves y centenares de incidentes
+~otro accidente grave y ningún incidente
+~un solo accidente leve previo
+~un número imposible de estimar
+}
+
+::B1-34:: ¿En qué artículo de la Ley General de la Seguridad Social se define la enfermedad profesional? {#157}
+
+::B1-35:: ¿Qué requisito imprescindible debe cumplir una dolencia para reconocerse como enfermedad profesional? {
+=Estar recogida en el cuadro oficial de enfermedades profesionales
+~Producir una baja de más de treinta días
+~Haber sido causada por un incumplimiento de la empresa
+~Ser diagnosticada por la mutua y no por el médico de cabecera
+}
+
+::B1-36:: Si el trabajo causa una enfermedad que no está en el cuadro oficial, ¿qué ocurre? {
+=Se puede calificar como accidente de trabajo si se demuestra que la causó el trabajo
+~No se puede reconocer de ninguna manera
+~Se considera siempre enfermedad común
+~Se reconoce automáticamente como enfermedad profesional
+}
+
+::B1-37:: ¿Cuál es la diferencia principal entre accidente de trabajo y enfermedad profesional? {
+=El accidente aparece de golpe y la enfermedad profesional poco a poco por exposición repetida
+~El accidente lo cubre la mutua y la enfermedad profesional no
+~El accidente ocurre dentro del centro y la enfermedad fuera
+~El accidente lo sufre el trabajador y la enfermedad la empresa
+}
+
+::B1-38:: Una trabajadora de un taller de neumáticos tiene tendinitis crónica por las vibraciones de la pistola de presión. ¿Qué es? {
+=Enfermedad profesional
+~Accidente de trabajo convencional
+~Enfermedad común
+~Accidente no laboral
+}
+
+::B1-39:: Un administrativo coge un resfriado porque la empresa no ha puesto la calefacción. ¿Qué tipo de daño es? {
+=Enfermedad común
+~Enfermedad profesional
+~Accidente de trabajo
+~Accidente in itinere
+}
+
+::B1-40:: La hipoacusia por ruido y la silicosis por polvo son ejemplos de... {
+=enfermedad profesional
+~accidente de trabajo
+~patología inespecífica
+~enfermedad común
+}
+
+::B1-41:: ¿Cuáles son las tres patologías inespecíficas del trabajo? {
+=Fatiga laboral, insatisfacción laboral y envejecimiento prematuro
+~Accidente, enfermedad profesional e incidente
+~Estrés, mobbing y burnout
+~Lumbalgia, tendinitis y túnel carpiano
+}
+
+::B1-42:: ¿Qué es la fatiga laboral? {
+=La disminución de la capacidad de respuesta del organismo por la tensión del trabajo
+~El rechazo que siente el trabajador hacia su trabajo
+~La aceleración del envejecimiento por causa del trabajo
+~El agotamiento emocional propio de las profesiones de trato con personas
+}
+
+::B1-43:: ¿Qué es la insatisfacción laboral? {
+=El sentimiento de rechazo que siente el trabajador hacia su trabajo
+~El cansancio acumulado al final de la jornada
+~La pérdida de capacidad física por la edad
+~La falta de formación para el puesto
+}
+
+::B1-44:: ¿Cómo se llama también el síndrome del quemado? {=burnout =burn out =burn-out}
+
+::B1-45:: ¿Cómo se llama el acoso en el trabajo? {=mobbing =acoso laboral =acoso en el trabajo}
+
+::B1-46:: Se llaman patologías inespecíficas porque no aparecen en ninguna lista oficial de enfermedades profesionales. {TRUE}
+
+
+$CATEGORY: Temario MPRL/02 Derechos, deberes y organización
+
+::B2-01:: ¿Cuál es la norma básica en materia de prevención de riesgos laborales? {
+=La Ley 31/1995 de Prevención de Riesgos Laborales
+~El Real Decreto 39/1997
+~El Estatuto de los Trabajadores
+~El Real Decreto 486/1997
+}
+
+::B2-02:: ¿Qué norma aprueba el Reglamento de los Servicios de Prevención? {
+=El Real Decreto 39/1997
+~La Ley 31/1995
+~La Ley 54/2003
+~El Real Decreto 773/1997
+}
+
+::B2-03:: ¿Qué aportó principalmente la Ley 54/2003? {
+=Obligó a integrar la prevención en la gestión de la empresa
+~Creó la figura del delegado de prevención
+~Estableció el cuadro de enfermedades profesionales
+~Reguló los equipos de protección individual
+}
+
+::B2-04:: ¿Sobre quién recae el deber general de protección de la seguridad y la salud? {
+=Sobre el empresario
+~Sobre el trabajador
+~Sobre el servicio de prevención ajeno
+~Sobre la mutua
+}
+
+::B2-05:: El coste de las medidas de prevención puede repercutirse al trabajador si su contrato lo recoge. {FALSE#El coste de las medidas de prevención no puede recaer en ningún caso sobre el trabajador.}
+
+::B2-06:: La formación en prevención de riesgos laborales... {
+=es obligatoria, se da en horario de trabajo y la paga la empresa
+~es voluntaria y la paga el trabajador
+~se hace fuera de la jornada y sin remunerar
+~solo es obligatoria para los mandos intermedios
+}
+
+::B2-07:: Los equipos de protección individual... {
+=los facilita la empresa gratuitamente y los repone cuando pierden su eficacia
+~los compra el trabajador y la empresa le reembolsa la mitad
+~se descuentan de la nómina en cómodos plazos
+~son responsabilidad exclusiva del trabajador
+}
+
+::B2-08:: ¿Qué es un riesgo grave e inminente? {
+=El que es probable que se materialice en un futuro inmediato y pueda suponer un daño grave para la salud
+~Cualquier riesgo que no esté recogido en la evaluación de riesgos
+~El riesgo que provoca una baja de más de treinta días
+~El riesgo que afecta a más de un trabajador a la vez
+}
+
+::B2-09:: Ante un riesgo grave e inminente, el trabajador... {
+=puede interrumpir su actividad y abandonar el puesto sin poder ser sancionado
+~debe continuar trabajando hasta que llegue el encargado
+~debe pedir permiso por escrito antes de parar
+~solo puede parar si lo autoriza la Inspección de Trabajo
+}
+
+::B2-10:: Señala lo que NO es una obligación del trabajador en materia de prevención. {
+=Comprar sus propios equipos de protección individual
+~Usar correctamente las máquinas y herramientas
+~Informar de inmediato de cualquier situación de riesgo
+~No poner fuera de funcionamiento los dispositivos de seguridad
+}
+
+::B2-11:: Quitar la carcasa de una máquina para trabajar más rápido... {
+=es un incumplimiento laboral sancionable y traslada la responsabilidad a quien lo hace
+~está permitido si el trabajador tiene experiencia suficiente
+~es decisión del propio trabajador
+~solo es sancionable si provoca un accidente
+}
+
+::B2-12:: ¿En qué artículo de la Ley 31/1995 están los principios de la acción preventiva? {#15}
+
+::B2-13:: ¿Cuántos son los principios de la acción preventiva? {#9}
+
+::B2-14:: ¿Cuál es el primer principio de la acción preventiva? {
+=Evitar los riesgos
+~Evaluar los riesgos
+~Combatir los riesgos en su origen
+~Dar las debidas instrucciones a los trabajadores
+}
+
+::B2-15:: ¿Cuál es el segundo principio de la acción preventiva? {
+=Evaluar los riesgos que no se puedan evitar
+~Evitar los riesgos
+~Planificar la prevención
+~Adaptar el trabajo a la persona
+}
+
+::B2-16:: ¿Cuál es el tercer principio de la acción preventiva? {
+=Combatir los riesgos en su origen
+~Sustituir lo peligroso por lo que entrañe poco o ningún peligro
+~Anteponer la protección colectiva a la individual
+~Evaluar los riesgos que no se puedan evitar
+}
+
+::B2-17:: ¿Qué número ocupa el principio de anteponer la protección colectiva a la individual? {#8}
+
+::B2-18:: ¿Cuál es el noveno y último principio de la acción preventiva? {
+=Dar las debidas instrucciones a los trabajadores
+~Planificar la prevención
+~Evitar los riesgos
+~Tener en cuenta la evolución de la técnica
+}
+
+::B2-19:: Insonorizar una máquina en lugar de repartir tapones responde al principio de... {
+=combatir los riesgos en su origen
+~dar las debidas instrucciones a los trabajadores
+~evaluar los riesgos que no se puedan evitar
+~tener en cuenta la evolución de la técnica
+}
+
+::B2-20:: Cambiar un disolvente agresivo por otro menos tóxico responde al principio de... {
+=sustituir lo peligroso por lo que entrañe poco o ningún peligro
+~adaptar el trabajo a la persona
+~planificar la prevención
+~evitar los riesgos
+}
+
+::B2-21:: Adaptar la altura de un puesto de trabajo al cuerpo del trabajador responde al principio de... {
+=adaptar el trabajo a la persona
+~combatir los riesgos en su origen
+~tener en cuenta la evolución de la técnica
+~evitar los riesgos
+}
+
+::B2-22:: Una empresa que solo reparte cascos y hace cursillos, sin tocar la máquina ni la organización, está previniendo correctamente. {FALSE#El equipo de protección individual y la formación son los últimos principios. Esa empresa está trasladando el problema al trabajador.}
+
+::B2-23:: ¿Qué es la evaluación de riesgos? {
+=El documento donde la empresa identifica los riesgos de cada puesto y su gravedad
+~El parte que se rellena después de un accidente
+~El certificado del reconocimiento médico
+~El acta del comité de seguridad y salud
+}
+
+::B2-24:: ¿Cuándo hay que actualizar la evaluación de riesgos? {
+=Cuando cambian las condiciones de trabajo o cuando ocurre un accidente
+~Únicamente cada cinco años
+~Solo cuando lo pida la Inspección de Trabajo
+~Solo cuando se incorpora personal nuevo
+}
+
+::B2-25:: ¿Cuántas modalidades existen para organizar la prevención en una empresa? {#4}
+
+::B2-26:: Señala la modalidad de organización preventiva que NO existe. {
+=Delegación en la mutua colaboradora
+~Asunción personal por el empresario
+~Trabajadores designados
+~Servicio de prevención propio o ajeno
+}
+
+::B2-27:: ¿A partir de cuántos trabajadores es obligatorio un servicio de prevención propio? {#500}
+
+::B2-28:: En actividades peligrosas, el servicio de prevención propio es obligatorio a partir de... {#250}
+
+::B2-29:: Contratar un servicio de prevención ajeno libera a la empresa de su responsabilidad. {FALSE#No la libera. En la sentencia del caso del polvo de sílice se condenó a la empresa y al servicio de prevención ajeno.}
+
+::B2-30:: ¿Quién es el delegado de prevención? {
+=El representante de los trabajadores en materia de prevención
+~El técnico del servicio de prevención ajeno
+~El responsable de seguridad nombrado por la empresa
+~El inspector de trabajo asignado a la empresa
+}
+
+::B2-31:: ¿Qué puede hacer el delegado de prevención ante un riesgo grave e inminente? {
+=Proponer la paralización de la actividad
+~Despedir al responsable del incumplimiento
+~Multar a la empresa
+~Dar de baja al trabajador afectado
+}
+
+::B2-32:: ¿A partir de cuántos trabajadores es obligatorio el comité de seguridad y salud? {#50}
+
+::B2-33:: ¿Cada cuánto debe reunirse como mínimo el comité de seguridad y salud? {
+=Cada tres meses
+~Cada mes
+~Cada seis meses
+~Una vez al año
+}
+
+::B2-34:: ¿Qué organismo atiende y paga las bajas por accidente de trabajo y enfermedad profesional? {
+=La mutua colaboradora con la Seguridad Social
+~La Inspección de Trabajo
+~El INSST
+~El servicio de prevención ajeno
+}
+
+::B2-35:: ¿Qué organismo vigila el cumplimiento de la ley, puede multar y puede paralizar los trabajos? {
+=La Inspección de Trabajo y Seguridad Social
+~La mutua
+~El INSST
+~El comité de seguridad y salud
+}
+
+::B2-36:: ¿Qué significan las siglas INSST? {
+=Instituto Nacional de Seguridad y Salud en el Trabajo
+~Instituto Nacional de Seguros y Salud Laboral
+~Inspección Nacional de Seguridad y Salud
+~Instituto Nacional de Servicios de Salud del Trabajador
+}
+
+::B2-37:: ¿Cuál es la función principal del INSST? {
+=Investigar, asesorar y publicar guías y notas técnicas de prevención
+~Sancionar a las empresas incumplidoras
+~Pagar las prestaciones por accidente de trabajo
+~Acreditar a los servicios de prevención ajenos
+}
+
+::B2-38:: Si la empresa te descuenta de la nómina unas botas de seguridad, ¿a quién acudes primero? {
+=Al delegado de prevención y, si no se soluciona, a la Inspección de Trabajo
+~Directamente a la mutua
+~Al INSST
+~A la compañía de seguros de la empresa
+}
+
+::B2-39:: Si buscas un documento técnico fiable sobre cómo levantar una carga correctamente, ¿dónde lo buscas? {
+=En el INSST, en sus notas técnicas de prevención
+~En la mutua
+~En la Inspección de Trabajo
+~En el convenio colectivo
+}
+
+
+$CATEGORY: Temario MPRL/03 Condiciones de seguridad
+
+::B3-01:: ¿Qué Real Decreto fija las condiciones mínimas de los lugares de trabajo? {
+=El RD 486/1997
+~El RD 485/1997
+~El RD 487/1997
+~El RD 1215/1997
+}
+
+::B3-02:: ¿A partir de qué altura hay que proteger un hueco o desnivel con barandilla? Responde en metros. {#2}
+
+::B3-03:: ¿Qué altura mínima debe tener una barandilla reglamentaria? Responde en centímetros. {#90}
+
+::B3-04:: ¿Qué tres elementos tiene una barandilla reglamentaria? {
+=Pasamanos a 90 cm, barra intermedia y rodapié
+~Pasamanos, red de seguridad y señalización
+~Pasamanos a 1 metro y dos montantes
+~Rodapié, malla metálica y cartel de advertencia
+}
+
+::B3-05:: Una barandilla sin rodapié cumple igualmente la normativa. {FALSE#Sin los tres elementos —90 cm de altura, barra intermedia y rodapié— no es una barandilla reglamentaria.}
+
+::B3-06:: ¿Para qué sirve el rodapié de una barandilla? {
+=Para evitar que caigan objetos o herramientas desde el borde
+~Para reforzar la sujeción de la barandilla al suelo
+~Para señalizar el hueco en color amarillo
+~Para apoyar el pie al trabajar
+}
+
+::B3-07:: ¿Cuántos metros cuadrados de superficie libre debe tener como mínimo cada trabajador? {#2}
+
+::B3-08:: ¿Qué altura mínima debe tener un local de trabajo desde el suelo hasta el techo, con carácter general? Responde en metros. {#3}
+
+::B3-09:: En oficinas y locales comerciales, la altura mínima puede reducirse a... metros. {#2.5:0.1}
+
+::B3-10:: Las caídas al mismo nivel por tropiezo o resbalón son accidentes menores que apenas causan bajas. {FALSE#Son de los accidentes más frecuentes en cualquier sector y provocan muchas bajas, sobre todo en obra.}
+
+::B3-11:: ¿Por qué el orden y la limpieza se consideran una medida preventiva de primer orden? {
+=Porque evitan caídas y además impiden que el desorden esconda otros riesgos
+~Porque lo exige el convenio colectivo
+~Porque mejoran la imagen de la empresa ante los clientes
+~Porque reducen el consumo de material
+}
+
+::B3-12:: ¿Cuáles son las cinco eses del método de organización? {
+=Separar, ordenar, limpiar, estandarizar y mantener
+~Seleccionar, señalizar, limpiar, supervisar y sancionar
+~Separar, señalizar, sujetar, sustituir y seguir
+~Simplificar, ordenar, limpiar, estandarizar y sancionar
+}
+
+::B3-13:: En el método de las 5S, ¿qué se consigue además al limpiar? {
+=Inspeccionar, porque limpiando se descubren las averías
+~Ahorrar material de limpieza
+~Cumplir con la inspección de trabajo
+~Reducir el ruido del taller
+}
+
+::B3-14:: ¿A partir de cuántos metros de altura se considera trabajo en altura? {#2}
+
+::B3-15:: La mayoría de las caídas mortales del sector se producen desde más de diez metros. {FALSE#La mayoría se producen desde menos de cuatro metros, muchas desde una escalera de mano.}
+
+::B3-16:: ¿Cuáles son las dos causas de caída que más se repiten en el oficio de instalador? {
+=La escalera mal usada y el hueco sin proteger
+~El arnés defectuoso y la falta de casco
+~El viento y la lluvia
+~El exceso de peso y la falta de formación
+}
+
+::B3-17:: ¿Cuál es la regla de inclinación de una escalera de mano? {
+=1\:4, un metro de separación por cada cuatro metros de altura
+~1\:2, un metro de separación por cada dos metros de altura
+~1\:8, un metro de separación por cada ocho metros de altura
+~Cuanto más vertical, mejor
+}
+
+::B3-18:: Si el punto de apoyo superior está a 4 metros, ¿a qué distancia de la pared debe quedar la base de la escalera? Responde en metros. {#1}
+
+::B3-19:: Si el punto de apoyo superior está a 3,20 metros, ¿a qué distancia debe quedar la base? Responde en metros. {#0.8:0.05}
+
+::B3-20:: ¿Cuánto debe sobresalir una escalera de mano por encima del punto de desembarco? Responde en metros. {#1}
+
+::B3-21:: ¿Cuántos puntos de apoyo hay que mantener al subir o bajar una escalera de mano? {#3}
+
+::B3-22:: ¿Cómo se suben las herramientas por una escalera de mano? {
+=En el cinturón portaherramientas o con una cuerda, con las manos libres
+~En la mano que queda libre
+~En la caja de herramientas, sujetándola con un brazo
+~Se lanzan desde abajo una vez arriba
+}
+
+::B3-23:: ¿A partir de qué altura están prohibidos los trabajos con escalera de mano que requieran esfuerzos o movimientos peligrosos, salvo con dispositivo anticaídas? Responde en metros. {#3.5:0.1}
+
+::B3-24:: Señala la práctica correcta con una escalera de mano. {
+=Apoyarla sobre una superficie firme y nivelada, con zapatas antideslizantes
+~Calzar una pata con un ladrillo si el suelo está desnivelado
+~Apoyarla sobre una barandilla para ganar altura
+~Subir dos personas a la vez si la escalera es ancha
+}
+
+::B3-84:: Para un trabajo prolongado en altura, como grapar tubo durante media hora, lo correcto es usar una escalera de mano. {FALSE#Para trabajos prolongados corresponde una plataforma elevadora o una torre de andamio.}
+
+::B3-25:: ¿Cuáles son los tres elementos de un sistema anticaídas? {
+=Arnés de cuerpo entero, elemento de amarre con absorbedor y punto de anclaje
+~Casco, arnés y cuerda
+~Arnés, cinturón de sujeción y mosquetón
+~Línea de vida, red de seguridad y barandilla
+}
+
+::B3-26:: ¿Dónde debe situarse preferentemente el punto de anclaje de un sistema anticaídas? {
+=Por encima de la cabeza, para que la caída sea lo más corta posible
+~A la altura de la cintura
+~En el suelo, junto a los pies
+~Donde resulte más cómodo para trabajar
+}
+
+::B3-27:: Un cinturón de sujeción sirve como equipo anticaídas. {FALSE#Para caídas hace falta un arnés anticaídas de cuerpo entero. El cinturón de sujeción no vale.}
+
+::B3-28:: ¿Qué Real Decreto regula los equipos de trabajo? {
+=El RD 1215/1997
+~El RD 486/1997
+~El RD 773/1997
+~El RD 614/2001
+}
+
+::B3-29:: ¿Qué es un equipo de trabajo? {
+=Cualquier máquina, aparato, instrumento o instalación utilizado en el trabajo
+~Únicamente las máquinas con motor eléctrico
+~El conjunto de personas que forman una cuadrilla
+~Los equipos de protección individual de una obra
+}
+
+::B3-30:: ¿Qué dos cosas debe llevar todo equipo de trabajo? {
+=Marcado CE y manual de instrucciones en castellano
+~Número de serie y factura de compra
+~Certificado del fabricante y póliza de seguro
+~Etiqueta verde de revisión y ficha de datos de seguridad
+}
+
+::B3-31:: ¿Qué es un resguardo? {
+=La carcasa o cubierta que impide acceder a la parte peligrosa de la máquina
+~El manual de instrucciones de la máquina
+~La garantía del fabricante
+~El espacio libre que hay que dejar alrededor de la máquina
+}
+
+::B3-32:: ¿Qué elemento de seguridad del taladro evita el golpe por reacción al agarrotarse la broca? {
+=La empuñadura lateral
+~El interruptor de seguridad
+~El portabrocas de apriete rápido
+~El cable con doble aislamiento
+}
+
+::B3-33:: Al usar un taladro, lo correcto es llevar guantes holgados para proteger las manos. {FALSE#Los guantes holgados y la ropa suelta pueden ser atrapados por la broca. No se usan con máquinas rotativas.}
+
+::B3-34:: Señala el uso correcto de una herramienta manual. {
+=Usar cada herramienta solo para aquello para lo que fue diseñada
+~Usar el destornillador como cincel cuando no hay otro
+~Usar los alicates como martillo para golpes pequeños
+~Usar un martillo con el mango algo flojo si se sujeta bien
+}
+
+::B3-35:: ¿Qué indicación deben llevar las herramientas manuales para trabajos eléctricos? {
+=Aislamiento certificado para 1.000 V, con el símbolo del doble triángulo
+~Marcado CE y número de serie
+~Mango de plástico de color rojo
+~Certificado de la empresa instaladora
+}
+
+::B3-36:: Una herramienta con mango de plástico es lo mismo que una herramienta aislada 1000 V. {FALSE#El aislamiento de una herramienta 1000 V está certificado y ensayado. Un mango de plástico cualquiera no lo es.}
+
+::B3-37:: ¿Qué es el riesgo eléctrico? {
+=La posibilidad de que el cuerpo sufra daños al incidir sobre él la corriente eléctrica o sus efectos
+~La probabilidad de que se estropee una instalación eléctrica
+~El peligro de incendio de un cuadro
+~La posibilidad de sufrir un corte de suministro
+}
+
+::B3-38:: ¿Qué es un contacto directo? {
+=Tocar una parte que normalmente está en tensión, como un conductor pelado o un borne
+~Tocar una carcasa metálica que tiene tensión por una avería
+~Sufrir un arco eléctrico sin llegar a tocar nada
+~Recibir corriente a través del suelo
+}
+
+::B3-39:: ¿Qué es un contacto indirecto? {
+=Tocar una parte metálica que no debería tener tensión pero la tiene por una avería de aislamiento
+~Tocar un conductor pelado
+~Tocar un borne de un cuadro abierto
+~Acercarse demasiado a una línea de alta tensión
+}
+
+::B3-40:: ¿Qué dos elementos protegen frente a los contactos indirectos? {
+=La puesta a tierra y el interruptor diferencial
+~El interruptor general y los fusibles
+~El aislamiento de los cables y las canaletas
+~El casco y los guantes dieléctricos
+}
+
+::B3-41:: ¿De qué tres factores depende la gravedad de un accidente eléctrico? {
+=De la intensidad, del tiempo de contacto y del recorrido por el cuerpo
+~De la tensión, de la potencia y de la frecuencia
+~Del tipo de cable, de la sección y de la longitud
+~De la edad, del peso y de la altura de la persona
+}
+
+::B3-42:: Lo que mata en una descarga eléctrica es la tensión, no la intensidad. {FALSE#Mata la intensidad que atraviesa el cuerpo. Por eso 230 V pueden matar.}
+
+::B3-43:: ¿A partir de cuántos miliamperios se produce la tetanización, es decir, el efecto de no poder soltar el cable? {#10}
+
+::B3-44:: ¿Cómo se llama el efecto por el que el músculo se contrae y la persona no puede soltar el conductor? {=tetanización =tetanizacion}
+
+::B3-45:: ¿A partir de cuántos miliamperios puede producirse la fibrilación ventricular? {#50}
+
+::B3-46:: ¿Cómo se llama la alteración del ritmo del corazón que provoca la mayoría de las muertes por electrocución? {
+=Fibrilación ventricular
+~Tetanización
+~Arritmia sinusal
+~Parada respiratoria
+}
+
+::B3-47:: ¿Cuál es la sensibilidad habitual de un interruptor diferencial doméstico? Responde en miliamperios. {#30}
+
+::B3-48:: ¿Por qué la humedad multiplica el riesgo eléctrico? {
+=Porque reduce la resistencia del cuerpo y aumenta la intensidad que lo atraviesa
+~Porque aumenta la tensión de la instalación
+~Porque estropea el interruptor diferencial
+~Porque oxida los bornes y provoca chispas
+}
+
+::B3-49:: ¿Cuál es el recorrido más peligroso de la corriente por el cuerpo? {
+=Mano izquierda a pies, porque atraviesa el corazón
+~Mano derecha a mano derecha
+~Pie a pie
+~Cabeza a hombro
+}
+
+::B3-50:: ¿Qué es el arco eléctrico? {
+=El salto de la corriente por el aire, sin que haya contacto
+~El contacto con un cable pelado
+~La chispa que salta al accionar un interruptor
+~El calentamiento de un conductor sobrecargado
+}
+
+::B3-51:: Se puede sufrir un accidente eléctrico grave sin llegar a tocar nada. {TRUE#Es el arco eléctrico\: basta con acercarse demasiado, sobre todo en alta tensión.}
+
+::B3-52:: Señala la consecuencia que NO es propia de un accidente eléctrico. {
+=Intoxicación digestiva
+~Quemaduras graves internas y externas
+~Caídas y golpes por la sacudida
+~Incendios y explosiones
+}
+
+::B3-53:: ¿Qué Real Decreto regula el riesgo eléctrico? {
+=El RD 614/2001
+~El RD 1215/1997
+~El RD 486/1997
+~El RD 842/2002
+}
+
+::B3-54:: ¿Cuál es el principio básico del RD 614/2001? {
+=Todo trabajo en una instalación eléctrica se hace sin tensión
+~Todo trabajo eléctrico exige el uso de guantes aislantes
+~Toda instalación debe tener interruptor diferencial
+~Todo trabajador eléctrico debe tener formación universitaria
+}
+
+::B3-55:: Un auxiliar de montajes puede trabajar en tensión si lleva guantes aislantes. {FALSE#El trabajo en tensión es una excepción reservada a personal cualificado y autorizado por escrito. Un auxiliar nunca trabaja en tensión.}
+
+::B3-56:: ¿Cómo se llama el conjunto de operaciones de las cinco reglas de oro? {=consignación =consignacion =consignación de la instalación}
+
+::B3-57:: ¿Cuál es la primera regla de oro? {
+=Desconectar todas las fuentes de tensión
+~Bloquear y señalizar
+~Comprobar la ausencia de tensión
+~Poner a tierra y en cortocircuito
+}
+
+::B3-58:: ¿Cuál es la segunda regla de oro? {
+=Bloquear con candado y señalizar los aparatos de corte
+~Desconectar
+~Comprobar la ausencia de tensión
+~Delimitar la zona de trabajo
+}
+
+::B3-59:: ¿Cuál es la tercera regla de oro? {
+=Comprobar la ausencia de tensión
+~Poner a tierra y en cortocircuito
+~Bloquear y señalizar
+~Delimitar y señalizar la zona
+}
+
+::B3-60:: ¿Cuál es la cuarta regla de oro? {
+=Poner a tierra y en cortocircuito
+~Comprobar la ausencia de tensión
+~Delimitar la zona de trabajo
+~Desconectar
+}
+
+::B3-61:: ¿Cuál es la quinta regla de oro? {
+=Delimitar y señalizar la zona de trabajo
+~Poner a tierra y en cortocircuito
+~Bloquear y señalizar
+~Comprobar la ausencia de tensión
+}
+
+::B3-62:: ¿Cuál de las cinco reglas de oro es la que más se salta y la que más accidentes mortales provoca? {
+=La tercera, comprobar la ausencia de tensión
+~La primera, desconectar
+~La cuarta, poner a tierra
+~La quinta, delimitar la zona
+}
+
+::B3-63:: ¿Por qué el comprobador de tensión se verifica antes y después de usarlo? {
+=Porque un comprobador averiado indica siempre ausencia de tensión, que es lo que uno quiere ver
+~Porque lo exige el fabricante para mantener la garantía
+~Porque la pila se descarga durante la medida
+~Porque hay que anotar las dos lecturas en el parte
+}
+
+::B3-64:: ¿En qué orden se deshacen las cinco reglas de oro para reponer el servicio? {
+=En orden inverso, de la quinta a la primera
+~En el mismo orden, de la primera a la quinta
+~Primero la tercera y después las demás
+~No hay orden establecido
+}
+
+::B3-65:: ¿Cuántos elementos necesita el fuego para producirse? {#4}
+
+::B3-66:: ¿Cuáles son los cuatro elementos del tetraedro del fuego? {
+=Combustible, comburente, energía de activación y reacción en cadena
+~Combustible, oxígeno, humo y calor
+~Chispa, gas, aire y presión
+~Calor, llama, humo y ceniza
+}
+
+::B3-67:: ¿Qué método de extinción consiste en eliminar el oxígeno? {
+=Sofocación
+~Enfriamiento
+~Eliminación
+~Inhibición
+}
+
+::B3-68:: ¿Qué método de extinción aplica el agua principalmente? {
+=Enfriamiento
+~Sofocación
+~Inhibición
+~Eliminación
+}
+
+::B3-69:: ¿A qué clase de fuego corresponde la madera, el papel y el cartón? {
+=Clase A
+~Clase B
+~Clase C
+~Clase F
+}
+
+::B3-70:: ¿A qué clase de fuego corresponden la gasolina, el disolvente y la pintura? {
+=Clase B
+~Clase A
+~Clase C
+~Clase D
+}
+
+::B3-71:: ¿A qué clase de fuego corresponden los gases como el butano o el propano? {
+=Clase C
+~Clase A
+~Clase B
+~Clase F
+}
+
+::B3-72:: ¿A qué clase de fuego corresponden los aceites y grasas de cocina? {
+=Clase F
+~Clase A
+~Clase B
+~Clase D
+}
+
+::B3-73:: Existe una clase E para los fuegos eléctricos. {FALSE#Ya no existe. El fuego se clasifica por lo que arde, y la presencia de tensión condiciona el agente extintor, no la clase.}
+
+::B3-74:: ¿Con qué se apaga un fuego en un cuadro eléctrico con tensión? {
+=Con dióxido de carbono o polvo ABC
+~Con agua a chorro
+~Con espuma
+~Con una manta húmeda
+}
+
+::B3-75:: ¿Qué es lo primero que hay que hacer ante un fuego de origen eléctrico? {
+=Cortar la corriente siempre que se pueda hacer sin riesgo
+~Descargar el extintor sobre la base de las llamas
+~Abrir las ventanas para ventilar
+~Retirar el material cercano
+}
+
+::B3-76:: ¿Por qué no se usa agua sobre una instalación eléctrica en tensión? {
+=Porque el agua conduce y la descarga alcanza a quien sujeta el extintor a través del chorro
+~Porque el agua daña los componentes electrónicos
+~Porque el agua no enfría lo suficiente
+~Porque provoca una explosión de vapor
+}
+
+::B3-77:: Ante un fuego de gas, lo primero es descargar el extintor sobre las llamas. {FALSE#Lo primero es cortar el suministro de gas. Si se apaga la llama sin cortar, el gas sigue saliendo y puede acumularse y explotar.}
+
+::B3-78:: ¿Qué significa la palabra PASA aplicada al uso del extintor? {
+=Pasador, Apuntar a la base, Soltar la maneta y Abarrer en zigzag
+~Proteger, Avisar, Socorrer y Apagar
+~Parar, Alejarse, Señalizar y Avisar
+~Pulsar, Accionar, Sujetar y Aplicar
+}
+
+::B3-79:: ¿A dónde hay que apuntar con el extintor? {
+=A la base de las llamas
+~A la parte alta de las llamas
+~Al centro del humo
+~Al techo, para que caiga sobre el fuego
+}
+
+::B3-80:: ¿Cuánto dura aproximadamente la descarga efectiva de un extintor portátil? {
+=Entre 8 y 20 segundos
+~Entre 2 y 3 minutos
+~Entre 30 segundos y 1 minuto
+~Más de 5 minutos
+}
+
+::B3-81:: Al usar un extintor hay que situarse... {
+=de espaldas a la salida, para no quedar atrapado
+~entre el fuego y la salida
+~lo más cerca posible de las llamas
+~siempre en contra del viento
+}
+
+::B3-82:: ¿Por dónde se agarra la boquilla de un extintor de CO2? {
+=Por el mango aislante, nunca por el cono
+~Por el cono, que es donde mejor se sujeta
+~Por la manguera, a media altura
+~Por la parte metálica más cercana a la botella
+}
+
+::B3-83:: ¿Por qué no se usa un extintor de CO2 en un espacio pequeño y cerrado sin ventilar? {
+=Porque desplaza el oxígeno y puede provocar asfixia
+~Porque puede provocar una explosión
+~Porque daña las instalaciones eléctricas
+~Porque su alcance es demasiado corto
+}
+
+
+$CATEGORY: Temario MPRL/04 Medio ambiente de trabajo
+
+::B4-01:: ¿Qué es el ruido? {
+=Un sonido no deseado
+~Cualquier sonido por encima de 50 decibelios
+~El sonido producido por una máquina
+~La vibración que se transmite por el aire
+}
+
+::B4-02:: ¿En qué unidad se mide el ruido? {=decibelios A =decibelio A =dB(A) =dBA =dB A =decibelios =decibelio =dB}
+
+::B4-03:: ¿Con qué aparato se mide el ruido? {=sonómetro =sonometro =un sonómetro}
+
+::B4-04:: La escala del decibelio es logarítmica. ¿Qué significa un aumento de 3 dB? {
+=El doble de energía sonora
+~Un aumento del tres por ciento
+~Tres veces más energía sonora
+~Un aumento apenas perceptible
+}
+
+::B4-05:: ¿A partir de cuántos dB(A) debe la empresa informar, formar y ofrecer protectores auditivos? {#80}
+
+::B4-06:: ¿A partir de cuántos dB(A) es obligatorio el uso de protectores auditivos? {#85}
+
+::B4-07:: ¿Cuál es el valor límite de exposición al ruido que no se puede superar, en dB(A)? {#87}
+
+::B4-08:: ¿Qué Real Decreto regula la exposición al ruido? {
+=El RD 286/2006
+~El RD 1311/2005
+~El RD 486/1997
+~El RD 773/1997
+}
+
+::B4-09:: ¿Cómo se llama la pérdida de audición provocada por el ruido en el trabajo? {=hipoacusia =hipoacusia profesional =sordera profesional}
+
+::B4-10:: ¿Por qué la hipoacusia profesional es irreversible? {
+=Porque las células ciliadas del oído interno no se regeneran
+~Porque el tímpano se perfora de forma permanente
+~Porque los huesecillos del oído se calcifican
+~Porque el nervio auditivo se inflama de forma crónica
+}
+
+::B4-11:: ¿Cuál es la enfermedad profesional más declarada en España? {
+=La hipoacusia por ruido
+~La silicosis
+~La lumbalgia
+~La dermatitis de contacto
+}
+
+::B4-12:: La hipoacusia avisa con dolor antes de instalarse. {FALSE#Avanza sin dolor\: primero se pierden los agudos y cuando la persona se da cuenta ya es tarde.}
+
+::B4-13:: Además de sordera, el ruido provoca... {
+=estrés, fatiga, falta de concentración y, de rebote, accidentes
+~únicamente molestias pasajeras
+~problemas digestivos y de visión
+~pérdida de fuerza muscular
+}
+
+::B4-14:: ¿En qué orden hay que combatir el ruido? {
+=Primero en el foco, después en el medio y por último en el trabajador
+~Primero en el trabajador, que es lo más rápido y barato
+~Primero en el medio y después en el foco
+~El orden es indiferente
+}
+
+::B4-15:: Repartir tapones en lugar de insonorizar la máquina es una solución correcta y suficiente. {FALSE#Actuar sobre el receptor es lo último. Primero hay que combatir el ruido en el foco.}
+
+::B4-16:: ¿Qué protector auditivo es más adecuado para trabajos cortos e intensos? {
+=Las orejeras, porque dan más atenuación y son cómodas de poner y quitar
+~Los tapones, porque son más discretos
+~Ninguno, para trabajos cortos no hace falta
+~El casco con barboquejo
+}
+
+::B4-17:: ¿Qué Real Decreto regula la exposición a vibraciones? {
+=El RD 1311/2005
+~El RD 286/2006
+~El RD 487/1997
+~El RD 664/1997
+}
+
+::B4-18:: ¿Qué produce la exposición a vibraciones mano-brazo? {
+=El síndrome de vibración mano-brazo, con hormigueos, pérdida de fuerza y dedo blanco
+~Lesiones de columna y lumbalgias
+~Pérdida de audición
+~Problemas respiratorios
+}
+
+::B4-19:: ¿Cómo se llama el efecto por el que los dedos se quedan pálidos y fríos por falta de riego a causa de las vibraciones? {=dedo blanco =síndrome del dedo blanco =sindrome del dedo blanco =dedos blancos}
+
+::B4-20:: ¿Qué produce la exposición a vibraciones de cuerpo entero, como conducir muchas horas? {
+=Lumbalgias y lesiones de columna
+~Dedo blanco
+~Hipoacusia
+~Dermatitis
+}
+
+::B4-21:: Una broca roma o mal afilada vibra igual que una en buen estado. {FALSE#Una herramienta mal mantenida vibra mucho más. El mantenimiento es una medida preventiva frente a las vibraciones.}
+
+::B4-22:: En locales cerrados con trabajos ligeros, como los de taller, ¿entre qué temperaturas debe estar el ambiente? {
+=Entre 14 y 25 grados
+~Entre 17 y 27 grados
+~Entre 10 y 30 grados
+~Entre 18 y 22 grados
+}
+
+::B4-23:: En trabajos sedentarios de oficina, ¿entre qué temperaturas debe estar el ambiente? {
+=Entre 17 y 27 grados
+~Entre 14 y 25 grados
+~Entre 20 y 24 grados
+~Entre 15 y 30 grados
+}
+
+::B4-24:: ¿Entre qué valores debe estar la humedad relativa en un local de trabajo? {
+=Entre el 30 y el 70 por ciento
+~Entre el 10 y el 50 por ciento
+~Entre el 50 y el 90 por ciento
+~No está regulada
+}
+
+::B4-25:: ¿Cuál es la señal más característica de un golpe de calor? {
+=La piel caliente, roja y seca, porque el cuerpo ha dejado de sudar
+~El sudor abundante y la piel fría
+~El temblor y los escalofríos
+~La dificultad para hablar
+}
+
+::B4-26:: ¿Cómo se actúa ante un golpe de calor? {
+=Llamar al 112, llevar a la persona a un lugar fresco y enfriarla con agua y aire
+~Darle una bebida caliente y abrigarla
+~Dejarla descansar sentada hasta que se recupere sola
+~Darle un analgésico para el dolor de cabeza
+}
+
+::B4-27:: Si una persona con golpe de calor está inconsciente, se le puede dar agua a sorbos. {FALSE#Si no está consciente, nada por la boca. El agua a sorbos solo si está consciente.}
+
+::B4-28:: ¿Cuál es el principal peligro del frío extremo en el trabajo? {
+=La pérdida de destreza en las manos, que es lo que provoca el accidente
+~El resfriado común
+~La deshidratación
+~El aumento de la presión arterial
+}
+
+::B4-29:: ¿Cuántos lux se necesitan como mínimo para tareas de exigencia visual alta, como el montaje de cuadros? {#500}
+
+::B4-30:: ¿Cuántos lux se exigen como mínimo en zonas de paso de uso ocasional? {#50}
+
+::B4-31:: ¿Cuántos lux se exigen como mínimo en zonas de paso habituales con exigencias visuales bajas? {#100}
+
+::B4-32:: ¿Con qué aparato se mide la iluminación? {=luxómetro =luxometro =un luxómetro}
+
+::B4-33:: Además del nivel de iluminación, ¿qué otros tres problemas hay que evitar? {
+=El deslumbramiento, los contrastes fuertes y los parpadeos
+~El color de las paredes, la altura del techo y la orientación
+~El consumo, el coste y el mantenimiento
+~La temperatura, la humedad y el ruido
+}
+
+::B4-34:: ¿Qué riesgo específico tiene trabajar con poca luz en una instalación eléctrica? {
+=Que no se distinguen bien los colores de los conductores
+~Que se consume más energía
+~Que las herramientas se oxidan
+~Que aumenta la temperatura del local
+}
+
+::B4-35:: ¿Cuáles son las radiaciones ionizantes? {
+=Los rayos X y gamma
+~El ultravioleta y el infrarrojo
+~Los campos electromagnéticos y el láser
+~El ruido y las vibraciones
+}
+
+::B4-36:: ¿Qué radiación produce el llamado ojo de soldador o quemadura de córnea? {
+=La radiación ultravioleta del arco de soldadura
+~La radiación infrarroja
+~Los rayos X
+~Los campos electromagnéticos
+}
+
+::B4-37:: ¿Para qué colectivo son especialmente peligrosos los campos electromagnéticos? {
+=Para las personas portadoras de marcapasos o implantes metálicos
+~Para las personas con problemas de visión
+~Para las personas con hipoacusia
+~Para las personas alérgicas
+}
+
+::B4-38:: ¿Qué hay que hacer si se encuentra la señal de radiaciones ionizantes en una obra? {
+=No entrar y avisar
+~Entrar con mascarilla FFP3
+~Entrar solo el tiempo imprescindible
+~Entrar con gafas y guantes
+}
+
+::B4-39:: ¿Cuál es la vía de entrada más importante de un agente químico en el cuerpo? {
+=La vía respiratoria
+~La vía dérmica
+~La vía digestiva
+~La vía parenteral
+}
+
+::B4-40:: ¿Cuáles son las cuatro vías de entrada de un contaminante químico? {
+=Respiratoria, dérmica, digestiva y parenteral
+~Respiratoria, ocular, auditiva y dérmica
+~Oral, nasal, cutánea y sanguínea
+~Inhalación, ingestión, absorción y radiación
+}
+
+::B4-41:: ¿Qué efecto tiene un agente químico corrosivo? {
+=Destruye el tejido con el que contacta
+~Inflama la piel y las vías respiratorias sin destruirlas
+~Desplaza el oxígeno del aire
+~Provoca alergia tras la primera exposición
+}
+
+::B4-42:: ¿Qué caracteriza a un agente sensibilizante? {
+=Que la primera vez no pasa nada y después el cuerpo reacciona siempre
+~Que destruye el tejido de forma inmediata
+~Que provoca cáncer a largo plazo
+~Que deprime el sistema nervioso central
+}
+
+::B4-43:: Los vapores de disolvente en un local cerrado provocan mareo, somnolencia y pérdida de reflejos. ¿Qué tipo de efecto es? {
+=Anestésico o narcótico
+~Corrosivo
+~Sensibilizante
+~Asfixiante simple
+}
+
+::B4-44:: ¿Qué enfermedad provoca la inhalación de polvo de sílice cristalina? {=silicosis =la silicosis}
+
+::B4-45:: ¿Dónde se genera el polvo de sílice cristalina en vuestro oficio? {
+=Al hacer rozas y taladrar en hormigón, ladrillo y mortero
+~Al soldar cobre
+~Al pelar y conexionar conductores
+~Al pasar cable por tubo
+}
+
+::B4-46:: ¿Con qué tres medidas se combate el polvo de sílice? {
+=Aspiración en la herramienta, corte por vía húmeda y mascarilla FFP3
+~Ventanas abiertas, guantes y gafas
+~Barrer en seco al acabar, mascarilla FFP1 y casco
+~Rotación de tareas, gafas y protección auditiva
+}
+
+::B4-47:: ¿Qué hay que hacer si aparece amianto en una obra? {
+=Parar el trabajo y avisar, porque solo pueden manipularlo empresas autorizadas
+~Retirarlo con mascarilla FFP3 y guantes
+~Mojarlo y retirarlo con cuidado
+~Cubrirlo con pintura y seguir trabajando
+}
+
+::B4-48:: ¿En qué tipo de edificios es más probable encontrar amianto? {
+=En los anteriores a 2002
+~En los construidos en los últimos diez años
+~Solo en instalaciones industriales
+~Solo en edificios públicos
+}
+
+::B4-49:: ¿Qué es una ficha de datos de seguridad? {
+=El documento de 16 apartados que informa de los peligros y del manejo de un producto químico
+~La etiqueta que lleva pegada el envase
+~El albarán de entrega del proveedor
+~El certificado de calidad del fabricante
+}
+
+::B4-50:: ¿Qué apartado de la ficha de datos de seguridad indica qué hacer si el producto salpica a los ojos? {
+=El apartado 4, primeros auxilios
+~El apartado 1, identificación
+~El apartado 7, manipulación y almacenamiento
+~El apartado 8, protección individual
+}
+
+::B4-51:: Trasvasar un producto químico a una botella de agua está permitido si se etiqueta a mano. {FALSE#Nunca se trasvasa un producto a un envase de bebida. Ha provocado intoxicaciones mortales.}
+
+::B4-52:: ¿Qué mascarilla se necesita frente a sílice, amianto y humos de soldadura? {
+=FFP3
+~FFP1
+~FFP2
+~Una mascarilla quirúrgica
+}
+
+::B4-53:: ¿Qué porcentaje de partículas retiene una mascarilla FFP2? {
+=El 94 por ciento
+~El 80 por ciento
+~El 99 por ciento
+~El 50 por ciento
+}
+
+::B4-54:: Una mascarilla FFP3 protege frente a los vapores de disolvente. {FALSE#Las FFP filtran partículas, no gases ni vapores. Para vapores hace falta un filtro químico del tipo adecuado.}
+
+::B4-55:: ¿Qué letra identifica al filtro químico para vapores orgánicos, como los disolventes? {
+=La letra A
+~La letra B
+~La letra E
+~La letra K
+}
+
+::B4-56:: ¿Qué es un agente biológico? {
+=Un microorganismo capaz de producir infección, alergia o toxicidad
+~Cualquier residuo orgánico presente en el lugar de trabajo
+~Un producto químico de origen vegetal
+~Una sustancia que se degrada de forma natural
+}
+
+::B4-57:: ¿Cuántos grupos de riesgo de agentes biológicos existen? {#4}
+
+::B4-58:: ¿Qué Real Decreto regula los agentes biológicos? {
+=El RD 664/1997
+~El RD 486/1997
+~El RD 773/1997
+~El RD 614/2001
+}
+
+::B4-59:: ¿Cómo se previene el tétanos en este oficio? {
+=Con la vacuna al día, guantes y desinfectando toda herida
+~Con mascarilla FFP2
+~Con protección auditiva
+~Lavando las herramientas con desinfectante
+}
+
+::B4-60:: ¿Cada cuántos años se refuerza la vacuna del tétanos? {#10}
+
+::B4-61:: ¿Dónde se contrae la leptospirosis en el trabajo de instalador? {
+=En agua estancada y orina de roedores, en arquetas, sótanos y galerías
+~En los falsos techos con humedad
+~En las torres de refrigeración
+~Al manipular cable antiguo
+}
+
+::B4-62:: ¿Qué precaución hay que tomar antes de abrir una arqueta o un registro? {
+=Mirar antes con linterna y usar guantes, sin meter nunca la mano a ciegas
+~Meter la mano despacio para no cortarse
+~Vaciar el agua con un cubo
+~Rociar con desinfectante y esperar cinco minutos
+}
+
+::B4-63:: ¿Qué mascarilla se necesita para limpiar excrementos de aves en una cubierta o falso techo? {
+=FFP3
+~FFP1
+~No hace falta mascarilla si se limpia en húmedo
+~Una mascarilla quirúrgica
+}
+
+::B4-64:: ¿Qué es un espacio confinado? {
+=Un recinto con aberturas limitadas de entrada y salida, ventilación desfavorable y no previsto para ocupación continuada
+~Cualquier local sin ventanas
+~Un local con menos de 10 metros cuadrados
+~Una zona señalizada con acceso restringido
+}
+
+::B4-65:: ¿Por debajo de qué porcentaje de oxígeno hay ya riesgo en un espacio confinado? {#19.5:0.2}
+
+::B4-66:: ¿Qué ocurre por debajo del 10 por ciento de oxígeno? {
+=Se pierde el conocimiento en segundos, sin notar nada previamente
+~Aparece dolor de cabeza y tiempo de sobra para salir
+~Se nota ahogo y se puede pedir ayuda
+~No ocurre nada si la exposición es breve
+}
+
+::B4-67:: En los accidentes en espacios confinados, más de la mitad de los fallecidos son... {
+=los rescatadores que bajan a socorrer sin equipo
+~trabajadores sin formación
+~personal de mantenimiento
+~trabajadores de empresas subcontratadas
+}
+
+::B4-68:: ¿Qué cuatro condiciones hacen falta para entrar en un espacio confinado? {
+=Autorización de entrada por escrito, medición de la atmósfera, ventilación forzada y vigilante en el exterior
+~Casco, guantes, botas y linterna
+~Formación, experiencia, seguro y reconocimiento médico
+~Permiso del encargado, arnés, cuerda y móvil
+}
+
+::B4-69:: Si un compañero cae inconsciente dentro de una arqueta, lo correcto es bajar rápido a sacarlo. {FALSE#No se baja. Se avisa al 112, se impide que baje nadie más y se saca desde fuera con arnés y trípode.}
+
+
+$CATEGORY: Temario MPRL/05 Carga de trabajo y ergonomía
+
+::B5-01:: ¿Qué Real Decreto regula la manipulación manual de cargas? {
+=El RD 487/1997
+~El RD 486/1997
+~El RD 485/1997
+~El RD 773/1997
+}
+
+::B5-02:: ¿Cuál es el peso máximo recomendado con carácter general para manipular una carga? Responde en kilos. {#25}
+
+::B5-03:: ¿Cuál es el peso recomendado para mujeres, jóvenes y trabajadores mayores? Responde en kilos. {#15}
+
+::B5-04:: Por debajo de qué peso no suele haber riesgo dorsolumbar, salvo repetición o postura mala. Responde en kilos. {#3}
+
+::B5-05:: Si una carga pesa más de 25 kilos, lo correcto es... {
+=levantarla entre dos personas o con medios mecánicos
+~levantarla solo, pero muy despacio
+~levantarla con faja lumbar
+~dividirla en dos viajes aunque se rompa el embalaje
+}
+
+::B5-06:: ¿Por qué es peor levantar una carga con los brazos estirados que pegada al cuerpo? {
+=Porque cuanto más lejos está la carga, mayor es la fuerza que soporta la columna
+~Porque se pierde el equilibrio con más facilidad
+~Porque se cansan antes los brazos
+~Porque la carga puede resbalar
+}
+
+::B5-07:: ¿Cómo se levanta correctamente una carga del suelo? {
+=Doblando las rodillas y manteniendo la espalda recta, con la carga pegada al cuerpo
+~Doblando la espalda con las piernas rectas
+~Con un giro rápido para aprovechar el impulso
+~Con los pies juntos y los brazos estirados
+}
+
+::B5-08:: Si hay que girarse con una carga en los brazos, lo correcto es... {
+=mover los pies, nunca girar el tronco
+~girar el tronco manteniendo los pies fijos
+~girar con un movimiento rápido para que dure menos
+~apoyar la carga en la cadera y girar
+}
+
+::B5-09:: ¿Cuál es la combinación de gestos que más lesiona la espalda? {
+=Flexión, giro y carga a la vez
+~Levantar despacio un peso medio
+~Empujar una carga rodante
+~Sostener una carga ligera mucho rato
+}
+
+::B5-10:: Antes de coger una carga, lo primero que hay que hacer es... {
+=planificar\: mirar la carga, calcular el peso y comprobar que el recorrido está libre
+~calentar los músculos de la espalda
+~ponerse la faja lumbar
+~pedir ayuda a un compañero
+}
+
+::B5-11:: ¿Qué es un trastorno musculoesquelético? {
+=Una lesión de músculos, tendones, nervios o articulaciones provocada o agravada por el trabajo
+~Una enfermedad degenerativa propia de la edad
+~Una lesión producida por un golpe en el trabajo
+~Una alteración del sistema nervioso por estrés
+}
+
+::B5-12:: Los trastornos musculoesqueléticos son... {
+=el daño laboral más frecuente y el que más días de baja provoca
+~un daño poco frecuente y de escasa importancia
+~exclusivos de trabajos de oficina
+~siempre reconocidos como accidente de trabajo
+}
+
+::B5-13:: En la primera fase de un trastorno musculoesquelético... {
+=el dolor desaparece al descansar y la lesión todavía es reversible
+~el dolor persiste en reposo y ya hay lesión establecida
+~se pierde por completo la fuerza
+~no hay ningún síntoma
+}
+
+::B5-14:: En la tercera fase de un trastorno musculoesquelético... {
+=el dolor persiste en reposo y la lesión ya está establecida
+~el dolor solo aparece al trabajar
+~los síntomas desaparecen el fin de semana
+~basta con cambiar de postura para que remita
+}
+
+::B5-15:: ¿Cuáles son los cuatro factores de riesgo ergonómico? {
+=Postura, fuerza, repetición y tiempo
+~Peso, altura, velocidad y distancia
+~Ruido, vibración, temperatura e iluminación
+~Edad, sexo, forma física y formación
+}
+
+::B5-16:: ¿Qué trastorno provoca trabajar con los brazos por encima de los hombros? {
+=Tendinitis de hombro
+~Epicondilitis
+~Síndrome del túnel carpiano
+~Lumbalgia
+}
+
+::B5-17:: ¿Cómo se llama el trastorno conocido como codo de tenista, típico de atornillar mucho rato? {=epicondilitis =la epicondilitis =codo de tenista}
+
+::B5-18:: ¿Qué trastorno provoca trabajar con la muñeca doblada, con fuerza y con vibración? {
+=Síndrome del túnel carpiano
+~Bursitis de rodilla
+~Cervicalgia
+~Tendinitis de hombro
+}
+
+::B5-19:: ¿Qué trastorno provoca trabajar arrodillado en el suelo durante mucho tiempo? {
+=Bursitis de rodilla
+~Lumbalgia
+~Epicondilitis
+~Cervicalgia
+}
+
+::B5-20:: ¿En qué zona está la altura de trabajo más segura? {
+=Entre la cadera y el pecho, y cerca del cuerpo
+~Por encima de los hombros
+~A la altura de los tobillos
+~Con los brazos completamente estirados
+}
+
+::B5-21:: ¿Qué es más eficaz para prevenir la fatiga? {
+=Varias pausas cortas repartidas a lo largo de la jornada
+~Una sola pausa larga al final del día
+~No hacer pausas y acabar antes
+~Alargar la pausa de la comida
+}
+
+::B5-22:: El principio que explica una buena rutina de estiramientos es... {
+=hacer el movimiento contrario al que se repite en el trabajo
+~estirar siempre los mismos músculos
+~hacer ejercicios de fuerza al acabar la jornada
+~correr diez minutos antes de empezar
+}
+
+::B5-23:: La faja lumbar es un equipo de protección individual que previene las lesiones de espalda. {FALSE#La faja no es un EPI y no está demostrado que prevenga lesiones de espalda. No sustituye a levantar bien.}
+
+::B5-24:: ¿Qué es la carga mental? {
+=El esfuerzo intelectual que exige una tarea\: información, atención y decisiones por unidad de tiempo
+~El peso que soporta la columna al levantar una carga
+~La presión que ejerce el encargado sobre el trabajador
+~El número de tareas asignadas en una jornada
+}
+
+::B5-25:: ¿Qué es la fatiga laboral? {
+=La disminución de la capacidad de respuesta del organismo
+~El dolor muscular después de un esfuerzo
+~La falta de motivación para trabajar
+~El sueño acumulado por los turnos de noche
+}
+
+::B5-26:: ¿Qué diferencia la fatiga normal de la fatiga crónica? {
+=La normal se recupera con descanso y la crónica ya no
+~La normal es física y la crónica es mental
+~La normal la sufren los jóvenes y la crónica los mayores
+~La normal se puede medir y la crónica no
+}
+
+::B5-27:: Señala un síntoma típico de fatiga mental. {
+=Despistes, irritabilidad y errores
+~Dolor muscular y pesadez
+~Calambres en las piernas
+~Enrojecimiento de la piel
+}
+
+::B5-28:: ¿Qué son los factores psicosociales? {
+=Las condiciones de organización del trabajo que afectan a la salud
+~Las relaciones personales fuera del trabajo
+~Las características personales de cada trabajador
+~Las condiciones económicas del sector
+}
+
+::B5-29:: Señala lo que NO es un factor de riesgo psicosocial. {
+=El nivel de iluminación del puesto
+~La falta de autonomía para decidir cómo se trabaja
+~Los turnos rotativos y la nocturnidad
+~La falta de reconocimiento del trabajo
+}
+
+::B5-30:: ¿Qué es el estrés laboral? {
+=El desequilibrio entre lo que el trabajo exige y los recursos de los que dispone la persona
+~El cansancio físico al final de la jornada
+~La tensión propia de trabajar en equipo
+~El miedo a sufrir un accidente
+}
+
+::B5-31:: ¿Qué es el mobbing? {
+=Conductas hostiles repetidas y prolongadas contra una persona para hundirla o forzar su salida
+~Un conflicto puntual con un compañero
+~La presión por cumplir los plazos
+~El trato distante de un superior
+}
+
+::B5-32:: ¿Qué caracteriza al burnout o síndrome del quemado? {
+=Agotamiento emocional, distanciamiento de la gente y sensación de no valer para el trabajo
+~Dolor muscular crónico y pérdida de fuerza
+~Insomnio causado por el ruido
+~Pérdida de memoria por la edad
+}
+
+::B5-33:: ¿Qué relación hay entre la prisa y los accidentes graves? {
+=Muchos accidentes graves ocurren porque alguien tiene prisa, está cansado o lleva demasiadas horas seguidas
+~Ninguna, los accidentes dependen solo de las condiciones técnicas
+~La prisa solo afecta a la calidad del trabajo, no a la seguridad
+~La prisa reduce los accidentes porque aumenta la concentración
+}
+
+::B5-34:: Los gritos y las humillaciones en la obra forman parte del oficio y hay que aguantarlos. {FALSE#Son riesgos laborales reconocidos. Se comunican al delegado de prevención, a la representación sindical o a la Inspección de Trabajo.}
+
+::B5-35:: El riesgo psicosocial se corrige... {
+=cambiando la organización del trabajo, no a la persona
+~formando a los trabajadores para que aguanten mejor
+~seleccionando personal con más resistencia al estrés
+~aumentando el salario
+}
+
+
+$CATEGORY: Temario MPRL/06 Protección y señalización
+
+::B6-01:: ¿Cuál es la diferencia entre prevención y protección? {
+=La prevención actúa sobre la causa y evita el accidente; la protección actúa sobre las consecuencias y reduce el daño
+~La prevención la hace la empresa y la protección el trabajador
+~La prevención es obligatoria y la protección voluntaria
+~No hay diferencia, son sinónimos
+}
+
+::B6-02:: ¿Qué es la protección colectiva? {
+=La que protege a todas las personas expuestas a la vez, sin que tengan que hacer nada
+~La que se entrega a cada trabajador de forma individual
+~La que se aplica solo en obras de más de diez trabajadores
+~La que financia la mutua
+}
+
+::B6-03:: Señala el elemento que NO es protección colectiva. {
+=El arnés anticaídas
+~La barandilla
+~El resguardo de una máquina
+~El interruptor diferencial
+}
+
+::B6-04:: Señala el elemento que SÍ es protección colectiva. {
+=La aspiración localizada de una rozadora
+~Las gafas de protección
+~La mascarilla FFP3
+~El calzado de seguridad
+}
+
+::B6-05:: ¿Por qué la protección colectiva va antes que la individual? {
+=Porque protege a todo el mundo y no depende de que nadie se acuerde de ponérsela
+~Porque es más barata en todos los casos
+~Porque la exige el convenio colectivo
+~Porque no necesita mantenimiento
+}
+
+::B6-06:: ¿Qué lugar ocupa el equipo de protección individual en la jerarquía de medidas? {
+=El último, es la barrera que queda cuando todo lo demás ha fallado
+~El primero, porque es lo más rápido de aplicar
+~El tercero, después de eliminar y sustituir
+~Depende de cada empresa
+}
+
+::B6-07:: ¿Cuál es el primer escalón de la jerarquía de medidas preventivas? {
+=Eliminar el riesgo
+~Sustituir por algo menos peligroso
+~Aplicar medidas técnicas
+~Dar equipos de protección individual
+}
+
+::B6-08:: Ordena correctamente la jerarquía de medidas. {
+=Eliminar, sustituir, medidas técnicas, protección colectiva, medidas organizativas y EPI
+~EPI, protección colectiva, medidas técnicas, sustituir y eliminar
+~Eliminar, EPI, protección colectiva, sustituir y medidas técnicas
+~Medidas organizativas, eliminar, EPI, sustituir y protección colectiva
+}
+
+::B6-09:: ¿Se puede pasar directamente al escalón del EPI sin probar los anteriores? {
+=No, hay que justificar antes que las medidas superiores no son posibles
+~Sí, si el trabajador está de acuerdo
+~Sí, si el EPI es de categoría III
+~Sí, siempre que se forme al trabajador
+}
+
+::B6-10:: Ante el polvo de sílice de una roza, ¿cuál sería una medida de sustitución? {
+=Usar rozadora con corte por vía húmeda en lugar de corte en seco
+~Repartir mascarillas FFP3
+~Ventilar la zona
+~Hacer las rozas cuando no hay nadie más en la obra
+}
+
+::B6-11:: Ante el polvo de sílice de una roza, ¿cuál sería una medida organizativa? {
+=Hacer las rozas cuando no hay otros gremios trabajando y limpiar en húmedo
+~Conectar la rozadora a un aspirador de clase M
+~Usar mascarilla FFP3
+~Sustituir la rozadora por una de vía húmeda
+}
+
+::B6-12:: ¿Qué Real Decreto regula los equipos de protección individual? {
+=El RD 773/1997
+~El RD 1215/1997
+~El RD 486/1997
+~El RD 485/1997
+}
+
+::B6-13:: ¿Qué es un equipo de protección individual? {
+=Cualquier equipo destinado a ser llevado o sujetado por el trabajador para protegerle de uno o varios riesgos
+~Cualquier prenda de la ropa de trabajo
+~El material de seguridad que se instala en la obra
+~Las herramientas aisladas para trabajos eléctricos
+}
+
+::B6-14:: Señala lo que NO es un equipo de protección individual. {
+=La banqueta aislante
+~El casco de seguridad
+~El arnés anticaídas
+~Las gafas de protección
+}
+
+::B6-15:: ¿Cuántas categorías de EPI existen? {#3}
+
+::B6-16:: ¿Qué caracteriza a un EPI de categoría III? {
+=Que protege frente a riesgos muy graves, de muerte o daños irreversibles
+~Que protege frente a riesgos mínimos
+~Que solo lo pueden usar mandos intermedios
+~Que no necesita marcado CE
+}
+
+::B6-17:: Señala el EPI de categoría III. {
+=El arnés anticaídas
+~El casco de seguridad
+~Las gafas de protección
+~El calzado de seguridad
+}
+
+::B6-18:: ¿Qué indican los cuatro dígitos que acompañan al marcado CE de un EPI? {
+=El número del organismo notificado que controla la producción, propio de la categoría III
+~El año de fabricación
+~La talla del equipo
+~El número de la norma EN que cumple
+}
+
+::B6-19:: Un arnés que solo lleva el marcado CE sin los cuatro dígitos es correcto. {FALSE#Un arnés es categoría III y debe llevar el CE seguido de los cuatro dígitos del organismo de control.}
+
+::B6-20:: Un arnés que ha frenado una caída y está aparentemente intacto... {
+=se retira, aunque parezca en perfecto estado
+~se puede seguir usando si pasa la revisión visual
+~se puede usar seis meses más
+~lo decide el propio trabajador
+}
+
+::B6-21:: Los cascos, arneses y guantes aislantes caducan aunque no se hayan usado. {TRUE}
+
+::B6-22:: Señala la obligación que corresponde a la EMPRESA respecto a los EPI. {
+=Proporcionarlos gratuitamente y reponerlos cuando pierdan su eficacia
+~Revisarlos antes de cada uso
+~Guardarlos en su estuche al terminar la jornada
+~Comunicar los defectos que detecte
+}
+
+::B6-23:: Señala la obligación que corresponde al TRABAJADOR respecto a los EPI. {
+=Revisarlos antes de cada uso y comunicar de inmediato cualquier defecto
+~Comprarlos y mantenerlos a su costa
+~Determinar cuáles hacen falta en cada puesto
+~Formar a sus compañeros en su uso
+}
+
+::B6-24:: ¿Qué norma EN cumplen los guantes aislantes de electricidad? {
+=EN 60903
+~EN 388
+~EN 397
+~EN 361
+}
+
+::B6-25:: ¿Hasta qué tensión protegen los guantes aislantes de clase 0? Responde en voltios. {#1000}
+
+::B6-26:: ¿Qué clase de guante aislante es la habitual para trabajos en baja tensión? {
+=La clase 0
+~La clase 00
+~La clase 2
+~La clase 4
+}
+
+::B6-27:: ¿Hasta qué tensión protegen los guantes aislantes de clase 00? Responde en voltios. {#500}
+
+::B6-28:: ¿Por qué se pone un sobreguante de cuero encima del guante aislante? {
+=Para proteger el guante aislante del roce y los enganchones
+~Para mejorar el aislamiento eléctrico
+~Para dar calor en invierno
+~Para poder agarrar mejor las herramientas
+}
+
+::B6-29:: ¿En qué consiste la prueba de inflado de un guante aislante? {
+=Se enrolla el puño para atrapar aire, se presiona y se acerca a la mejilla para detectar fugas
+~Se sumerge en agua y se buscan burbujas
+~Se conecta a un comprobador de tensión
+~Se estira para comprobar su elasticidad
+}
+
+::B6-30:: ¿Cada cuánto se comprueba visualmente un guante aislante? {
+=Antes de cada uso
+~Una vez al mes
+~Una vez cada seis meses
+~Solo cuando se ve deteriorado
+}
+
+::B6-31:: ¿Qué degrada el aislamiento de un guante dieléctrico? {
+=La grasa, los disolventes, el calor y el sol
+~El agua limpia
+~El frío
+~El uso frecuente en baja tensión
+}
+
+::B6-32:: Señala el elemento que es material de seguridad y NO un equipo de protección individual. {
+=La alfombra aislante
+~Los guantes aislantes
+~El casco dieléctrico
+~La pantalla facial frente a arco
+}
+
+::B6-33:: ¿Para qué sirve una pértiga aislante? {
+=Para maniobrar y para separar a una persona electrizada sin tocarla
+~Para medir la tensión de una línea
+~Para sujetar cables en altura
+~Para comprobar la puesta a tierra
+}
+
+::B6-34:: ¿Por qué no debe llevarse ropa sintética debajo de la ropa ignífuga frente a arco eléctrico? {
+=Porque se funde sobre la piel
+~Porque reduce el aislamiento eléctrico
+~Porque da demasiado calor
+~Porque genera electricidad estática
+}
+
+::B6-35:: Los guantes aislantes sustituyen a las cinco reglas de oro cuando hay prisa. {FALSE#No las sustituyen\: son la última barrera por si la consignación ha fallado.}
+
+::B6-36:: ¿Qué Real Decreto regula la señalización de seguridad? {
+=El RD 485/1997
+~El RD 486/1997
+~El RD 487/1997
+~El RD 773/1997
+}
+
+::B6-37:: ¿De qué forma y color es una señal de prohibición? {
+=Redonda, con borde y banda roja sobre fondo blanco y pictograma negro
+~Triangular, con fondo amarillo y borde negro
+~Redonda, con fondo azul y pictograma blanco
+~Rectangular, con fondo rojo y pictograma blanco
+}
+
+::B6-38:: ¿De qué forma y color es una señal de advertencia? {
+=Triangular, fondo amarillo con borde y pictograma negros
+~Redonda, fondo azul y pictograma blanco
+~Redonda con banda roja sobre fondo blanco
+~Rectangular con fondo verde
+}
+
+::B6-39:: ¿De qué forma y color es una señal de obligación? {
+=Redonda, fondo azul y pictograma blanco
+~Triangular, fondo amarillo
+~Redonda con banda roja
+~Rectangular, fondo verde
+}
+
+::B6-40:: ¿De qué forma y color es una señal de salvamento y socorro? {
+=Rectangular o cuadrada, fondo verde y pictograma blanco
+~Rectangular, fondo rojo y pictograma blanco
+~Redonda, fondo azul
+~Triangular, fondo amarillo
+}
+
+::B6-41:: ¿De qué forma y color es una señal de equipos contra incendios? {
+=Rectangular o cuadrada, fondo rojo y pictograma blanco
+~Rectangular, fondo verde
+~Triangular, fondo amarillo
+~Redonda con banda roja sobre fondo blanco
+}
+
+::B6-42:: La señal de riesgo eléctrico es... {
+=triangular y amarilla, porque es una señal de advertencia
+~redonda y azul, porque obliga a protegerse
+~redonda con banda roja, porque prohíbe el acceso
+~rectangular y roja, porque señala un peligro grave
+}
+
+::B6-43:: La señal de uso obligatorio de casco es... {
+=redonda y azul
+~triangular y amarilla
+~rectangular y verde
+~redonda con banda roja
+}
+
+::B6-44:: La señal de la salida de emergencia y la del botiquín son... {
+=rectangulares y verdes
+~rectangulares y rojas
+~triangulares y amarillas
+~redondas y azules
+}
+
+::B6-45:: La señal que indica dónde está el extintor es... {
+=rectangular y roja
+~rectangular y verde
+~triangular y amarilla
+~redonda y azul
+}
+
+::B6-46:: Además de las señales en panel, ¿qué otros tipos de señalización regula el RD 485/1997? {
+=Luminosa, acústica, comunicación verbal y señales gestuales
+~Solo la luminosa y la acústica
+~Únicamente la señalización de vías de circulación
+~Solo las señales en panel
+}
+
+::B6-47:: ¿Qué requisitos debe cumplir el señalista que dirige una maniobra de grúa? {
+=Ver toda la maniobra, ser visible con ropa de alta visibilidad y dedicarse solo a señalizar
+~Tener el carné de operador de grúa
+~Situarse siempre debajo de la carga para verla mejor
+~Comunicarse únicamente por radio
+}
+
+::B6-48:: ¿Qué colores identifican los obstáculos y los bordes con riesgo de choque o caída? {
+=Franjas amarillas y negras, o rojas y blancas, inclinadas 45 grados
+~Franjas azules y blancas
+~Franjas verdes y blancas
+~Color rojo liso
+}
+
+::B6-49:: Poner un cartel de «cuidado, hueco» en lugar de instalar una barandilla es correcto. {FALSE#La señalización no elimina el riesgo, solo informa. No se señaliza lo que se puede eliminar o proteger.}
+
+::B6-50:: ¿Qué problema causa el exceso de señales en un centro de trabajo? {
+=Que al haber demasiadas, no se lee ninguna
+~Que aumenta el coste de mantenimiento
+~Que confunde a los servicios de emergencia
+~Ninguno, cuantas más señales mejor
+}
+
+::B6-51:: Una señal sucia, descolorida o tapada... {
+=es peor que no tener ninguna, porque da información falsa
+~sigue cumpliendo su función
+~solo hay que cambiarla en la revisión anual
+~se puede sustituir por un cartel escrito a mano
+}
+
+::B6-52:: Cuando el trabajo invade la acera o la calzada, la señalización es... {
+=la protección principal del trabajador frente al riesgo de atropello
+~una formalidad exigida por el ayuntamiento
+~responsabilidad exclusiva de la policía local
+~necesaria solo si el trabajo dura más de un día
+}
+
+::B6-53:: ¿Cuándo se baliza un tajo en la vía pública? {
+=Antes de empezar a trabajar, incluso antes de descargar el material
+~Una vez descargado el material y montado el puesto
+~Solo si va a durar más de dos horas
+~Al terminar, para proteger la zona durante la noche
+}
+
+::B6-54:: Una arqueta abierta se puede dejar sola un momento para ir a la furgoneta. {FALSE#Una tapa o arqueta abierta no se deja sola nunca, ni un minuto.}
+
+::B6-55:: ¿Qué norma cumple la ropa de alta visibilidad? {
+=EN ISO 20471
+~EN 60903
+~EN 361
+~EN 397
+}
+
+::B6-56:: ¿Qué clase de ropa de alta visibilidad hace falta en vías con tráfico rápido y de noche? {
+=Clase 3
+~Clase 1
+~Clase 2
+~Cualquiera sirve
+}
+
+::B6-57:: ¿Qué prenda corresponde a la clase 2 de alta visibilidad? {
+=El chaleco
+~Los tirantes
+~La chaqueta o mono completo con mangas
+~El pantalón
+}
+
+::B6-58:: Si trabajan tres personas en la misma instalación consignada, ¿cuántos candados se ponen? {
+=Tres, uno por persona, con un dispositivo múltiple
+~Uno solo, el del jefe de trabajo
+~Ninguno, basta con la señalización
+~Dos, uno al principio y otro al final de la instalación
+}
+
+::B6-59:: ¿Qué datos debe llevar una tarjeta de bloqueo? {
+=Nombre, fecha, hora y motivo
+~Únicamente el texto de prohibido maniobrar
+~El número de la orden de trabajo
+~La firma del encargado y el sello de la empresa
+}
+
+::B6-60:: ¿Dónde debe estar la llave del candado de consignación? {
+=En el bolsillo de la persona que está trabajando
+~Colgada junto al cuadro para que esté a mano
+~En la furgoneta
+~En poder del encargado de la obra
+}
+
+::B6-61:: ¿Por qué etiquetar los circuitos de un cuadro al acabar es una medida de seguridad? {
+=Porque evita que quien abra ese cuadro después tenga que ir probando a ciegas
+~Porque lo exige la compañía eléctrica para dar suministro
+~Porque mejora el aspecto del trabajo terminado
+~Porque permite calcular el consumo de cada circuito
+}
+
+
+$CATEGORY: Temario MPRL/07 Emergencias, vigilancia de la salud y seguridad vial
+
+::B7-01:: ¿Qué es un plan de emergencia? {
+=El documento que organiza los medios humanos y materiales para hacer frente a una emergencia
+~El parte que se rellena después de un accidente
+~El seguro que cubre los daños de un incendio
+~El protocolo de evacuación del ayuntamiento
+}
+
+::B7-02:: ¿A qué cuatro preguntas responde un plan de emergencia? {
+=Qué puede pasar, qué hacemos, quién lo hace y con qué medios
+~Cuándo, dónde, cómo y por qué
+~Quién paga, quién responde, quién avisa y quién evacúa
+~Qué riesgos hay, qué EPI hacen falta, quién los compra y quién los revisa
+}
+
+::B7-03:: ¿Cuáles son los tres grados de emergencia? {
+=Conato de emergencia, emergencia parcial y emergencia general
+~Alarma, alerta y evacuación
+~Leve, grave y muy grave
+~Interna, externa y mixta
+}
+
+::B7-04:: ¿Qué es un conato de emergencia? {
+=Un incidente pequeño que puede controlar el personal del lugar con los medios disponibles
+~Una emergencia que obliga a evacuar todo el edificio
+~Una emergencia que afecta a un solo sector
+~Un simulacro programado
+}
+
+::B7-05:: ¿Qué es lo primero que hay que hacer al detectar una emergencia? {
+=Dar la alarma
+~Intentar apagar el fuego
+~Recoger las pertenencias y salir
+~Llamar al encargado por teléfono
+}
+
+::B7-06:: En una evacuación, ¿qué se hace con los objetos personales? {
+=No se recogen, se deja todo y se sale
+~Se recoge solo el móvil y las llaves
+~Se recoge la mochila si está a mano
+~Se guarda todo en la taquilla antes de salir
+}
+
+::B7-07:: Durante una evacuación se puede usar el ascensor si se va con prisa. {FALSE#Nunca se usan los ascensores en una evacuación.}
+
+::B7-08:: ¿Por qué en una evacuación se camina en lugar de correr? {
+=Porque las caídas en las escaleras causan más heridos que el propio incendio
+~Porque así se ahorra oxígeno
+~Porque lo exige el reglamento del centro
+~Porque el humo se levanta menos
+}
+
+::B7-09:: Si hay humo durante una evacuación, ¿qué hay que hacer? {
+=Agacharse, porque el aire respirable está abajo
+~Correr hacia la salida más cercana
+~Levantar los brazos para que te vean
+~Contener la respiración y avanzar de pie
+}
+
+::B7-10:: ¿Cómo se comprueba si se puede abrir una puerta durante un incendio? {
+=Tocándola con el dorso de la mano; si quema, no se abre
+~Abriéndola despacio y mirando por la rendija
+~Escuchando si se oye el fuego al otro lado
+~Mirando si sale humo por debajo, y si sale, abriéndola rápido
+}
+
+::B7-11:: ¿Por qué no se abandona el punto de reunión? {
+=Porque si falta alguien y no se sabe, los bomberos entran a buscarlo
+~Porque hay que firmar el parte de asistencia
+~Porque lo exige el seguro
+~Porque puede haber una segunda explosión
+}
+
+::B7-12:: ¿Qué es lo primero que hay que decir al llamar al 112? {
+=Dónde ha ocurrido\: dirección exacta y cómo se llega
+~Qué ha pasado, con todo detalle
+~El nombre de quien llama
+~El número de heridos
+}
+
+::B7-13:: Al llamar al 112, ¿cuándo se cuelga? {
+=No se cuelga\: el 112 da instrucciones y decide cuándo termina la llamada
+~En cuanto se ha dado la dirección
+~Cuando se ha dicho el número de heridos
+~Cuando se oye la sirena de la ambulancia
+}
+
+::B7-14:: Al avisar al 112 de un accidente eléctrico, ¿por qué es importante decir que ha habido una descarga? {
+=Porque cambia la respuesta del servicio de emergencias y avisa del riesgo para quien llegue
+~Porque así llegan antes
+~Porque es obligatorio por ley
+~Porque determina quién paga la asistencia
+}
+
+::B7-15:: ¿Qué equipo de emergencia se encarga de avisar y guiar a las personas hacia la salida? {
+=El equipo de alarma y evacuación
+~El equipo de primera intervención
+~El equipo de primeros auxilios
+~El jefe de emergencia
+}
+
+::B7-16:: ¿Qué es la vigilancia de la salud? {
+=El control periódico del estado de salud del trabajador en función de los riesgos de su puesto
+~Un chequeo médico general anual
+~El control de las bajas por enfermedad común
+~La revisión de las condiciones de trabajo por parte de la mutua
+}
+
+::B7-17:: ¿En qué artículo de la Ley 31/1995 se regula la vigilancia de la salud? {#22}
+
+::B7-18:: Señala la característica que NO corresponde a la vigilancia de la salud. {
+=Sus resultados médicos se comunican al encargado
+~Es gratuita y se hace en horario de trabajo
+~Es confidencial
+~Es específica de los riesgos del puesto
+}
+
+::B7-19:: ¿Qué información recibe la empresa del reconocimiento médico de un trabajador? {
+=Solo la conclusión de aptitud\: apto, apto con limitaciones o no apto
+~El diagnóstico médico completo
+~El historial clínico del trabajador
+~Los resultados de todas las pruebas realizadas
+}
+
+::B7-20:: ¿Cuándo deja de ser voluntaria la vigilancia de la salud? {
+=Cuando lo exige una norma para riesgos específicos o cuando el estado de salud puede suponer un peligro para uno mismo o para terceros
+~Cuando el trabajador lleva más de un año en la empresa
+~Cuando el trabajador es menor de edad
+~Cuando lo decide el encargado
+}
+
+::B7-21:: ¿Cuál de estos NO es un tipo de reconocimiento de vigilancia de la salud? {
+=Reconocimiento disciplinario
+~Reconocimiento inicial
+~Reconocimiento periódico
+~Reconocimiento post-ocupacional
+}
+
+::B7-22:: ¿Cuándo se hace un reconocimiento post-ocupacional? {
+=Después de dejar el puesto, si hubo exposición a agentes de efecto diferido como el amianto
+~Al incorporarse al puesto
+~Cada año mientras se ocupa el puesto
+~Al volver de una baja larga
+}
+
+::B7-23:: ¿Qué es un trabajador especialmente sensible? {
+=Aquel que por sus características personales, estado biológico o discapacidad es más vulnerable a un riesgo
+~El que ha sufrido ya un accidente en la empresa
+~El que tiene menos de un año de antigüedad
+~El que trabaja en solitario
+}
+
+::B7-24:: Señala quién es siempre trabajador especialmente sensible. {
+=Los menores de 18 años
+~Los trabajadores con más de 20 años de antigüedad
+~Los trabajadores de empresas subcontratadas
+~Los trabajadores a turnos
+}
+
+::B7-25:: Si el reconocimiento médico da «no apto» para el puesto, lo primero que debe hacer la empresa es... {
+=intentar adaptar el puesto o reubicar a la persona
+~despedir al trabajador
+~darle la baja hasta que se recupere
+~cambiarle el contrato a tiempo parcial
+}
+
+::B7-26:: Una trabajadora embarazada cuyo puesto exige manipular cargas y usar el martillo percutor... {
+=tiene derecho a adaptación del puesto y, si no es posible, a cambio de puesto o suspensión con prestación por riesgo
+~debe coger una baja por enfermedad común
+~puede seguir en el puesto si ella lo acepta por escrito
+~debe ser despedida con indemnización
+}
+
+::B7-27:: ¿Qué es un accidente laboral de tráfico? {
+=Todo accidente de circulación ocurrido con ocasión o por consecuencia del trabajo
+~Cualquier accidente de tráfico que sufra un trabajador
+~El accidente que ocurre solo dentro del recinto de la empresa
+~El accidente de un conductor profesional
+}
+
+::B7-28:: Los accidentes de tráfico son... {
+=la primera causa de muerte por accidente de trabajo en España
+~una causa poco frecuente de accidente laboral
+~la tercera causa, después de la caída de altura y el atrapamiento
+~importantes solo en el sector del transporte
+}
+
+::B7-29:: ¿Cuáles son los cuatro grupos de factores de riesgo vial? {
+=Factor humano, vehículo, vía y entorno, y organización del trabajo
+~Velocidad, alcohol, cansancio y distracción
+~Conductor, pasajeros, carga y carretera
+~Meteorología, tráfico, señalización y firme
+}
+
+::B7-30:: En una frenada de emergencia, ¿por cuánto puede multiplicar su peso un objeto suelto? {#40}
+
+::B7-31:: Una caja de 10 kilos suelta en la parte trasera, en una frenada a 80 km/h, se comporta como un peso de... {
+=unos 400 kilos
+~unos 40 kilos
+~unos 100 kilos
+~unos 20 kilos
+}
+
+::B7-32:: ¿Cómo se estiba correctamente la carga de una furgoneta? {
+=Lo más pesado abajo y contra el mamparo, sujeto con cinchas y nada suelto en la cabina
+~Repartido uniformemente por toda la caja sin sujeción
+~Lo más pesado arriba para que no aplaste el resto
+~Apilado hasta arriba para aprovechar el espacio
+}
+
+::B7-33:: ¿Cómo se transporta una bombona de gas en la furgoneta? {
+=De pie, sujeta y con el vehículo ventilado, nunca tumbada ni en la cabina
+~Tumbada en el suelo para que no vuelque
+~En la cabina, donde se puede vigilar
+~Dentro de una caja cerrada sin ventilación
+}
+
+::B7-34:: ¿Dónde se transporta una escalera de mano en la furgoneta? {
+=En la baca o anclada a los laterales
+~Apoyada en el suelo de la caja, sin sujeción
+~Atravesada sobre la carga
+~Asomando por la puerta trasera abierta
+}
+
+::B7-35:: ¿Qué significa la regla PAS? {
+=Proteger, Avisar y Socorrer
+~Parar, Avisar y Señalizar
+~Proteger, Auxiliar y Salvar
+~Prevenir, Actuar y Sanar
+}
+
+::B7-36:: ¿Dónde hay que ponerse el chaleco reflectante tras un accidente de tráfico? {
+=Dentro del vehículo, antes de bajar
+~Al salir del vehículo, junto a la puerta
+~Detrás de la barrera de protección
+~Solo si es de noche
+}
+
+::B7-37:: Atender una llamada del encargado mientras se conduce es un factor de riesgo... {
+=humano y organizativo a la vez, porque la llamada la hace la empresa
+~exclusivamente humano, depende solo del conductor
+~exclusivamente del vehículo
+~que no afecta a la seguridad si se usa manos libres
+}
+
+
+$CATEGORY: Temario MPRL/08 Primeros auxilios
+
+::B8-01:: ¿Qué son los primeros auxilios? {
+=Las actuaciones inmediatas que se prestan a una persona accidentada en el lugar de los hechos hasta que llega la asistencia sanitaria
+~El tratamiento médico que se aplica en el hospital
+~Las curas que realiza el servicio médico de la empresa
+~El traslado del herido al centro sanitario
+}
+
+::B8-02:: ¿Cuáles son los tres objetivos de los primeros auxilios, por orden? {
+=Salvar la vida, evitar que las lesiones empeoren y aliviar el dolor
+~Aliviar el dolor, curar la herida y trasladar al hospital
+~Avisar, proteger y trasladar
+~Diagnosticar, tratar y evacuar
+}
+
+::B8-03:: En la regla PAS, ¿qué significa la P y por qué es la primera? {
+=Proteger, empezando por uno mismo, porque sin autoprotección habrá dos víctimas
+~Preguntar a la víctima qué le ha pasado
+~Preparar el botiquín antes de actuar
+~Pedir ayuda a los compañeros
+}
+
+::B8-04:: ¿Cuál es la letra de la regla PAS que más se salta la gente? {
+=La P de proteger, porque el instinto es correr hacia la víctima
+~La A de avisar
+~La S de socorrer
+~Ninguna, la secuencia se cumple casi siempre
+}
+
+::B8-05:: En vuestro oficio, proteger significa sobre todo... {
+=cortar la corriente antes de tocar a nadie
+~ponerse los guantes desechables
+~avisar al encargado
+~apartar a los curiosos
+}
+
+::B8-06:: Señala el principio correcto del socorrismo. {
+=No mover al herido salvo que siga en peligro
+~Mover al herido a un lugar cómodo cuanto antes
+~Darle agua para que se reponga
+~Administrarle un analgésico si tiene mucho dolor
+}
+
+::B8-07:: ¿Se puede dar de beber a un accidentado? {FALSE#No se da de comer ni de beber a un herido, y mucho menos medicamentos.}
+
+::B8-08:: Señala lo que NUNCA se debe hacer. {
+=Sacar un objeto clavado
+~Cubrir la herida con gasa estéril
+~Tapar al herido para mantener su temperatura
+~Hablarle aunque parezca inconsciente
+}
+
+::B8-09:: ¿Qué señal indica que un botiquín está correctamente identificado? {
+=Una señal rectangular verde
+~Una señal triangular amarilla
+~Una señal redonda azul
+~Una señal rectangular roja
+}
+
+::B8-10:: ¿Qué es lo primero que se saca del botiquín? {
+=Los guantes desechables
+~Las gasas estériles
+~El antiséptico
+~Las tijeras
+}
+
+::B8-11:: ¿Pueden guardarse medicamentos en el botiquín de una empresa? {FALSE#En el botiquín de empresa no puede haber medicación\: administrarla no es un primer auxilio y puede enmascarar síntomas.}
+
+::B8-12:: ¿Para qué sirve el algodón hidrófilo del botiquín? {
+=Para limpiar la piel de alrededor, nunca sobre la herida
+~Para taponar la herida directamente
+~Para sujetar el vendaje
+~Para secar el suero sobrante de la herida
+}
+
+::B8-13:: ¿Dónde NO debe guardarse un botiquín? {
+=En el baño o cerca de una fuente de calor
+~En un armario del taller a la vista
+~Junto a la salida principal
+~En la furgoneta de trabajo
+}
+
+::B8-14:: ¿Cuáles son las dos preguntas de la valoración primaria? {
+=¿Está consciente? y ¿respira?
+~¿Sangra? y ¿tiene pulso?
+~¿Dónde le duele? y ¿qué ha pasado?
+~¿Tiene fracturas? y ¿puede moverse?
+}
+
+::B8-15:: ¿Cómo se comprueba la consciencia de una persona? {
+=Hablándole en voz alta y sacudiéndola suavemente por los hombros
+~Tomándole el pulso en el cuello
+~Acercándole un espejo a la boca
+~Pellizcándole el brazo con fuerza
+}
+
+::B8-16:: ¿Cómo se llama la maniobra de apertura de la vía aérea? {=frente-mentón =frente menton =frente-menton =maniobra frente-mentón =frente y mentón}
+
+::B8-17:: ¿Por qué hay que abrir la vía aérea en una persona inconsciente? {
+=Porque la lengua cae hacia atrás y obstruye la garganta
+~Porque hay que comprobar si hay objetos en la boca
+~Porque así se estimula la respiración
+~Porque facilita tomar el pulso
+}
+
+::B8-18:: ¿Cuántos segundos se comprueba la respiración? {#10}
+
+::B8-19:: ¿En qué consiste la técnica ver-oír-sentir? {
+=Ver si el pecho sube, oír el aire acercando la oreja a su boca y sentir el aire en la mejilla
+~Ver el color de la piel, oír si habla y sentir el pulso
+~Ver las pupilas, oír los latidos y sentir la temperatura
+~Ver si hay heridas, oír si se queja y sentir si hay fracturas
+}
+
+::B8-20:: Las bocanadas agónicas, ruidosas y aisladas, indican que la persona respira con normalidad. {FALSE#No son respiración normal. Ante la duda hay que actuar como si no respirara e iniciar la RCP.}
+
+::B8-21:: Si una persona está inconsciente y respira, ¿qué hay que hacer? {
+=Colocarla en posición lateral de seguridad y avisar al 112
+~Iniciar la reanimación cardiopulmonar
+~Sentarla y darle agua
+~Dejarla boca arriba y taparla
+}
+
+::B8-22:: Si una persona está inconsciente y no respira, ¿qué hay que hacer? {
+=Llamar al 112 e iniciar la reanimación cardiopulmonar
+~Colocarla en posición lateral de seguridad
+~Darle golpes en la espalda
+~Elevarle las piernas y esperar
+}
+
+::B8-23:: ¿Para qué sirve la posición lateral de seguridad? {
+=Para que, si vomita, no se ahogue, y para que la lengua no obstruya la vía aérea
+~Para facilitar las compresiones torácicas
+~Para reducir la hemorragia
+~Para mantener la temperatura corporal
+}
+
+::B8-24:: ¿Cuándo NO se debe usar la posición lateral de seguridad? {
+=Cuando se sospecha lesión de columna, salvo que sea imprescindible para que respire
+~Cuando la persona está inconsciente
+~Cuando ha sufrido una quemadura
+~Cuando hay más de un herido
+}
+
+::B8-25:: ¿Cuántas compresiones y cuántas insuflaciones tiene un ciclo de RCP? {
+=30 compresiones y 2 insuflaciones
+~15 compresiones y 2 insuflaciones
+~30 compresiones y 5 insuflaciones
+~10 compresiones y 1 insuflación
+}
+
+::B8-26:: ¿Cuántas compresiones por minuto hay que hacer en una RCP? {
+=Entre 100 y 120
+~Entre 50 y 60
+~Entre 150 y 180
+~Las que se puedan, sin ritmo fijo
+}
+
+::B8-27:: ¿Cuántos centímetros debe hundirse el pecho en cada compresión? {
+=Entre 5 y 6
+~Entre 1 y 2
+~Entre 10 y 12
+~Lo justo para notar resistencia
+}
+
+::B8-28:: ¿Dónde se colocan las manos para las compresiones torácicas? {
+=En el centro del pecho, en la mitad inferior del esternón
+~Sobre el costado izquierdo, encima del corazón
+~En la parte alta del esternón
+~Sobre el abdomen, encima del ombligo
+}
+
+::B8-29:: ¿Cómo deben estar los brazos al hacer las compresiones? {
+=Rectos, con los hombros sobre las manos, empujando con el peso del cuerpo
+~Doblados, para controlar mejor la fuerza
+~Uno recto y otro doblado
+~Con los codos pegados al cuerpo
+}
+
+::B8-30:: Si sois varios haciendo la RCP, ¿cada cuánto hay que relevarse? {
+=Cada 2 minutos
+~Cada 10 minutos
+~Cada 30 segundos
+~No hace falta relevarse
+}
+
+::B8-31:: Si no te ves capaz de dar las insuflaciones, lo correcto es... {
+=hacer solo compresiones, sin parar
+~no hacer nada y esperar a la ambulancia
+~hacer solo las insuflaciones
+~hacer compresiones más profundas para compensar
+}
+
+::B8-32:: ¿Quién puede usar un desfibrilador externo automático? {
+=Cualquier persona, porque el aparato indica paso a paso qué hacer
+~Solo personal sanitario
+~Solo quien tenga el curso de socorrismo
+~Solo el jefe de emergencia del centro
+}
+
+::B8-33:: ¿Puede un desfibrilador externo automático dañar a alguien por error? {
+=No, porque analiza el ritmo y solo permite la descarga si hace falta
+~Sí, por eso solo lo usa personal sanitario
+~Sí, si se colocan mal los parches
+~Sí, si la persona está consciente
+}
+
+::B8-34:: Durante el análisis y la descarga del desfibrilador... {
+=nadie debe tocar a la víctima
+~hay que seguir con las compresiones
+~hay que sujetar a la víctima por los hombros
+~hay que retirar los parches
+}
+
+::B8-35:: ¿Cuál es el orden correcto para curar una herida leve? {
+=Guantes, lavar con agua o suero, desinfectar y cubrir con gasa estéril
+~Desinfectar, lavar, secar y cubrir con algodón
+~Cubrir con gasa, desinfectar por encima y vendar
+~Aplicar pomada, cubrir y vendar
+}
+
+::B8-36:: Señala el caso en que una herida se considera grave. {
+=Cuando tiene un objeto clavado
+~Cuando mide menos de un centímetro
+~Cuando está en el antebrazo
+~Cuando sangra los primeros segundos
+}
+
+::B8-37:: ¿Cómo se controla una hemorragia? {
+=Con presión directa sobre la herida, sin levantar la gasa para mirar
+~Levantando la gasa cada poco para comprobar si ha parado
+~Con un torniquete desde el primer momento
+~Lavando la herida a chorro hasta que pare
+}
+
+::B8-38:: Si la gasa se empapa de sangre, ¿qué hay que hacer? {
+=Poner otra encima sin retirar la primera
+~Quitar la empapada y poner una limpia
+~Aflojar la presión para que no se acumule
+~Cambiar la gasa por un torniquete
+}
+
+::B8-39:: ¿Cuándo se justifica un torniquete? {
+=En amputación o hemorragia masiva de un miembro que no se controla con presión directa
+~En cualquier hemorragia abundante
+~En una herida profunda en el antebrazo
+~Cuando la persona empieza a marearse
+}
+
+::B8-40:: Una vez colocado un torniquete... {
+=se anota la hora y no se afloja nunca; solo lo retira el personal sanitario
+~se afloja cada diez minutos para que circule la sangre
+~se retira en cuanto deja de sangrar
+~se cubre con una venda para que no se vea
+}
+
+::B8-41:: ¿Con qué NO se debe improvisar un torniquete? {
+=Con un cable o una brida, porque son estrechos y cortan
+~Con una venda ancha
+~Con un cinturón ancho
+~Con una tira de tela doblada
+}
+
+::B8-42:: ¿Cómo se actúa ante una hemorragia nasal? {
+=Sentado, con la cabeza ligeramente hacia delante y presionando la fosa 10 minutos seguidos
+~Tumbado con la cabeza hacia atrás
+~De pie, con hielo en la nuca y la cabeza atrás
+~Taponando la nariz con algodón y siguiendo la actividad
+}
+
+::B8-43:: Si sale sangre por el oído después de un golpe en la cabeza, ¿qué hay que hacer? {
+=No taponar nunca, tumbar del lado que sangra y avisar al 112
+~Taponar con una gasa estéril
+~Sentar a la persona con la cabeza recta
+~Lavar el oído con suero fisiológico
+}
+
+::B8-44:: ¿Qué caracteriza a una quemadura de segundo grado? {
+=La aparición de ampollas
+~El enrojecimiento sin ampollas
+~La piel blanquecina y acartonada
+~La ausencia total de dolor
+}
+
+::B8-45:: ¿Por qué una quemadura de tercer grado no duele? {
+=Porque las terminaciones nerviosas están destruidas
+~Porque el cuerpo libera analgésicos naturales
+~Porque afecta solo a la capa más superficial
+~Porque la piel queda anestesiada por el frío
+}
+
+::B8-46:: Que una quemadura no duela es señal de que es leve. {FALSE#Es justo lo contrario\: la ausencia de dolor indica tercer grado y por tanto gravedad.}
+
+::B8-47:: ¿Cómo se estima la extensión de una quemadura de forma rápida? {
+=Con la regla de los nueve, o contando que la palma de la mano de la víctima es el uno por ciento
+~Midiendo con una cinta métrica
+~Contando el número de ampollas
+~Comparando con una fotografía de referencia
+}
+
+::B8-48:: ¿Cómo se trata una quemadura leve? {
+=Con agua fría o templada a chorro suave durante 10 a 20 minutos
+~Con hielo directo durante 5 minutos
+~Con pomada y vendaje apretado
+~Con pasta de dientes para calmar el escozor
+}
+
+::B8-49:: ¿Por qué no se aplica agua fría sobre una quemadura muy extensa? {
+=Por el riesgo de hipotermia
+~Porque aumenta el dolor
+~Porque arrastra la piel dañada
+~Porque favorece la infección
+}
+
+::B8-50:: ¿Qué se hace con la ropa pegada a la piel en una quemadura? {
+=No se quita, se recorta alrededor
+~Se arranca rápido para que duela menos
+~Se moja con agua y se despega despacio
+~Se corta con tijeras a ras de la piel quemada
+}
+
+::B8-51:: Señala lo que NUNCA se aplica sobre una quemadura. {
+=Pomadas, pasta de dientes, aceite o hielo directo
+~Agua a temperatura ambiente
+~Una gasa estéril húmeda
+~Un apósito limpio
+}
+
+::B8-52:: ¿Se deben reventar las ampollas de una quemadura? {FALSE#No se revientan\: la ampolla protege de la infección.}
+
+::B8-53:: ¿Cómo se actúa ante una quemadura química? {
+=Lavando con agua abundante 15 o 20 minutos y retirando la ropa impregnada
+~Neutralizando el producto con otro de efecto contrario
+~Cubriendo con gasa seca sin lavar
+~Aplicando pomada y vendaje
+}
+
+::B8-54:: ¿Qué hay que llevar al hospital junto a una persona con quemadura química? {
+=El envase del producto o su ficha de datos de seguridad
+~La factura de compra del producto
+~El parte de accidente firmado
+~Una muestra del producto en un bote
+}
+
+::B8-55:: ¿Por qué engaña una quemadura eléctrica? {
+=Porque por fuera solo se ven dos marcas pequeñas y por dentro el daño puede ser enorme
+~Porque duele mucho aunque sea superficial
+~Porque tarda días en aparecer
+~Porque se confunde con una quemadura térmica
+}
+
+::B8-56:: Si alguien ha sufrido una descarga eléctrica pero dice que está bien... {
+=va al hospital igualmente, porque puede haber arritmias horas después
+~puede seguir trabajando si no tiene marcas
+~basta con vigilarlo el resto de la jornada
+~solo va al médico si aparece dolor
+}
+
+::B8-57:: ¿Cuántas marcas se buscan siempre en una quemadura eléctrica? {#2}
+
+::B8-58:: ¿Qué es un esguince? {
+=Una distensión o rotura de los ligamentos de una articulación
+~La salida del hueso de la articulación
+~La rotura de un hueso
+~Un golpe sin rotura de piel
+}
+
+::B8-59:: ¿Qué es una luxación? {
+=La salida del hueso de la articulación
+~La rotura de los ligamentos
+~La rotura del hueso
+~La inflamación de un tendón
+}
+
+::B8-60:: ¿Qué significa el método RICE? {
+=Reposo, hielo, compresión y elevación
+~Reposo, inmovilización, calor y estiramiento
+~Revisar, inmovilizar, cubrir y evacuar
+~Reposo, infiltración, compresión y ejercicio
+}
+
+::B8-61:: ¿Cómo se aplica el hielo en el método RICE? {
+=Envuelto en un paño, nunca directo sobre la piel, durante 15 o 20 minutos
+~Directamente sobre la piel para que enfríe más
+~Durante una hora seguida
+~Alternándolo con calor cada cinco minutos
+}
+
+::B8-62:: ¿Qué se hace ante una luxación o una fractura? {
+=Se inmoviliza en la posición en que está, sin intentar recolocar nada
+~Se recoloca el hueso con cuidado antes de inmovilizar
+~Se aplica calor y se venda con fuerza
+~Se sienta a la persona y se le da un analgésico
+}
+
+::B8-63:: Al inmovilizar una lesión, ¿qué hay que inmovilizar? {
+=La articulación de arriba y la de abajo de la zona lesionada
+~Solo el punto exacto de la lesión
+~Todo el miembro, de un extremo a otro
+~La articulación más cercana únicamente
+}
+
+::B8-64:: Después de colocar una férula o un vendaje, ¿qué hay que comprobar? {
+=Que los dedos mantienen color y sensibilidad normales
+~Que el vendaje esté bien apretado y no se mueva
+~Que la persona pueda mover la articulación
+~Que no se vea la herida
+}
+
+::B8-65:: Si se sospecha lesión de columna, ¿qué se hace? {
+=No se mueve a la persona, se le sujeta la cabeza en posición neutra y se espera al 112
+~Se la coloca en posición lateral de seguridad
+~Se la sienta con la espalda apoyada
+~Se la traslada en coche al hospital
+}
+
+::B8-66:: ¿Qué se hace ante una fractura abierta? {
+=Cubrir la herida con gasa estéril sin presionar sobre el hueso y después inmovilizar
+~Empujar el hueso hacia dentro y vendar
+~Lavar a chorro la herida y el hueso
+~Inmovilizar sin cubrir la herida
+}
+
+::B8-67:: Si alguien se atraganta pero tose con fuerza, habla y respira, ¿qué hay que hacer? {
+=Animarle a toser y no hacer nada más
+~Darle cinco golpes en la espalda inmediatamente
+~Hacerle la maniobra de Heimlich
+~Meterle los dedos en la boca para sacar el objeto
+}
+
+::B8-68:: Si alguien no puede hablar ni toser y se lleva las manos al cuello, ¿qué hay que hacer? {
+=5 golpes interescapulares y, si no sale, 5 compresiones abdominales, alternando
+~Animarle a toser
+~Darle agua para ayudar a tragar
+~Tumbarlo e iniciar la RCP
+}
+
+::B8-69:: ¿Cómo se llama la maniobra de compresiones abdominales? {=Heimlich =maniobra de Heimlich =heimlich}
+
+::B8-70:: Si la persona atragantada pierde el conocimiento, ¿qué hay que hacer? {
+=Tumbarla, avisar al 112 e iniciar la RCP
+~Seguir con los golpes en la espalda
+~Sentarla e inclinarla hacia delante
+~Colocarla en posición lateral de seguridad
+}
+
+::B8-71:: Después de una maniobra de Heimlich efectiva, ¿hace falta ir al médico? {TRUE#Sí, porque las compresiones pueden causar lesiones internas.}
+
+::B8-72:: Ante una persona electrizada, ¿qué es lo primero? {
+=No tocarla y cortar la corriente
+~Separarla del cable con las manos lo más rápido posible
+~Comprobar si respira
+~Llamar al 112 antes de hacer nada más
+}
+
+::B8-73:: Si no se puede cortar la corriente, ¿con qué se separa a la persona del conductor? {
+=Con un elemento aislante y seco, como una pértiga o una tabla de madera seca
+~Con una barra metálica larga
+~Con un palo de madera mojado
+~Tirando de su ropa con guantes de trabajo
+}
+
+::B8-74:: ¿Qué se hace ante una persona electrizada por una línea de alta tensión? {
+=No se intenta nada\: distancia de seguridad, avisar a la compañía eléctrica y al 112
+~Se la separa con una pértiga aislante
+~Se corta la corriente desde el cuadro más cercano
+~Se la arrastra con una cuerda seca
+}
+
+::B8-75:: ¿Por qué en alta tensión ni siquiera se puede acercar uno con pértiga? {
+=Por el riesgo de arco eléctrico y de tensión de paso en el suelo
+~Porque la pértiga no es lo bastante larga
+~Porque hay que esperar a la autorización del encargado
+~Porque la corriente continua no se puede interrumpir
+}
+
+
+$CATEGORY: Temario MPRL/09 Cifras clave y casos prácticos
+
+// --- Cálculos y cifras ---
+
+::C-01:: Una persona con las manos secas tiene 5.000 ohmios de resistencia y toca un conductor a 230 V. Calcula la intensidad que la atraviesa, en miliamperios. {#46}
+
+::C-02:: Una persona con las manos sudadas tiene 2.000 ohmios de resistencia y toca un conductor a 230 V. Calcula la intensidad en miliamperios. {#115}
+
+::C-03:: Una persona con las manos mojadas tiene 1.000 ohmios de resistencia y toca un conductor a 230 V. Calcula la intensidad en miliamperios. {#230}
+
+::C-04:: Una persona empapada en un sótano inundado tiene 500 ohmios de resistencia y toca un conductor a 230 V. Calcula la intensidad en miliamperios. {#460}
+
+::C-05:: Con las manos secas y 5.000 ohmios de resistencia a 230 V se obtienen 46 mA. Sabiendo que a partir de 50 mA hay fibrilación, ¿qué conclusión se saca? {
+=Que incluso en el mejor de los casos 230 V pueden matar
+~Que con las manos secas no hay ningún riesgo
+~Que la baja tensión nunca es peligrosa
+~Que el interruptor diferencial no es necesario
+}
+
+::C-06:: El punto de desembarco está a 6 metros de altura. ¿A qué distancia de la pared debe quedar la base de la escalera? Responde en metros. {#1.5:0.1}
+
+::C-07:: El punto de desembarco está a 2,40 metros. ¿A qué distancia debe quedar la base de la escalera? Responde en metros. {#0.6:0.05}
+
+::C-08:: Una escalera debe llegar a un punto de apoyo situado a 3 metros y sobresalir lo reglamentario. ¿Cuántos metros debe sobresalir por encima de ese punto? {#1}
+
+::C-09:: Tienes que mover una bobina de cable que pesa 32 kilos. ¿Cuántas personas como mínimo deben levantarla? {#2}
+
+::C-10:: Una caja de mecanismos pesa 12 kilos y va suelta en la furgoneta. En una frenada de emergencia, ¿a qué peso equivale aproximadamente? Responde en kilos. {#480}
+
+::C-11:: El sonómetro marca 88 dB(A) en la zona de corte. ¿Es obligatorio el protector auditivo? {TRUE#A partir de 85 dB(A) el uso de protectores es obligatorio.}
+
+::C-12:: El sonómetro marca 82 dB(A) en el almacén. ¿Qué obligación tiene la empresa? {
+=Informar, formar y ofrecer protectores auditivos
+~Nada, está por debajo del primer umbral
+~Exigir el uso obligatorio de protectores
+~Cerrar la zona y señalizarla en rojo
+}
+
+::C-13:: Una máquina emite 85 dB(A) y se sustituye por otra de 82 dB(A). ¿Qué se ha conseguido? {
+=Reducir a la mitad la energía sonora
+~Reducir un tres por ciento el ruido
+~Una mejora apenas apreciable
+~Triplicar la protección del trabajador
+}
+
+::C-14:: El luxómetro marca 180 lux sobre el banco donde se montan cuadros. ¿Cumple el mínimo exigible? {FALSE#Para exigencias visuales altas hacen falta 500 lux. Con 180 no se cumple.}
+
+::C-15:: El luxómetro marca 120 lux en un pasillo de paso habitual. ¿Cumple el mínimo exigible? {TRUE#El mínimo para zonas de paso habituales es de 100 lux.}
+
+::C-16:: La palma de la mano de la víctima equivale aproximadamente a qué porcentaje de su superficie corporal. Escribe solo el número. {#1}
+
+::C-17:: Estás haciendo la RCP tú solo y llevas dos minutos. ¿Qué debes hacer? {
+=Seguir sin parar hasta agotarte o hasta que llegue la ayuda, porque no hay nadie para relevarte
+~Parar dos minutos para descansar y reanudar
+~Cambiar a insuflaciones solamente
+~Detener la RCP y esperar a la ambulancia
+}
+
+::C-18:: En una RCP haces 30 compresiones y 2 insuflaciones. ¿Cuántas compresiones habrás hecho después de 4 ciclos completos? {#120}
+
+// --- Casos prácticos ---
+
+::C-19:: Es tu primer día. Te mandan a pasar cable por una bandeja a 4 metros sin haberte dado ninguna formación. ¿Qué puedes hacer? {
+=Negarte y pedir la formación, porque tienes derecho a información y formación antes de empezar
+~Empezar igualmente y aprender sobre la marcha
+~Empezar solo si te dan un arnés
+~Pedir que te acompañe un compañero y empezar
+}
+
+::C-20:: Tus guantes aislantes están agrietados y el encargado te dice que tires con esos hasta mañana. ¿Qué haces? {
+=Te niegas a trabajar en tensión con ellos y pides reposición\: es un riesgo grave e inminente
+~Los usas con cuidado hasta que lleguen los nuevos
+~Los usas poniéndote dos pares
+~Los cambias por unos guantes de trabajo de cuero
+}
+
+::C-21:: La empresa te convoca a un curso de prevención de 8 horas un sábado, sin pagar. ¿Es legal? {FALSE#La formación debe darse en horario de trabajo o compensarse, y su coste no puede recaer sobre el trabajador.}
+
+::C-22:: Un compañero ha quitado la carcasa de la radial «porque así corta mejor». ¿Qué haces? {
+=No usas la máquina y lo comunicas
+~La usas con más cuidado
+~Vuelves a montar la carcasa y sigues trabajando sin decir nada
+~Se lo dices a él y si insiste, la usas igual
+}
+
+::C-23:: Estás en una acera con una arqueta abierta y tienes que ir un momento a la furgoneta. ¿Qué haces? {
+=No dejas la arqueta sola\: la tapas o se queda un compañero vigilando
+~La rodeas con dos conos y vas rápido
+~Vas corriendo, son solo treinta segundos
+~Pones un cartel de advertencia y vas
+}
+
+::C-24:: Un auxiliar trabaja en un sótano encharcado con un taladro cuyo cable tiene un empalme con cinta aislante. Se apoya en una tubería y recibe una descarga. ¿Qué tipo de contacto es? {
+=Contacto indirecto, porque la carcasa se ha puesto en tensión por el aislamiento dañado
+~Contacto directo, porque ha tocado un conductor
+~Arco eléctrico
+~Tensión de paso
+}
+
+::C-25:: Un instalador acerca una barra metálica de 3 metros a una línea aérea de media tensión sin llegar a tocarla, y se produce un destello. ¿Qué ha ocurrido? {
+=Un arco eléctrico
+~Un contacto directo
+~Un contacto indirecto
+~Una descarga estática
+}
+
+::C-26:: Tienes que hacer rozas toda la mañana en un tabique de ladrillo. Señala la medida de mayor nivel en la jerarquía. {
+=Comprobar si el trazado se puede llevar por canal de superficie o falso techo, y no hacer la roza
+~Conectar la rozadora a un aspirador
+~Ponerte mascarilla FFP3
+~Ventilar la estancia
+}
+
+::C-27:: Hay que montar 40 luminarias a 5 metros de altura. Señala la medida de protección colectiva. {
+=Balizar la zona inferior para que nadie pase por debajo
+~Ponerse el arnés anticaídas
+~Usar casco con barboquejo
+~Hacer pausas para descansar los hombros
+}
+
+::C-28:: Tienes que abrir arquetas en una calle con tráfico. ¿Qué ropa de alta visibilidad corresponde? {
+=Clase 2 como mínimo, y clase 3 si es de noche o hay tráfico rápido
+~Clase 1, con tirantes
+~No hace falta si se balizan los conos
+~Cualquiera, todas protegen igual
+}
+
+::C-29:: Un compañero cae inconsciente dentro de una arqueta profunda. Escribe qué es lo PRIMERO que hay que hacer. {
+=No bajar y llamar al 112, impidiendo que baje nadie más
+~Bajar rápido y sacarlo antes de que sea tarde
+~Bajar con una cuerda atada a la cintura
+~Echar agua para reanimarlo desde fuera
+}
+
+::C-30:: Se incendia el cuadro eléctrico del taller, con tensión. ¿Qué haces? {
+=Cortas la corriente si puedes hacerlo sin riesgo y usas CO2 o polvo ABC
+~Usas el extintor de agua que está más cerca
+~Echas espuma para sofocarlo
+~Tapas el cuadro con una manta húmeda
+}
+
+::C-31:: Se incendia la freidora de la cocina del comedor. ¿Qué NO se debe hacer bajo ningún concepto? {
+=Echar agua
+~Usar una manta ignífuga
+~Usar un extintor específico de clase F
+~Cortar el suministro eléctrico de la freidora
+}
+
+::C-32:: Arde la manguera del equipo de soldadura conectado a una bombona de propano. ¿Qué es lo primero? {
+=Cerrar la válvula de la bombona
+~Descargar el extintor sobre las llamas
+~Retirar la bombona del fuego con las manos
+~Enfriar la bombona con agua
+}
+
+::C-33:: Un compañero se ha caído de una escalera, está consciente y se queja del cuello y de la espalda. ¿Qué haces? {
+=No lo mueves, le dices que no se mueva, le sujetas la cabeza y avisas al 112
+~Lo colocas en posición lateral de seguridad
+~Lo sientas con la espalda apoyada en la pared
+~Lo llevas en la furgoneta al centro de salud
+}
+
+::C-34:: Alguien se ha salpicado disolvente en un ojo. ¿Qué haces? {
+=Lavas con agua abundante 15 o 20 minutos, del ojo sano al afectado, y llevas la ficha de datos de seguridad al hospital
+~Lo tapas con una gasa seca y lo llevas al médico
+~Le echas suero fisiológico dos o tres veces
+~Le aplicas un colirio del botiquín
+}
+
+::C-35:: Un compañero recibe una descarga en un cuadro y queda agarrado al conductor. Sobre la mesa tienes una barra metálica, un listón de madera mojado y un listón de madera seco. ¿Qué usas? {
+=Ninguno de entrada\: primero cortar la corriente; si no se puede, el listón de madera seco
+~La barra metálica, porque es la más larga
+~El listón mojado, porque la humedad aísla
+~Cualquiera de los tres sirve si vas rápido
+}
+
+::C-36:: Estás solo y encuentras a una persona inconsciente que no respira. Ordena correctamente tu actuación. {
+=Protejo la zona, llamo al 112 con el manos libres e inicio la RCP
+~Inicio la RCP y llamo al 112 cuando me canse
+~Lo coloco en posición lateral de seguridad y llamo al 112
+~Le doy dos insuflaciones y salgo a buscar ayuda
+}
+
+::C-37:: Trabajas en una obra y un compañero lleva toda la semana llamándote por un apodo humillante delante de los demás. ¿Qué es y qué puedes hacer? {
+=Es una conducta de acoso si se repite y se prolonga, y se comunica al delegado de prevención o a la representación sindical
+~Es una broma habitual del sector y hay que aguantarla
+~Es un problema personal entre vosotros, sin relación con la prevención
+~Solo se puede denunciar si hay agresión física
+}
+
+::C-38:: Tu reconocimiento médico concluye «apto con limitaciones para trabajos en altura». ¿Qué sabe la empresa? {
+=Solo esa conclusión de aptitud, nunca el diagnóstico médico
+~El diagnóstico completo y las pruebas realizadas
+~Nada, el resultado es únicamente para el trabajador
+~El diagnóstico solo si lo pide por escrito
+}
+
+::C-39:: Eres menor de 18 años y te mandan acompañar a un oficial para trabajar en un cuadro en tensión. ¿Qué ocurre? {
+=No puedes\: los menores tienen prohibidos los trabajos con riesgo eléctrico en tensión y son trabajadores especialmente sensibles
+~Puedes, si el oficial te supervisa en todo momento
+~Puedes, si llevas guantes aislantes de clase 0
+~Puedes, si firmas una autorización
+}
+
+::C-40:: Después de todo el curso, ¿cuál es la idea que resume la prevención? {
+=Los accidentes tienen causas, y las causas se pueden quitar
+~Los accidentes son inevitables y hay que estar preparado
+~La seguridad depende de la suerte y de la experiencia
+~La prevención es una obligación burocrática de la empresa
+}

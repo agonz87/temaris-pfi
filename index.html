@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Temarios de PFI &middot; Institut de Lli&ccedil;&agrave;</title>
+<style>
+:root{
+  --tinta:#1c2024; --tinta-suave:#4a545e; --papel:#ffffff; --fondo:#eef1f4;
+  --azul:#14508c; --azul-claro:#e7effa; --ambar:#9c5c00; --ambar-claro:#fdf3e0;
+  --rojo:#b3261e; --rojo-claro:#fdeceb; --verde:#1d6b45; --verde-claro:#e8f5ee;
+  --morado:#5d3d8e; --morado-claro:#f4f1fa; --linea:#d4dae0;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fondo);color:var(--tinta);
+  font-family:"Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+
+/* ---------- Cabecera ---------- */
+.cabecera{background:var(--papel);border-bottom:4px solid var(--azul);
+  box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.cabecera .interior{max-width:1180px;margin:0 auto;padding:26px 26px 30px}
+.marca{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.marca img{height:82px;width:auto;display:block;mix-blend-mode:multiply}
+.marca .centro{border-left:1px solid var(--linea);padding-left:18px}
+.marca .centro b{display:block;font-size:15.5px;letter-spacing:.2px}
+.marca .centro span{display:block;font-size:12.5px;color:var(--tinta-suave);
+  text-transform:uppercase;letter-spacing:1.1px;margin-top:2px}
+
+.cabecera h1{font-size:35px;margin:26px 0 6px;line-height:1.15;letter-spacing:-.4px}
+.cabecera .lema{margin:0;font-size:16.5px;color:var(--tinta-suave)}
+
+.perfiles{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.perfil{flex:1 1 320px;background:var(--fondo);border:1px solid var(--linea);
+  border-radius:9px;padding:13px 17px;display:flex;gap:13px;align-items:flex-start}
+.perfil .cod{background:var(--azul);color:#fff;font-weight:700;font-size:11.5px;letter-spacing:.7px;
+  padding:4px 9px;border-radius:5px;white-space:nowrap;margin-top:1px}
+.perfil.b .cod{background:var(--verde)}
+.perfil b{display:block;font-size:14.2px;line-height:1.35}
+.perfil span{display:block;font-size:12.3px;color:var(--tinta-suave);margin-top:2px}
+
+/* ---------- Resumen global ---------- */
+.resumen{max-width:1180px;margin:22px auto 0;padding:0 26px}
+.resumen .caja{background:var(--papel);border:1px solid var(--linea);border-radius:10px;
+  padding:16px 22px;display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.resumen .tit{font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.9px;
+  color:var(--tinta-suave)}
+.resumen .num{font-size:25px;font-weight:700;color:var(--azul);line-height:1}
+.resumen .pct{font-size:16px;font-weight:700;color:var(--verde)}
+.resumen .barra{flex:1;min-width:200px;height:12px;border-radius:6px;background:var(--fondo);
+  border:1px solid var(--linea);overflow:hidden}
+.resumen .barra i{display:block;height:100%;border-radius:6px;transition:width .35s;
+  background:linear-gradient(90deg,var(--azul),var(--verde))}
+.resumen .aviso{width:100%;font-size:12.5px;color:var(--tinta-suave);font-style:italic;margin:0}
+
+/* ---------- Secciones y rejilla ---------- */
+main{max-width:1180px;margin:0 auto;padding:30px 26px 70px}
+.grupo{margin-top:34px}
+.grupo > h2{font-size:13px;text-transform:uppercase;letter-spacing:1.3px;color:var(--azul);
+  margin:0 0 4px;font-weight:700}
+.grupo > p{margin:0 0 18px;font-size:14.2px;color:var(--tinta-suave)}
+.rejilla{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:22px}
+
+/* ---------- Tarjeta ---------- */
+.tarjeta{background:var(--papel);border:1px solid var(--linea);border-radius:12px;
+  overflow:hidden;display:flex;flex-direction:column;
+  box-shadow:0 1px 3px rgba(0,0,0,.05);transition:box-shadow .18s,transform .18s,border-color .18s}
+.tarjeta:hover{box-shadow:0 8px 22px rgba(20,80,140,.16);transform:translateY(-3px);
+  border-color:#b9c7d6}
+.t-link{display:block;color:inherit;text-decoration:none}
+.t-link svg{display:block;width:100%;height:auto}
+.t-cuerpo{padding:17px 20px 15px}
+.t-meta{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:9px}
+.t-cod{color:#fff;font-weight:700;font-size:11.5px;letter-spacing:.7px;padding:3px 9px;border-radius:4px}
+.t-perfil{font-size:10.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;
+  color:var(--tinta-suave);border:1px solid var(--linea);border-radius:4px;padding:2px 7px}
+.t-cuerpo h3{margin:0 0 6px;font-size:20.5px;line-height:1.22}
+.t-cuerpo p{margin:0;font-size:14.2px;color:var(--tinta-suave)}
+.t-datos{margin-top:12px;display:flex;gap:16px;flex-wrap:wrap;font-size:12.5px;color:var(--tinta-suave)}
+.t-datos b{color:var(--tinta);font-weight:700}
+
+.t-pie{margin-top:auto;padding:13px 20px 16px;border-top:1px solid var(--linea);background:#fbfcfd}
+.t-prog{display:flex;align-items:center;gap:11px;flex-wrap:wrap;margin-bottom:9px}
+.t-num{font-size:14.5px;font-weight:700}
+.t-pct{font-size:12.5px;font-weight:700;color:var(--verde)}
+.t-barra{flex:1;min-width:120px;height:9px;border-radius:5px;background:var(--fondo);
+  border:1px solid var(--linea);overflow:hidden}
+.t-barra i{display:block;height:100%;border-radius:5px;width:0;transition:width .35s}
+.t-sig{font-size:12.8px;color:var(--tinta-suave);margin:0 0 11px;line-height:1.45}
+.t-sig b{color:var(--tinta)}
+.t-acciones{display:flex;gap:9px;flex-wrap:wrap}
+.t-btn{font-size:12.6px;font-weight:600;text-decoration:none;border-radius:6px;padding:6px 13px;
+  border:1px solid var(--linea);color:var(--tinta-suave);background:#fff;white-space:nowrap}
+.t-btn:hover{background:var(--fondo);color:var(--tinta)}
+.t-btn.cont{background:var(--azul);border-color:var(--azul);color:#fff}
+.t-btn.cont:hover{background:#0f3f70;color:#fff}
+
+/* Acentos por módulo */
+.tarjeta[data-color="azul"]   .t-cod{background:var(--azul)}
+.tarjeta[data-color="azul"]   .t-barra i{background:var(--azul)}
+.tarjeta[data-color="ambar"]  .t-cod{background:var(--ambar)}
+.tarjeta[data-color="ambar"]  .t-barra i{background:var(--ambar)}
+.tarjeta[data-color="ambar"]  .t-btn.cont{background:var(--ambar);border-color:var(--ambar)}
+.tarjeta[data-color="ambar"]  .t-btn.cont:hover{background:#7d4a00}
+.tarjeta[data-color="rojo"]   .t-cod{background:var(--rojo)}
+.tarjeta[data-color="rojo"]   .t-barra i{background:var(--rojo)}
+.tarjeta[data-color="rojo"]   .t-btn.cont{background:var(--rojo);border-color:var(--rojo)}
+.tarjeta[data-color="rojo"]   .t-btn.cont:hover{background:#8e1e17}
+.tarjeta[data-color="morado"] .t-cod{background:var(--morado)}
+.tarjeta[data-color="morado"] .t-barra i{background:var(--morado)}
+.tarjeta[data-color="morado"] .t-btn.cont{background:var(--morado);border-color:var(--morado)}
+.tarjeta[data-color="morado"] .t-btn.cont:hover{background:#4a3071}
+
+/* ---------- Pie ---------- */
+.pie{border-top:1px solid var(--linea);background:var(--papel)}
+.pie .interior{max-width:1180px;margin:0 auto;padding:22px 26px 30px;
+  font-size:12.8px;color:var(--tinta-suave)}
+.pie p{margin:5px 0}
+.pie b{color:var(--tinta)}
+
+@media(max-width:620px){
+  .cabecera h1{font-size:27px}
+  .marca img{height:62px}
+  .marca .centro{border-left:0;padding-left:0}
+  .rejilla{grid-template-columns:1fr}
+}
+@media print{
+  body{background:#fff}
+  .tarjeta{break-inside:avoid;box-shadow:none}
+  .t-acciones{display:none}
+}
+</style>
+</head>
+<body>
+
+<header class="cabecera">
+  <div class="interior">
+    <div class="marca">
+      <img src="assets/logo.jpg" alt="Institut de Lli&ccedil;&agrave;">
+      <div class="centro">
+        <b>Institut de Lli&ccedil;&agrave;</b>
+        <span>Programes de Formaci&oacute; i Inserci&oacute;</span>
+      </div>
+    </div>
+
+    <h1>Temarios de PFI</h1>
+    <p class="lema">Programaciones de teor&iacute;a de aula, listas para proyectar en clase.
+    Funcionan sin internet y sin instalar nada.</p>
+
+    <div class="perfiles">
+      <div class="perfil a">
+        <span class="cod">PFI EE01</span>
+        <div>
+          <b>Auxiliar de muntatges d'instal&middot;lacions electrot&egrave;cniques en edificis</b>
+          <span>Electricitat i electr&ograve;nica</span>
+        </div>
+      </div>
+      <div class="perfil b">
+        <span class="cod">PFI HT06</span>
+        <div>
+          <b>Auxiliar de serveis de restauraci&oacute; i cuina</b>
+          <span>Hoteleria i turisme</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="resumen">
+  <div class="caja">
+    <span class="tit">Progreso global</span>
+    <span class="num" id="g-num">&mdash;</span>
+    <span class="pct" id="g-pct"></span>
+    <span class="barra"><i id="g-barra"></i></span>
+    <p class="aviso" id="g-aviso" hidden></p>
+  </div>
+</div>
+
+<main>
+
+<!-- ============ MÓDULOS PROFESIONALES ============ -->
+<section class="grupo">
+  <h2>M&oacute;dulos profesionales &middot; PFI EE01</h2>
+  <p>Los dos m&oacute;dulos t&eacute;cnicos del perfil de electricidad y electr&oacute;nica.</p>
+
+  <div class="rejilla">
+
+    <!-- 3013 -->
+    <article class="tarjeta" data-cod="3013" data-color="azul"
+             data-archivo="Temario_3013_Teoria.html" data-total="33">
+      <a class="t-link" href="Temario_3013_Teoria.html">
+        <svg viewBox="0 0 420 168" role="img" aria-label="Cuadro eléctrico y vivienda domotizada">
+          <rect width="420" height="168" fill="#e7effa"/>
+          <path d="M0 132 L420 106 L420 168 L0 168 Z" fill="#d7e4f4"/>
+          <!-- vivienda -->
+          <path d="M262 92 L318 52 L374 92 L374 140 L262 140 Z" fill="#fff" stroke="#14508c" stroke-width="2.6" stroke-linejoin="round"/>
+          <path d="M252 98 L318 44 L384 98" fill="none" stroke="#14508c" stroke-width="3.4" stroke-linecap="round"/>
+          <rect x="284" y="106" width="20" height="20" fill="#e7effa" stroke="#14508c" stroke-width="2"/>
+          <rect x="332" y="106" width="20" height="34" fill="#e7effa" stroke="#14508c" stroke-width="2"/>
+          <path d="M320 64 L308 88 L320 88 L312 108" fill="none" stroke="#9c5c00" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <!-- cuadro eléctrico -->
+          <rect x="42" y="38" width="176" height="104" rx="7" fill="#fff" stroke="#14508c" stroke-width="2.8"/>
+          <rect x="54" y="52" width="152" height="6" rx="3" fill="#b9c7d6"/>
+          <rect x="54" y="106" width="152" height="6" rx="3" fill="#b9c7d6"/>
+          <g fill="#e7effa" stroke="#14508c" stroke-width="2">
+            <rect x="62" y="58" width="22" height="42" rx="2"/>
+            <rect x="92" y="58" width="22" height="42" rx="2"/>
+            <rect x="122" y="58" width="22" height="42" rx="2"/>
+            <rect x="152" y="58" width="46" height="42" rx="2"/>
+          </g>
+          <g stroke="#14508c" stroke-width="2.6" stroke-linecap="round">
+            <path d="M73 66 L73 76"/><path d="M103 72 L103 82"/><path d="M133 66 L133 76"/>
+          </g>
+          <rect x="160" y="66" width="30" height="9" rx="2" fill="#1d6b45"/>
+          <g stroke="#9c5c00" stroke-width="2.4" stroke-linecap="round">
+            <path d="M62 116 L200 116"/><path d="M62 126 L172 126"/>
+          </g>
+          <circle cx="204" cy="126" r="5.5" fill="#b3261e"/>
+        </svg>
+      </a>
+      <div class="t-cuerpo">
+        <div class="t-meta">
+          <span class="t-cod">3013</span>
+          <span class="t-perfil">PFI EE01</span>
+        </div>
+        <h3>Instalaciones el&eacute;ctricas y dom&oacute;ticas</h3>
+        <p>Del circuito b&aacute;sico al cuadro de vivienda y la instalaci&oacute;n domotizada.</p>
+        <div class="t-datos"><span><b>33</b> sesiones</span><span><b>8</b> bloques</span><span>1 h por sesi&oacute;n</span></div>
+      </div>
+      <div class="t-pie">
+        <div class="t-prog">
+          <span class="t-num">&mdash;</span><span class="t-pct"></span>
+          <span class="t-barra"><i></i></span>
+        </div>
+        <p class="t-sig"></p>
+        <div class="t-acciones">
+          <a class="t-btn cont" href="Temario_3013_Teoria.html" hidden>Continuar</a>
+          <a class="t-btn" href="Temario_3013_Teoria.html">Abrir temario</a>
+          <a class="t-btn" href="Banco_preguntas_3013_GIFT.txt">Banco de preguntas</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- 3014 -->
+    <article class="tarjeta" data-cod="3014" data-color="ambar"
+             data-archivo="Temario_3014_Teoria.html" data-total="33">
+      <a class="t-link" href="Temario_3014_Teoria.html">
+        <svg viewBox="0 0 420 168" role="img" aria-label="Antena de telecomunicaciones y rack de red">
+          <rect width="420" height="168" fill="#fdf3e0"/>
+          <path d="M0 132 L420 106 L420 168 L0 168 Z" fill="#f7e5c4"/>
+          <!-- antena -->
+          <path d="M96 140 L118 40 L140 140" fill="none" stroke="#9c5c00" stroke-width="3.2" stroke-linecap="round"/>
+          <path d="M105 100 L131 100 M101 118 L135 118" stroke="#9c5c00" stroke-width="2.6" stroke-linecap="round"/>
+          <circle cx="118" cy="36" r="7" fill="#b3261e"/>
+          <g fill="none" stroke="#9c5c00" stroke-width="2.6" stroke-linecap="round" opacity=".85">
+            <path d="M138 22 A 30 30 0 0 1 138 50"/>
+            <path d="M152 12 A 48 48 0 0 1 152 60"/>
+            <path d="M98 22 A 30 30 0 0 0 98 50"/>
+            <path d="M84 12 A 48 48 0 0 0 84 60"/>
+          </g>
+          <!-- rack -->
+          <rect x="216" y="42" width="156" height="102" rx="7" fill="#fff" stroke="#9c5c00" stroke-width="2.8"/>
+          <g fill="#fdf3e0" stroke="#9c5c00" stroke-width="2">
+            <rect x="228" y="54" width="132" height="24" rx="3"/>
+            <rect x="228" y="84" width="132" height="24" rx="3"/>
+          </g>
+          <g fill="#9c5c00">
+            <rect x="236" y="62" width="8" height="8" rx="1"/><rect x="250" y="62" width="8" height="8" rx="1"/>
+            <rect x="264" y="62" width="8" height="8" rx="1"/><rect x="278" y="62" width="8" height="8" rx="1"/>
+            <rect x="292" y="62" width="8" height="8" rx="1"/><rect x="306" y="62" width="8" height="8" rx="1"/>
+            <rect x="236" y="92" width="8" height="8" rx="1"/><rect x="250" y="92" width="8" height="8" rx="1"/>
+            <rect x="264" y="92" width="8" height="8" rx="1"/><rect x="278" y="92" width="8" height="8" rx="1"/>
+          </g>
+          <circle cx="344" cy="66" r="4" fill="#1d6b45"/>
+          <circle cx="344" cy="96" r="4" fill="#1d6b45"/>
+          <!-- conector RJ45 -->
+          <path d="M252 118 L252 134 L262 134 L262 140 L292 140 L292 134 L302 134 L302 118 Z"
+                fill="#fdf3e0" stroke="#9c5c00" stroke-width="2.4" stroke-linejoin="round"/>
+          <g stroke="#9c5c00" stroke-width="2">
+            <path d="M260 118 L260 128"/><path d="M268 118 L268 128"/>
+            <path d="M276 118 L276 128"/><path d="M284 118 L284 128"/><path d="M292 118 L292 128"/>
+          </g>
+        </svg>
+      </a>
+      <div class="t-cuerpo">
+        <div class="t-meta">
+          <span class="t-cod">3014</span>
+          <span class="t-perfil">PFI EE01</span>
+        </div>
+        <h3>Instalaciones de telecomunicaciones</h3>
+        <p>Automatismos cableados, redes, medios de transmisi&oacute;n e ICT del edificio.</p>
+        <div class="t-datos"><span><b>33</b> sesiones</span><span><b>9</b> bloques</span><span>1 h por sesi&oacute;n</span></div>
+      </div>
+      <div class="t-pie">
+        <div class="t-prog">
+          <span class="t-num">&mdash;</span><span class="t-pct"></span>
+          <span class="t-barra"><i></i></span>
+        </div>
+        <p class="t-sig"></p>
+        <div class="t-acciones">
+          <a class="t-btn cont" href="Temario_3014_Teoria.html" hidden>Continuar</a>
+          <a class="t-btn" href="Temario_3014_Teoria.html">Abrir temario</a>
+          <a class="t-btn" href="Banco_preguntas_3014_GIFT.txt">Banco de preguntas</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ MÓDULOS TRANSVERSALES ============ -->
+<section class="grupo">
+  <h2>M&oacute;dulos transversales &middot; EE01 y HT06</h2>
+  <p>Comunes a los dos perfiles del centro: se imparten igual en electricidad y en restauraci&oacute;n y cocina.</p>
+
+  <div class="rejilla">
+
+    <!-- MPRL -->
+    <article class="tarjeta" data-cod="MPRL" data-color="rojo"
+             data-archivo="Temario_MPRL_Teoria.html" data-total="33">
+      <a class="t-link" href="Temario_MPRL_Teoria.html">
+        <svg viewBox="0 0 420 168" role="img" aria-label="Casco de seguridad y señal de advertencia">
+          <rect width="420" height="168" fill="#fdeceb"/>
+          <path d="M0 132 L420 106 L420 168 L0 168 Z" fill="#f7d5d2"/>
+          <!-- casco -->
+          <path d="M70 116 A 62 62 0 0 1 194 116 Z" fill="#fff" stroke="#b3261e" stroke-width="2.8" stroke-linejoin="round"/>
+          <path d="M132 54 L132 116" stroke="#b3261e" stroke-width="2.4"/>
+          <path d="M104 60 A 62 62 0 0 0 96 116" fill="none" stroke="#b3261e" stroke-width="2.2"/>
+          <path d="M160 60 A 62 62 0 0 1 168 116" fill="none" stroke="#b3261e" stroke-width="2.2"/>
+          <rect x="56" y="114" width="152" height="15" rx="7.5" fill="#fff" stroke="#b3261e" stroke-width="2.8"/>
+          <!-- señal de advertencia -->
+          <path d="M300 44 L368 136 L232 136 Z" fill="#fff" stroke="#b3261e" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M300 62 L354 128 L246 128 Z" fill="#fdeceb" stroke="none"/>
+          <rect x="295" y="78" width="10" height="30" rx="5" fill="#b3261e"/>
+          <circle cx="300" cy="118" r="6" fill="#b3261e"/>
+        </svg>
+      </a>
+      <div class="t-cuerpo">
+        <div class="t-meta">
+          <span class="t-cod">MPRL</span>
+          <span class="t-perfil">EE01 + HT06</span>
+        </div>
+        <h3>Prevenci&oacute;n de riesgos laborales</h3>
+        <p>Riesgos, medidas de protecci&oacute;n, EPI, emergencias y primeros auxilios.</p>
+        <div class="t-datos"><span><b>33</b> sesiones</span><span><b>8</b> bloques</span><span>1 h por sesi&oacute;n</span></div>
+      </div>
+      <div class="t-pie">
+        <div class="t-prog">
+          <span class="t-num">&mdash;</span><span class="t-pct"></span>
+          <span class="t-barra"><i></i></span>
+        </div>
+        <p class="t-sig"></p>
+        <div class="t-acciones">
+          <a class="t-btn cont" href="Temario_MPRL_Teoria.html" hidden>Continuar</a>
+          <a class="t-btn" href="Temario_MPRL_Teoria.html">Abrir temario</a>
+          <a class="t-btn" href="Banco_preguntas_MPRL_GIFT.txt">Banco de preguntas</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- MFG4 -->
+    <article class="tarjeta" data-cod="MFG4" data-color="morado"
+             data-archivo="Temario_MFG4_Teoria.html" data-total="50">
+      <a class="t-link" href="Temario_MFG4_Teoria.html">
+        <svg viewBox="0 0 420 168" role="img" aria-label="Currículum y recorrido profesional ascendente">
+          <rect width="420" height="168" fill="#f4f1fa"/>
+          <path d="M0 132 L420 106 L420 168 L0 168 Z" fill="#e6dff5"/>
+          <!-- hoja de currículum -->
+          <rect x="52" y="30" width="112" height="118" rx="7" fill="#fff" stroke="#5d3d8e" stroke-width="2.8"/>
+          <circle cx="82" cy="58" r="13" fill="#f4f1fa" stroke="#5d3d8e" stroke-width="2.2"/>
+          <path d="M70 78 A 14 14 0 0 1 94 78" fill="#f4f1fa" stroke="#5d3d8e" stroke-width="2.2"/>
+          <g stroke="#b6a8d4" stroke-width="3.4" stroke-linecap="round">
+            <path d="M106 52 L148 52"/><path d="M106 64 L140 64"/><path d="M106 76 L148 76"/>
+          </g>
+          <g stroke="#5d3d8e" stroke-width="2.6" stroke-linecap="round">
+            <path d="M68 98 L148 98"/><path d="M68 110 L148 110"/><path d="M68 122 L124 122"/>
+          </g>
+          <!-- escalones y flecha -->
+          <g fill="#fff" stroke="#5d3d8e" stroke-width="2.6" stroke-linejoin="round">
+            <rect x="204" y="118" width="46" height="30"/>
+            <rect x="250" y="96" width="46" height="52"/>
+            <rect x="296" y="72" width="46" height="76"/>
+          </g>
+          <path d="M212 104 L258 82 L304 58 L352 36" fill="none" stroke="#1d6b45"
+                stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M330 32 L356 32 L356 58" fill="none" stroke="#1d6b45" stroke-width="3.4"
+                stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="212" cy="104" r="5" fill="#1d6b45"/>
+        </svg>
+      </a>
+      <div class="t-cuerpo">
+        <div class="t-meta">
+          <span class="t-cod">MFG4</span>
+          <span class="t-perfil">EE01 + HT06</span>
+        </div>
+        <h3>Incorporaci&oacute;n al mundo profesional</h3>
+        <p>Autoconocimiento, itinerario, empresa, contrato, b&uacute;squeda de empleo y n&oacute;mina.</p>
+        <div class="t-datos"><span><b>50</b> sesiones</span><span><b>7</b> bloques</span><span>1 h por sesi&oacute;n</span></div>
+      </div>
+      <div class="t-pie">
+        <div class="t-prog">
+          <span class="t-num">&mdash;</span><span class="t-pct"></span>
+          <span class="t-barra"><i></i></span>
+        </div>
+        <p class="t-sig"></p>
+        <div class="t-acciones">
+          <a class="t-btn cont" href="Temario_MFG4_Teoria.html" hidden>Continuar</a>
+          <a class="t-btn" href="Temario_MFG4_Teoria.html">Abrir temario</a>
+          <a class="t-btn" href="Banco_preguntas_MFG4_GIFT.txt">Banco de preguntas</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="pie">
+  <div class="interior">
+    <p><b>C&oacute;mo funciona el seguimiento.</b> Dentro de cada temario, en la portada, hay un panel
+    <b>&laquo;Seguimiento del curso&raquo;</b> donde se elige la &uacute;ltima sesi&oacute;n impartida. Esta p&aacute;gina lee
+    ese dato y muestra el avance de los cuatro m&oacute;dulos.</p>
+    <p>El progreso se guarda <b>en este navegador y en este ordenador</b>, sin internet y sin cuentas.
+    Si se abren los temarios desde otro equipo o con otro navegador, el contador empieza de cero.</p>
+    <p>Los <b>bancos de preguntas</b> est&aacute;n en formato GIFT, listos para importar en Moodle desde
+    Banco de preguntas &rsaquo; Importar &rsaquo; Formato GIFT.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var tarjetas = Array.prototype.slice.call(document.querySelectorAll(".tarjeta"));
+  var disponible = true;
+  try { localStorage.getItem("temaris.test"); } catch (e) { disponible = false; }
+
+  var totalG = 0, hechasG = 0;
+
+  tarjetas.forEach(function(t){
+    var cod = t.getAttribute("data-cod");
+    var archivo = t.getAttribute("data-archivo");
+    var total = parseInt(t.getAttribute("data-total"), 10) || 0;
+    var d = null;
+    try {
+      var raw = localStorage.getItem("temaris.v1." + cod);
+      if (raw) d = JSON.parse(raw);
+    } catch (e) {}
+
+    if (d && typeof d.total === "number" && d.total > 0) total = d.total;
+    var n = d && d.hechas ? d.hechas.length : 0;
+    if (n > total) n = total;
+    var pct = total ? Math.round(n * 100 / total) : 0;
+
+    totalG += total;
+    hechasG += n;
+
+    t.querySelector(".t-num").textContent = n + " / " + total;
+    t.querySelector(".t-pct").textContent = pct + " %";
+    t.querySelector(".t-barra i").style.width = pct + "%";
+
+    var sig = t.querySelector(".t-sig");
+    var cont = t.querySelector(".t-btn.cont");
+
+    if (!disponible) {
+      sig.innerHTML = "El navegador no permite guardar el progreso en este equipo.";
+    } else if (n === 0) {
+      sig.innerHTML = "Sin empezar. La primera clase es la <b>sesión 1</b>.";
+    } else if (n >= total) {
+      sig.innerHTML = "<b>Módulo completado.</b> Las " + total + " sesiones están impartidas.";
+    } else {
+      var num = d && d.sigNum ? d.sigNum : n + 1;
+      var tit = d && d.sigTit ? d.sigTit : "";
+      sig.innerHTML = "Próxima clase: <b>sesión " + num + (tit ? " · " + tit : "") + "</b>";
+      cont.href = archivo + "#s" + (num < 10 ? "0" + num : num);
+      cont.textContent = "Continuar · sesión " + num;
+      cont.hidden = false;
+    }
+  });
+
+  var pctG = totalG ? Math.round(hechasG * 100 / totalG) : 0;
+  document.getElementById("g-num").textContent = hechasG + " / " + totalG + " sesiones";
+  document.getElementById("g-pct").textContent = pctG + " %";
+  document.getElementById("g-barra").style.width = pctG + "%";
+
+  if (!disponible) {
+    var av = document.getElementById("g-aviso");
+    av.hidden = false;
+    av.textContent = "Este navegador tiene bloqueado el almacenamiento local, así que no se puede " +
+      "guardar el progreso. Los temarios funcionan igualmente.";
+  }
+})();
+</script>
+</body>
+</html>

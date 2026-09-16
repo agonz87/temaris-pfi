@@ -1,0 +1,18 @@
+# --- Materials de treball que NO formen part del lloc web ---
+# Si algun dia els vols versionar també, esborra la línia corresponent.
+
+# Fitxes de pràctiques i material dels mòduls (.docx, molts fitxers)
+3013 Mòdul Instal·lacions elèctriques i domòtiques/
+3014 Telecos/
+MFG4 Incorporació al món professional/
+
+# Normativa oficial i plantilles administratives del centre
+Normativa/
+Plantilles i Logos centre/
+
+# --- Sistema ---
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
+*.tmp

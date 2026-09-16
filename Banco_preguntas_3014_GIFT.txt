@@ -1,0 +1,2843 @@
+// ==========================================================================
+// BANCO DE PREGUNTAS — Instalaciones de telecomunicaciones (módulo 3014)
+// PFI EE01 · Auxiliar de montajes de instalaciones electrotécnicas en edificios
+// Formato GIFT para importar en Moodle · Codificación UTF-8
+//
+// IMPORTACIÓN: Banco de preguntas > Importar > Formato GIFT > subir este archivo.
+// Se crean solas 10 categorías bajo "Temario 3014".
+// Las preguntas están redactadas a partir de las frases dictadas del temario.
+// ==========================================================================
+
+
+$CATEGORY: Temario 3014/01 El taller de automatismos
+
+::T1-01:: ¿Cuántas horas tiene el módulo 3014 y cómo se reparten? {
+=264 horas\: 204 en el centro y 60 en la empresa
+~330 horas\: 190 en el centro y 140 en la empresa
+~264 horas, todas en el centro educativo
+~204 horas\: 164 en el centro y 40 en la empresa
+}
+
+::T1-02:: ¿Qué es un automatismo? {
+=Un conjunto de elementos que hace funcionar una máquina sola, siguiendo unas órdenes
+~Un motor de gran potencia
+~Un interruptor de gran tamaño
+~Un cuadro eléctrico de vivienda
+}
+
+::T1-03:: En el mando manual, por el interruptor pasa toda la corriente del motor. {TRUE#Correcto. Por eso el mando manual no sirve para motores grandes.}
+
+::T1-04:: En el mando automático, ¿qué acciona los contactos que alimentan el motor? {
+=Una bobina, que se manda desde un pulsador
+~El propio pulsador, directamente
+~El relé térmico
+~El magnetotérmico
+}
+
+::T1-05:: ¿Qué dos circuitos separa el mando automático? {
+=El de maniobra, que manda, y el de potencia, que trabaja
+~El de entrada y el de salida
+~El de corriente continua y el de corriente alterna
+~El de fase y el de neutro
+}
+
+::T1-06:: En un automatismo cableado, ¿dónde está la lógica de funcionamiento? {
+=En los cables\: para cambiar el funcionamiento hay que cambiar el cableado
+~En un programa que se carga por USB
+~En el motor
+~En el magnetotérmico general
+}
+
+::T1-07:: En un automatismo programado, para cambiar el funcionamiento hay que cambiar el cableado. {FALSE#Se cambia el programa y no se toca ningún cable.}
+
+::T1-08:: ¿Qué determina la gravedad de un contacto eléctrico? {
+=La intensidad que atraviesa el cuerpo y el tiempo que dura
+~Solo los voltios
+~La potencia del aparato
+~La sección del cable
+}
+
+::T1-09:: A partir de cuántos miliamperios se produce la tetanización, es decir, no poder soltar el cable. Escribe solo el número. {#10}
+
+::T1-10:: ¿Qué ocurre a partir de 50 miliamperios atravesando el cuerpo? {
+=Puede producirse fibrilación ventricular, que es la causa de muerte más frecuente
+~Solo se nota un hormigueo
+~No ocurre nada apreciable
+~Se produce una quemadura leve
+}
+
+::T1-11:: Tocar un cable pelado que normalmente tiene tensión es un contacto... {
+=Directo
+~Indirecto
+~Inofensivo
+~De maniobra
+}
+
+::T1-12:: Tocar la carcasa metálica de un motor que se ha puesto en tensión por una avería es un contacto... {
+=Indirecto
+~Directo
+~Inofensivo
+~De potencia
+}
+
+::T1-13:: ¿Cuáles son las cinco reglas de oro, por orden? {
+=Desconectar, bloquear, comprobar la ausencia de tensión, poner a tierra y en cortocircuito, y señalizar
+~Comprobar, desconectar, señalizar, bloquear y poner a tierra
+~Señalizar, comprobar, desconectar, bloquear y poner a tierra
+~Bloquear, desconectar, señalizar, comprobar y poner a tierra
+}
+
+::T1-14:: ¿Cuál es la tercera regla de oro? {
+=Comprobar la ausencia de tensión
+~Señalizar la zona de trabajo
+~Poner a tierra y en cortocircuito
+~Bloquear con candado
+}
+
+::T1-15:: Para reponer la tensión se aplican las cinco reglas de oro en orden inverso. {TRUE#Y siempre lo hace quien puso el bloqueo, nunca otra persona.}
+
+::T1-16:: ¿Quién puede quitar el candado de un bloqueo? {
+=Solo quien lo puso
+~Cualquier compañero del equipo
+~El primero que llegue por la mañana
+~El encargado de la obra
+}
+
+::T1-17:: ¿Sirve un destornillador busca-polos para verificar la ausencia de tensión? {
+=No. Hay que usar un comprobador bipolar, probado antes y después en una fuente conocida
+~Sí, es el método habitual
+~Sí, siempre que sea de buena marca
+~Sí, si además se mira el color de la luz
+}
+
+::T1-18:: ¿Qué marcado debe llevar una herramienta aislada? {
+=El doble triángulo y la indicación 1000 V
+~Solo el mango de plástico o de goma
+~El símbolo del rayo
+~La marca CE únicamente
+}
+
+::T1-19:: En el taller de automatismos se puede cablear con el cuadro conectado si se tiene cuidado. {FALSE#Se cablea siempre con el cuadro desconectado, sin excepciones.}
+
+::T1-20:: ¿Qué es el carril DIN? {
+=Un perfil metálico donde los aparatos se enganchan a presión
+~Una canaleta de PVC con dientes
+~Un tipo de borne de conexión
+~La placa de madera del tablero
+}
+
+::T1-21:: Cuántos milímetros mide de ancho el carril DIN estándar. Escribe solo el número. {#35}
+
+::T1-22:: ¿Qué es la canal ranurada? {
+=La canaleta de PVC con dientes por la que van todos los cables del cuadro
+~El perfil donde se enganchan los aparatos
+~La fila de bornes de entrada y salida
+~El tablero de montaje
+}
+
+::T1-23:: ¿Hasta qué porcentaje de su sección se llena una canal? {
+=Hasta el 70 %
+~Hasta el 100 %, si cierra la tapa
+~Hasta el 40 %
+~No hay límite establecido
+}
+
+::T1-24:: ¿Para qué sirve el regletero de bornes de un cuadro? {
+=Para que todo lo que entra y sale del cuadro pase por él, y no se conecte directamente a los aparatos
+~Para sujetar la canaleta a la placa
+~Para proteger contra cortocircuitos
+~Para alimentar las bobinas de los contactores
+}
+
+::T1-25:: ¿Cuál es el orden correcto de montaje de un cuadro? {
+=Replanteo, corte, fijación, colocación de aparatos, etiquetado y cableado
+~Cableado, replanteo, corte, fijación y etiquetado
+~Colocación de aparatos, cableado, replanteo y fijación
+~Corte, cableado, fijación, replanteo y etiquetado
+}
+
+::T1-26:: ¿Qué dibuja el esquema de potencia? {
+=El camino de la corriente que alimenta el motor
+~El camino de la corriente que manda las bobinas
+~La distribución física de los aparatos en el tablero
+~El recorrido de las canaletas
+}
+
+::T1-27:: ¿Qué dibuja el esquema de maniobra? {
+=El camino de la corriente que manda las bobinas
+~El camino de la corriente que alimenta el motor
+~La disposición de los bornes del regletero
+~El plano de la instalación del edificio
+}
+
+::T1-28:: El contactor aparece en los dos esquemas\: la bobina en la maniobra y los contactos principales en la potencia. {TRUE#Son la misma pieza física dibujada en dos sitios, por eso llevan la misma referencia.}
+
+::T1-29:: En las fichas del taller, ¿qué referencia se usa siempre para el pulsador de paro? {
+=S1
+~S2
+~KM1
+~F3
+}
+
+::T1-30:: En las fichas del taller, ¿qué referencia se usa siempre para el pulsador de marcha? {
+=S2
+~S1
+~H1
+~Q1
+}
+
+::T1-31:: ¿Qué referencia corresponde al relé térmico en los esquemas? {
+=F3
+~KM3
+~Q3
+~KT3
+}
+
+::T1-32:: ¿Qué referencia corresponde al contactor? {
+=KM
+~KT
+~S
+~H
+}
+
+::T1-33:: ¿Qué referencia corresponde al temporizador? {
+=KT
+~KM
+~KA
+~F
+}
+
+::T1-34:: ¿Qué referencia corresponde a un piloto de señalización? {
+=H
+~S
+~M
+~Q
+}
+
+::T1-35:: ¿A qué bornes va la bobina de un contactor? {
+=A1 y A2
+~1 y 2
+~13 y 14
+~95 y 96
+}
+
+::T1-36:: ¿Cuáles son los bornes de los contactos principales de un contactor? {
+=1-2, 3-4 y 5-6
+~13-14, 21-22 y 33-34
+~A1 y A2
+~95-96 y 97-98
+}
+
+::T1-37:: Un contacto auxiliar marcado 13-14, ¿de qué tipo es? {
+=Normalmente abierto (NA)
+~Normalmente cerrado (NC)
+~Es un contacto principal
+~Es la bobina
+}
+
+::T1-38:: Un contacto auxiliar marcado 21-22, ¿de qué tipo es? {
+=Normalmente cerrado (NC)
+~Normalmente abierto (NA)
+~Es un contacto principal
+~Es un contacto temporizado
+}
+
+::T1-39:: En el marcado de bornes de un contacto auxiliar, ¿qué indica la segunda cifra? {
+=El tipo de contacto\: si termina en 3-4 es NA y si termina en 1-2 es NC
+~El número de orden del contacto
+~La intensidad que admite
+~La tensión de la bobina
+}
+
+::T1-40:: Un contacto marcado 43-44 es normalmente abierto. {TRUE#Termina en 3-4, luego es NA. La primera cifra solo indica el número de orden.}
+
+::T1-41:: Un contacto marcado 61-62 es normalmente abierto. {FALSE#Termina en 1-2, luego es normalmente cerrado.}
+
+::T1-42:: Dos contactos en serie en el esquema de maniobra significan que... {
+=Hacen falta los dos cerrados\: es una condición Y
+~Basta con que uno esté cerrado\: es una condición O
+~La bobina recibe el doble de tensión
+~El motor gira al revés
+}
+
+::T1-43:: Dos contactos en paralelo en el esquema de maniobra significan que... {
+=Basta con que uno esté cerrado\: es una condición O
+~Hacen falta los dos cerrados\: es una condición Y
+~El circuito está en cortocircuito
+~La bobina no se puede excitar
+}
+
+::T1-44:: ¿Qué tensión lleva normalmente el circuito de maniobra en las fichas del taller? {
+=230 V entre fase y neutro
+~400 V entre fases
+~12 V en continua
+~1.000 V
+}
+
+::T1-45:: ¿Qué sección de cable se usa en el circuito de maniobra? {
+=Fina\: 1 o 1,5 mm²
+~Gruesa\: 2,5 mm² o más
+~La misma que en la potencia
+~No se utiliza cable, se usan pletinas
+}
+
+
+$CATEGORY: Temario 3014/02 Los elementos del automatismo
+
+::T2-01:: ¿Qué tensión hay entre dos fases de una red trifásica de 400/230 V? {
+=400 V
+~230 V
+~690 V
+~24 V
+}
+
+::T2-02:: ¿Qué tensión hay entre una fase y el neutro en una red trifásica de 400/230 V? {
+=230 V
+~400 V
+~120 V
+~690 V
+}
+
+::T2-03:: ¿Cuántos grados de desfase hay entre las tres fases de una red trifásica? Escribe solo el número. {#120}
+
+::T2-04:: ¿Cómo se llaman las tres fases y el neutro de una red trifásica? {
+=L1, L2, L3 y N
+~R, N, T y PE
+~F1, F2, F3 y M
+~A, B, C y D
+}
+
+::T2-05:: ¿De qué color es el conductor de protección? {
+=Amarillo-verde
+~Azul claro
+~Marrón
+~Negro
+}
+
+::T2-06:: El conductor amarillo-verde se puede usar como fase si hacen falta más conductores. {FALSE#El amarillo-verde es exclusivo del conductor de protección y nunca se usa para otra cosa.}
+
+::T2-07:: ¿Cuáles son las tres partes de un motor asíncrono trifásico? {
+=Estátor, rotor y carcasa
+~Bobina, contacto y cámara de arco
+~Núcleo, revestimiento y cubierta
+~Fase, neutro y tierra
+}
+
+::T2-08:: ¿Qué hace el estátor de un motor asíncrono? {
+=Es la parte fija y crea el campo magnético giratorio
+~Es la parte que gira y arrastra el eje
+~Protege el motor del polvo y del agua
+~Rectifica la corriente alterna
+}
+
+::T2-09:: ¿Qué hay que hacer para que un motor trifásico gire al revés? {
+=Intercambiar dos de las tres fases
+~Intercambiar las tres fases
+~Cambiar el neutro de sitio
+~Bajar la tensión a la mitad
+}
+
+::T2-10:: ¿A qué velocidad aproximada gira un motor asíncrono de 4 polos a 50 Hz? {
+=1.500 revoluciones por minuto de sincronismo
+~3.000 revoluciones por minuto
+~1.000 revoluciones por minuto
+~750 revoluciones por minuto
+}
+
+::T2-11:: En la placa de características, ¿con qué tensión va la conexión en triángulo? {
+=Con la tensión baja de las dos que indica la placa
+~Con la tensión alta de las dos que indica la placa
+~Siempre con 400 V, sea cual sea la placa
+~Con la tensión de maniobra
+}
+
+::T2-12:: Un motor con placa 230/400 V ∆/Y conectado a una red de 400 V, ¿cómo se conecta? {
+=En estrella
+~En triángulo
+~Da igual la conexión
+~No se puede conectar a esa red
+}
+
+::T2-13:: Un motor con placa 400/690 V ∆/Y conectado a una red de 400 V, ¿cómo se conecta? {
+=En triángulo
+~En estrella
+~Da igual la conexión
+~No se puede conectar a esa red
+}
+
+::T2-14:: ¿Qué diferencia hay entre una sobrecarga y un cortocircuito? {
+=En la sobrecarga pasa más corriente de la prevista por el camino correcto; en el cortocircuito dos conductores se tocan
+~En la sobrecarga dos conductores se tocan; en el cortocircuito pasa más corriente de la prevista
+~Son lo mismo con distinto nombre
+~La sobrecarga solo ocurre en corriente continua
+}
+
+::T2-15:: ¿Qué dos protecciones lleva dentro un interruptor magnetotérmico? {
+=La térmica, para la sobrecarga, y la magnética, para el cortocircuito
+~La térmica, para el cortocircuito, y la magnética, para la sobrecarga
+~La diferencial y la térmica
+~Solo la magnética
+}
+
+::T2-16:: ¿Qué curva de magnetotérmico se usa para proteger motores? {
+=La curva D, porque aguanta el pico de arranque
+~La curva B, porque es más sensible
+~Cualquiera, la curva no influye
+~La curva A, que es la más rápida
+}
+
+::T2-17:: ¿Cuántas veces su corriente nominal consume un motor asíncrono al arrancar en directo? {
+=Entre 5 y 7 veces
+~Entre 1 y 2 veces
+~Exactamente el doble
+~Menos que a plena carga
+}
+
+::T2-18:: ¿De qué protege el fusible principalmente? {
+=Del cortocircuito, y se destruye al actuar
+~De la sobrecarga, y se rearma a mano
+~De las derivaciones a tierra
+~De las sobretensiones
+}
+
+::T2-19:: ¿De qué protege el relé térmico? {
+=El motor, contra sobrecargas y falta de fase
+~A las personas, contra derivaciones a tierra
+~El cable, contra cortocircuitos
+~El contactor, contra sobretensiones
+}
+
+::T2-20:: ¿Dónde van los bimetales del relé térmico? {
+=En la potencia, en serie entre el contactor y el motor
+~En la maniobra, en serie con los paros
+~En paralelo con la bobina del contactor
+~Antes del magnetotérmico general
+}
+
+::T2-21:: ¿Qué bornes del relé térmico se montan en el circuito de maniobra? {
+=95-96, que es un contacto normalmente cerrado
+~1-2, 3-4 y 5-6
+~A1 y A2
+~13-14
+}
+
+::T2-22:: ¿Para qué sirve el contacto 97-98 del relé térmico? {
+=Para encender el piloto de avería cuando el térmico salta
+~Para parar el motor cuando el térmico salta
+~Para autoalimentar el contactor
+~Para ajustar la intensidad de disparo
+}
+
+::T2-23:: ¿A qué valor se ajusta el relé térmico? {
+=A la intensidad nominal del motor en la conexión real que tiene
+~Al máximo de su escala, por si acaso
+~Al mínimo de su escala
+~A la intensidad del magnetotérmico general
+}
+
+::T2-24:: ¿A qué protege un interruptor diferencial? {
+=A las personas, frente a corrientes de fuga a tierra
+~Al motor, frente a sobrecargas
+~Al cable, frente a cortocircuitos
+~Al contactor, frente al desgaste de los contactos
+}
+
+::T2-25:: Cuántos miliamperios de sensibilidad tiene un diferencial para protección de personas. Escribe solo el número. {#30}
+
+::T2-26:: ¿Qué es un contactor? {
+=Un interruptor que se acciona con un electroimán en lugar de con la mano
+~Un aparato que corta la corriente por calentamiento
+~Un tipo de fusible rearmable
+~Un transformador de maniobra
+}
+
+::T2-27:: Cuando se da tensión a la bobina de un contactor, ¿qué ocurre? {
+=El núcleo móvil es atraído y todos los contactos cambian de estado a la vez
+~Solo cambian de estado los contactos principales
+~Solo cambian de estado los contactos auxiliares
+~Los contactos cambian de estado uno detrás de otro
+}
+
+::T2-28:: ¿En qué estado se dibuja siempre un contacto en un esquema eléctrico? {
+=En reposo\: sin tensión y sin nadie pulsando nada
+~En funcionamiento normal
+~En situación de avería
+~Siempre cerrado
+}
+
+::T2-29:: ¿Qué diferencia hay entre un contacto principal y uno auxiliar? {
+=El principal lleva toda la corriente del motor y tiene cámara de arco; el auxiliar solo lleva bobinas y pilotos
+~El auxiliar lleva toda la corriente del motor
+~No hay diferencia\: se pueden usar indistintamente
+~El principal va en la maniobra y el auxiliar en la potencia
+}
+
+::T2-30:: ¿Qué categoría de empleo se utiliza para mandar motores asíncronos? {
+=AC-3
+~AC-1
+~DC-1
+~IP55
+}
+
+::T2-31:: ¿Qué tensión tiene la bobina de los contactores que se usan en las fichas del taller? {
+=230 V en alterna
+~24 V en continua
+~400 V en alterna
+~12 V en continua
+}
+
+::T2-32:: Si al medir entre A1 y A2 de un contactor desconectado el polímetro marca resistencia infinita, ¿qué ocurre? {
+=La bobina está cortada y hay que sustituirla
+~La bobina está en cortocircuito
+~El contactor está en perfecto estado
+~Falta alimentación en el circuito
+}
+
+::T2-33:: ¿Qué diferencia hay entre un pulsador y un interruptor? {
+=El pulsador cambia de estado mientras lo aprietas y vuelve solo; el interruptor se queda donde lo dejas
+~El interruptor cambia de estado mientras lo aprietas
+~Son lo mismo con distinto nombre
+~El pulsador solo se usa en corriente continua
+}
+
+::T2-34:: ¿Cómo se libera una seta de emergencia una vez apretada? {
+=Girándola\: queda enclavada al apretarla
+~Volviéndola a apretar
+~Se libera sola al soltarla
+~Cortando la alimentación del cuadro
+}
+
+::T2-35:: ¿Por qué el pulsador de paro es siempre de contacto normalmente cerrado? {
+=Por seguridad positiva\: si se corta el cable, la máquina se para sola y la avería se manifiesta en el lado seguro
+~Porque consume menos corriente
+~Porque así el pulsador dura más tiempo
+~Porque lo exige el fabricante del contactor
+}
+
+::T2-36:: Si el pulsador de paro fuera NA y se cortase su cable, la máquina se pararía inmediatamente. {FALSE#No pasaría nada y el pulsador quedaría inutilizado sin que nadie lo supiera.}
+
+::T2-37:: ¿Qué elementos van siempre con contacto normalmente cerrado? {
+=El paro, la seta de emergencia y el contacto 95-96 del relé térmico
+~La marcha, la autoalimentación y los pilotos
+~Los contactos principales del contactor
+~El temporizador y el relé auxiliar
+}
+
+::T2-38:: ¿De qué color es un pulsador de paro? {
+=Rojo
+~Verde
+~Negro
+~Amarillo
+}
+
+::T2-39:: ¿De qué color es un piloto que indica «marcha normal, todo correcto»? {
+=Verde
+~Rojo
+~Ámbar
+~Azul
+}
+
+::T2-40:: ¿Qué significa un piloto ámbar? {
+=Aviso o anomalía\: hay que vigilar
+~Marcha normal
+~Emergencia\: actúa ya
+~Obligación\: hace falta una acción
+}
+
+::T2-41:: ¿Qué es un final de carrera? {
+=Un contacto que acciona la propia máquina con su movimiento
+~El último pulsador del cuadro
+~Un fusible de reserva
+~El contacto de disparo del relé térmico
+}
+
+::T2-42:: ¿Qué es un detector de proximidad? {
+=Un elemento que detecta la presencia de una pieza sin tocarla
+~Un final de carrera con palanca de rodillo
+~Un tipo de contactor pequeño
+~Un temporizador de precisión
+}
+
+::T2-43:: En la caja de bornes de un motor trifásico, ¿cuántas puntas salen de los bobinados? {
+=Seis\: U1, V1, W1, U2, V2 y W2
+~Tres\: U, V y W
+~Cuatro\: tres fases y neutro
+~Nueve
+}
+
+::T2-44:: En conexión estrella, cada bobinado recibe la tensión de línea dividida entre raíz de tres. {TRUE#Por eso la estrella se usa con la tensión alta de las dos que indica la placa.}
+
+::T2-45:: ¿Qué indica el grado IP de la placa de un motor? {
+=El grado de protección contra el polvo y el agua
+~La potencia en caballos de vapor
+~El número de polos
+~La intensidad nominal
+}
+
+
+$CATEGORY: Temario 3014/03 Maniobras fundamentales
+
+::T3-01:: En la maniobra de marcha a impulsos, ¿qué pasa al soltar el pulsador? {
+=El motor se para
+~El motor sigue girando
+~Salta el relé térmico
+~El motor cambia de sentido de giro
+}
+
+::T3-02:: ¿Para qué sirve la marcha a impulsos? {
+=Para maniobras cortas y controladas\: mover algo un poco, colocar una pieza o probar el sentido de giro
+~Para hacer funcionar una máquina durante horas
+~Para proteger el motor de las sobrecargas
+~Para invertir el sentido de giro
+}
+
+::T3-03:: ¿Qué es la autoalimentación? {
+=Un contacto auxiliar NA del propio contactor puesto en paralelo con el pulsador de marcha
+~Un contacto NC del propio contactor puesto en serie con el paro
+~Un contacto del relé térmico que mantiene la bobina
+~Un temporizador que reconecta el contactor
+}
+
+::T3-04:: ¿Dónde se coloca el contacto de autoalimentación? {
+=En paralelo con el pulsador de marcha
+~En serie con el pulsador de marcha
+~En serie con el pulsador de paro
+~En el esquema de potencia
+}
+
+::T3-05:: ¿Qué contacto se usa para la autoalimentación de KM1? {
+=Un auxiliar NA del propio KM1, por ejemplo el 13-14
+~Un auxiliar NC del propio KM1, por ejemplo el 21-22
+~Un contacto principal de KM1
+~Un contacto auxiliar de KM2
+}
+
+::T3-06:: Si el contacto de autoalimentación se monta en serie con el pulsador de marcha, el motor no arranca nunca. {TRUE#El 13-14 solo se cierra cuando ya hay corriente, así que el circuito nunca llega a cerrarse.}
+
+::T3-07:: Si se usa un contacto NC en lugar del NA para la autoalimentación, ¿qué ocurre? {
+=El contactor engancha y suelta muy deprisa\: vibra
+~El motor arranca y funciona normalmente
+~El motor no arranca y no pasa nada más
+~Salta el magnetotérmico general
+}
+
+::T3-08:: ¿Por qué hace falta un pulsador de paro cuando hay autoalimentación? {
+=Porque el contactor ya no se suelta solo y hay que poder cortarle la corriente
+~Porque lo exige el relé térmico
+~Porque si no, el motor gira al revés
+~Porque hay que descargar la bobina
+}
+
+::T3-09:: Al apretar el paro, el contactor se suelta y su contacto 13-14 se abre. Al soltar el paro, el motor rearranca solo. {FALSE#No rearranca\: el 13-14 ya está abierto. Eso es lo que se llama memoria.}
+
+::T3-10:: ¿Cómo se llama la propiedad por la que el automatismo recuerda en qué estado está? {
+=Memoria
+~Enclavamiento
+~Temporización
+~Realimentación de potencia
+}
+
+::T3-11:: Dos pulsadores de marcha, ¿cómo se montan? {
+=En paralelo
+~En serie
+~Uno en potencia y otro en maniobra
+~Uno NA y el otro NC
+}
+
+::T3-12:: Dos pulsadores de paro, ¿cómo se montan? {
+=En serie
+~En paralelo
+~Uno en potencia y otro en maniobra
+~Los dos en paralelo con la bobina
+}
+
+::T3-13:: ¿Por qué los pulsadores de paro se montan en serie? {
+=Porque son NC y basta con que uno se abra para cortar la corriente
+~Porque son NA y hace falta que se aprieten todos
+~Porque así consumen menos
+~Porque de otra forma se quemarían
+}
+
+::T3-14:: ¿Cómo se monta el contacto 95-96 del relé térmico en la maniobra? {
+=En serie, como los pulsadores de paro
+~En paralelo con el pulsador de marcha
+~En paralelo con la bobina
+~No se monta en la maniobra
+}
+
+::T3-15:: ¿Cómo se montan las setas de emergencia en el circuito de maniobra? {
+=En serie, y antes que los pulsadores de paro
+~En paralelo con las marchas
+~En paralelo con la bobina
+~En el circuito de potencia
+}
+
+::T3-16:: ¿Cuál es el orden habitual de los elementos en un esquema de maniobra, de arriba abajo? {
+=Emergencias, térmico, paros, marchas con autoalimentación, enclavamientos y bobina
+~Bobina, marchas, paros, térmico y emergencias
+~Marchas, bobina, paros, enclavamientos y térmico
+~Térmico, bobina, emergencias, paros y marchas
+}
+
+::T3-17:: ¿Cómo se montan los pilotos de señalización? {
+=En ramas paralelas propias entre fase y neutro
+~En serie con la bobina del contactor
+~En serie con el pulsador de paro
+~Dentro del esquema de potencia
+}
+
+::T3-18:: ¿Por qué el piloto de avería no puede colgar de un contacto del contactor? {
+=Porque al saltar el térmico el contactor se suelta y el piloto se apagaría justo cuando hay que encenderlo
+~Porque el contactor no tiene contactos libres
+~Porque el piloto consume demasiado
+~Porque el contactor trabaja a otra tensión
+}
+
+::T3-19:: ¿Qué contacto manda un piloto que debe encenderse cuando el motor está en marcha? {
+=Un contacto auxiliar NA del contactor, por ejemplo el 13-14
+~Un contacto auxiliar NC del contactor
+~El contacto 95-96 del relé térmico
+~El pulsador de marcha
+}
+
+::T3-20:: ¿Qué contacto manda un piloto que debe encenderse cuando el motor está parado? {
+=Un contacto auxiliar NC del contactor, por ejemplo el 21-22
+~Un contacto auxiliar NA del contactor
+~El contacto 97-98 del relé térmico
+~El pulsador de paro
+}
+
+::T3-21:: Si ha saltado el relé térmico, ¿se puede rearrancar el motor apretando la marcha? {
+=No, porque el contacto 95-96 sigue abierto y corta la rama entera
+~Sí, apretando la marcha dos veces seguidas
+~Sí, siempre que el motor se haya enfriado
+~Sí, el térmico no afecta a la maniobra
+}
+
+::T3-22:: Para que el motor B solo pueda funcionar si el motor A está en marcha, ¿qué se pone? {
+=Un contacto NA de KM1 en serie, en la rama de KM2
+~Un contacto NC de KM1 en la rama de KM2
+~Un contacto NA de KM2 en la rama de KM1
+~Un fusible entre las dos ramas
+}
+
+::T3-23:: ¿Cómo se llama la maniobra en la que B solo puede arrancar si A ya está en marcha? {
+=Arranque condicionado
+~Enclavamiento mutuo
+~Sustitución
+~Marcha a impulsos
+}
+
+::T3-24:: Para que al arrancar el motor B se pare el motor A, ¿qué se pone? {
+=Un contacto NC de KM2 en serie, en la rama de KM1
+~Un contacto NA de KM2 en la rama de KM1
+~Un contacto NC de KM1 en la rama de KM2
+~Un temporizador en la rama de KM1
+}
+
+::T3-25:: ¿Qué es el enclavamiento mutuo? {
+=Poner en la rama de cada bobina un contacto NC del otro contactor, para que nunca cierren los dos a la vez
+~Unir mecánicamente los dos contactores para que cierren juntos
+~Poner los dos contactores en serie
+~Usar dos relés térmicos independientes
+}
+
+::T3-26:: Si un contacto representa una condición necesaria para arrancar, ¿de qué tipo debe ser? {
+=NA, normalmente abierto
+~NC, normalmente cerrado
+~Un contacto principal
+~Un contacto temporizado
+}
+
+::T3-27:: Si un contacto representa un impedimento para arrancar, ¿de qué tipo debe ser? {
+=NC, normalmente cerrado
+~NA, normalmente abierto
+~Un contacto principal
+~Un contacto de la potencia
+}
+
+::T3-28:: El contacto de una condición se pone siempre en la rama del contactor al que afecta, no en la del que provoca la condición. {TRUE#Es la regla que evita la mayoría de los errores de diseño de maniobra.}
+
+::T3-29:: En una inversión de giro sin enclavamiento, ¿qué pasaría si los dos contactores cerraran a la vez? {
+=Se produciría un cortocircuito franco entre dos fases
+~El motor giraría al doble de velocidad
+~El motor no se movería, sin más consecuencias
+~Se dispararía el diferencial y nada más
+}
+
+::T3-30:: En un cuadro de dos motores independientes, ¿qué comparten las dos maniobras? {
+=Solo la alimentación\: cada una tiene su paro, su marcha, su autoalimentación y su bobina
+~El pulsador de paro
+~El contacto de autoalimentación
+~El relé térmico
+}
+
+::T3-31:: ¿Qué ecuación describe una maniobra de marcha-paro con autoalimentación y relé térmico? {
+=KM1 \= F3 · S1 · ( S2 + KM1 13-14 )
+~KM1 \= F3 + S1 + S2 + KM1 13-14
+~KM1 \= F3 · S1 · S2 · KM1 13-14
+~KM1 \= ( F3 + S1 ) · ( S2 · KM1 13-14 )
+}
+
+::T3-32:: En una maniobra, el punto representa una conexión en serie y el más una conexión en paralelo. {TRUE#Punto igual a condición Y, más igual a condición O.}
+
+::T3-33:: Si el motor arranca pero se para en cuanto se suelta el pulsador de marcha, ¿qué falla? {
+=La autoalimentación\: falta, está en serie o el cable se ha soltado
+~El relé térmico está mal ajustado
+~El motor está conectado en estrella
+~Falta el enclavamiento mecánico
+}
+
+::T3-34:: En un cuadro, ¿qué significa que el contactor «engancha y suelta muy deprisa»? {
+=Que se ha usado un contacto NC para la autoalimentación o un contacto de enclavamiento mal elegido
+~Que falta el pulsador de paro
+~Que el motor está sobrecargado
+~Que la tensión de red es demasiado alta
+}
+
+::T3-35:: ¿Qué pilotos están encendidos si el motor está parado, el cuadro tiene tensión y no hay avería? {
+=Solo el piloto blanco de motor parado
+~Solo el piloto verde de marcha
+~El verde y el rojo
+~Ninguno
+}
+
+::T3-36:: Cuando salta el relé térmico estando el motor en marcha, ¿qué pilotos se encienden? {
+=El blanco de motor parado y el rojo de avería
+~Solo el rojo de avería
+~Solo el verde de marcha
+~Ninguno, porque se corta la maniobra
+}
+
+::T3-37:: Si se abre el magnetotérmico general del cuadro, ¿qué pilotos quedan encendidos? {
+=Ninguno, porque sin tensión de maniobra no hay señalización posible
+~El blanco de motor parado
+~El rojo de avería
+~Todos
+}
+
+::T3-38:: ¿Para qué sirve un bloque de contactos auxiliares? {
+=Para añadir contactos auxiliares a un contactor cuando los de serie no son suficientes
+~Para aumentar la intensidad de los contactos principales
+~Para cambiar la tensión de la bobina
+~Para sustituir al relé térmico
+}
+
+::T3-39:: Usar un contacto principal para el circuito de maniobra es una buena solución cuando faltan auxiliares. {FALSE#Deja el cuadro sin un polo de potencia y es imposible de entender para quien lo repare. Se pide un bloque de contactos auxiliares.}
+
+::T3-40:: En una maniobra con dos marchas y tres paros, ¿cuántos contactos NC hay? {
+=Tres, uno por cada pulsador de paro
+~Dos, uno por cada marcha
+~Cinco, uno por cada pulsador
+~Ninguno
+}
+
+
+$CATEGORY: Temario 3014/04 Temporización, inversión y arranque
+
+::T4-01:: ¿Qué es un temporizador? {
+=Un relé que cuenta un tiempo ajustable y después cambia de estado sus contactos
+~Un contactor de gran tamaño
+~Una protección contra sobrecargas
+~Un aparato que mide el tiempo de funcionamiento del motor
+}
+
+::T4-02:: ¿A qué bornes va la bobina de un temporizador? {
+=A1 y A2
+~15 y 18
+~95 y 96
+~13 y 14
+}
+
+::T4-03:: Un temporizador a la conexión, ¿qué hace al darle tensión? {
+=Espera el tiempo ajustado y entonces conmuta sus contactos
+~Conmuta al instante
+~No hace nada hasta que se le quita la tensión
+~Conmuta y vuelve enseguida al reposo
+}
+
+::T4-04:: Un temporizador a la desconexión, ¿qué hace al darle tensión? {
+=Conmuta al instante; el retardo se produce al quitarle la tensión
+~Espera el tiempo ajustado y entonces conmuta
+~No hace nada en ningún caso
+~Se queda contando indefinidamente
+}
+
+::T4-05:: ¿Para qué sirve un temporizador a la conexión? {
+=Para que algo empiece más tarde
+~Para que algo siga funcionando un rato más después de parar
+~Para proteger el motor de sobrecargas
+~Para invertir el sentido de giro
+}
+
+::T4-06:: ¿Para qué sirve un temporizador a la desconexión? {
+=Para que algo siga funcionando un rato más después de parar
+~Para que algo empiece más tarde
+~Para limitar la corriente de arranque
+~Para enclavar dos contactores
+}
+
+::T4-07:: ¿Qué bornes son el contacto temporizado normalmente abierto de un temporizador? {
+=15-18
+~15-16
+~A1-A2
+~95-96
+}
+
+::T4-08:: ¿Qué bornes son el contacto temporizado normalmente cerrado de un temporizador? {
+=15-16
+~15-18
+~A1-A2
+~97-98
+}
+
+::T4-09:: Si a un temporizador se le quita la tensión a mitad de la cuenta, ¿qué pasa? {
+=Vuelve a cero y la próxima vez empieza a contar desde el principio
+~Guarda el tiempo transcurrido y continúa donde estaba
+~Conmuta inmediatamente sus contactos
+~Se avería
+}
+
+::T4-10:: Un temporizador cuenta aunque su bobina esté sin tensión. {FALSE#Solo cuenta mientras su bobina tiene tensión. Si se la quitas, vuelve a cero.}
+
+::T4-11:: El ventilador de un horno debe seguir funcionando 3 minutos después de apagar la resistencia. ¿Qué temporizador hace falta? {
+=A la desconexión
+~A la conexión
+~Ninguno, basta con un contactor
+~Uno cíclico
+}
+
+::T4-12:: Una prensa no puede bajar hasta 5 segundos después de cerrarse la protección. ¿Qué temporizador hace falta? {
+=A la conexión
+~A la desconexión
+~Ninguno
+~Un relé auxiliar
+}
+
+::T4-13:: ¿Cómo se dibuja el símbolo de un contacto temporizado? {
+=Con el símbolo del paracaídas\: hacia arriba a la conexión y hacia abajo a la desconexión
+~Con un círculo relleno
+~Con una cruz sobre el contacto
+~Igual que un contacto auxiliar normal
+}
+
+::T4-14:: En una secuencia en cascada de tres motores, ¿quién arranca el motor B? {
+=El contacto temporizado del temporizador que cuelga del motor A
+~El operario, con un segundo pulsador de marcha
+~El relé térmico del motor A
+~El magnetotérmico general
+}
+
+::T4-15:: Para obligar a que el orden de arranque de tres motores sea A, B y C, ¿qué se usa? {
+=Arranques condicionados encadenados\: un NA de KM1 en la rama de KM2 y un NA de KM2 en la de KM3
+~Enclavamientos mutuos entre los tres contactores
+~Tres relés térmicos independientes
+~Un solo pulsador de marcha para los tres
+}
+
+::T4-16:: Con arranques condicionados encadenados, si se para el motor A, ¿qué pasa con B y C? {
+=Se paran también
+~Siguen funcionando normalmente
+~Arrancan automáticamente
+~Solo se para B
+}
+
+::T4-17:: ¿Cómo se consigue que los motores se paren solos uno detrás de otro? {
+=Con contactos temporizados NC en serie con cada bobina
+~Con contactos temporizados NA en paralelo con cada bobina
+~Con relés térmicos ajustados a distintos valores
+~Con un solo pulsador de paro
+}
+
+::T4-18:: ¿Qué convierte una secuencia en un ciclo que se repite indefinidamente? {
+=Que el último temporizador vuelva a arrancar el primer contactor
+~Que haya más de dos motores
+~Que el pulsador de paro sea NA
+~Que los temporizadores sean a la desconexión
+}
+
+::T4-19:: En el semáforo de la ficha FA45, ¿cómo se apaga la lámpara de la etapa anterior? {
+=Con un contacto NC de la etapa siguiente, que la tumba
+~Se apaga sola al cabo de un tiempo
+~Con el pulsador de paro
+~Con el relé térmico
+}
+
+::T4-20:: En la potencia de una inversión de giro, ¿qué diferencia hay entre KM1 y KM2? {
+=KM2 lleva dos fases intercambiadas respecto a KM1
+~KM2 lleva las tres fases intercambiadas
+~KM2 alimenta el motor a menor tensión
+~KM2 no lleva relé térmico
+}
+
+::T4-21:: ¿Cuántos relés térmicos lleva una inversión de giro? {
+=Uno solo, colocado después de los dos contactores y antes del motor
+~Dos, uno por cada contactor
+~Ninguno, no hace falta
+~Tres, uno por fase
+}
+
+::T4-22:: ¿Cuántos enclavamientos se montan en una inversión de giro? {
+=Dos\: el eléctrico, con contactos NC cruzados, y el mecánico
+~Solo el eléctrico
+~Solo el mecánico
+~Ninguno, basta con el relé térmico
+}
+
+::T4-23:: ¿Qué es el enclavamiento mecánico? {
+=Una pieza que impide físicamente que los dos contactores cierren a la vez
+~Un contacto NC cruzado entre las dos ramas
+~Un tornillo que fija el contactor al carril
+~Un tipo de temporizador
+}
+
+::T4-24:: El enclavamiento mecánico hace innecesario el eléctrico. {FALSE#Se montan los dos. El mecánico evita el cortocircuito, pero la bobina bloqueada zumba, se calienta y se quema.}
+
+::T4-25:: ¿Por qué se exige pasar por paro antes de invertir el giro? {
+=Porque invertir en marcha provoca un frenado a contracorriente con picos de corriente y una sacudida mecánica
+~Porque si no, el motor no arranca
+~Porque lo exige el relé térmico
+~Porque se gastan antes los pulsadores
+}
+
+::T4-26:: En una inversión de giro con finales de carrera, ¿de qué tipo son los contactos de los finales? {
+=NC, para que al accionarse corten la rama correspondiente
+~NA, para que al accionarse cierren la rama
+~Contactos principales
+~Contactos temporizados
+}
+
+::T4-27:: En una inversión con finales de carrera, ¿en qué rama va el final de carrera de apertura? {
+=En la rama del contactor que abre, para cortar solo ese sentido
+~En la rama del contactor que cierra
+~En las dos ramas a la vez
+~En el circuito de potencia
+}
+
+::T4-28:: Si los dos contactos de enclavamiento de una inversión se montan como NA en vez de NC, ¿qué ocurre? {
+=No arranca ninguno de los dos sentidos\: cada uno espera al otro
+~Los dos arrancan a la vez y se produce un cortocircuito
+~Funciona igual que con contactos NC
+~Solo funciona un sentido de giro
+}
+
+::T4-29:: ¿Para qué sirve el arranque estrella-triángulo? {
+=Para reducir a un tercio la corriente de arranque del motor
+~Para que el motor gire más rápido
+~Para invertir el sentido de giro
+~Para proteger contra cortocircuitos
+}
+
+::T4-30:: En el arranque estrella-triángulo, ¿qué pasa con el par durante la fase de estrella? {
+=También baja a un tercio, por eso solo sirve para máquinas que arrancan en vacío o con poca carga
+~Sube al triple
+~Se mantiene igual que en triángulo
+~Se hace cero
+}
+
+::T4-31:: ¿Qué contactor está cerrado todo el rato en un arranque estrella-triángulo? {
+=KM1, el de línea
+~KM2, el de estrella
+~KM3, el de triángulo
+~Los tres a la vez
+}
+
+::T4-32:: ¿Qué hace el contactor KM2 en un arranque estrella-triángulo? {
+=Une entre sí U2, V2 y W2 para formar el punto común de la estrella
+~Lleva las tres fases de línea al motor
+~Intercambia dos fases
+~Protege contra sobrecargas
+}
+
+::T4-33:: KM2 y KM3 pueden estar cerrados a la vez durante la transición de estrella a triángulo. {FALSE#Sería un cortocircuito entre las tres fases. Llevan enclavamiento mutuo obligatorio.}
+
+::T4-34:: En una red de 400 V, ¿qué placa debe tener el motor para poder usar arranque estrella-triángulo? {
+=400/690 V ∆/Y
+~230/400 V ∆/Y
+~Da igual la placa
+~127/230 V ∆/Y
+}
+
+::T4-35:: ¿Qué hay que hacer en la caja de bornes del motor antes de montar un arranque estrella-triángulo? {
+=Quitar los puentes\: las seis puntas van al cuadro por separado
+~Dejar los puentes en estrella
+~Dejar los puentes en triángulo
+~No hay que tocar nada
+}
+
+::T4-36:: Si se dejan los puentes puestos en el motor y se cierra KM2 en un arranque estrella-triángulo, ¿qué ocurre? {
+=Se cortocircuitan las tres fases entre sí y salta el magnetotérmico
+~El motor arranca más despacio de lo normal
+~No ocurre nada apreciable
+~El motor gira al revés
+}
+
+::T4-37:: ¿A cuántos segundos se suele ajustar el temporizador de un arranque estrella-triángulo? {
+=Entre 3 y 10 segundos, según lo que tarde el motor en coger vueltas
+~Entre 1 y 2 décimas de segundo
+~Entre 1 y 3 minutos
+~Siempre a 30 segundos exactos
+}
+
+::T4-38:: Si el temporizador de un estrella-triángulo se ajusta a medio segundo, ¿qué se consigue? {
+=Prácticamente nada\: el motor pega casi el mismo pico que en un arranque directo
+~Se reduce aún más la corriente de arranque
+~El motor arranca con más par
+~El motor no llega a arrancar
+}
+
+::T4-39:: Antes de medir para buscar una avería en un cuadro, ¿qué hay que hacer primero? {
+=Preguntar qué pasaba, mirar el cuadro y reproducir la avería
+~Cambiar el contactor sospechoso
+~Rehacer el cableado entero
+~Medir tensión en todos los bornes
+}
+
+::T4-40:: ¿Cuál es el método más eficaz para localizar una avería en un circuito? {
+=Dividir el circuito por la mitad y comprobar
+~Medir elemento por elemento desde el principio
+~Cambiar piezas hasta que funcione
+~Medir al azar en varios puntos
+}
+
+::T4-41:: ¿Cómo se buscan las averías en el cuadro en este módulo? {
+=Midiendo continuidad con el cuadro desconectado
+~Midiendo tensión con el cuadro conectado
+~Cambiando piezas hasta que funcione
+~Desmontando el cableado entero
+}
+
+::T4-42:: Midiendo continuidad, si el polímetro pita, ¿qué significa? {
+=Que el elemento está cerrado y deja pasar la corriente
+~Que el elemento está abierto o cortado
+~Que hay tensión en el punto
+~Que hay un cortocircuito
+}
+
+::T4-43:: Un motor zumba, no gira y se calienta. ¿Cuál es la causa más probable? {
+=Le falta una fase
+~El temporizador está mal ajustado
+~Falta la autoalimentación
+~El diferencial está abierto
+}
+
+::T4-44:: En un cuadro no pasa absolutamente nada y los pilotos están todos apagados. ¿Qué se mira primero? {
+=Que haya tensión de maniobra\: magnetotérmico y fusible de maniobra
+~El contacto de autoalimentación
+~Los finales de carrera
+~El ajuste del relé térmico
+}
+
+::T4-45:: Un contactor zumba pero no llega a cerrar. ¿Cuál es una causa probable? {
+=Tensión de bobina insuficiente, núcleo sucio o el enclavamiento mecánico bloqueando
+~Falta el pulsador de paro
+~El relé térmico está mal ajustado
+~El motor está en triángulo
+}
+
+::T4-46:: En el taller, ¿de qué son casi todas las averías de un cuadro? {
+=De montaje\: cables en el borne de al lado, bornes flojos o contactos mal elegidos
+~Del material, que viene defectuoso de fábrica
+~De la tensión de la red
+~Del motor
+}
+
+::T4-47:: ¿Cuál es la avería más difícil de encontrar en un cuadro? {
+=Un borne flojo, porque hace contacto de forma intermitente
+~Un fusible fundido
+~Un contactor con la bobina cortada
+~Un cable claramente desconectado
+}
+
+::T4-48:: Si al cerrar el magnetotérmico general salta inmediatamente, ¿qué se sospecha? {
+=Un cortocircuito\: cables tocando en la canal, puentes olvidados en el motor o falta de enclavamiento
+~Una sobrecarga del motor
+~Un fallo del temporizador
+~Falta de autoalimentación
+}
+
+
+$CATEGORY: Temario 3014/05 Comunicación y señales
+
+::T5-01:: ¿Cuáles son los cinco elementos de un sistema de comunicación? {
+=Emisor, mensaje, canal, código y receptor
+~Emisor, cable, antena, receptor y ruido
+~Entrada, proceso, salida, canal y código
+~Fase, neutro, tierra, canal y receptor
+}
+
+::T5-02:: ¿Qué es el canal en un sistema de comunicación? {
+=El medio por el que viaja el mensaje
+~Las reglas para representar el mensaje
+~Quien envía la información
+~Lo que se quiere transmitir
+}
+
+::T5-03:: ¿Qué es el código en un sistema de comunicación? {
+=Las reglas para representar el mensaje, y tiene que ser común al emisor y al receptor
+~El medio por el que viaja el mensaje
+~El aparato que emite la señal
+~La cantidad de información transmitida
+}
+
+::T5-04:: ¿Qué es el ruido en un sistema de comunicación? {
+=Todo lo que se mete en el canal y estropea la señal
+~El sonido que produce el emisor
+~El código que usa el receptor
+~La longitud del cable
+}
+
+::T5-05:: ¿Qué tres recursos se usan contra el ruido? {
+=La redundancia, el apantallamiento y el trenzado
+~La amplificación, la atenuación y el filtrado
+~El emisor, el canal y el receptor
+~La frecuencia, la fase y la amplitud
+}
+
+::T5-06:: Decir «Alfa, Bravo, Charlie» en lugar de «A, B, C» por radio es un ejemplo de... {
+=Redundancia
+~Apantallamiento
+~Modulación
+~Atenuación
+}
+
+::T5-07:: Una comunicación en un solo sentido, como la radio o la televisión, es... {
+=Símplex
+~Semidúplex
+~Dúplex
+~Multiplexada
+}
+
+::T5-08:: Un walkie-talkie, en el que se habla de uno en uno, ¿qué tipo de comunicación es? {
+=Semidúplex
+~Símplex
+~Dúplex
+~Analógica
+}
+
+::T5-09:: Una llamada de teléfono, en la que los dos pueden hablar a la vez, es... {
+=Dúplex
+~Semidúplex
+~Símplex
+~Broadcast
+}
+
+::T5-10:: El código Morse es un código binario. {TRUE#Solo tiene dos estados, punto y raya, igual que el cero y el uno de un ordenador.}
+
+::T5-11:: ¿Qué es una señal analógica? {
+=Una señal que varía de forma continua y puede tomar infinitos valores
+~Una señal que solo tiene dos valores
+~Una señal que viaja por fibra óptica
+~Una señal que no lleva ruido
+}
+
+::T5-12:: ¿Cuántos valores puede tomar una señal digital? {
+=Dos\: cero y uno
+~Infinitos
+~Diez
+~Doscientos cincuenta y seis
+}
+
+::T5-13:: ¿Por qué la señal digital aguanta mejor el ruido? {
+=Porque solo hay dos valores posibles y se puede regenerar redondeando al más cercano
+~Porque viaja más deprisa
+~Porque va siempre por fibra óptica
+~Porque lleva más tensión
+}
+
+::T5-14:: Un contacto de automatismo es un ejemplo de señal digital. {TRUE#O está abierto o está cerrado. No existe «medio cerrado».}
+
+::T5-15:: ¿Qué es un bit? {
+=La unidad mínima de información\: un cero o un uno
+~Un conjunto de ocho caracteres
+~Una unidad de velocidad de red
+~Una dirección de memoria
+}
+
+::T5-16:: Cuántos bits tiene un byte. Escribe solo el número. {#8}
+
+::T5-17:: ¿Qué ocupa tradicionalmente un byte? {
+=Un carácter\: una letra, un número o un signo
+~Una palabra completa
+~Una línea de texto
+~Una imagen pequeña
+}
+
+::T5-18:: ¿En qué unidades se miden las velocidades de conexión? {
+=En bits por segundo
+~En bytes por segundo
+~En hercios
+~En vatios
+}
+
+::T5-19:: ¿Por cuánto hay que dividir los megabits por segundo para obtener megabytes por segundo? Escribe solo el número. {#8}
+
+::T5-20:: ¿Por qué los múltiplos informáticos van de 1.024 en 1.024 y no de 1.000 en 1.000? {
+=Porque 1.024 es 2 elevado a 10, y en binario las cosas van de dos en dos
+~Porque así lo decidieron los fabricantes de discos duros
+~Porque 1.024 es el número de caracteres del código ASCII
+~Es una convención sin ningún motivo técnico
+}
+
+::T5-21:: ¿Qué base tiene el sistema binario? {
+=Base 2
+~Base 8
+~Base 10
+~Base 16
+}
+
+::T5-22:: ¿Qué símbolos usa el sistema hexadecimal? {
+=Del 0 al 9 y de la A a la F
+~Solo el 0 y el 1
+~Del 0 al 9 únicamente
+~Del 0 al 7
+}
+
+::T5-23:: ¿Cómo se pasa de decimal a binario? {
+=Dividiendo entre dos sucesivamente y leyendo los restos de abajo arriba
+~Multiplicando por dos y sumando
+~Dividiendo entre dieciséis
+~Restando potencias de diez
+}
+
+::T5-24:: ¿Cómo se pasa de binario a decimal? {
+=Sumando los pesos de las posiciones donde hay un uno
+~Contando cuántos unos hay
+~Dividiendo entre dos
+~Multiplicando por ocho
+}
+
+::T5-25:: A cuántos bits equivale una cifra hexadecimal. Escribe solo el número. {#4}
+
+::T5-26:: ¿Con cuántas cifras hexadecimales se escribe un byte? Escribe solo el número. {#2}
+
+::T5-27:: ¿Cómo se pasa de binario a hexadecimal? {
+=Agrupando los bits de cuatro en cuatro empezando por la derecha y sustituyendo cada grupo por su cifra hexadecimal
+~Agrupando los bits de ocho en ocho empezando por la izquierda
+~Dividiendo el número entre dieciséis
+~Multiplicando cada bit por su posición
+}
+
+::T5-28:: Si al agrupar bits de cuatro en cuatro sobran bits por la izquierda, ¿qué se hace? {
+=Se rellena con ceros por la izquierda
+~Se descartan esos bits
+~Se rellena con unos
+~Se agrupan de tres en tres
+}
+
+::T5-29:: ¿Cuál es el valor máximo que se puede representar con 8 bits? {
+=255
+~256
+~128
+~1.024
+}
+
+::T5-30:: ¿Para qué sirve el código ASCII? {
+=Para asignar un número a cada carácter, de modo que el ordenador pueda guardar texto
+~Para comprimir archivos
+~Para cifrar contraseñas
+~Para medir la velocidad de la red
+}
+
+::T5-31:: ¿En qué se usa el sistema hexadecimal en el trabajo real? {
+=En direcciones MAC, en códigos de color y en direcciones de memoria
+~En la tensión de las bobinas de los contactores
+~En la sección de los cables
+~En la potencia de los motores
+}
+
+::T5-32:: El color \#FF0000 corresponde a... {
+=Rojo puro
+~Verde puro
+~Azul puro
+~Negro
+}
+
+::T5-33:: En el código ASCII, ¿qué valor decimal corresponde a la letra A mayúscula? Escribe solo el número. {#65}
+
+::T5-34:: Una señal analógica que recorre una gran distancia se puede regenerar exactamente igual que una digital. {FALSE#Llega deformada y no hay forma de saber cuánto se ha deformado. Solo la digital se regenera.}
+
+::T5-35:: ¿Qué aparato regenera una señal digital deformada? {
+=Un repetidor
+~Un atenuador
+~Un mezclador
+~Un derivador
+}
+
+
+$CATEGORY: Temario 3014/06 Medios de transmisión
+
+::T6-01:: ¿Cuántos hilos y cuántos pares tiene un cable de par trenzado? {
+=8 hilos agrupados en 4 pares
+~4 hilos en 2 pares
+~6 hilos en 3 pares
+~12 hilos en 6 pares
+}
+
+::T6-02:: ¿De qué colores son los cuatro pares de un cable UTP? {
+=Naranja, verde, azul y marrón
+~Rojo, verde, azul y negro
+~Marrón, negro, gris y azul
+~Amarillo, verde, rojo y blanco
+}
+
+::T6-03:: ¿Por qué están trenzados los pares de un cable de red? {
+=Porque el ruido afecta igual a los dos hilos y al restarlos en el receptor se cancela
+~Para que el cable sea más flexible
+~Para que ocupe menos sitio
+~Para poder distinguirlos por el color
+}
+
+::T6-04:: ¿Por qué cada par tiene un paso de trenzado distinto? {
+=Para que no se interfieran entre sí\: eso es la diafonía
+~Para diferenciarlos visualmente
+~Para que el cable sea más resistente
+~Para repartir mejor la corriente
+}
+
+::T6-05:: Cuántos milímetros se puede destrenzar como máximo al montar un conector. Escribe solo el número. {#13}
+
+::T6-06:: Si se destrenza demasiado al montar un conector, ¿qué ocurre? {
+=El cable pasa la prueba de continuidad pero no alcanza la velocidad
+~El cable no da continuidad en ningún hilo
+~No ocurre nada apreciable
+~El conector no llega a crimpar
+}
+
+::T6-07:: ¿Cuál es la longitud máxima de un enlace de par trenzado? {
+=100 metros\: 90 de cable fijo más 10 de latiguillos
+~50 metros
+~300 metros
+~No hay límite establecido
+}
+
+::T6-08:: ¿Qué categoría de cable es el estándar actual en obra nueva? {
+=Categoría 6
+~Categoría 5
+~Categoría 3
+~Categoría 7a
+}
+
+::T6-09:: ¿Qué velocidad admite un cable de categoría 5e? {
+=1 Gbps
+~100 Mbps
+~10 Gbps a 100 metros
+~10 Mbps
+}
+
+::T6-10:: ¿Qué significan las siglas UTP? {
+=Unshielded Twisted Pair\: par trenzado sin apantallar
+~Universal Transmission Protocol
+~Unidad de Transmisión Paralela
+~Ultra Twisted Protection
+}
+
+::T6-11:: En la nomenclatura XX/YYY de un cable, ¿qué indica cada parte? {
+=Lo de delante de la barra es el blindaje del cable entero y lo de detrás el de cada par
+~Lo de delante es el blindaje de cada par y lo de detrás el del cable entero
+~Lo de delante es la categoría y lo de detrás la velocidad
+~Las dos partes indican lo mismo
+}
+
+::T6-12:: En las siglas de un cable apantallado, ¿qué significa la F? {
+=Lámina de aluminio (foil)
+~Malla trenzada
+~Sin apantallar
+~Fibra óptica
+}
+
+::T6-13:: En las siglas de un cable apantallado, ¿qué significa la S? {
+=Malla trenzada (screened)
+~Lámina de aluminio
+~Sin apantallar
+~Simple
+}
+
+::T6-14:: Un cable S/FTP lleva... {
+=Malla trenzada en el cable y lámina de aluminio en cada par
+~Lámina en el cable y malla en cada par
+~Sin blindaje de ningún tipo
+~Solo blindaje en el cable
+}
+
+::T6-15:: Un cable apantallado mal instalado puede ser peor que uno sin apantallar. {TRUE#Si la pantalla no está puesta a tierra, se convierte en una antena que capta ruido en lugar de proteger.}
+
+::T6-16:: ¿Qué tipo de cable se usa junto a máquinas y cuadros de potencia en una nave industrial? {
+=Cable apantallado, del tipo F/UTP o S/FTP, con la pantalla puesta a tierra
+~Cable U/UTP sin apantallar, que es más barato
+~Cable coaxial de 50 ohmios
+~Cable de par trenzado de categoría 3
+}
+
+::T6-17:: ¿Qué diferencia hay entre cable rígido y cable flexible de par trenzado? {
+=El rígido es para el tendido fijo por canal o tubo y el flexible para los latiguillos
+~El rígido es para los latiguillos y el flexible para el tendido fijo
+~No hay diferencia
+~El flexible no admite conector RJ-45
+}
+
+::T6-18:: ¿Cómo se llama el conector de ocho contactos del cable de red? {
+=RJ-45
+~RJ-11
+~BNC
+~SC
+}
+
+::T6-19:: ¿En qué norma están definidas las terminaciones T568A y T568B? {
+=EIA/TIA-568
+~IEC 60947
+~RD 346/2011
+~ISO 9001
+}
+
+::T6-20:: ¿Cuál es el primer color del estándar T568B? {
+=Blanco-naranja
+~Blanco-verde
+~Azul
+~Marrón
+}
+
+::T6-21:: ¿Cuál es el orden completo del estándar T568B? {
+=Blanco-naranja, naranja, blanco-verde, azul, blanco-azul, verde, blanco-marrón, marrón
+~Blanco-verde, verde, blanco-naranja, azul, blanco-azul, naranja, blanco-marrón, marrón
+~Naranja, blanco-naranja, verde, blanco-verde, azul, blanco-azul, marrón, blanco-marrón
+~Blanco-naranja, naranja, blanco-verde, verde, blanco-azul, azul, blanco-marrón, marrón
+}
+
+::T6-22:: ¿Qué diferencia hay entre el estándar T568A y el T568B? {
+=Se intercambian el par verde y el par naranja; el azul y el marrón no cambian
+~Se intercambian el azul y el marrón
+~La A usa cuatro hilos y la B usa ocho
+~No hay ninguna diferencia
+}
+
+::T6-23:: ¿Qué pines ocupa el par azul en los dos estándares? {
+=Los pines 4 y 5, en el centro del conector
+~Los pines 1 y 2
+~Los pines 3 y 6
+~Los pines 7 y 8
+}
+
+::T6-24:: ¿Cómo se monta un cable directo? {
+=Con el estándar B en los dos extremos
+~Con A en un extremo y B en el otro
+~Con A en los dos extremos y sin trenzar
+~Sin seguir ningún estándar
+}
+
+::T6-25:: ¿Cómo se monta un cable cruzado? {
+=Con A en un extremo y B en el otro
+~Con B en los dos extremos
+~Con A en los dos extremos
+~Cambiando solo el par azul
+}
+
+::T6-26:: ¿Por qué apenas se usan ya los cables cruzados? {
+=Porque los equipos modernos llevan Auto MDI/MDIX y se adaptan solos
+~Porque ya no se fabrican conectores para ellos
+~Porque la norma los prohibió
+~Porque no alcanzan la velocidad de 1 Gbps
+}
+
+::T6-27:: Al crimpar un conector RJ-45, ¿cuántos centímetros de cubierta se pelan aproximadamente? {
+=2,5 cm
+~10 cm
+~0,5 cm
+~6 cm
+}
+
+::T6-28:: Al crimpar un conector RJ-45, ¿a cuánto se cortan los hilos antes de introducirlos? {
+=A 1 cm
+~A 3 cm
+~A 5 mm
+~A 4 cm
+}
+
+::T6-29:: Si el conector RJ-45 lleva funda, ¿cuándo se coloca? {
+=Antes de hacer cualquier otra operación
+~Al final, después de crimpar
+~Después de introducir los hilos y antes de crimpar
+~No hace falta colocarla
+}
+
+::T6-30:: ¿Cuál es el fallo más frecuente al crimpar un conector? {
+=Que un hilo no llegue al fondo y ese pin no haga contacto
+~Que el cable sea demasiado largo
+~Que la funda sea de otro color
+~Que el conector tenga ocho contactos
+}
+
+::T6-31:: ¿Con qué herramienta se montan los hilos en un jack hembra RJ-45? {
+=Con la herramienta de impacto o punzonadora
+~Con la crimpadora
+~Con el pelacables
+~Con un destornillador plano
+}
+
+::T6-32:: Al punzonar un jack hembra, ¿hacia dónde debe ir la cuchilla de la herramienta? {
+=Hacia fuera del conector
+~Hacia dentro del conector
+~Da igual la orientación
+~Hacia arriba siempre
+}
+
+::T6-33:: ¿Qué se consigue con un tester de continuidad de cableado? {
+=Comprobar que cada hilo llega a su número en el otro extremo
+~Medir la diafonía y la atenuación del enlace
+~Certificar la instalación
+~Medir la velocidad real de la red
+}
+
+::T6-34:: ¿Qué aparato hace falta para certificar de verdad un enlace de cableado? {
+=Un certificador de cableado
+~Un tester de continuidad
+~Un polímetro
+~Un generador de tonos
+}
+
+::T6-35:: ¿Cuáles son las cuatro capas de un cable coaxial? {
+=Conductor central, dieléctrico, malla y cubierta exterior
+~Núcleo, revestimiento, aramida y cubierta
+~Cuatro pares trenzados
+~Fase, neutro, tierra y pantalla
+}
+
+::T6-36:: ¿Por qué se llama coaxial ese cable? {
+=Porque todas sus capas comparten el mismo eje
+~Porque lleva dos conductores en paralelo
+~Porque transmite en los dos sentidos
+~Porque tiene doble apantallamiento
+}
+
+::T6-37:: ¿Qué impedancia tiene el cable coaxial de una instalación de antena de televisión? {
+=75 ohmios
+~50 ohmios
+~100 ohmios
+~230 ohmios
+}
+
+::T6-38:: ¿De qué tres maneras se fijan los conectores de cable coaxial? {
+=Por rosca, por bayoneta y por presión
+~Por soldadura, por rosca y por grapa
+~Por presión, por tornillo y por brida
+~Solo por rosca
+}
+
+::T6-39:: ¿Qué función tiene la malla del cable coaxial? {
+=Hace de conductor de retorno y de pantalla a la vez
+~Solo da resistencia mecánica al cable
+~Es el conductor que lleva la señal
+~Aísla el conductor central del dieléctrico
+}
+
+::T6-40:: ¿Cómo viaja la información por una fibra óptica? {
+=Como pulsos de luz que rebotan en el núcleo por reflexión total interna
+~Como corriente eléctrica por un hilo de cobre muy fino
+~Como ondas de radio dentro de un tubo
+~Como vibraciones mecánicas
+}
+
+::T6-41:: ¿Qué fibra tiene el núcleo más fino y llega a decenas de kilómetros? {
+=La monomodo
+~La multimodo
+~Las dos por igual
+~Ninguna llega tan lejos
+}
+
+::T6-42:: ¿De qué color suele ser la cubierta de una fibra monomodo? {
+=Amarilla
+~Naranja
+~Negra
+~Gris
+}
+
+::T6-43:: ¿Cuál es la principal ventaja de la fibra óptica frente al cobre? {
+=Que es inmune a las interferencias eléctricas y llega mucho más lejos
+~Que es más barata y más fácil de conectorizar
+~Que soporta mejor los dobleces
+~Que puede transportar alimentación a los equipos
+}
+
+::T6-44:: ¿Por qué es peligroso mirar de frente el extremo de una fibra conectada? {
+=Porque el láser es invisible y puede dañar la retina
+~Porque el cristal puede clavarse en el ojo
+~Porque emite calor
+~No es peligroso
+}
+
+::T6-45:: ¿Qué conector de fibra suele llevar la ONT de una vivienda? {
+=SC
+~ST
+~FC
+~RJ-45
+}
+
+::T6-46:: ¿Qué conector de fibra es el estándar actual en racks porque ocupa la mitad? {
+=LC
+~ST
+~SC
+~FC
+}
+
+::T6-47:: ¿Qué pasa cuando sube la frecuencia de una señal de radio? {
+=Sube la velocidad de datos pero baja el alcance y la penetración en obstáculos
+~Sube todo\: velocidad, alcance y penetración
+~Baja la velocidad y sube el alcance
+~No cambia nada
+}
+
+::T6-48:: ¿En qué banda emite la TDT? {
+=UHF, entre 470 y 694 MHz
+~FM, entre 87,5 y 108 MHz
+~2,4 GHz
+~Banda Ku de satélite
+}
+
+::T6-49:: En la banda de 2,4 GHz, ¿qué canales no se solapan entre sí? {
+=El 1, el 6 y el 11
+~Todos los canales, del 1 al 13
+~Solo el 1 y el 13
+~El 2, el 5 y el 9
+}
+
+::T6-50:: ¿Qué banda de wifi conviene usar lejos del router y atravesando paredes? {
+=La de 2,4 GHz, que tiene más alcance y mejor penetración
+~La de 5 GHz, que va más rápido
+~Da igual, las dos llegan igual
+~Ninguna\: hay que usar cable siempre
+}
+
+::T6-51:: ¿Cuál es la causa que más influye en que un wifi doméstico vaya mal? {
+=La ubicación del router\: escondido en un mueble o en un extremo de la vivienda
+~El color del cable de red
+~La marca del ordenador
+~La longitud del cable de alimentación
+}
+
+::T6-52:: ¿Por qué un repetidor wifi no suele ser la mejor solución? {
+=Porque repite la señal que le llega y reduce a la mitad el ancho de banda
+~Porque consume demasiada electricidad
+~Porque no es compatible con la banda de 5 GHz
+~Porque está prohibido por la normativa
+}
+
+::T6-53:: ¿Qué antena radia en todas las direcciones del plano horizontal? {
+=La omnidireccional
+~La directiva
+~La parabólica
+~La Yagi
+}
+
+::T6-54:: ¿En qué unidad se mide la ganancia de una antena? {
+=En dBi
+~En vatios
+~En hercios
+~En ohmios
+}
+
+::T6-55:: ¿Qué es la polarización de una antena? {
+=La orientación del campo, horizontal o vertical\: las dos antenas de un enlace deben coincidir
+~La cantidad de energía que concentra
+~La frecuencia a la que trabaja
+~El número de elementos que tiene
+}
+
+::T6-56:: Una antena de más ganancia siempre es mejor, sin ningún inconveniente. {FALSE#Más ganancia significa más alcance pero haz más estrecho, así que hay que apuntar mejor.}
+
+
+$CATEGORY: Temario 3014/07 Redes y equipos
+
+::T7-01:: ¿Qué significan las siglas LAN? {
+=Local Area Network\: red de área local
+~Large Area Network\: red de área extensa
+~Line Access Node
+~Logical Address Network
+}
+
+::T7-02:: ¿Qué significan las siglas WAN? {
+=Wide Area Network\: red de área extensa
+~Wireless Area Network
+~Wide Access Node
+~Web Area Network
+}
+
+::T7-03:: ¿Qué significan las siglas PAN? {
+=Personal Area Network\: red de área personal
+~Public Access Network
+~Primary Area Node
+~Protocol Access Network
+}
+
+::T7-04:: ¿Qué tipo de red es internet? {
+=Una WAN, la más grande que existe
+~Una LAN
+~Una MAN
+~Una PAN
+}
+
+::T7-05:: Unos auriculares Bluetooth conectados al móvil forman una red de tipo... {
+=PAN
+~LAN
+~MAN
+~WAN
+}
+
+::T7-06:: La red que une las sedes municipales de una ciudad es una... {
+=MAN
+~LAN
+~PAN
+~WLAN
+}
+
+::T7-07:: Si delante de las siglas de una red aparece una W, ¿qué significa? {
+=Que es inalámbrica
+~Que es de gran alcance
+~Que es de banda ancha
+~Que es de fibra óptica
+}
+
+::T7-08:: ¿Qué diferencia hay entre una red entre iguales y una cliente-servidor? {
+=En la de iguales todos los equipos son iguales; en la cliente-servidor unos servidores dan servicio a los clientes
+~En la de iguales hay un servidor central
+~Son lo mismo con distinto nombre
+~La de iguales solo funciona por wifi
+}
+
+::T7-09:: ¿Cuál es el principal inconveniente de una red entre iguales? {
+=Es difícil de administrar y poco segura
+~Es muy cara de montar
+~Necesita un servidor dedicado
+~No permite compartir archivos
+}
+
+::T7-10:: ¿Cuáles son las cinco topologías físicas de red? {
+=Estrella, anillo, bus, malla y árbol
+~Estrella, cruz, anillo, malla y bus
+~Punto a punto, difusión, anillo, bus y estrella
+~LAN, MAN, WAN, PAN y WLAN
+}
+
+::T7-11:: En una topología en estrella, si se corta el cable de un equipo, ¿qué pasa? {
+=Solo se queda sin red ese equipo
+~Cae la red entera
+~Cae la mitad de la red
+~No pasa nada, hay otro camino
+}
+
+::T7-12:: En una topología en estrella, si se estropea el equipo central, ¿qué pasa? {
+=Cae toda la red\: es el punto único de fallo
+~Solo cae un equipo
+~No pasa nada
+~La red se reconfigura sola
+}
+
+::T7-13:: En una topología en bus, ¿qué pasa si se corta el cable troncal? {
+=La red entera queda inutilizable
+~Solo cae el equipo más cercano al corte
+~No pasa nada, hay terminadores
+~Cae la mitad de la red y la otra sigue
+}
+
+::T7-14:: ¿Cuál es la ventaja principal de una topología en malla? {
+=Mucha tolerancia a fallos\: siempre hay otro camino
+~Es la que menos cable necesita
+~Es la más barata de montar
+~No necesita equipos de interconexión
+}
+
+::T7-15:: ¿Qué topología se usa hoy para cablear un edificio? {
+=Estrella, o árbol, que son estrellas encadenadas
+~Bus
+~Anillo
+~Malla completa
+}
+
+::T7-16:: ¿Por qué ganó la topología en estrella frente al bus? {
+=Por el mantenimiento\: cada equipo tiene su cable y se sabe de entrada dónde mirar
+~Porque necesita menos cable
+~Porque es más barata
+~Porque permite más velocidad por definición
+}
+
+::T7-17:: ¿Qué diferencia hay entre topología física y topología lógica? {
+=La física es cómo están los cables y la lógica es cómo viaja la información
+~La física es cómo viaja la información y la lógica es cómo están los cables
+~Son lo mismo
+~La lógica solo se aplica a las redes inalámbricas
+}
+
+::T7-18:: ¿Qué es una red de difusión o broadcast? {
+=Aquella en la que lo que envía uno lo reciben todos y cada uno decide si va dirigido a él
+~Aquella en la que cada enlace une exactamente dos equipos
+~Aquella que usa fibra óptica
+~Aquella que no tiene equipo central
+}
+
+::T7-19:: ¿Qué hace un hub? {
+=Repite lo que le llega por todos los puertos
+~Envía cada trama solo al puerto correcto
+~Une redes distintas
+~Convierte la fibra en señal eléctrica
+}
+
+::T7-20:: ¿Qué hace un switch? {
+=Envía cada trama solo al puerto correcto
+~Repite lo que le llega por todos los puertos
+~Une redes distintas y decide por dónde sale el tráfico
+~Reparte direcciones IP
+}
+
+::T7-21:: ¿En qué se fija un switch para saber por dónde enviar una trama? {
+=En la dirección MAC
+~En la dirección IP
+~En el color del cable
+~En nada\: la envía por todos los puertos
+}
+
+::T7-22:: ¿En qué se fija un router para decidir por dónde sale un paquete? {
+=En la dirección IP
+~En la dirección MAC
+~En el número de puerto físico
+~En la velocidad del enlace
+}
+
+::T7-23:: ¿Cuántos dominios de colisión tiene un hub? {
+=Uno solo, compartido por todos los puertos
+~Uno por cada puerto
+~Ninguno
+~Dos
+}
+
+::T7-24:: ¿Cuántos dominios de colisión tiene un switch? {
+=Uno por cada puerto
+~Uno solo para todos los puertos
+~Ninguno
+~Dos, uno de entrada y otro de salida
+}
+
+::T7-25:: ¿Qué equipo divide los dominios de difusión? {
+=El router
+~El hub
+~El switch
+~El patch panel
+}
+
+::T7-26:: Un switch divide los dominios de difusión igual que un router. {FALSE#Un switch divide los de colisión, pero toda la LAN sigue siendo un único dominio de difusión.}
+
+::T7-27:: ¿Qué es una dirección MAC? {
+=El identificador físico de una tarjeta de red\: seis bytes escritos en doce cifras hexadecimales
+~La dirección lógica que se configura en el sistema operativo
+~El número de puerto del switch
+~La dirección del router de salida
+}
+
+::T7-28:: ¿Cómo aprende un switch dónde está cada equipo? {
+=Apunta en su tabla la MAC de origen de cada trama junto al puerto por el que le llegó
+~Pregunta al router cada vez
+~El administrador se lo configura a mano siempre
+~No lo aprende\: envía por todos los puertos
+}
+
+::T7-29:: ¿Qué hace una ONT? {
+=Convierte la fibra óptica del operador en señal eléctrica de red
+~Amplifica la señal de wifi
+~Reparte la señal de televisión
+~Alimenta los equipos por el cable de red
+}
+
+::T7-30:: ¿Qué significa Auto MDI/MDIX en un switch? {
+=Que el puerto detecta solo si el cable es directo o cruzado y se adapta
+~Que el puerto negocia automáticamente la velocidad
+~Que el puerto alimenta el equipo conectado
+~Que el switch se configura solo
+}
+
+::T7-31:: ¿Qué es PoE? {
+=Llevar la alimentación eléctrica por el propio cable de red
+~Un estándar de wifi de alta velocidad
+~Un tipo de conector de fibra
+~Un protocolo de encriptación
+}
+
+::T7-32:: ¿Para qué sirve un patch panel? {
+=Para terminar ordenadamente en el rack todos los cables que llegan del edificio
+~Para amplificar la señal de red
+~Para separar dominios de difusión
+~Para convertir fibra en cobre
+}
+
+::T7-33:: Si el led de link de un puerto del switch está apagado, ¿hacia dónde se orienta la búsqueda? {
+=Al cableado\: no hay enlace físico entre los dos extremos
+~Al sistema operativo del ordenador
+~A la configuración de la dirección IP
+~Al servidor DHCP
+}
+
+::T7-34:: ¿Cuántos bytes tiene una dirección IPv4? Escribe solo el número. {#4}
+
+::T7-35:: ¿Entre qué valores va cada número de una dirección IPv4? {
+=Entre 0 y 255
+~Entre 1 y 100
+~Entre 0 y 1.024
+~Entre 1 y 65.535
+}
+
+::T7-36:: ¿Para qué sirve la máscara de subred? {
+=Para saber qué parte de la IP identifica la red y qué parte identifica el equipo
+~Para cifrar la comunicación
+~Para dar más velocidad a la red
+~Para identificar al fabricante de la tarjeta
+}
+
+::T7-37:: En la red 192.168.1.0 con máscara 255.255.255.0, ¿cuántos equipos útiles caben? {
+=254
+~256
+~255
+~1.024
+}
+
+::T7-38:: ¿Qué máscara corresponde al prefijo /24? {
+=255.255.255.0
+~255.255.0.0
+~255.0.0.0
+~255.255.255.255
+}
+
+::T7-39:: ¿Cuáles son las dos direcciones de una red que no se pueden asignar a ningún equipo? {
+=La primera, que es la dirección de red, y la última, que es la de difusión
+~La primera y la segunda
+~Las dos últimas
+~La del router y la del servidor
+}
+
+::T7-40:: ¿Qué es la puerta de enlace? {
+=La IP del router dentro de tu red, por donde sale todo lo que no es local
+~La dirección MAC del switch
+~La primera dirección de la red
+~El servidor que reparte las direcciones IP
+}
+
+::T7-41:: ¿Qué es el DHCP? {
+=El servicio que reparte las direcciones IP automáticamente
+~El protocolo que cifra las comunicaciones
+~El sistema que traduce nombres en direcciones
+~El servicio que asigna direcciones MAC
+}
+
+::T7-42:: ¿Qué equipos suelen llevar dirección IP fija en lugar de recibirla por DHCP? {
+=Servidores, impresoras, cámaras y puntos de acceso
+~Los ordenadores portátiles de los alumnos
+~Los teléfonos móviles
+~Todos los equipos, sin excepción
+}
+
+::T7-43:: ¿Cuál de estos rangos de direcciones es privado y no sale a internet? {
+=192.168.0.0 a 192.168.255.255
+~8.8.8.0 a 8.8.8.255
+~200.100.0.0 a 200.100.255.255
+~1.1.1.0 a 1.1.1.255
+}
+
+::T7-44:: ¿Qué significa la dirección 127.0.0.1? {
+=Tu propio equipo, lo que se llama localhost
+~La puerta de enlace por defecto
+~El servidor DNS de internet
+~Una dirección de difusión
+}
+
+::T7-45:: Si un ordenador muestra una dirección que empieza por 169.254, ¿qué ha pasado? {
+=El servidor DHCP no ha contestado y el equipo se ha autoasignado una dirección
+~El equipo tiene una IP fija bien configurada
+~El equipo está conectado a internet correctamente
+~El cable está cortado
+}
+
+::T7-46:: Un ordenador tiene IP 192.168.2.30 con máscara 255.255.255.0 en una red 192.168.1.0/24. ¿Qué ocurre? {
+=Está en otra red distinta\: no ve a nadie ni nadie le ve, aunque comparta switch y cable
+~Funciona con normalidad
+~Solo pierde el acceso a internet
+~Provoca un conflicto de direcciones
+}
+
+::T7-47:: Un ordenador tiene bien la IP y la máscara pero no tiene puerta de enlace configurada. ¿Qué le ocurre? {
+=Se ve con toda la red local pero no sale a internet
+~No ve absolutamente nada
+~Funciona con normalidad
+~Provoca un conflicto de IP
+}
+
+::T7-48:: Dos ordenadores de la misma red tienen la misma dirección IP. ¿Qué ocurre? {
+=Se produce un conflicto de IP y los dos fallan de forma intermitente
+~Funcionan los dos con normalidad
+~Solo funciona el que se encendió primero, sin errores
+~El router les cambia la IP automáticamente
+}
+
+::T7-49:: Un router tiene una sola dirección IP para toda la instalación. {FALSE#Tiene una IP en cada red que conecta, una por interfaz.}
+
+::T7-50:: ¿Qué led del switch indica que hay enlace físico con el equipo del otro extremo? {
+=El led de link
+~El led de power
+~El led de act
+~El led de speed
+}
+
+
+$CATEGORY: Temario 3014/08 La ICT en el edificio
+
+::T8-01:: ¿Qué significan las siglas ICT? {
+=Infraestructura Común de Telecomunicaciones
+~Instalación Colectiva de Televisión
+~Interconexión Común de Terminales
+~Instalación de Cableado y Telefonía
+}
+
+::T8-02:: ¿En qué edificios es obligatoria la ICT? {
+=En todos los de nueva construcción con más de una vivienda, y en rehabilitaciones integrales
+~Solo en edificios de más de diez plantas
+~Solo en edificios de oficinas
+~En ninguno\: es voluntaria
+}
+
+::T8-03:: ¿Qué reglamento regula la ICT? {
+=El RD 346/2011 y la Orden ITC/1644/2011
+~El REBT, RD 842/2002
+~La norma EIA/TIA-568
+~El RD 614/2001
+}
+
+::T8-04:: ¿Qué significan las siglas RITI? {
+=Recinto de Instalaciones de Telecomunicación Inferior
+~Registro Interior de Telefonía e Internet
+~Recinto Individual de Terminación Interior
+~Red Interior de Telecomunicaciones Integradas
+}
+
+::T8-05:: ¿Dónde está el RITI y qué entra por él? {
+=Abajo, en el sótano o la planta baja\: entran los operadores de telefonía, fibra y cable
+~Arriba, bajo cubierta\: entra lo que viene de las antenas
+~En cada vivienda\: es el armario del usuario
+~En la acera\: es la arqueta de entrada
+}
+
+::T8-06:: ¿Dónde está el RITS y qué entra por él? {
+=Arriba, bajo cubierta\: entra lo que viene de las antenas, TDT y satélite
+~Abajo\: entran los operadores
+~En el rellano de cada planta
+~Dentro de cada vivienda
+}
+
+::T8-07:: ¿Qué es el RITU? {
+=El recinto único\: en edificios pequeños se juntan el RITI y el RITS en uno solo
+~Un recinto adicional para telefonía
+~El registro de terminación de red de la vivienda
+~La arqueta de entrada al edificio
+}
+
+::T8-08:: ¿Cuáles son las cuatro redes de una ICT? {
+=Alimentación, distribución, dispersión e interior de usuario
+~Principal, secundaria, terciaria y de usuario
+~Entrada, cabecera, bajante y toma
+~Telefonía, televisión, datos y megafonía
+}
+
+::T8-09:: ¿Qué red va desde la arqueta de entrada hasta el RITI? {
+=La red de alimentación
+~La red de distribución
+~La red de dispersión
+~La red interior de usuario
+}
+
+::T8-10:: ¿Qué red va desde el registro secundario de la planta hasta el PAU de cada vivienda? {
+=La red de dispersión
+~La red de distribución
+~La red de alimentación
+~La red interior de usuario
+}
+
+::T8-11:: ¿Qué es el PAU? {
+=El punto de acceso al usuario\: la frontera entre la instalación de la comunidad y la de la vivienda
+~El armario donde entran los operadores al edificio
+~La antena de televisión del edificio
+~El amplificador de la cabecera
+}
+
+::T8-12:: ¿Qué es el RTR? {
+=El registro de terminación de red\: el armario de la vivienda donde está el PAU
+~El recinto de arriba del edificio
+~La arqueta de la calle
+~El registro secundario de cada planta
+}
+
+::T8-13:: ¿Cómo sale la red interior desde el RTR de una vivienda? {
+=En estrella\: un cable independiente a cada toma
+~Encadenando una toma detrás de otra
+~En anillo
+~En bus, con terminadores en los extremos
+}
+
+::T8-14:: Según el reglamento, ¿qué tomas mínimas debe haber en el salón y en cada dormitorio? {
+=Una de TV, una de par trenzado RJ-45 y una de telefonía
+~Solo una de TV
+~Solo una de par trenzado
+~Dos de TV y una de telefonía
+}
+
+::T8-15:: Si las demás viviendas ven bien la televisión y una no, ¿dónde está el problema? {
+=Después del PAU, en la red interior de usuario\: lo paga el propietario
+~En la cabecera del edificio\: lo paga la comunidad
+~En la arqueta de entrada
+~En el operador
+}
+
+::T8-16:: ¿Cuáles son los tipos de canalización? {
+=Tubo rígido, tubo flexible corrugado, canal y bandeja
+~Solo tubo rígido y canal
+~Arqueta, registro, bandeja y patinillo
+~Canal ranurada y carril DIN
+}
+
+::T8-17:: ¿Hasta qué porcentaje de su sección se llena un tubo? {
+=Hasta el 40 %
+~Hasta el 70 %
+~Hasta el 100 %
+~Hasta el 20 %
+}
+
+::T8-18:: ¿Cómo se curva un tubo rígido de PVC? {
+=Con calor, girándolo sin parar para que caliente por igual
+~A mano, en frío y deprisa
+~Con la cizalla, haciendo pequeños cortes
+~No se curva\: se usan siempre codos
+}
+
+::T8-19:: ¿Cuál debe ser el radio mínimo de curvatura de un tubo? {
+=Al menos tres veces su diámetro
+~Igual a su diámetro
+~La mitad de su diámetro
+~No hay mínimo establecido
+}
+
+::T8-20:: Si se calienta un tubo siempre por el mismo lado al curvarlo, ¿qué ocurre? {
+=Se estrangula\: la pared se aplasta y ya no se puede pasar el cable
+~Se curva más rápido y mejor
+~No ocurre nada
+~El tubo se vuelve más resistente
+}
+
+::T8-21:: ¿Con qué se unen dos tramos de tubo rígido? {
+=Con manguitos
+~Con cinta aislante
+~Con bridas
+~Con tacos y tornillos
+}
+
+::T8-22:: ¿Dónde se hace un empalme o una derivación de cables? {
+=En una caja de registro, nunca dentro del tubo
+~Dentro del tubo, bien aislado
+~En el propio conector de la toma
+~En la bandeja, sujeto con bridas
+}
+
+::T8-23:: ¿Con qué se corta una canal de PVC? {
+=Con sierra de arco de dientes finos o caja de ingletes
+~Con cizalla
+~Con alicate universal
+~Con radial
+}
+
+::T8-24:: ¿A cuántos grados se corta la canal en un cambio de dirección? {
+=A 45 grados, a inglete
+~A 90 grados
+~A 30 grados
+~En recto
+}
+
+::T8-25:: ¿Cada cuántos centímetros se fija una canal o un tubo a la pared, aproximadamente? {
+=Cada 50 cm
+~Cada 2 metros
+~Cada 10 cm
+~Cada 5 metros
+}
+
+::T8-26:: ¿Qué fijación se usa en un tabique de pladur? {
+=Taco basculante
+~Taco normal de ladrillo
+~Brida
+~Grapa
+}
+
+::T8-27:: ¿Para qué se usan las bridas? {
+=Para agrupar y sujetar cables, por ejemplo en una bandeja
+~Para fijar el tubo a la pared
+~Para unir dos tramos de canal
+~Para fijar el carril DIN
+}
+
+::T8-28:: ¿Qué separación hay que guardar entre los cables de telecomunicaciones y los de energía? {
+=Al menos 30 cm, salvo que la canal tenga tabique separador
+~No hace falta ninguna separación
+~5 cm
+~3 metros
+}
+
+::T8-29:: Si hay que cruzar un cable de telecomunicaciones con uno de energía, ¿cómo se hace? {
+=En perpendicular, nunca en paralelo
+~En paralelo, pegados
+~No se puede cruzar en ningún caso
+~Da igual la orientación
+}
+
+::T8-30:: ¿Qué es la guía pasahilos? {
+=Una varilla flexible que se mete por el tubo vacío para tirar de los cables
+~Una herramienta para punzonar jacks
+~Un tipo de brida para agrupar cables
+~El cable piloto de una instalación eléctrica
+}
+
+::T8-31:: ¿Cómo se sujetan los cables a la guía pasahilos? {
+=De forma escalonada, para que el conjunto quede afilado
+~Todos a la misma altura, bien apretados
+~Con un nudo simple en el extremo
+~No se sujetan\: se empujan por el tubo
+}
+
+::T8-32:: ¿Cómo se remata el conjunto de cables atados a la guía? {
+=Con cinta aislante en espiral cubriendo todo el conjunto
+~Con una brida bien apretada
+~Con una abrazadera metálica
+~No se remata
+}
+
+::T8-33:: ¿Cómo debe hacerse el tirado de cables? {
+=Entre dos personas, con tirón suave y continuo, nunca a golpes
+~Por una sola persona, tirando con fuerza
+~Con un torno mecánico, a la máxima velocidad
+~Empujando desde el otro extremo
+}
+
+::T8-34:: ¿Qué ocurre si se supera la tensión máxima de tiro de un cable UTP? {
+=Los pares se deforman y el cable pierde prestaciones sin que se vea nada por fuera
+~El cable se rompe visiblemente por la mitad
+~No ocurre nada
+~El conector se desprende
+}
+
+::T8-35:: ¿Se puede usar jabón o aceite como lubricante para tirar cables? {
+=No\: atacan el aislamiento. Hay que usar lubricante específico
+~Sí, el jabón es lo habitual
+~Sí, siempre que sea aceite vegetal
+~Sí, si después se limpia el cable
+}
+
+::T8-36:: ¿Qué es la coca de un cable? {
+=El bucle de cable sobrante que se deja enrollado en cada extremo
+~El nudo con el que se ata a la guía
+~La parte del cable que se pela
+~La curva que hace el cable al entrar en el tubo
+}
+
+::T8-37:: ¿Para qué sirve dejar coca en cada extremo? {
+=Para poder repetir un conector, mover el equipo o reparar el extremo más adelante
+~Para que el cable pese más y no se mueva
+~Para mejorar la velocidad de la red
+~Para apantallar el cable
+}
+
+::T8-38:: ¿Cómo debe enrollarse la coca? {
+=Sin apretar y con radio amplio, sujeta con brida floja o velcro
+~Muy prieta, para que ocupe poco
+~En ángulo recto, doblada sobre sí misma
+~No importa cómo se enrolle
+}
+
+::T8-39:: ¿Cuándo se etiqueta un cable? {
+=Antes de tirar de él, mientras aún se sabe cuál es cada uno
+~Después de tirarlos todos
+~Al final de la obra, cuando ya funciona
+~Solo si lo pide el cliente
+}
+
+::T8-40:: ¿Cuántos extremos de un cable hay que etiquetar? {
+=Los dos\: una etiqueta en un solo extremo no sirve de nada
+~Solo el del rack
+~Solo el de la toma
+~Ninguno si el cable es de color distinto
+}
+
+::T8-41:: ¿Cuál es el ancho estándar de un armario rack? {
+=19 pulgadas
+~35 milímetros
+~60 centímetros
+~1 metro
+}
+
+::T8-42:: Cuántos milímetros mide una U de rack. Escribe el número con dos decimales. {#44.45:0.1}
+
+::T8-43:: ¿Dónde se coloca el equipo más pesado de un rack, como el SAI? {
+=Abajo, para no desequilibrar el armario
+~Arriba, para que se ventile mejor
+~En el centro
+~Da igual la posición
+}
+
+::T8-44:: ¿Por qué se alternan patch panel y switch en un rack? {
+=Para que cada latiguillo recorra pocos centímetros y se pueda cambiar uno sin mover los demás
+~Porque lo exige el fabricante
+~Para repartir mejor el peso
+~Para mejorar la refrigeración
+}
+
+::T8-45:: ¿Dónde está la cabecera de una instalación de antena colectiva? {
+=En el RITS
+~En el RITI
+~En el RTR de cada vivienda
+~En la arqueta de entrada
+}
+
+::T8-46:: ¿Qué hace un mezclador en una cabecera de antena? {
+=Une la señal de TDT y la de satélite para que bajen por un solo cable
+~Divide la señal en partes iguales
+~Amplifica la señal débil
+~Toma una parte de la señal y deja pasar el resto
+}
+
+::T8-47:: ¿Qué hace un derivador? {
+=Toma una parte de la señal para esa planta y deja pasar el resto hacia abajo
+~Divide la señal en partes iguales entre todas sus salidas
+~Amplifica la señal
+~Convierte la fibra en señal eléctrica
+}
+
+::T8-48:: ¿Qué hace un repartidor? {
+=Divide la señal en partes iguales hacia cada toma
+~Toma una parte y deja pasar el resto
+~Amplifica la señal
+~Mezcla la TDT con el satélite
+}
+
+::T8-49:: ¿Dónde va el derivador y dónde el repartidor? {
+=El derivador en la bajante del edificio y el repartidor dentro de la vivienda
+~El derivador dentro de la vivienda y el repartidor en la bajante
+~Los dos en la cabecera
+~Los dos en la arqueta de entrada
+}
+
+::T8-50:: ¿Dónde va el LNB y para qué sirve? {
+=En el foco de la parabólica\: baja la frecuencia del satélite para que pueda viajar por el coaxial
+~En la cabecera\: amplifica la señal de TDT
+~En el RTR\: reparte la señal entre las tomas
+~En la arqueta\: protege la instalación
+}
+
+::T8-51:: En megafonía de edificios, ¿cómo se conectan los altavoces? {
+=Con línea de 100 voltios y todos en paralelo, cada uno con su transformador
+~En serie, uno detrás de otro
+~Directamente al amplificador, como en una cadena de música
+~Con cable coaxial de 75 ohmios
+}
+
+::T8-52:: ¿Qué relación debe cumplirse entre los altavoces y el amplificador de megafonía? {
+=La suma de los vatios de todos los altavoces no debe superar la potencia del amplificador
+~La suma debe ser exactamente el doble de la potencia del amplificador
+~No hay ninguna relación que cumplir
+~Debe haber un altavoz por cada vatio
+}
+
+::T8-53:: ¿Cuál es la ventaja de la línea de 100 V en megafonía? {
+=Permite poner decenas de altavoces muy lejos con cable fino y sin pérdidas apreciables
+~Permite usar altavoces sin transformador
+~Reduce el consumo eléctrico a la mitad
+~Evita tener que usar amplificador
+}
+
+::T8-54:: En trabajo en altura, ¿qué va siempre antes? {
+=La protección colectiva, antes que el equipo de protección individual
+~El arnés, antes que cualquier otra cosa
+~El casco
+~Da igual el orden
+}
+
+::T8-55:: ¿Cuánto debe sobresalir una escalera por encima del punto de acceso? {
+=Un metro
+~Diez centímetros
+~Tres metros
+~No debe sobresalir
+}
+
+::T8-56:: ¿Se puede subir a instalar una antena con viento fuerte? {
+=No\: una antena hace de vela y el riesgo de caída es muy alto
+~Sí, si se lleva arnés
+~Sí, si se sube con un compañero
+~Sí, siempre que no llueva
+}
+
+::T8-57:: Un arnés anticaídas protege aunque no esté anclado a un punto fijo. {FALSE#Un arnés sin anclar no sirve de nada. Hay que anclarlo a un punto fijo certificado.}
+
+::T8-58:: Antes de levantar un mástil de antena, ¿qué hay que comprobar? {
+=Que no haya líneas eléctricas aéreas en el radio de giro del mástil
+~Que el mástil esté pintado
+~Que haya sol
+~Que el tejado esté seco
+}
+
+
+$CATEGORY: Temario 3014/09 El ordenador y Arduino
+
+::T9-01:: ¿Qué hace la fuente de alimentación de un ordenador? {
+=Convierte los 230 V alternos de la red en tensiones continuas bajas
+~Convierte la corriente continua en alterna
+~Regula la velocidad del procesador
+~Almacena energía para cuando se va la luz
+}
+
+::T9-02:: En una fuente ATX, ¿qué tensión lleva el cable amarillo? {
+=+12 V
+~+5 V
+~+3,3 V
+~0 V, es la masa
+}
+
+::T9-03:: En una fuente ATX, ¿qué tensión lleva el cable rojo? {
+=+5 V
+~+12 V
+~+3,3 V
+~0 V
+}
+
+::T9-04:: En una fuente ATX, ¿qué tensión lleva el cable naranja? {
+=+3,3 V
+~+5 V
+~+12 V
+~0 V
+}
+
+::T9-05:: En una fuente ATX, ¿qué es el cable negro? {
+=La masa, 0 V
+~El positivo de 5 V
+~La señal de encendido
+~El standby
+}
+
+::T9-06:: ¿Qué es el cable morado de una fuente ATX? {
+=El +5 V de standby, que está vivo siempre que el equipo esté enchufado
+~La masa
+~El +12 V principal
+~La señal de encendido
+}
+
+::T9-07:: ¿Qué hay que hacer para arrancar una fuente ATX desconectada de la placa? {
+=Puentear el cable verde (PS_ON) con uno negro
+~Puentear el amarillo con el rojo
+~Pulsar el botón de la parte trasera
+~No se puede arrancar sin placa
+}
+
+::T9-08:: ¿Por qué no se debe abrir una fuente de alimentación recién apagada? {
+=Porque lleva condensadores que guardan carga a cientos de voltios durante minutos
+~Porque los componentes están calientes
+~Porque se pierde la garantía
+~Porque se descarga la estática
+}
+
+::T9-09:: ¿Qué componentes de una fuente de alimentación se estropean con más frecuencia? {
+=Los condensadores electrolíticos, que se hinchan o pierden líquido
+~Los transformadores
+~Los ventiladores
+~Los cables de salida
+}
+
+::T9-10:: ¿Cuál es la diferencia entre la memoria RAM y el disco? {
+=La RAM es de trabajo y se borra al apagar; el disco guarda de forma permanente
+~La RAM guarda de forma permanente y el disco no
+~Son lo mismo con distinto nombre
+~La RAM es más lenta que el disco
+}
+
+::T9-11:: ¿Qué es el socket de una placa base? {
+=El zócalo donde se encaja el microprocesador
+~La ranura donde va la memoria RAM
+~El conector de alimentación
+~La salida de vídeo
+}
+
+::T9-12:: ¿Qué gestionaba el llamado puente norte de un chipset? {
+=Lo rápido\: la memoria y la tarjeta gráfica
+~Lo lento\: USB, discos y red
+~La alimentación de la placa
+~El reloj del sistema
+}
+
+::T9-13:: ¿Qué gestionaba el llamado puente sur de un chipset? {
+=Lo lento\: USB, discos y red
+~Lo rápido\: memoria y gráfica
+~La refrigeración
+~La BIOS
+}
+
+::T9-14:: ¿Para qué sirve la BIOS o UEFI? {
+=Arranca el equipo y comprueba el hardware
+~Almacena los archivos del usuario
+~Genera la imagen de la pantalla
+~Reparte las direcciones IP
+}
+
+::T9-15:: ¿Para qué sirve la pila de botón de una placa base? {
+=Para mantener la hora y la configuración cuando el equipo está desenchufado
+~Para arrancar el equipo si falla la fuente
+~Para alimentar la memoria RAM
+~Para dar corriente al ventilador
+}
+
+::T9-16:: ¿Por dónde se conecta un disco duro a la placa base? {
+=Por SATA o por M.2
+~Por USB obligatoriamente
+~Por PCI Express de 16 líneas
+~Por el conector de la fuente
+}
+
+::T9-17:: ¿Qué hay que hacer antes de meter la mano dentro de un ordenador? {
+=Desenchufarlo y descargar la electricidad estática tocando una parte metálica o con pulsera antiestática
+~Apagarlo con el botón, es suficiente
+~Ponerse guantes de goma
+~Esperar veinticuatro horas
+}
+
+::T9-18:: Basta con apagar el ordenador para poder manipularlo por dentro con seguridad. {FALSE#El cable morado de standby sigue vivo mientras esté enchufado. Hay que desenchufarlo.}
+
+::T9-19:: ¿Cómo se cogen las tarjetas de expansión y los módulos de memoria? {
+=Por los bordes, nunca por los contactos ni por los chips
+~Por los contactos dorados, que son más resistentes
+~Por el disipador
+~Con unas pinzas metálicas
+}
+
+::T9-20:: ¿Para qué sirve la pasta térmica? {
+=Para mejorar la transmisión de calor entre el procesador y el disipador
+~Para pegar el disipador a la placa
+~Para aislar eléctricamente el procesador
+~Para limpiar los contactos
+}
+
+::T9-21:: ¿Qué es Arduino? {
+=Una placa con un microcontrolador que se programa desde el ordenador por USB
+~Un tipo de ordenador portátil
+~Un lenguaje de programación de páginas web
+~Una tarjeta de red inalámbrica
+}
+
+::T9-22:: En una protoboard, ¿cómo están unidas las líneas de los bordes? {
+=A lo largo, y se usan para la alimentación
+~De cinco en cinco, perpendiculares al canal central
+~No están unidas entre sí
+~En diagonal
+}
+
+::T9-23:: En una protoboard, ¿cómo están unidas las filas centrales? {
+=De cinco en cinco, perpendiculares al canal central
+~A lo largo de toda la placa
+~Todas entre sí
+~No están unidas
+}
+
+::T9-24:: ¿Por qué un LED lleva siempre una resistencia en serie? {
+=Para limitar la corriente, porque si no el LED se destruye
+~Para que brille más
+~Para darle polaridad
+~Para que funcione en corriente alterna
+}
+
+::T9-25:: ¿De qué valor es la resistencia que se usa con un LED alimentado a 5 V? {
+=220 ohmios
+~10 kiloohmios
+~1 ohmio
+~1 megaohmio
+}
+
+::T9-26:: En un LED, ¿cuál es el ánodo? {
+=La patilla larga
+~La patilla corta
+~El lado achaflanado de la cápsula
+~Cualquiera de las dos, no tiene polaridad
+}
+
+::T9-27:: Si se monta un LED al revés, se destruye. {FALSE#No se enciende, pero no se rompe. La resistencia, en cambio, no tiene polaridad.}
+
+::T9-28:: ¿Cuántas veces se ejecuta la sección setup de un programa de Arduino? {
+=Una sola vez, al encender
+~Se repite indefinidamente
+~Una vez por segundo
+~Solo cuando se pulsa un botón
+}
+
+::T9-29:: ¿Qué se pone en la sección setup de un programa de Arduino? {
+=Se declara qué pines son de entrada y cuáles de salida
+~El programa principal que se repite
+~Los valores que lee el sensor
+~El resultado final del programa
+}
+
+::T9-30:: ¿Cuántas veces se ejecuta la sección loop de un programa de Arduino? {
+=Se repite indefinidamente
+~Una sola vez, al encender
+~Solo al pulsar el botón de reset
+~Ninguna, es opcional
+}
+
+::T9-31:: ¿Qué instrucción se usa para poner una salida de Arduino a nivel alto o bajo? {
+=digitalWrite()
+~digitalRead()
+~analogRead()
+~delay()
+}
+
+::T9-32:: ¿Qué instrucción se usa para leer el valor de un potenciómetro o de una LDR? {
+=analogRead()
+~digitalWrite()
+~delay()
+~pinMode()
+}
+
+::T9-33:: ¿Qué instrucción hace que el programa espere un tiempo? {
+=delay()
+~digitalRead()
+~analogRead()
+~loop()
+}
+
+::T9-34:: En un automatismo cableado la memoria es la autoalimentación. ¿Qué es en uno programado? {
+=Una variable
+~Un delay
+~Un pin de entrada
+~La resistencia de 220 ohmios
+}
+
+::T9-35:: El temporizador de un cuadro de contactores equivale en Arduino a... {
+=Un delay
+~Una variable
+~Un pin de salida
+~El setup
+}
+
+::T9-36:: Dos contactos en serie en una maniobra equivalen en programación al operador... {
+=Y, que se escribe &&
+~O, que se escribe ||
+~NO, que se escribe !
+~Igual, que se escribe \=\=
+}
+
+::T9-37:: Dos contactos en paralelo en una maniobra equivalen en programación al operador... {
+=O, que se escribe ||
+~Y, que se escribe &&
+~NO, que se escribe !
+~Más, que se escribe +
+}
+
+::T9-38:: Para cambiar el tiempo del ámbar de un semáforo hecho con Arduino, ¿qué hay que hacer? {
+=Cambiar un número en el programa y volver a cargarlo
+~Recablear toda la maniobra
+~Cambiar el microcontrolador
+~Añadir un temporizador más
+}
+
+::T9-39:: ¿Por qué la industria pasó del automatismo cableado al programado? {
+=Sobre todo por lo que cuesta cambiar el funcionamiento después, no por lo que hace el día que se monta
+~Porque el cableado no funcionaba bien
+~Porque los contactores son más caros que un microcontrolador
+~Porque el cableado no permite temporizar
+}
+
+::T9-40:: La tarjeta de red de un ordenador lleva su propia dirección MAC. {TRUE#Es la que aprende el switch para saber por qué puerto enviarle las tramas.}
+
+
+$CATEGORY: Temario 3014/10 Cálculos y conversiones
+
+::C-01:: Convierte 86 del sistema decimal a binario. Escribe el resultado sin espacios. {=1010110}
+
+::C-02:: Convierte 125 del sistema decimal a binario. Escribe el resultado sin espacios. {=1111101}
+
+::C-03:: Convierte 263 del sistema decimal a binario. Escribe el resultado sin espacios. {=100000111}
+
+::C-04:: Convierte el número binario 110011 a decimal. Escribe solo el número. {#51}
+
+::C-05:: Convierte el número binario 1001001 a decimal. Escribe solo el número. {#73}
+
+::C-06:: Convierte el número binario 110101001 a decimal. Escribe solo el número. {#425}
+
+::C-07:: Convierte el número binario 11101010110 a hexadecimal. Escribe el resultado sin espacios. {=756}
+
+::C-08:: Convierte el número binario 010110111001 a hexadecimal. Escribe el resultado sin espacios. {=5B9 =5b9}
+
+::C-09:: Convierte 156 del sistema decimal a hexadecimal. Escribe el resultado sin espacios. {=9C =9c}
+
+::C-10:: Convierte 239 del sistema decimal a hexadecimal. Escribe el resultado sin espacios. {=EF =ef}
+
+::C-11:: Convierte el número hexadecimal 6F4 a decimal. Escribe solo el número. {#1780}
+
+::C-12:: Convierte el número hexadecimal D5F a decimal. Escribe solo el número. {#3423}
+
+::C-13:: ¿Cuántos bits son 2 bytes? Escribe solo el número. {#16}
+
+::C-14:: ¿Cuántos megabytes son 4.096 MB expresados en gigabytes? Escribe solo el número. {#4}
+
+::C-15:: ¿Cuántos gigabytes tiene 1 TB? Escribe solo el número. {#1024}
+
+::C-16:: ¿Cuántos megabytes son 8.388.608 bits? Escribe solo el número. {#1}
+
+::C-17:: Una conexión es de 600 Mbps. ¿Cuántos megabytes por segundo transfiere como máximo? Escribe solo el número. {#75}
+
+::C-18:: Una conexión es de 300 Mbps. ¿Cuántos megabytes por segundo transfiere como máximo? Escribe solo el número. {#37.5:0.5}
+
+::C-19:: Una película ocupa 4,5 GB. ¿Cuántos megabytes son, tomando 1 GB \= 1.024 MB? Escribe solo el número. {#4608}
+
+::C-20:: Un motor tiene una potencia de 2.200 W. ¿Cuántos CV son, tomando 1 CV \= 736 W? Escribe solo el número. {#3:0.1}
+
+::C-21:: En una red trifásica la tensión de fase es de 230 V. Calcula la tensión de línea en voltios, tomando raíz de tres igual a 1,73. {#398:5}
+
+::C-22:: Un motor de 4 polos a 50 Hz. Calcula su velocidad de sincronismo en revoluciones por minuto. {#1500}
+
+::C-23:: Un motor de 2 polos a 50 Hz. Calcula su velocidad de sincronismo en revoluciones por minuto. {#3000}
+
+::C-24:: Un motor de 6 polos a 50 Hz. Calcula su velocidad de sincronismo en revoluciones por minuto. {#1000}
+
+::C-25:: Un semáforo tiene el verde 20 s, el ámbar 4 s y el rojo 25 s. ¿Cuántos segundos dura un ciclo completo? {#49}
+
+::C-26:: Un semáforo tiene un ciclo de 49 segundos. ¿Cuántos ciclos completos hace en 10 minutos? Escribe solo el número entero. {#12}
+
+::C-27:: Un cuadro lleva un magnetotérmico de 72 mm, otro de 36 mm, tres contactores de 45 mm y un temporizador de 22,5 mm. Calcula el carril total ocupado en milímetros. {#265.5:1}
+
+::C-28:: Un regletero tiene 14 bornes de 6 mm cada uno. Calcula su longitud total en milímetros. {#84}
+
+::C-29:: Calcula la longitud de onda en metros de una señal de radio FM de 100 MHz, tomando la velocidad de la luz como 300.000.000 m/s. {#3}
+
+::C-30:: Calcula la longitud de onda en metros de una señal de TDT de 600 MHz, tomando la velocidad de la luz como 300.000.000 m/s. {#0.5:0.05}
+
+::C-31:: Calcula la longitud de onda en centímetros de una señal wifi de 2,4 GHz, tomando la velocidad de la luz como 300.000.000 m/s. {#12.5:0.5}
+
+::C-32:: Un recorrido de canal tiene tres tramos de 2,4 m, 1,8 m y 1,2 m. Calcula la longitud total en metros. {#5.4:0.1}
+
+::C-33:: Un recorrido de canal mide 5,4 m y hay que poner una fijación cada 50 cm. ¿Cuántas fijaciones hacen falta como mínimo, redondeando hacia arriba? {#11}
+
+::C-34:: Hay que llevar 3 cables UTP por un recorrido de 5,4 m. ¿Cuántos metros de cable hacen falta sin contar la coca? {#16.2:0.2}
+
+::C-35:: Una instalación de megafonía tiene 12 altavoces de 6 W, 4 proyectores de 10 W y 2 bocinas de 15 W. Calcula la potencia total en vatios. {#142}
+
+::C-36:: Una instalación de megafonía suma 142 W de difusores. ¿De cuántos vatios debe ser el amplificador para dejar un 20 % de margen? Escribe el número redondeado. {#170:5}
+
+::C-37:: Un rack lleva 2 patch panels de 1 U, 2 switches de 1 U, 1 router de 1 U, 1 SAI de 2 U, 4 guías de 1 U y 1 bandeja de 1 U. ¿Cuántas U ocupa en total? {#12}
+
+::C-38:: Un edificio tiene 3 plantas, 2 aulas por planta y 4 tomas por aula. ¿Cuántos cables hay que tirar? {#24}
+
+::C-39:: Un edificio tiene 24 cables de red que hay que etiquetar por los dos extremos. ¿Cuántas etiquetas hacen falta? {#48}
+
+::C-40:: Un aula tiene una red con máscara 255.255.255.0 y 7 equipos conectados. ¿Cuántas direcciones útiles quedan libres? {#247}
+
+::C-41:: Un motor de placa 230/400 V y 8,7/5,0 A se conecta a una red de 400 V. ¿A cuántos amperios se ajusta el relé térmico? {#5:0.1}
+
+::C-42:: Un motor de placa 400/690 V y 5,0/2,9 A se conecta a una red de 400 V. ¿A cuántos amperios se ajusta el relé térmico? {#5:0.1}
+
+::C-43:: Un motor consume 6 A a plena carga y arranca en directo consumiendo 6 veces su intensidad nominal. ¿Cuántos amperios pide en el arranque? {#36}
+
+::C-44:: Un motor pide 36 A arrancando en directo. Con arranque estrella-triángulo la corriente se reduce a un tercio. ¿Cuántos amperios pide entonces? {#12}
+
+::C-45:: Un enlace de par trenzado admite 100 m en total y el cable fijo ocupa 90 m. ¿Cuántos metros quedan para los latiguillos de los dos extremos? {#10}
