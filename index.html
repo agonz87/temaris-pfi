@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Temarios de PFI &middot; Institut de Lli&ccedil;&agrave;</title>
+<title>Temaris de PFI &middot; Institut de Lliçà</title>
 <style>
 :root{
   --tinta:#1c2024; --tinta-suave:#4a545e; --papel:#ffffff; --fondo:#eef1f4;
@@ -30,14 +30,32 @@ body{margin:0;background:var(--fondo);color:var(--tinta);
 .cabecera h1{font-size:35px;margin:26px 0 6px;line-height:1.15;letter-spacing:-.4px}
 .cabecera .lema{margin:0;font-size:16.5px;color:var(--tinta-suave)}
 
-.perfiles{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
-.perfil{flex:1 1 320px;background:var(--fondo);border:1px solid var(--linea);
-  border-radius:9px;padding:13px 17px;display:flex;gap:13px;align-items:flex-start}
+.perfiles{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
+.perfiles-tit{margin:22px 0 0;font-size:11.5px;font-weight:700;text-transform:uppercase;
+  letter-spacing:.9px;color:var(--tinta-suave)}
+.perfil{flex:1 1 320px;background:var(--fondo);border:2px solid var(--linea);
+  border-radius:9px;padding:13px 17px;display:flex;gap:13px;align-items:flex-start;
+  font-family:inherit;text-align:left;cursor:pointer;position:relative;color:var(--tinta)}
+.perfil:hover{border-color:var(--azul);background:#fff}
+.perfil.b:hover{border-color:var(--verde)}
 .perfil .cod{background:var(--azul);color:#fff;font-weight:700;font-size:11.5px;letter-spacing:.7px;
   padding:4px 9px;border-radius:5px;white-space:nowrap;margin-top:1px}
 .perfil.b .cod{background:var(--verde)}
 .perfil b{display:block;font-size:14.2px;line-height:1.35}
 .perfil span{display:block;font-size:12.3px;color:var(--tinta-suave);margin-top:2px}
+.perfil.act{border-color:var(--azul);background:#fff;box-shadow:0 2px 12px rgba(20,80,140,.14)}
+.perfil.b.act{border-color:var(--verde);box-shadow:0 2px 12px rgba(29,107,69,.14)}
+.perfil .pf-act{margin-left:auto;align-self:center;flex:0 0 auto;font-size:10.5px;font-weight:700;
+  letter-spacing:.8px;text-transform:uppercase;color:var(--azul);opacity:0;white-space:nowrap}
+.perfil.b .pf-act{color:var(--verde)}
+.perfil.act .pf-act{opacity:1}
+
+/* Tarjetas que no son de este perfil */
+.tarjeta.fuera{opacity:.42;filter:grayscale(.5)}
+.tarjeta.fuera:hover{opacity:.72;transform:none;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.t-fuera{display:none;background:var(--fondo);border:1px dashed var(--linea);border-radius:6px;
+  padding:6px 10px;font-size:12.3px;color:var(--tinta-suave);margin:0 0 8px}
+.tarjeta.fuera .t-fuera{display:block}
 
 /* ---------- Resumen global ---------- */
 .resumen{max-width:1180px;margin:22px auto 0;padding:0 26px}
@@ -51,6 +69,9 @@ body{margin:0;background:var(--fondo);color:var(--tinta);
   border:1px solid var(--linea);overflow:hidden}
 .resumen .barra i{display:block;height:100%;border-radius:6px;transition:width .35s;
   background:linear-gradient(90deg,var(--azul),var(--verde))}
+.g-perfil{background:var(--azul-claro);color:var(--azul);border-radius:20px;padding:3px 12px;
+  font-size:11.5px;font-weight:700;letter-spacing:.5px}
+.g-perfil.ht06{background:var(--verde-claro);color:var(--verde)}
 .resumen .aviso{width:100%;font-size:12.5px;color:var(--tinta-suave);font-style:italic;margin:0}
 
 /* ---------- Secciones y rejilla ---------- */
@@ -110,6 +131,10 @@ main{max-width:1180px;margin:0 auto;padding:30px 26px 70px}
 .tarjeta[data-color="morado"] .t-barra i{background:var(--morado)}
 .tarjeta[data-color="morado"] .t-btn.cont{background:var(--morado);border-color:var(--morado)}
 .tarjeta[data-color="morado"] .t-btn.cont:hover{background:#4a3071}
+.tarjeta[data-color="verde"]  .t-cod{background:var(--verde)}
+.tarjeta[data-color="verde"]  .t-barra i{background:var(--verde)}
+.tarjeta[data-color="verde"]  .t-btn.cont{background:var(--verde);border-color:var(--verde)}
+.tarjeta[data-color="verde"]  .t-btn.cont:hover{background:#155234}
 
 /* ---------- Pie ---------- */
 .pie{border-top:1px solid var(--linea);background:var(--papel)}
@@ -133,6 +158,113 @@ main{max-width:1180px;margin:0 auto;padding:30px 26px 70px}
 </head>
 <body>
 
+<!-- ============================================================ -->
+<!-- ACCÉS I PERFIL · bloc comú dels temaris                       -->
+<!-- No és seguretat real: és un pany perquè l'alumnat no hi entri -->
+<!-- per curiositat. El codi és visible dins del fitxer.           -->
+<!-- ============================================================ -->
+<style>
+html.acc-bloq,html.acc-bloq body{background:#14508c!important}
+html.acc-bloq body>*:not(#acc-capa){display:none!important}
+#acc-capa{position:fixed;inset:0;z-index:99999;background:#14508c;display:flex;align-items:center;
+  justify-content:center;padding:18px;font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif}
+#acc-caja{background:#fff;border-radius:14px;padding:30px 30px 26px;max-width:430px;width:100%;
+  box-shadow:0 18px 50px rgba(0,0,0,.35);text-align:center;box-sizing:border-box}
+#acc-caja .acc-sello{display:inline-block;border:2px solid #14508c;color:#14508c;border-radius:6px;
+  padding:5px 14px;font-size:11px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase}
+#acc-caja h2{font-size:21px;margin:16px 0 4px;color:#1c2024;line-height:1.25}
+#acc-caja p{font-size:14px;color:#4a545e;margin:6px 0 18px;line-height:1.5}
+#acc-caja input[type=password]{width:100%;padding:11px 13px;border:1.5px solid #d4dae0;border-radius:8px;
+  font-size:16px;font-family:inherit;text-align:center;letter-spacing:1px;box-sizing:border-box}
+#acc-caja input[type=password]:focus{outline:none;border-color:#14508c}
+#acc-caja button.acc-btn{width:100%;margin-top:12px;background:#14508c;color:#fff;border:0;border-radius:8px;
+  padding:11px 14px;font-size:15px;font-weight:600;font-family:inherit;cursor:pointer}
+#acc-caja button.acc-btn:hover{background:#0f3f70}
+#acc-caja .acc-error{color:#b3261e;font-size:13.5px;font-weight:600;margin:10px 0 0;min-height:19px}
+#acc-caja .acc-pie{font-size:12px;color:#8a949e;margin:16px 0 0;font-style:italic}
+.acc-perfiles{display:flex;flex-direction:column;gap:10px;margin-top:6px}
+.acc-perfiles button{background:#fff;border:2px solid #d4dae0;border-radius:10px;padding:13px 16px;
+  font-family:inherit;font-size:14.5px;color:#1c2024;cursor:pointer;text-align:left;line-height:1.35}
+.acc-perfiles button:hover{border-color:#14508c;background:#f4f8fd}
+.acc-perfiles button b{display:block;font-size:12px;letter-spacing:.8px;color:#14508c;margin-bottom:3px}
+.acc-perfiles button.b b{color:#1d6b45}
+.acc-perfiles button.b:hover{border-color:#1d6b45;background:#f3faf6}
+@media print{#acc-capa{display:none!important}html.acc-bloq body>*{display:block!important}}
+</style>
+<script>
+(function(){
+  var CLAVE = "vacances";
+  var K_ACC = "temaris.acceso", K_PERF = "temaris.perfil";
+  function leer(k){ try { return localStorage.getItem(k); } catch(e){ return null; } }
+  function escribir(k,v){ try { localStorage.setItem(k,v); } catch(e){} }
+
+  var okAcceso = leer(K_ACC) === "ok";
+  var okPerfil = leer(K_PERF) === "EE01" || leer(K_PERF) === "HT06";
+  if (okAcceso && okPerfil) return;
+
+  document.documentElement.className += " acc-bloq";
+
+  function montar(){
+    var capa = document.createElement("div");
+    capa.id = "acc-capa";
+    capa.innerHTML = '<div id="acc-caja"></div>';
+    document.body.appendChild(capa);
+    var caja = capa.querySelector("#acc-caja");
+
+    function pantallaClave(){
+      caja.innerHTML =
+        '<div class="acc-sello">PFI &middot; Material del professorat</div>' +
+        '<h2>Temaris d\'aula</h2>' +
+        '<p>Aquest material &eacute;s per al professorat. Introdueix la contrasenya per obrir-lo.</p>' +
+        '<input type="password" id="acc-clave" autocomplete="off" placeholder="Contrasenya" aria-label="Contrasenya">' +
+        '<button type="button" class="acc-btn" id="acc-entrar">Entra</button>' +
+        '<p class="acc-error" id="acc-err"></p>' +
+        '<p class="acc-pie">Es recorda en aquest navegador: no caldr&agrave; tornar-la a escriure.</p>';
+      var inp = caja.querySelector("#acc-clave");
+      var err = caja.querySelector("#acc-err");
+      function probar(){
+        if (inp.value.trim().toLowerCase() === CLAVE) {
+          escribir(K_ACC, "ok");
+          if (leer(K_PERF)) { abrir(); } else { pantallaPerfil(); }
+        } else {
+          err.textContent = "No és aquesta. Torna-ho a provar.";
+          inp.value = ""; inp.focus();
+        }
+      }
+      caja.querySelector("#acc-entrar").addEventListener("click", probar);
+      inp.addEventListener("keydown", function(ev){ if (ev.key === "Enter") probar(); });
+      setTimeout(function(){ inp.focus(); }, 60);
+    }
+
+    function pantallaPerfil(){
+      caja.innerHTML =
+        '<div class="acc-sello">Perfil professional</div>' +
+        '<h2>Amb quin grup treballes?</h2>' +
+        '<p>El seguiment de les sessions es desa <strong>per separat</strong> per a cada perfil. ' +
+        'Es pot canviar quan vulguis des de la barra de dalt.</p>' +
+        '<div class="acc-perfiles">' +
+          '<button type="button" data-perfil="EE01"><b>PFI EE01</b>Auxiliar de muntatges d\'instal&middot;lacions electrot&egrave;cniques en edificis</button>' +
+          '<button type="button" class="b" data-perfil="HT06"><b>PFI HT06</b>Auxiliar de serveis de restauraci&oacute; i cuina</button>' +
+        '</div>';
+      caja.querySelectorAll("[data-perfil]").forEach(function(b){
+        b.addEventListener("click", function(){ escribir(K_PERF, b.getAttribute("data-perfil")); abrir(); });
+      });
+    }
+
+    function abrir(){
+      document.documentElement.className = document.documentElement.className.replace(/\s*acc-bloq/g, "");
+      if (capa.parentNode) capa.parentNode.removeChild(capa);
+      window.dispatchEvent(new Event("temaris:desbloqueado"));
+    }
+
+    if (!okAcceso) pantallaClave(); else pantallaPerfil();
+  }
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", montar);
+  else montar();
+})();
+</script>
+
 <header class="cabecera">
   <div class="interior">
     <div class="marca">
@@ -143,32 +275,35 @@ main{max-width:1180px;margin:0 auto;padding:30px 26px 70px}
       </div>
     </div>
 
-    <h1>Temarios de PFI</h1>
-    <p class="lema">Programaciones de teor&iacute;a de aula, listas para proyectar en clase.
-    Funcionan sin internet y sin instalar nada.</p>
+    <h1>Temaris de PFI</h1>
+    <p class="lema">Programacions de teoria d'aula, a punt per projectar a classe.
+    Funcionen sense internet i sense instal·lar res.</p>
 
+    <p class="perfiles-tit">Amb quin grup treballes avui? El progrés es desa per separat per a cada perfil.</p>
     <div class="perfiles">
-      <div class="perfil a">
+      <button type="button" class="perfil a" data-perfil="EE01">
         <span class="cod">PFI EE01</span>
         <div>
           <b>Auxiliar de muntatges d'instal&middot;lacions electrot&egrave;cniques en edificis</b>
           <span>Electricitat i electr&ograve;nica</span>
         </div>
-      </div>
-      <div class="perfil b">
+        <span class="pf-act">&#10003; Actiu</span>
+      </button>
+      <button type="button" class="perfil b" data-perfil="HT06">
         <span class="cod">PFI HT06</span>
         <div>
           <b>Auxiliar de serveis de restauraci&oacute; i cuina</b>
           <span>Hoteleria i turisme</span>
         </div>
-      </div>
+        <span class="pf-act">&#10003; Actiu</span>
+      </button>
     </div>
   </div>
 </header>
 
 <div class="resumen">
   <div class="caja">
-    <span class="tit">Progreso global</span>
+    <span class="tit">Progrés global</span><span class="g-perfil" id="g-perfil"></span>
     <span class="num" id="g-num">&mdash;</span>
     <span class="pct" id="g-pct"></span>
     <span class="barra"><i id="g-barra"></i></span>
@@ -180,13 +315,13 @@ main{max-width:1180px;margin:0 auto;padding:30px 26px 70px}
 
 <!-- ============ MÓDULOS PROFESIONALES ============ -->
 <section class="grupo">
-  <h2>M&oacute;dulos profesionales &middot; PFI EE01</h2>
-  <p>Los dos m&oacute;dulos t&eacute;cnicos del perfil de electricidad y electr&oacute;nica.</p>
+  <h2>Mòduls de formació professional &middot; PFI EE01</h2>
+  <p>Els dos mòduls tècnics del perfil d'electricitat i electrònica.</p>
 
   <div class="rejilla">
 
     <!-- 3013 -->
-    <article class="tarjeta" data-cod="3013" data-color="azul"
+    <article class="tarjeta" data-cod="3013" data-color="azul" data-perfiles="EE01"
              data-archivo="Temario_3013_Teoria.html" data-total="33">
       <a class="t-link" href="Temario_3013_Teoria.html">
         <svg viewBox="0 0 420 168" role="img" aria-label="Cuadro eléctrico y vivienda domotizada">
@@ -223,26 +358,27 @@ main{max-width:1180px;margin:0 auto;padding:30px 26px 70px}
           <span class="t-cod">3013</span>
           <span class="t-perfil">PFI EE01</span>
         </div>
-        <h3>Instalaciones el&eacute;ctricas y dom&oacute;ticas</h3>
-        <p>Del circuito b&aacute;sico al cuadro de vivienda y la instalaci&oacute;n domotizada.</p>
-        <div class="t-datos"><span><b>33</b> sesiones</span><span><b>8</b> bloques</span><span>1 h por sesi&oacute;n</span></div>
+        <h3>Instal·lacions elèctriques i domòtiques</h3>
+        <p>Del circuit bàsic al quadre d'habitatge i la instal·lació domotitzada.</p>
+        <div class="t-datos"><span><b>33</b> sessions</span><span><b>8</b> blocs</span><span>1 h per sessió</span></div>
       </div>
       <div class="t-pie">
         <div class="t-prog">
           <span class="t-num">&mdash;</span><span class="t-pct"></span>
           <span class="t-barra"><i></i></span>
         </div>
+        <p class="t-fuera"></p>
         <p class="t-sig"></p>
         <div class="t-acciones">
-          <a class="t-btn cont" href="Temario_3013_Teoria.html" hidden>Continuar</a>
-          <a class="t-btn" href="Temario_3013_Teoria.html">Abrir temario</a>
-          <a class="t-btn" href="Banco_preguntas_3013_GIFT.txt">Banco de preguntas</a>
+          <a class="t-btn cont" href="Temario_3013_Teoria.html" hidden>Continua</a>
+          <a class="t-btn" href="Temario_3013_Teoria.html">Obre el temari</a>
+          <a class="t-btn" href="Banco_preguntas_3013_GIFT.txt">Banc de preguntes</a>
         </div>
       </div>
     </article>
 
     <!-- 3014 -->
-    <article class="tarjeta" data-cod="3014" data-color="ambar"
+    <article class="tarjeta" data-cod="3014" data-color="ambar" data-perfiles="EE01"
              data-archivo="Temario_3014_Teoria.html" data-total="33">
       <a class="t-link" href="Temario_3014_Teoria.html">
         <svg viewBox="0 0 420 168" role="img" aria-label="Antena de telecomunicaciones y rack de red">
@@ -287,20 +423,21 @@ main{max-width:1180px;margin:0 auto;padding:30px 26px 70px}
           <span class="t-cod">3014</span>
           <span class="t-perfil">PFI EE01</span>
         </div>
-        <h3>Instalaciones de telecomunicaciones</h3>
-        <p>Automatismos cableados, redes, medios de transmisi&oacute;n e ICT del edificio.</p>
-        <div class="t-datos"><span><b>33</b> sesiones</span><span><b>9</b> bloques</span><span>1 h por sesi&oacute;n</span></div>
+        <h3>Instal·lacions de telecomunicacions</h3>
+        <p>Automatismes cablats, xarxes, mitjans de transmissió i ICT de l'edifici.</p>
+        <div class="t-datos"><span><b>33</b> sessions</span><span><b>9</b> blocs</span><span>1 h per sessió</span></div>
       </div>
       <div class="t-pie">
         <div class="t-prog">
           <span class="t-num">&mdash;</span><span class="t-pct"></span>
           <span class="t-barra"><i></i></span>
         </div>
+        <p class="t-fuera"></p>
         <p class="t-sig"></p>
         <div class="t-acciones">
-          <a class="t-btn cont" href="Temario_3014_Teoria.html" hidden>Continuar</a>
-          <a class="t-btn" href="Temario_3014_Teoria.html">Abrir temario</a>
-          <a class="t-btn" href="Banco_preguntas_3014_GIFT.txt">Banco de preguntas</a>
+          <a class="t-btn cont" href="Temario_3014_Teoria.html" hidden>Continua</a>
+          <a class="t-btn" href="Temario_3014_Teoria.html">Obre el temari</a>
+          <a class="t-btn" href="Banco_preguntas_3014_GIFT.txt">Banc de preguntes</a>
         </div>
       </div>
     </article>
@@ -310,13 +447,70 @@ main{max-width:1180px;margin:0 auto;padding:30px 26px 70px}
 
 <!-- ============ MÓDULOS TRANSVERSALES ============ -->
 <section class="grupo">
-  <h2>M&oacute;dulos transversales &middot; EE01 y HT06</h2>
-  <p>Comunes a los dos perfiles del centro: se imparten igual en electricidad y en restauraci&oacute;n y cocina.</p>
+  <h2>Mòduls de formació general &middot; EE01 i HT06</h2>
+  <p>Comuns als dos perfils del centre: s'imparteixen igual a electricitat i a restauració i cuina.</p>
 
   <div class="rejilla">
 
+    <!-- MFG1 -->
+    <article class="tarjeta" data-cod="MFG1" data-color="verde" data-perfiles="EE01 HT06"
+             data-archivo="Temario_MFG1_Teoria.html" data-total="55">
+      <a class="t-link" href="Temario_MFG1_Teoria.html">
+        <svg viewBox="0 0 420 168" role="img" aria-label="Bocadillos de conversación, un texto escrito y tres lenguas">
+          <rect width="420" height="168" fill="#e8f5ee"/>
+          <path d="M0 132 L420 106 L420 168 L0 168 Z" fill="#d5ecdf"/>
+          <!-- bocadillo grande (hablar) -->
+          <path d="M44 34 L184 34 A 12 12 0 0 1 196 46 L196 106 A 12 12 0 0 1 184 118 L96 118 L70 142 L74 118 L44 118 A 12 12 0 0 1 32 106 L32 46 A 12 12 0 0 1 44 34 Z"
+                fill="#fff" stroke="#1d6b45" stroke-width="2.8" stroke-linejoin="round"/>
+          <g stroke="#1d6b45" stroke-width="3.2" stroke-linecap="round">
+            <path d="M52 58 L176 58"/><path d="M52 74 L160 74"/><path d="M52 90 L134 90"/>
+          </g>
+          <!-- bocadillo pequeño (escuchar) -->
+          <path d="M232 24 L308 24 A 10 10 0 0 1 318 34 L318 74 A 10 10 0 0 1 308 84 L266 84 L248 102 L251 84 L232 84 A 10 10 0 0 1 222 74 L222 34 A 10 10 0 0 1 232 24 Z"
+                fill="#e7effa" stroke="#14508c" stroke-width="2.6" stroke-linejoin="round"/>
+          <g stroke="#14508c" stroke-width="2.8" stroke-linecap="round">
+            <path d="M238 44 L302 44"/><path d="M238 60 L282 60"/>
+          </g>
+          <!-- hoja escrita -->
+          <rect x="248" y="92" width="86" height="60" rx="6" fill="#fff" stroke="#9c5c00" stroke-width="2.6"/>
+          <g stroke="#dcc08c" stroke-width="3" stroke-linecap="round">
+            <path d="M260 108 L322 108"/><path d="M260 120 L312 120"/><path d="M260 132 L322 132"/>
+          </g>
+          <!-- tres lenguas -->
+          <g font-family="Segoe UI, system-ui, Arial" font-weight="700" font-size="17" fill="#1d6b45">
+            <text x="352" y="52">CA</text>
+            <text x="352" y="82" fill="#14508c">ES</text>
+            <text x="352" y="112" fill="#5d3d8e">EN</text>
+          </g>
+          <path d="M344 34 L344 122" stroke="#1d6b45" stroke-width="2" stroke-linecap="round" opacity=".45"/>
+        </svg>
+      </a>
+      <div class="t-cuerpo">
+        <div class="t-meta">
+          <span class="t-cod">MFG1</span>
+          <span class="t-perfil">EE01 + HT06</span>
+        </div>
+        <h3>Estratègies i eines de comunicació</h3>
+        <p>Escoltar i parlar, parlar en públic, llegir, escriure, documents reals, món digital i anglès.</p>
+        <div class="t-datos"><span><b>55</b> sessions</span><span><b>9</b> blocs</span><span>2 h per sessió</span></div>
+      </div>
+      <div class="t-pie">
+        <div class="t-prog">
+          <span class="t-num">&mdash;</span><span class="t-pct"></span>
+          <span class="t-barra"><i></i></span>
+        </div>
+        <p class="t-fuera"></p>
+        <p class="t-sig"></p>
+        <div class="t-acciones">
+          <a class="t-btn cont" href="Temario_MFG1_Teoria.html" hidden>Continua</a>
+          <a class="t-btn" href="Temario_MFG1_Teoria.html">Obre el temari</a>
+          <a class="t-btn" href="Banco_preguntas_MFG1_GIFT.txt">Banc de preguntes</a>
+        </div>
+      </div>
+    </article>
+
     <!-- MPRL -->
-    <article class="tarjeta" data-cod="MPRL" data-color="rojo"
+    <article class="tarjeta" data-cod="MPRL" data-color="rojo" data-perfiles="EE01 HT06"
              data-archivo="Temario_MPRL_Teoria.html" data-total="33">
       <a class="t-link" href="Temario_MPRL_Teoria.html">
         <svg viewBox="0 0 420 168" role="img" aria-label="Casco de seguridad y señal de advertencia">
@@ -340,26 +534,27 @@ main{max-width:1180px;margin:0 auto;padding:30px 26px 70px}
           <span class="t-cod">MPRL</span>
           <span class="t-perfil">EE01 + HT06</span>
         </div>
-        <h3>Prevenci&oacute;n de riesgos laborales</h3>
-        <p>Riesgos, medidas de protecci&oacute;n, EPI, emergencias y primeros auxilios.</p>
-        <div class="t-datos"><span><b>33</b> sesiones</span><span><b>8</b> bloques</span><span>1 h por sesi&oacute;n</span></div>
+        <h3>Formació bàsica en prevenció de riscos laborals</h3>
+        <p>Riscos, mesures de protecció, EPI, emergències i primers auxilis.</p>
+        <div class="t-datos"><span><b>33</b> sessions</span><span><b>8</b> blocs</span><span>1 h per sessió</span></div>
       </div>
       <div class="t-pie">
         <div class="t-prog">
           <span class="t-num">&mdash;</span><span class="t-pct"></span>
           <span class="t-barra"><i></i></span>
         </div>
+        <p class="t-fuera"></p>
         <p class="t-sig"></p>
         <div class="t-acciones">
-          <a class="t-btn cont" href="Temario_MPRL_Teoria.html" hidden>Continuar</a>
-          <a class="t-btn" href="Temario_MPRL_Teoria.html">Abrir temario</a>
-          <a class="t-btn" href="Banco_preguntas_MPRL_GIFT.txt">Banco de preguntas</a>
+          <a class="t-btn cont" href="Temario_MPRL_Teoria.html" hidden>Continua</a>
+          <a class="t-btn" href="Temario_MPRL_Teoria.html">Obre el temari</a>
+          <a class="t-btn" href="Banco_preguntas_MPRL_GIFT.txt">Banc de preguntes</a>
         </div>
       </div>
     </article>
 
     <!-- MFG4 -->
-    <article class="tarjeta" data-cod="MFG4" data-color="morado"
+    <article class="tarjeta" data-cod="MFG4" data-color="morado" data-perfiles="EE01 HT06"
              data-archivo="Temario_MFG4_Teoria.html" data-total="50">
       <a class="t-link" href="Temario_MFG4_Teoria.html">
         <svg viewBox="0 0 420 168" role="img" aria-label="Currículum y recorrido profesional ascendente">
@@ -393,20 +588,21 @@ main{max-width:1180px;margin:0 auto;padding:30px 26px 70px}
           <span class="t-cod">MFG4</span>
           <span class="t-perfil">EE01 + HT06</span>
         </div>
-        <h3>Incorporaci&oacute;n al mundo profesional</h3>
-        <p>Autoconocimiento, itinerario, empresa, contrato, b&uacute;squeda de empleo y n&oacute;mina.</p>
-        <div class="t-datos"><span><b>50</b> sesiones</span><span><b>7</b> bloques</span><span>1 h por sesi&oacute;n</span></div>
+        <h3>Incorporació al món professional</h3>
+        <p>Autoconeixement, itinerari, empresa, contracte, cerca de feina i nòmina.</p>
+        <div class="t-datos"><span><b>50</b> sessions</span><span><b>7</b> blocs</span><span>1 h per sessió</span></div>
       </div>
       <div class="t-pie">
         <div class="t-prog">
           <span class="t-num">&mdash;</span><span class="t-pct"></span>
           <span class="t-barra"><i></i></span>
         </div>
+        <p class="t-fuera"></p>
         <p class="t-sig"></p>
         <div class="t-acciones">
-          <a class="t-btn cont" href="Temario_MFG4_Teoria.html" hidden>Continuar</a>
-          <a class="t-btn" href="Temario_MFG4_Teoria.html">Abrir temario</a>
-          <a class="t-btn" href="Banco_preguntas_MFG4_GIFT.txt">Banco de preguntas</a>
+          <a class="t-btn cont" href="Temario_MFG4_Teoria.html" hidden>Continua</a>
+          <a class="t-btn" href="Temario_MFG4_Teoria.html">Obre el temari</a>
+          <a class="t-btn" href="Banco_preguntas_MFG4_GIFT.txt">Banc de preguntes</a>
         </div>
       </div>
     </article>
@@ -418,76 +614,132 @@ main{max-width:1180px;margin:0 auto;padding:30px 26px 70px}
 
 <footer class="pie">
   <div class="interior">
-    <p><b>C&oacute;mo funciona el seguimiento.</b> Dentro de cada temario, en la portada, hay un panel
-    <b>&laquo;Seguimiento del curso&raquo;</b> donde se elige la &uacute;ltima sesi&oacute;n impartida. Esta p&aacute;gina lee
-    ese dato y muestra el avance de los cuatro m&oacute;dulos.</p>
-    <p>El progreso se guarda <b>en este navegador y en este ordenador</b>, sin internet y sin cuentas.
-    Si se abren los temarios desde otro equipo o con otro navegador, el contador empieza de cero.</p>
-    <p>Los <b>bancos de preguntas</b> est&aacute;n en formato GIFT, listos para importar en Moodle desde
-    Banco de preguntas &rsaquo; Importar &rsaquo; Formato GIFT.</p>
+    <p><b>Com funciona el seguiment.</b> Dins de cada temari, a la portada, hi ha un panell
+    <b>«Seguimiento del curso»</b> on es tria l'última sessió impartida. Aquesta pàgina llegeix
+    aquesta dada i mostra l'avenç dels cinc mòduls.</p>
+    <p>El progrés es desa <b>per separat per a cada perfil</b> (EE01 i HT06) i <b>en aquest navegador
+    i en aquest ordinador</b>, sense internet i sense comptes. Si els temaris s'obren des d'un altre
+    equip o amb un altre navegador, el comptador comença de zero.</p>
+    <p>Els <b>bancs de preguntes</b> són en format GIFT, a punt per importar-los al Moodle des de
+    Banc de preguntes &rsaquo; Importa &rsaquo; Format GIFT.</p>
+    <p style="font-size:12.5px;color:var(--tinta-suave);font-style:italic">La contrasenya d'accés només
+    serveix perquè l'alumnat no hi entri per curiositat: no és una protecció real, perquè el codi és
+    visible dins del fitxer.</p>
   </div>
 </footer>
 
 <script>
 (function(){
+  var K_PERF = "temaris.perfil";
+  var PERFILES = { "EE01": "PFI EE01", "HT06": "PFI HT06" };
+
   var tarjetas = Array.prototype.slice.call(document.querySelectorAll(".tarjeta"));
+  var botones  = Array.prototype.slice.call(document.querySelectorAll(".perfil[data-perfil]"));
   var disponible = true;
-  try { localStorage.getItem("temaris.test"); } catch (e) { disponible = false; }
+  try { localStorage.setItem("temaris.test", "1"); localStorage.removeItem("temaris.test"); }
+  catch (e) { disponible = false; }
 
-  var totalG = 0, hechasG = 0;
+  function perfilActivo(){
+    var p = null;
+    try { p = localStorage.getItem(K_PERF); } catch (e) {}
+    return (p === "HT06") ? "HT06" : "EE01";
+  }
 
-  tarjetas.forEach(function(t){
-    var cod = t.getAttribute("data-cod");
-    var archivo = t.getAttribute("data-archivo");
-    var total = parseInt(t.getAttribute("data-total"), 10) || 0;
+  function datos(cod, perfil){
     var d = null;
     try {
-      var raw = localStorage.getItem("temaris.v1." + cod);
+      var raw = localStorage.getItem("temaris.v1." + cod + "." + perfil);
+      if (!raw && perfil === "EE01") raw = localStorage.getItem("temaris.v1." + cod); // clave antigua
       if (raw) d = JSON.parse(raw);
     } catch (e) {}
+    return d;
+  }
 
-    if (d && typeof d.total === "number" && d.total > 0) total = d.total;
-    var n = d && d.hechas ? d.hechas.length : 0;
-    if (n > total) n = total;
-    var pct = total ? Math.round(n * 100 / total) : 0;
+  function pintar(){
+    var PERFIL = perfilActivo();
 
-    totalG += total;
-    hechasG += n;
+    botones.forEach(function(b){
+      b.classList.toggle("act", b.getAttribute("data-perfil") === PERFIL);
+    });
 
-    t.querySelector(".t-num").textContent = n + " / " + total;
-    t.querySelector(".t-pct").textContent = pct + " %";
-    t.querySelector(".t-barra i").style.width = pct + "%";
+    var totalG = 0, hechasG = 0;
 
-    var sig = t.querySelector(".t-sig");
-    var cont = t.querySelector(".t-btn.cont");
+    tarjetas.forEach(function(t){
+      var cod = t.getAttribute("data-cod");
+      var archivo = t.getAttribute("data-archivo");
+      var perfiles = (t.getAttribute("data-perfiles") || "EE01 HT06").split(/\s+/);
+      var deEstePerfil = perfiles.indexOf(PERFIL) !== -1;
+      var total = parseInt(t.getAttribute("data-total"), 10) || 0;
+
+      t.classList.toggle("fuera", !deEstePerfil);
+      var fu = t.querySelector(".t-fuera");
+      if (fu) {
+        fu.innerHTML = deEstePerfil ? "" :
+          "Aquest mòdul no s'imparteix a <b>" + PERFILES[PERFIL] + "</b>: només és de <b>" +
+          perfiles.map(function(p){ return PERFILES[p]; }).join(" i ") + "</b>.";
+      }
+
+      var d = datos(cod, PERFIL);
+      if (d && typeof d.total === "number" && d.total > 0) total = d.total;
+      var n = d && d.hechas ? d.hechas.length : 0;
+      if (n > total) n = total;
+      var pct = total ? Math.round(n * 100 / total) : 0;
+
+      if (deEstePerfil) { totalG += total; hechasG += n; }
+
+      t.querySelector(".t-num").textContent = n + " / " + total;
+      t.querySelector(".t-pct").textContent = pct + " %";
+      t.querySelector(".t-barra i").style.width = pct + "%";
+
+      var sig = t.querySelector(".t-sig");
+      var cont = t.querySelector(".t-btn.cont");
+      cont.hidden = true;
+
+      if (!disponible) {
+        sig.innerHTML = "El navegador no permet desar el progrés en aquest equip.";
+      } else if (n === 0) {
+        sig.innerHTML = "Sense començar a <b>" + PERFILES[PERFIL] + "</b>. La primera classe és la <b>sessió 1</b>.";
+      } else if (n >= total) {
+        sig.innerHTML = "<b>Mòdul completat</b> a " + PERFILES[PERFIL] + ". Les " + total + " sessions estan impartides.";
+      } else {
+        var num = d && d.sigNum ? d.sigNum : n + 1;
+        var tit = d && d.sigTit ? d.sigTit : "";
+        sig.innerHTML = "Pròxima classe: <b>sessió " + num + (tit ? " · " + tit : "") + "</b>";
+        cont.href = archivo + "#s" + (num < 10 ? "0" + num : num);
+        cont.textContent = "Continua · sessió " + num;
+        cont.hidden = false;
+      }
+    });
+
+    var pctG = totalG ? Math.round(hechasG * 100 / totalG) : 0;
+    document.getElementById("g-num").textContent = hechasG + " / " + totalG + " sessions";
+    document.getElementById("g-pct").textContent = pctG + " %";
+    document.getElementById("g-barra").style.width = pctG + "%";
+    var et = document.getElementById("g-perfil");
+    if (et) { et.textContent = PERFILES[PERFIL]; et.className = (PERFIL === "HT06") ? "g-perfil ht06" : "g-perfil"; }
 
     if (!disponible) {
-      sig.innerHTML = "El navegador no permite guardar el progreso en este equipo.";
-    } else if (n === 0) {
-      sig.innerHTML = "Sin empezar. La primera clase es la <b>sesión 1</b>.";
-    } else if (n >= total) {
-      sig.innerHTML = "<b>Módulo completado.</b> Las " + total + " sesiones están impartidas.";
-    } else {
-      var num = d && d.sigNum ? d.sigNum : n + 1;
-      var tit = d && d.sigTit ? d.sigTit : "";
-      sig.innerHTML = "Próxima clase: <b>sesión " + num + (tit ? " · " + tit : "") + "</b>";
-      cont.href = archivo + "#s" + (num < 10 ? "0" + num : num);
-      cont.textContent = "Continuar · sesión " + num;
-      cont.hidden = false;
+      var av = document.getElementById("g-aviso");
+      av.hidden = false;
+      av.textContent = "Aquest navegador té bloquejat l'emmagatzematge local, així que no es pot desar " +
+        "el progrés. Els temaris funcionen igualment.";
     }
+  }
+
+  botones.forEach(function(b){
+    b.addEventListener("click", function(){
+      try { localStorage.setItem(K_PERF, b.getAttribute("data-perfil")); } catch (e) {}
+      pintar();
+    });
   });
 
-  var pctG = totalG ? Math.round(hechasG * 100 / totalG) : 0;
-  document.getElementById("g-num").textContent = hechasG + " / " + totalG + " sesiones";
-  document.getElementById("g-pct").textContent = pctG + " %";
-  document.getElementById("g-barra").style.width = pctG + "%";
+  window.addEventListener("storage", function(ev){
+    if (!ev.key || ev.key.indexOf("temaris.") === 0) pintar();
+  });
+  window.addEventListener("temaris:desbloqueado", pintar);
+  window.addEventListener("pageshow", pintar);
 
-  if (!disponible) {
-    var av = document.getElementById("g-aviso");
-    av.hidden = false;
-    av.textContent = "Este navegador tiene bloqueado el almacenamiento local, así que no se puede " +
-      "guardar el progreso. Los temarios funcionan igualmente.";
-  }
+  pintar();
 })();
 </script>
 </body>

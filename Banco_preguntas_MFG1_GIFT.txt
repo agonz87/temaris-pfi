@@ -1,0 +1,3371 @@
+// ==========================================================================
+// BANCO DE PREGUNTAS — Estrategias y herramientas de comunicación (MFG1)
+// Programas de Formación e Inserción · Módulo de formación general · 110 h
+// Formato GIFT para importar en Moodle · Codificación UTF-8
+//
+// IMPORTACIÓN: Banco de preguntas > Importar > Formato GIFT > subir este archivo.
+// Se crean solas 9 categorías bajo "Temario MFG1", una por bloque del temario.
+//
+// Las preguntas están redactadas a partir de las frases dictadas del temario
+// y siguen el mismo orden de sesiones, para poder montar cada prueba filtrando
+// por categoría.
+//
+// LENGUA: las preguntas de las sesiones impartidas en catalán (4, 11, 22, 31,
+// 32, 33, 34, 42, 43 y 44) están en catalán, y las de los bloques de inglés
+// llevan el enunciado en castellano y las opciones en inglés, igual que en
+// el aula. Es lo mismo que el alumnado tiene escrito en la libreta.
+//
+// CORRESPONDENCIA CON LAS PRUEBAS DEL CURSO
+//   Prueba 1 (sesión  9) -> categoría 01
+//   Prueba 2 (sesión 20) -> categorías 02 y 03
+//   Prueba 3 (sesión 29) -> categoría 04
+//   Prueba 4 (sesión 40) -> categorías 05 y 06
+//   Prueba 5 (sesión 46) -> categoría 07
+//   Prueba 6 (sesión 55) -> categorías 08 y 09 (+ recuperación: 01 a 07)
+// ==========================================================================
+
+$CATEGORY: Temario MFG1/01 Escuchar y hablar
+
+// ---------- Sesión 1 · El módulo y el circuito de la comunicación ----------
+
+::B1-01:: ¿Cuántas horas tiene el módulo MFG1 Estratègies i eines de comunicació? {
+=110 horas
+~50 horas
+~45 horas
+~264 horas
+}
+
+::B1-02:: ¿En cuántas sesiones se organiza el módulo MFG1? {
+=55 sesiones de dos horas
+~110 sesiones de una hora
+~33 sesiones de dos horas
+~50 sesiones de una hora
+}
+
+::B1-03:: ¿Qué es comunicarse? {
+=Conseguir que una idea llegue entera de una cabeza a otra
+~Hablar en voz alta delante de alguien
+~Escribir un mensaje y enviarlo
+~Escuchar sin interrumpir
+}
+
+::B1-04:: ¿Qué hace el emisor con el mensaje? {
+=Lo codifica\: convierte una idea en palabras
+~Lo descodifica
+~Lo transporta por el canal
+~Lo interpreta
+}
+
+::B1-05:: ¿Qué hace el receptor con el mensaje? {
+=Lo descodifica\: convierte las palabras en una idea
+~Lo codifica
+~Lo transmite
+~Lo produce
+}
+
+::B1-06:: ¿Qué es el código en el circuito de la comunicación? {
+=El sistema de signos compartido, normalmente una lengua
+~El medio físico por el que viaja el mensaje
+~La información que se transmite
+~La situación en la que se produce la comunicación
+}
+
+::B1-07:: ¿Qué es el canal? {
+=El medio físico por el que viaja el mensaje\: el aire, el papel, el teléfono
+~La lengua que se comparte
+~El contenido del mensaje
+~La respuesta del receptor
+}
+
+::B1-08:: ¿Qué es el contexto? {
+=La situación en la que se produce la comunicación
+~El sistema de signos
+~El ruido de fondo
+~La intención del emisor
+}
+
+::B1-09:: ¿Qué es la retroalimentación? {
+=La respuesta del receptor, que nos dice si el mensaje ha llegado bien
+~Repetir el mensaje dos veces
+~El ruido que estropea el mensaje
+~El código compartido
+}
+
+::B1-10:: ¿Qué es el ruido en comunicación? {
+=Cualquier cosa que estropea el mensaje por el camino
+~Solo el sonido molesto del ambiente
+~El código que usa el emisor
+~La distancia entre emisor y receptor
+}
+
+::B1-11:: ¿Cuáles son los tres tipos de ruido? {
+=Físico, de código y psicológico
+~Alto, medio y bajo
+~Verbal, no verbal y escrito
+~Interno, externo y ambiental
+}
+
+::B1-12:: Un técnico le habla a una clienta con palabras técnicas que ella no conoce. ¿Qué tipo de ruido hay? {
+=De código
+~Físico
+~Psicológico
+~No hay ruido
+}
+
+::B1-13:: Estás tan enfadado que no escuchas lo que te dicen. ¿Qué tipo de ruido es? {
+=Psicológico
+~Físico
+~De código
+~De canal
+}
+
+::B1-14:: El ruido solo puede ser sonido ambiental. {FALSE#El ruido es cualquier cosa que estropea el mensaje\: puede ser físico, de código o psicológico.}
+
+::B1-15:: ¿Qué es la comunicación no verbal? {
+=La que comunica sin palabras\: la cara, las manos, el cuerpo, la distancia y la voz
+~La que se hace por escrito
+~La que se hace por teléfono
+~La que usa un idioma extranjero
+}
+
+::B1-16:: Cuando la comunicación verbal y la no verbal se contradicen, ¿a cuál creemos? {
+=A la no verbal
+~A la verbal
+~A las dos por igual
+~A ninguna de las dos
+}
+
+::B1-17:: Los seis elementos del circuito de la comunicación son el emisor, el receptor, el mensaje, el código, el canal y el contexto. {TRUE#Y además está la retroalimentación, que es la respuesta del receptor.}
+
+// ---------- Sesión 2 · Comprensión oral ----------
+
+::B1-18:: ¿Cuál es la diferencia entre oír y escuchar? {
+=Oír es automático; escuchar es poner atención a propósito
+~Escuchar es automático y oír se decide
+~Son exactamente lo mismo
+~Oír es con aparatos y escuchar sin ellos
+}
+
+::B1-19:: ¿Cuándo sabes que has entendido algo de verdad? {
+=Cuando puedes decirlo con tus palabras
+~Cuando puedes repetirlo igual que lo has oído
+~Cuando lo has apuntado entero
+~Cuando lo has escuchado dos veces
+}
+
+::B1-20:: ¿Qué cuatro cosas hay que sacar de un texto oral? {
+=El sentido global, las ideas principales, los detalles que importan y la intención del emisor
+~El emisor, el receptor, el canal y el código
+~El título, el autor, la fecha y la fuente
+~El principio, el nudo, el desenlace y la moraleja
+}
+
+::B1-21:: ¿Cómo se dice el sentido global de un texto? {
+=En una sola frase
+~Con una lista de todos los datos
+~Copiando el primer párrafo
+~Repitiendo el título
+}
+
+::B1-22:: ¿Cuántas ideas principales tiene normalmente un texto oral? {
+=Dos o tres, no diez
+~Siempre una sola
+~Diez o más
+~Tantas como párrafos
+}
+
+::B1-23:: ¿Cuáles son las cuatro intenciones del emisor? {
+=Informar, convencer, emocionar y mandar
+~Hablar, escuchar, leer y escribir
+~Preguntar, responder, resumir y callar
+~Informar, resumir, opinar y ordenar
+}
+
+::B1-24:: Un anuncio de una bebida energética, ¿qué intención tiene? {
+=Convencer
+~Informar
+~Mandar
+~Ninguna
+}
+
+::B1-25:: Un aviso de megafonía que dice que hay que salir del edificio, ¿qué intención tiene? {
+=Mandar
+~Emocionar
+~Convencer
+~Informar solamente
+}
+
+::B1-26:: ¿Qué pregunta ayuda a descubrir la intención de quien habla? {
+=¿Quién gana algo si yo me lo creo?
+~¿Cuánto rato dura el mensaje?
+~¿Por qué canal me llega?
+~¿Cuántas personas lo han escuchado?
+}
+
+::B1-27:: ¿Qué es un texto multimodal? {
+=El que usa varios canales a la vez\: palabra, imagen, música y texto en pantalla
+~El que está escrito en varios idiomas
+~El que dura más de tres minutos
+~El que tiene varios emisores
+}
+
+::B1-28:: En un texto multimodal, cada canal aporta una parte del significado. {TRUE#Por eso la música de fondo de una noticia no es un adorno\: también comunica.}
+
+// ---------- Sesión 3 · La escucha activa ----------
+
+::B1-29:: ¿Qué es la escucha activa? {
+=Escuchar demostrando que escuchas y comprobando que has entendido
+~Escuchar sin interrumpir nunca
+~Tomar notas de todo lo que dice el otro
+~Escuchar y contestar deprisa
+}
+
+::B1-30:: ¿Cuáles son las seis técnicas de la escucha activa? {
+=Mirar, no interrumpir, asentir, preguntar, parafrasear y resumir
+~Mirar, callar, esperar, opinar, responder y marcharse
+~Emisor, receptor, mensaje, código, canal y contexto
+~Informar, convencer, emocionar, mandar, resumir y preguntar
+}
+
+::B1-31:: ¿Qué es parafrasear? {
+=Repetir con tus palabras lo que ha dicho el otro, para comprobar que lo has entendido
+~Repetir exactamente las mismas palabras que ha dicho el otro
+~Resumir al final de la conversación
+~Hacer una pregunta cerrada
+}
+
+::B1-32:: ¿Qué es resumir, dentro de la escucha activa? {
+=Decir al final las dos o tres cosas que se han acordado
+~Repetir la conversación entera
+~Apuntarlo todo por escrito
+~Cambiar de tema al acabar
+}
+
+::B1-33:: ¿Qué son las preguntas abiertas? {
+=Las que no se contestan con sí o no
+~Las que se contestan con sí o no
+~Las que se hacen en voz muy alta
+~Las que se hacen por escrito
+}
+
+::B1-34:: ¿Cuáles son las barreras de la escucha? {
+=Preparar la respuesta, juzgar por adelantado, distraerse e interrumpir para ayudar
+~Mirar, asentir, preguntar y resumir
+~El ruido físico, el de código y el psicológico
+~Informar, convencer, emocionar y mandar
+}
+
+::B1-35:: Mientras el otro habla, tú vas pensando qué le vas a contestar. ¿Qué barrera es? {
+=Preparar la respuesta
+~Distraerse
+~Juzgar por adelantado
+~Interrumpir para ayudar
+}
+
+::B1-36:: ¿Por qué le interesa a alguien escuchar bien en el trabajo? {
+=Porque quien escucha bien tiene más información que los demás, y eso es una ventaja
+~Porque así cae mejor a los jefes
+~Porque se trabaja menos
+~Porque se acaba antes la jornada
+}
+
+::B1-37:: Parafrasear sirve para que te corrijan enseguida, cuando arreglarlo todavía es gratis. {TRUE#Si has entendido mal, te lo dicen en ese momento y no cuando ya está hecho.}
+
+// ---------- Sesión 4 · Conversar bé (en català) ----------
+
+::B1-38:: [CATALÀ] Què és el pacte tàcit d'una conversa? {
+=Que totes dues persones col·laboren perquè la conversa funcioni
+~Que una persona mana i l'altra obeeix
+~Que ningú pot interrompre mai
+~Que s'ha de parlar sempre en la mateixa llengua
+}
+
+::B1-39:: [CATALÀ] Quines són les quatre màximes de la cooperació conversacional? {
+=Quantitat, qualitat, relació i manera
+~Coherència, cohesió, adequació i correcció
+~Emissor, receptor, missatge i canal
+~Escoltar, preguntar, resumir i callar
+}
+
+::B1-40:: [CATALÀ] Què demana la màxima de quantitat? {
+=Dir tot el que cal i només el que cal
+~Dir només allò que creiem que és veritat
+~Dir coses que vinguin a tomb
+~Ser clar, breu i ordenat
+}
+
+::B1-41:: [CATALÀ] Què demana la màxima de qualitat? {
+=Dir només allò que creiem que és veritat
+~Dir tot el que cal i només el que cal
+~Dir coses que vinguin a tomb
+~Parlar a poc a poc
+}
+
+::B1-42:: [CATALÀ] «Has portat les eines?» — «Ahir va ploure molt.» Quina màxima es trenca? {
+=La de relació
+~La de quantitat
+~La de qualitat
+~La de manera
+}
+
+::B1-43:: [CATALÀ] Què demana la màxima de manera? {
+=Ser clar, breu i ordenat, i evitar l'ambigüitat
+~Dir la veritat sempre
+~No parlar més del compte
+~Canviar de tema quan calgui
+}
+
+::B1-44:: [CATALÀ] En una conversa, com es demana i es cedeix el torn de paraula? {
+=Amb la veu i amb el cos\: baixant l'entonació, mirant l'altre i fent una pausa
+~Aixecant la mà sempre
+~Cridant més fort que l'altre
+~No hi ha cap senyal\: es fa a l'atzar
+}
+
+::B1-45:: [CATALÀ] Què és la imatge positiva d'una persona? {
+=El desig de caure bé i que la valorin
+~El desig que no li imposin res
+~La fotografia del seu perfil
+~La fama que té entre els companys
+}
+
+::B1-46:: [CATALÀ] Què és la imatge negativa d'una persona? {
+=El desig que no li imposin res i que la deixin en pau
+~El desig de caure bé
+~La mala fama
+~La manera com es veu a si mateixa
+}
+
+::B1-47:: [CATALÀ] Què són els atenuadors? {
+=Les paraules i les formes que suavitzen allò que diem per no amenaçar la imatge de l'altre
+~Les paraules que diuen el contrari del que es pensa
+~Els gestos que acompanyen les paraules
+~Les pauses entre torns de paraula
+}
+
+::B1-48:: [CATALÀ] «Em pots passar la clau, si us plau?» en lloc de «Passa'm la clau». Quin recurs s'ha fet servir? {
+=Preguntar en lloc de manar, amb una fórmula de cortesia
+~Una ironia
+~Un canvi de tema
+~Una repetició
+}
+
+::B1-49:: [CATALÀ] «No m'he explicat bé» en lloc de «no m'has entès». Quin atenuador és? {
+=Fer-se responsable un mateix
+~Dubtar a posta
+~Donar la raó abans
+~Preguntar en lloc de manar
+}
+
+::B1-50:: [CATALÀ] Atenuar vol dir deixar de dir les coses. {FALSE#Atenuar vol dir dir-les de manera que l'altre les pugui escoltar. Si ningú s'assabenta que hi ha un problema, no s'ha comunicat res.}
+
+// ---------- Sesión 5 · La comunicación no verbal ----------
+
+::B1-51:: ¿Cuáles son los canales de la comunicación no verbal? {
+=La cara, las manos, el cuerpo, la distancia y la voz
+~La vista, el oído y el tacto
+~El papel, el aire y la pantalla
+~El emisor, el receptor y el mensaje
+}
+
+::B1-52:: Además de los canales del cuerpo, ¿qué otra cosa comunica antes de que digas una palabra? {
+=El aspecto\: la ropa, la limpieza y la puntualidad
+~El idioma que hablas
+~El canal que eliges
+~La longitud del mensaje
+}
+
+::B1-53:: Levantar el pulgar para decir que sí, ¿qué tipo de gesto es? {
+=Un gesto que sustituye a la palabra
+~Un gesto que acompaña
+~Un gesto que dibuja
+~Un gesto que se escapa por nervios
+}
+
+::B1-54:: Decir «estoy tranquilo» con la pierna botando, ¿qué tipo de gesto es? {
+=Un gesto que contradice a la palabra
+~Un gesto que sustituye a la palabra
+~Un gesto que dibuja
+~Un gesto que acompaña
+}
+
+::B1-55:: ¿Qué se reconoce igual en todas las culturas? {
+=Las expresiones de la cara de las emociones básicas
+~Los gestos de las manos
+~La distancia personal
+~El significado de los silencios
+}
+
+::B1-56:: Los gestos de las manos significan lo mismo en todos los países. {FALSE#No\: un mismo gesto puede ser normal en un sitio y ofensivo en otro. Lo que sí se reconoce en todas partes son las expresiones de la cara.}
+
+::B1-57:: ¿Cuáles son las cuatro zonas de distancia? {
+=La íntima, la personal, la social y la pública
+~La cercana, la media, la lejana y la invisible
+~La privada, la familiar, la laboral y la oficial
+~La corta, la larga, la fija y la variable
+}
+
+::B1-58:: ¿Qué distancia corresponde a una entrevista de trabajo? {
+=La social, de 1,2 a 3,5 metros
+~La íntima, de 0 a 45 cm
+~La personal, de 45 cm a 1,2 m
+~La pública, de más de 3,5 m
+}
+
+::B1-59:: ¿Qué comunica la voz sin contar las palabras? {
+=El tono, el volumen, la velocidad y los silencios
+~Solo el idioma
+~Solo el volumen
+~Nada\: la voz solo transmite palabras
+}
+
+// ---------- Sesión 6 · Asertividad ----------
+
+::B1-60:: ¿Qué es ser asertivo? {
+=Defender lo tuyo respetando al otro
+~Decir siempre lo que piensas, caiga quien caiga
+~Evitar los conflictos callándote
+~Convencer al otro de que tienes razón
+}
+
+::B1-61:: ¿Qué hace el estilo pasivo? {
+=No dice nada y se lo traga
+~Ataca a la persona
+~Dice el problema sin atacar a nadie
+~Suelta indirectas
+}
+
+::B1-62:: ¿Qué hace el estilo agresivo? {
+=Ataca a la persona en vez de describir el problema
+~No dice nada
+~Describe el hecho concreto
+~Pide con cortesía
+}
+
+::B1-63:: ¿Qué es el estilo pasivo-agresivo? {
+=No decir las cosas de frente, sino con indirectas y sarcasmo, lo que alarga el conflicto
+~Decir las cosas con claridad y respeto
+~Gritar para imponerse
+~Callarse y olvidarlo de verdad
+}
+
+::B1-64:: ¿Qué es un mensaje en primera persona? {
+=El que habla de lo que te pasa a ti, no de lo que es el otro
+~El que empieza siempre por «yo creo que»
+~El que se dice sin testigos
+~El que se escribe en vez de decirse
+}
+
+::B1-65:: ¿Cuáles son los cuatro pasos del mensaje asertivo? {
+=El hecho, cómo te afecta, qué pides y escuchar la respuesta
+~El hecho, la culpa, el castigo y la disculpa
+~Saludar, quejarse, insistir y marcharse
+~Posición, interés, acuerdo y firma
+}
+
+::B1-66:: ¿Cómo se cuenta el hecho en un mensaje asertivo? {
+=Concreto y sin adjetivos
+~Con todos los adjetivos que hagan falta
+~Exagerándolo para que se note
+~Sin decir fechas ni datos
+}
+
+::B1-67:: ¿Qué dos palabras no se dicen en una queja? {
+=«Siempre» y «nunca»
+~«Por favor» y «gracias»
+~«Creo» y «pienso»
+~«Hoy» y «ayer»
+}
+
+::B1-68:: ¿Por qué no se usan «siempre» y «nunca» en una queja? {
+=Porque casi nunca son verdad y la conversación pasa a discutir eso en vez del problema
+~Porque son palabras demasiado formales
+~Porque son adverbios y hay que evitarlos
+~Porque suenan poco educadas
+}
+
+::B1-69:: ¿Cómo se dice que no correctamente? {
+=Usando la palabra «no», dando un solo motivo corto y ofreciendo alternativa si la hay
+~Dando cinco motivos para que se entienda bien
+~Diciendo «ya veremos» para no ofender
+~Cambiando de tema
+}
+
+::B1-70:: «Bueno, ya veremos, es que tengo cosas...» cuando quieres decir que no. ¿Qué estilo es? {
+=Pasivo\: no es un no, es un sí retrasado
+~Asertivo, porque das un motivo
+~Agresivo
+~Es un no perfectamente claro
+}
+
+::B1-71:: Decir que no es un derecho y no es una grosería. {TRUE#Lo que hace falta es decirlo con la palabra «no», con un motivo corto.}
+
+// ---------- Sesión 7 · El conflicto ----------
+
+::B1-72:: ¿Cuándo hay conflicto? {
+=Cuando dos personas quieren cosas que parecen incompatibles
+~Cuando alguien levanta la voz
+~Cuando alguien se calla
+~Cuando hay más de dos personas hablando
+}
+
+::B1-73:: ¿Cuáles son los escalones del conflicto, en orden? {
+=Desacuerdo, discusión, ataque, bandos y ruptura
+~Discusión, desacuerdo, bandos, ataque y ruptura
+~Enfado, grito, pelea y silencio
+~Aviso, queja, denuncia y juicio
+}
+
+::B1-74:: ¿A partir de qué escalón se deja de discutir del problema? {
+=A partir del tercero, el del ataque a la persona
+~A partir del primero
+~A partir del segundo
+~A partir del quinto
+}
+
+::B1-75:: ¿Qué es una posición, en un conflicto? {
+=Lo que alguien dice que quiere
+~Por qué lo quiere
+~El lugar donde se sienta
+~El escalón en el que está
+}
+
+::B1-76:: ¿Qué es un interés, en un conflicto? {
+=Por qué alguien quiere lo que dice que quiere
+~Lo que dice que quiere
+~El dinero que hay en juego
+~La postura de su cuerpo
+}
+
+::B1-77:: ¿Qué pregunta descubre el interés que hay detrás de una posición? {
+=¿Para qué lo necesitas?
+~¿Por qué te pones así?
+~¿Quién tiene la razón?
+~¿Y si lo dejamos?
+}
+
+::B1-78:: Las posiciones chocan, pero los intereses casi siempre se pueden combinar. {TRUE#Por eso preguntar «¿para qué lo necesitas?» desatasca la mayoría de conflictos.}
+
+::B1-79:: ¿Cuáles son las cinco maneras de afrontar un conflicto? {
+=Evitar, ceder, competir, negociar y colaborar
+~Callar, gritar, huir, atacar y rendirse
+~Escuchar, preguntar, resumir, opinar y decidir
+~Desacuerdo, discusión, ataque, bandos y ruptura
+}
+
+::B1-80:: ¿Cuál de estas afirmaciones es correcta sobre los estilos de afrontamiento? {
+=Ninguno es el bueno siempre; el error es usar siempre el mismo
+~Colaborar es siempre la mejor opción
+~Competir nunca sirve para nada
+~Evitar es siempre un error
+}
+
+::B1-81:: El conflicto en sí es siempre un problema que hay que evitar. {FALSE#El conflicto es normal\: lo que importa es cómo se gestiona. Un equipo donde nadie discute nunca suele ser un equipo donde la gente se calla.}
+
+$CATEGORY: Temario MFG1/02 Hablar en público
+
+// ---------- Sesión 10 · Registros y niveles de lengua ----------
+
+::B2-01:: ¿Qué es el registro? {
+=La manera de hablar que eliges según la situación
+~Lo bien que dominas la lengua
+~El vocabulario técnico de un oficio
+~El volumen de la voz
+}
+
+::B2-02:: ¿De qué depende el registro? {
+=De con quién hablas, de dónde y por qué canal, y de para qué
+~Solo de la edad de quien escucha
+~Solo del idioma
+~De la hora del día
+}
+
+::B2-03:: ¿Qué marcas tiene el registro formal? {
+=El tratamiento de usted, vocabulario preciso y frases completas
+~Palabras comodín y muletillas
+~Contracciones como «pa'» y «na'»
+~Frases cortas sin acabar
+}
+
+::B2-04:: ¿Qué marcas tiene el registro informal? {
+=El tú, palabras comodín y muletillas como «o sea» o «en plan»
+~El tratamiento de usted
+~Frases largas y ordenadas
+~Vocabulario técnico
+}
+
+::B2-05:: ¿Cuáles son los cuatro niveles de lengua? {
+=El culto, el estándar, el coloquial y el vulgar
+~El formal, el informal, el escrito y el oral
+~El catalán, el castellano, el inglés y la jerga
+~El alto, el medio, el bajo y el mínimo
+}
+
+::B2-06:: ¿Qué es el nivel estándar? {
+=El que entiende todo el mundo y se acepta en cualquier sitio
+~El de la literatura y las conferencias
+~El de los amigos y la familia
+~El que tiene errores de lengua
+}
+
+::B2-07:: ¿Qué diferencia hay entre coloquial y vulgar? {
+=El coloquial es informal pero correcto; el vulgar tiene errores de lengua
+~El vulgar es más informal que el coloquial
+~Son dos nombres para lo mismo
+~El coloquial se escribe y el vulgar se habla
+}
+
+::B2-08:: «Habían muchas personas esperando.» ¿Qué nivel es? {
+=Vulgar\: es un error de lengua
+~Coloquial\: es informal pero correcto
+~Estándar
+~Culto
+}
+
+::B2-09:: «Tío, qué palo.» ¿Qué nivel es? {
+=Coloquial\: informal y correcto entre amigos
+~Vulgar\: es un error de lengua
+~Culto
+~Estándar formal
+}
+
+::B2-10:: El registro se elige, pero el error no. {TRUE#«Habían muchos» está mal en cualquier situación, también en un bar.}
+
+::B2-11:: ¿Qué es la jerga profesional? {
+=Las palabras propias de un oficio, que solo se entienden dentro
+~Las palabras malsonantes
+~El idioma de un país extranjero
+~Las palabras antiguas
+}
+
+::B2-12:: ¿Con quién se usa la jerga profesional? {
+=Con quien la comparte; con un cliente se usan palabras normales
+~Con todo el mundo, porque es más precisa
+~Solo por escrito
+~Nunca, porque es incorrecta
+}
+
+::B2-13:: Un técnico le dice a una clienta que le ha cambiado «el magnetotérmico». ¿Qué error comete? {
+=Usa jerga profesional con alguien que no la comparte
+~Usa un registro demasiado informal
+~Usa un nivel vulgar
+~No comete ningún error
+}
+
+// ---------- Sesión 11 · Diversitat lingüística (en català) ----------
+
+::B2-14:: [CATALÀ] Què és una llengua? {
+=Un sistema complet de comunicació
+~La varietat d'una llengua en un territori
+~La manera de pronunciar
+~La varietat acordada per a l'escola
+}
+
+::B2-15:: [CATALÀ] Què és un dialecte? {
+=La varietat d'una llengua en un territori
+~Una llengua que es parla malament
+~Una llengua sense escriptura
+~Una llengua petita
+}
+
+::B2-16:: [CATALÀ] «Jo no tinc accent.» Aquesta frase... {
+=És impossible\: tothom parla amb accent
+~És certa si parles l'estàndard
+~És certa si has nascut al lloc
+~Només és certa als informatius
+}
+
+::B2-17:: [CATALÀ] Què és l'estàndard d'una llengua? {
+=La varietat acordada per a l'escola, els mitjans i l'administració
+~La forma més antiga de la llengua
+~El dialecte de la capital
+~L'única forma correcta de parlar
+}
+
+::B2-18:: [CATALÀ] L'estàndard és més correcte que els altres dialectes. {FALSE#No és més correcte\: és més compartit. És un acord, no una veritat.}
+
+::B2-19:: [CATALÀ] Què és un prejudici lingüístic? {
+=Una idea falsa sobre una llengua o sobre qui la parla
+~Un error de gramàtica
+~Un dialecte minoritari
+~Una paraula malsonant
+}
+
+::B2-20:: [CATALÀ] Hi ha llengües més fàcils i més difícils? {
+=Depèn de quines llengües ja saps\: totes les criatures aprenen la seva a la mateixa edat
+~Sí, unes són objectivament més fàcils
+~Sí, les que tenen menys parlants són més fàcils
+~No es pot saber de cap manera
+}
+
+::B2-21:: [CATALÀ] Qui ha après dues llengües de petit... {
+=Aprèn la tercera més fàcilment
+~Té més dificultats amb la tercera
+~S'entrebanca amb totes dues
+~No pot aprendre'n cap més
+}
+
+::B2-22:: [CATALÀ] Quines són les tres maneres de discriminar amb el llenguatge? {
+=Invisibilitzar, estereotipar i menysprear
+~Cridar, insultar i callar
+~Informar, convèncer i manar
+~Atenuar, exagerar i mentir
+}
+
+::B2-23:: [CATALÀ] «Els treballadors han de signar el full.» Com s'evita la invisibilització? {
+=«La plantilla ha de signar el full»
+~«Els treballadors i els altres han de signar el full»
+~No cal canviar res
+~«Els treballadors han de signar el full, si us plau»
+}
+
+::B2-24:: [CATALÀ] Quins recursos serveixen per evitar la invisibilització? {
+=Els noms col·lectius, els noms de càrrec, canviar el subjecte i desdoblar quan cal
+~Escriure-ho tot en majúscules
+~Fer servir només el masculí
+~Evitar els verbs
+}
+
+// ---------- Sesión 12 · Preparar una exposición ----------
+
+::B2-25:: ¿Cuáles son las tres preguntas que hay que contestar antes de preparar una exposición? {
+=A quién, para qué y cuánto tiempo
+~Qué, cómo y cuándo
+~Dónde, con quién y por qué canal
+~Quién, qué y dónde
+}
+
+::B2-26:: ¿Qué es el mensaje único de una exposición? {
+=La frase que quieres que recuerden si solo recuerdan una cosa
+~El título de la exposición
+~La primera frase que dices
+~El resumen de todas las ideas
+}
+
+::B2-27:: ¿Cuáles son las tres partes de una exposición? {
+=Introducción, desarrollo y cierre
+~Tesis, razón y prueba
+~Planteamiento, nudo y desenlace
+~Saludo, cuerpo y despedida
+}
+
+::B2-28:: ¿Qué lleva la introducción de una exposición? {
+=Un gancho, de qué se va a hablar y cuánto va a durar
+~Todos los datos importantes
+~La conclusión final
+~Las fuentes consultadas
+}
+
+::B2-29:: ¿Cuántas ideas caben en el desarrollo de una exposición corta? {
+=Dos o tres, cada una con su ejemplo o su dato
+~Entre ocho y diez
+~Una sola
+~Las que hagan falta
+}
+
+::B2-30:: ¿Qué hace el cierre de una exposición? {
+=Resume en una frase y repite el mensaje único
+~Introduce un tema nuevo
+~Da las fuentes por primera vez
+~Alarga la exposición
+}
+
+::B2-31:: ¿Qué debe ser un guion de exposición? {
+=Una lista de palabras clave, no el texto escrito entero
+~El texto completo, para no olvidarse de nada
+~Las diapositivas impresas
+~Nada\: hay que llevarlo todo memorizado
+}
+
+::B2-32:: Un dato sin fuente... {
+=Es un dato que no se dice
+~Se puede decir si te lo han contado
+~Vale igual si lo has visto en internet
+~Se dice y ya está
+}
+
+::B2-33:: ¿Cuántas palabras se dicen aproximadamente en un minuto hablando en público? {
+=Unas 120
+~Unas 300
+~Unas 40
+~Unas 600
+}
+
+::B2-34:: ¿Por qué hay que ensayar un 10 % por debajo del tiempo disponible? {
+=Porque en público siempre se tarda más que en el ensayo
+~Porque así sobra tiempo para las preguntas
+~Porque el reloj de clase va adelantado
+~Porque el público se cansa antes
+}
+
+// ---------- Sesión 13 · Apoyos visuales ----------
+
+::B2-35:: ¿Cuál es la regla de oro del apoyo visual? {
+=Quien explica eres tú; la pantalla solo te ayuda
+~La pantalla lo explica todo y tú acompañas
+~Cuanto más texto tenga la diapositiva, mejor
+~Hay que leer la diapositiva en voz alta
+}
+
+::B2-36:: ¿Por qué no hay que escribir en la diapositiva lo que vas a decir? {
+=Porque el público lee más rápido de lo que hablas, acaba antes y desconecta
+~Porque ocupa mucha memoria
+~Porque es difícil de imprimir
+~Porque no se puede citar la fuente
+}
+
+::B2-37:: ¿Cuáles son las cinco reglas de una diapositiva? {
+=Una idea, seis líneas de seis palabras, letra de 24 puntos, mucho contraste e imágenes grandes con sentido
+~Tres ideas, doce líneas, letra de 12 puntos, colores suaves y muchas imágenes
+~Todo el texto de lo que vas a decir
+~Una sola imagen y nada más
+}
+
+::B2-38:: ¿Cuál es el tamaño mínimo de letra de una diapositiva? {
+=24 puntos
+~12 puntos
+~10 puntos
+~No importa si se proyecta grande
+}
+
+::B2-39:: ¿Cuándo vale más un objeto real que diez fotos? {
+=Cuando se explica un oficio
+~Cuando hay que dar cifras
+~Cuando se cuenta una historia personal
+~Nunca
+}
+
+::B2-40:: ¿Cuánto debe durar como máximo un vídeo dentro de una exposición corta? {
+=Un minuto, y hay que comentarlo después
+~Cinco minutos
+~La mitad del tiempo disponible
+~Lo que haga falta
+}
+
+::B2-41:: Escribir en la pizarra de espaldas al público es un error. {TRUE#Mientras escribes de espaldas dejas de comunicar\: no te ven la cara y muchas veces no se te oye.}
+
+::B2-42:: ¿Cuándo es válido no usar ningún apoyo visual? {
+=Cuando cuentas una historia propia
+~Nunca\: siempre hay que llevar diapositivas
+~Cuando hay datos y cifras
+~Cuando explicas un proceso de cuatro fases
+}
+
+::B2-43:: ¿Qué hay que hacer con las imágenes que se sacan de internet? {
+=Citar la fuente y buscar imágenes con licencia libre
+~Nada\: son de todos
+~Recortarlas para que no se reconozcan
+~Usarlas solo en blanco y negro
+}
+
+::B2-44:: Se pueden usar fotos de personas reconocibles sin permiso si es para clase. {FALSE#No\: no se pueden usar sin permiso, y menos si son menores. Eso ya no es derecho de autor, es protección de datos.}
+
+// ---------- Sesión 14 · Decir el discurso ----------
+
+::B2-45:: ¿Cuáles son los cuatro parámetros de la voz al hablar en público? {
+=El volumen, el ritmo, el tono y las pausas
+~El idioma, el acento, la edad y el sexo
+~La cara, las manos, el cuerpo y la mirada
+~La introducción, el desarrollo, el cierre y las preguntas
+}
+
+::B2-46:: ¿A quién hay que hablarle para controlar el volumen? {
+=A la persona de la última fila
+~A la persona de la primera fila
+~Al profesor o profesora
+~A la pantalla
+}
+
+::B2-47:: ¿Qué le pasa al ritmo cuando estás nervioso? {
+=Se acelera, así que hay que ir más lento de lo que parece normal
+~Se vuelve más lento de la cuenta
+~No cambia
+~Se vuelve monótono
+}
+
+::B2-48:: ¿Qué efecto tiene bajar el tono al final de cada frase? {
+=Suena a seguridad
+~Suena a pregunta
+~Suena a duda
+~No tiene ningún efecto
+}
+
+::B2-49:: ¿Qué consigue una pausa de dos segundos antes de algo importante? {
+=Que la sala levante la cabeza
+~Que el público piense que te has quedado en blanco
+~Que se acorte la exposición
+~Nada
+}
+
+::B2-50:: ¿Cuál es la mejora más rápida que existe al hablar en público? {
+=Cambiar las muletillas por silencio
+~Hablar más rápido
+~Llevar más diapositivas
+~Memorizar el texto entero
+}
+
+::B2-51:: ¿Cómo se reparte la mirada al hablar en público? {
+=Unos tres segundos a cada persona, en zigzag por la sala
+~Mirando fijamente a una sola persona
+~Mirando a la pantalla
+~Mirando al suelo para concentrarse
+}
+
+::B2-52:: Los nervios al hablar en público... {
+=Son una reacción física normal y no se quitan\: se gestionan
+~Solo los tienen las personas tímidas
+~Desaparecen con la práctica del todo
+~Son señal de que no te lo has preparado
+}
+
+::B2-53:: ¿Qué tres cosas ayudan a gestionar los nervios? {
+=Respirar lento antes, saberse de memoria las dos primeras frases y mirar a alguien que te caiga bien
+~Hablar rápido, no mirar a nadie y acabar cuanto antes
+~Beber agua, sentarse y leerlo todo
+~Memorizar el texto entero, no hacer pausas y evitar las preguntas
+}
+
+::B2-54:: Si te quedas en blanco, ¿qué se hace? {
+=Mirar el guion, repetir la última frase o decirlo en voz alta
+~Irse de la sala
+~Seguir hablando de cualquier cosa
+~Pedir que salga otra persona
+}
+
+// ---------- Sesión 15 · Entrevista y deliberación ----------
+
+::B2-55:: ¿Qué quiere saber quien hace una entrevista de trabajo? {
+=Si sabes hacer el trabajo, si vas a durar y si se puede trabajar contigo
+~Cuántos años tienes exactamente
+~Dónde vives
+~Si conoces a alguien de la empresa
+}
+
+::B2-56:: ¿Cuáles son las fases de una entrevista de trabajo? {
+=Saludo, háblame de ti, formación y experiencia, preguntas difíciles, tus preguntas y despedida
+~Saludo, prueba escrita, prueba práctica y contrato
+~Presentación, negociación y firma
+~Currículum, carta y llamada
+}
+
+::B2-57:: Te preguntan si tienes alguna pregunta al final de la entrevista. ¿Qué haces? {
+=Llevas dos preparadas sobre el trabajo
+~Dices que no, para no molestar
+~Preguntas cuántos días de vacaciones hay
+~Te levantas y te vas
+}
+
+::B2-58:: Decir que no tienes ninguna pregunta en una entrevista es un error. {TRUE#Parece que el trabajo no te interesa. Conviene llevar dos preparadas sobre el puesto.}
+
+::B2-59:: ¿Qué es una deliberación? {
+=Una conversación en la que un grupo tiene que decidir algo aportando razones
+~Una discusión en la que gana quien habla más fuerte
+~Un discurso de una sola persona
+~Una entrevista de trabajo en grupo
+}
+
+::B2-60:: ¿Cuál es la diferencia entre discutir y deliberar? {
+=En la discusión el objetivo es ganar; en la deliberación, decidir bien
+~Discutir es en voz alta y deliberar en voz baja
+~Discutir es entre dos y deliberar entre muchos
+~No hay ninguna diferencia
+}
+
+::B2-61:: ¿Cuáles son las tres piezas de un argumento? {
+=La tesis, la razón y la prueba
+~La introducción, el desarrollo y el cierre
+~El emisor, el mensaje y el receptor
+~El hecho, el sentimiento y la petición
+}
+
+::B2-62:: ¿Qué falta cuando un argumento no tiene prueba? {
+=No es un argumento\: es una opinión
+~Nada\: sigue siendo un argumento completo
+~Le falta la tesis
+~Le falta el conector
+}
+
+::B2-63:: ¿Qué hay que hacer antes de rebatir a alguien en una deliberación? {
+=Resumir lo que ha dicho
+~Levantar la voz para que se note
+~Buscar un dato en el móvil
+~Pedir turno por escrito
+}
+
+::B2-64:: Decir «tienes razón en eso» en una deliberación... {
+=No quita autoridad\: la da
+~Es rendirse
+~Es una falta de respeto
+~Está prohibido
+}
+
+
+$CATEGORY: Temario MFG1/03 Inglés I
+
+// ---------- Sesión 17 · Greetings and introductions ----------
+
+::B3-01:: ¿Cómo se aprende un idioma, según la norma del bloque de inglés? {
+=Hablándolo mal primero\: el error es información, no un castigo
+~Estudiando gramática hasta dominarla antes de hablar
+~Escuchando sin hablar nunca
+~Traduciendo palabra por palabra
+}
+
+::B3-02:: ¿Hasta qué hora se dice «good morning»? {
+=Hasta las doce
+~Hasta las seis de la tarde
+~Hasta las tres
+~Hasta las nueve de la noche
+}
+
+::B3-03:: ¿Cuándo se dice «good afternoon»? {
+=De doce a seis de la tarde
+~Antes de las doce
+~A partir de las seis
+~Solo al despedirse
+}
+
+::B3-04:: ¿Cuándo se dice «good night»? {
+=Solo al despedirse
+~Al llegar por la noche
+~A partir de las seis de la tarde, al llegar
+~A cualquier hora
+}
+
+::B3-05:: Entras en un hotel a las nueve de la noche. ¿Qué dices? {
+=Good evening
+~Good night
+~Good afternoon
+~See you later
+}
+
+::B3-06:: ¿Qué significa «Nice to meet you»? {
+=Encantado de conocerte
+~Hasta luego
+~¿Cómo estás?
+~Que tengas buen día
+}
+
+::B3-07:: ¿Cómo se dice «tengo diecisiete años»? {
+=I am seventeen years old
+~I have seventeen years
+~I have seventeen years old
+~I am seventeen years
+}
+
+::B3-08:: En inglés, la edad se dice con el verbo «to have». {FALSE#Se dice con «to be»\: I am seventeen years old.}
+
+::B3-09:: ¿Cómo se escriben los idiomas y las nacionalidades en inglés? {
+=Siempre con mayúscula\: Spanish, Catalan, English
+~Siempre con minúscula
+~Con mayúscula solo al principio de la frase
+~Con mayúscula solo si es el idioma oficial
+}
+
+::B3-10:: ¿Qué significa «Sorry, I don't understand»? {
+=Perdona, no lo entiendo
+~Perdona, no te oigo
+~Lo siento, no puedo ayudarte
+~Perdona, no lo sé
+}
+
+::B3-11:: ¿Cómo se pide que repitan algo? {
+=Can you repeat that, please?
+~How do you spell that?
+~What does it mean?
+~Can you write it down?
+}
+
+::B3-12:: ¿Qué significa «How do you spell that?»? {
+=¿Cómo se escribe?
+~¿Qué significa?
+~¿Puedes repetirlo?
+~¿Cómo se dice?
+}
+
+::B3-13:: ¿Cómo se pide que hablen más despacio? {
+=Can you speak more slowly, please?
+~Can you speak louder, please?
+~Can you write it down, please?
+~Can you help me, please?
+}
+
+::B3-14:: ¿Qué letras se confunden más al deletrear en inglés? {
+=La E y la I, la G y la J, y la Y y la W
+~La B y la V
+~La C y la Z
+~La M y la N
+}
+
+// ---------- Sesión 18 · Numbers, time and dates ----------
+
+::B3-15:: ¿Cómo se distinguen al oído «thirteen» y «thirty»? {
+=Por el acento\: la terminación -teen va acentuada y la -ty no
+~No se distinguen
+~Thirty es más larga
+~Solo por el contexto
+}
+
+::B3-16:: ¿Cómo se escribe el número 40 en inglés? {
+=Forty, sin u
+~Fourty, con u
+~Fourteen
+~Fortty
+}
+
+::B3-17:: En inglés, ¿qué separa la coma dentro de un número? {
+=Los miles
+~Los decimales
+~Nada\: no se usa
+~Solo los millones
+}
+
+::B3-18:: ¿Cómo se escribe en inglés la cantidad «2.480,50 €»? {
+=€2,480.50
+~€2.480,50
+~€2 480-50
+~€2,480,50
+}
+
+::B3-19:: ¿Cómo se dicen los números de teléfono en inglés? {
+=Cifra a cifra, y dos cifras iguales seguidas con «double»
+~De dos en dos siempre
+~Como un número entero
+~Empezando por el final
+}
+
+::B3-20:: ¿Qué hora es «a quarter to ten»? {
+=Las 9\:45
+~Las 10\:15
+~Las 10\:45
+~Las 9\:15
+}
+
+::B3-21:: ¿Qué hora es «half past nine»? {
+=Las 9\:30
+~Las 8\:30
+~Las 9\:15
+~Las 10\:30
+}
+
+::B3-22:: En los países de habla inglesa se usa el horario de veinticuatro horas. {FALSE#No es habitual\: se usa a.m. y p.m. No se dice «las quince horas», sino «three p.m.».}
+
+::B3-23:: ¿Cómo se escriben los días de la semana y los meses en inglés? {
+=Siempre con mayúscula
+~Siempre con minúscula
+~Con mayúscula solo los meses
+~Con mayúscula solo los días
+}
+
+::B3-24:: En el Reino Unido, la fecha 03/04/2026 es... {
+=El 3 de abril
+~El 4 de marzo
+~El 4 de abril
+~El 3 de marzo
+}
+
+::B3-25:: En Estados Unidos, la fecha 03/04/2026 es... {
+=El 4 de marzo
+~El 3 de abril
+~El 3 de marzo
+~El 4 de abril
+}
+
+::B3-26:: ¿Cómo se escribe una fecha para que no haya confusión? {
+=Con el mes en letra\: 3 April 2026
+~Siempre en formato 03/04/2026
+~Con el año delante
+~Con el día en letra
+}
+
+// ---------- Sesión 19 · Basic grammar ----------
+
+::B3-27:: ¿Cuál es el orden de la frase en inglés? {
+=Sujeto, verbo y objeto
+~Verbo, sujeto y objeto
+~Objeto, verbo y sujeto
+~No hay un orden fijo
+}
+
+::B3-28:: ¿Cuál de estas frases es correcta? {
+=It is raining
+~Is raining
+~Raining is
+~He is raining
+}
+
+::B3-29:: En inglés el sujeto se puede omitir, como en castellano. {FALSE#No se puede quitar nunca\: se dice «it is raining», no «is raining».}
+
+::B3-30:: ¿Dónde van los adjetivos en inglés? {
+=Delante del nombre\: a red car
+~Detrás del nombre\: a car red
+~Al final de la frase
+~Da igual
+}
+
+::B3-31:: ¿Qué significa el verbo «to be»? {
+=Ser y estar
+~Solo ser
+~Solo estar
+~Tener
+}
+
+::B3-32:: «Tengo frío», ¿cómo se dice? {
+=I'm cold
+~I have cold
+~I have got cold
+~It is cold to me
+}
+
+::B3-33:: «Tengo hambre», ¿cómo se dice? {
+=I'm hungry
+~I have hungry
+~I have got hunger
+~It is hungry
+}
+
+::B3-34:: ¿Qué significa «have got»? {
+=Tener
+~Ser
+~Estar
+~Hacer
+}
+
+::B3-35:: ¿Para qué se usa el present simple? {
+=Para rutinas, horarios y hechos
+~Para lo que está pasando ahora mismo
+~Para el pasado
+~Para el futuro
+}
+
+::B3-36:: En present simple, ¿qué pasa con he, she e it? {
+=El verbo añade una -s\: she works
+~El verbo no cambia
+~Se añade -ing
+~Se añade -ed
+}
+
+::B3-37:: «Ella trabaja en una cocina», ¿cómo se dice? {
+=She works in a kitchen
+~She work in a kitchen
+~She is work in a kitchen
+~She has work in a kitchen
+}
+
+::B3-38:: ¿Cómo se hace la negación del present simple con he, she e it? {
+=Con doesn't, y el verbo pierde la -s\: he doesn't work
+~Con don't, y el verbo mantiene la -s
+~Con not detrás del verbo
+~Con no delante del verbo
+}
+
+::B3-39:: ¿Cuál es correcta? {
+=Does she work on Saturdays?
+~Does she works on Saturdays?
+~Do she works on Saturdays?
+~She does work on Saturdays?
+}
+
+::B3-40:: «We haven't got no tools» es correcta en inglés. {FALSE#La doble negación existe en castellano pero no en inglés\: se dice «we haven't got any tools».}
+
+$CATEGORY: Temario MFG1/04 Leer y entender
+
+// ---------- Sesión 21 · Leer para entender ----------
+
+::B4-01:: ¿Cuáles son las tres maneras de leer? {
+=La global, la selectiva y la comprensiva
+~La rápida, la lenta y la media
+~La oral, la silenciosa y la expresiva
+~La literal, la crítica y la creativa
+}
+
+::B4-02:: ¿Para qué sirve la lectura global? {
+=Para saber de qué va un texto y decidir si te interesa
+~Para buscar un dato concreto
+~Para entenderlo todo
+~Para memorizarlo
+}
+
+::B4-03:: ¿Para qué sirve la lectura selectiva? {
+=Para buscar un dato concreto\: una hora, un precio, un nombre
+~Para saber de qué va el texto
+~Para entenderlo entero
+~Para leer en voz alta
+}
+
+::B4-04:: ¿Cómo se lee un contrato de trabajo o una factura? {
+=Con lectura comprensiva\: despacio, con lápiz y preguntando lo que no se entiende
+~Con lectura global\: título y primera frase
+~Con lectura selectiva\: solo la cantidad
+~No hace falta leerlos
+}
+
+::B4-05:: ¿Cuáles son los tres momentos de la lectura comprensiva? {
+=Antes, durante y después
+~Global, selectiva y comprensiva
+~Leer, subrayar y resumir
+~Título, cuerpo y conclusión
+}
+
+::B4-06:: ¿Qué se hace antes de leer? {
+=Mirar los paratextos y preguntarse de qué va a ir el texto
+~Subrayar las ideas principales
+~Escribir el resumen
+~Buscar las palabras en el diccionario
+}
+
+::B4-07:: ¿Qué se hace durante la lectura? {
+=Leer con lápiz y marcar con una interrogación lo que no se entiende
+~Escribir el resumen
+~Contar las palabras
+~Memorizar los datos
+}
+
+::B4-08:: ¿Qué se hace después de leer? {
+=Cerrar el texto y decir de qué iba, con tus palabras y en una frase
+~Volver a leerlo entero
+~Subrayarlo otra vez
+~Copiar el primer párrafo
+}
+
+::B4-09:: ¿Qué son los paratextos? {
+=Todo lo que acompaña al texto sin ser el texto\: título, subtítulos, fotos, fecha, firma y medio
+~Los conectores del texto
+~Los textos de otros autores sobre el mismo tema
+~El resumen y el esquema
+}
+
+::B4-10:: Un texto sin fecha y sin autor... {
+=Es una señal de alarma
+~Es más objetivo
+~Es normal en internet y no significa nada
+~Es siempre falso
+}
+
+::B4-11:: ¿Cuáles son las cinco relaciones más frecuentes entre las partes de un texto? {
+=Causa-efecto, problema-solución, comparación, enumeración y general-ejemplo
+~Sujeto, verbo, objeto, adjetivo y adverbio
+~Introducción, desarrollo, cierre, resumen y conclusión
+~Narrativa, descriptiva, dialogada, instructiva y expositiva
+}
+
+::B4-12:: ¿Qué son los conectores? {
+=Las palabras que anuncian qué relación viene\: son las señales de tráfico del texto
+~Las palabras técnicas de un texto
+~Los signos de puntuación
+~Las palabras que se repiten
+}
+
+::B4-13:: «El taller cerró en marzo porque perdió el contrato principal.» ¿Qué relación hay? {
+=Causa y efecto
+~Comparación
+~Problema y solución
+~General y ejemplo
+}
+
+// ---------- Sesión 22 · Les seqüències textuals (en català) ----------
+
+::B4-14:: [CATALÀ] Què és una seqüència textual? {
+=Una manera d'organitzar la informació dins d'un text
+~Un tipus de connector
+~L'ordre en què es llegeix un text
+~El nombre de paràgrafs d'un text
+}
+
+::B4-15:: [CATALÀ] Quines són les sis seqüències textuals? {
+=La narrativa, la descriptiva, la dialogada, la instructiva, l'expositiva i l'argumentativa
+~La notícia, la crònica, el reportatge, l'entrevista, l'opinió i la publicitat
+~La causa, l'efecte, el problema, la solució, la comparació i l'exemple
+~La culta, l'estàndard, la col·loquial, la vulgar, la formal i la informal
+}
+
+::B4-16:: [CATALÀ] Què fa la seqüència narrativa i quines marques té? {
+=Explica fets en el temps, amb verbs d'acció en passat i connectors de temps
+~Diu com és alguna cosa, amb adjectius
+~Diu com es fa una cosa, amb imperatius
+~Defensa una idea amb raons
+}
+
+::B4-17:: [CATALÀ] Quines marques té la seqüència descriptiva? {
+=Adjectius i els verbs ser, tenir i haver-hi, en present
+~Imperatius i passos numerats
+~Verbs d'acció en passat
+~Guionets i cometes
+}
+
+::B4-18:: [CATALÀ] Quines marques té la seqüència dialogada? {
+=Guionets, cometes i verbs de dir
+~Adjectius i present
+~Imperatius
+~Connectors de causa
+}
+
+::B4-19:: [CATALÀ] «Escalfeu l'oli, afegiu la ceba i deixeu-ho coure deu minuts.» Quina seqüència és? {
+=Instructiva
+~Narrativa
+~Expositiva
+~Descriptiva
+}
+
+::B4-20:: [CATALÀ] Què fa la seqüència expositiva? {
+=Explica un tema perquè s'entengui, amb definicions i exemples
+~Explica fets en el temps
+~Defensa una idea amb raons
+~Reprodueix el que diuen unes persones
+}
+
+::B4-21:: [CATALÀ] Quina seqüència porta normalment l'opinió? {
+=L'argumentativa
+~La narrativa
+~La descriptiva
+~La instructiva
+}
+
+::B4-22:: [CATALÀ] Un text real fa servir una sola seqüència textual. {FALSE#Un text real en barreja unes quantes\: una notícia narra, descriu, cita, exposa i de vegades argumenta.}
+
+// ---------- Sesión 23 · Idea principal y resumen ----------
+
+::B4-23:: ¿Qué es la idea principal de un párrafo? {
+=Aquello sin lo cual el párrafo no tiene sentido
+~La primera frase del párrafo
+~La frase más larga del párrafo
+~El tema del párrafo
+}
+
+::B4-24:: ¿Qué hacen las ideas secundarias? {
+=Explican, ejemplifican o prueban la principal
+~Contradicen la idea principal
+~Repiten la idea principal
+~Introducen un tema nuevo
+}
+
+::B4-25:: ¿Qué es la prueba del tachón? {
+=Si al tacharlo el párrafo sigue teniendo sentido, era una idea secundaria
+~Tachar todo lo que no entiendes
+~Subrayar con rotulador lo importante
+~Contar las líneas del resumen
+}
+
+::B4-26:: ¿Cuál es la diferencia entre el tema y la idea principal? {
+=El tema se dice con una o dos palabras; la idea principal es una frase completa con verbo
+~El tema es más largo que la idea principal
+~Son sinónimos
+~El tema lo pone el autor y la idea principal el lector
+}
+
+::B4-27:: ¿Dónde suele estar la idea principal de un párrafo? {
+=Casi siempre al principio, aunque también puede ir en medio o al final
+~Siempre al final
+~Siempre en medio
+~Siempre en el título
+}
+
+::B4-28:: ¿Qué es un resumen? {
+=El mismo texto más corto, con tus palabras y sin tu opinión
+~Una lista de las palabras importantes
+~Un comentario personal del texto
+~Una copia del primer párrafo
+}
+
+::B4-29:: ¿Cuáles son las cuatro reglas del resumen? {
+=Suprimir, generalizar, construir y reformular
+~Leer, subrayar, copiar y revisar
+~Antes, durante, después y repaso
+~Tema, idea principal, ideas secundarias y opinión
+}
+
+::B4-30:: «Martillo, destornillador, alicates y llaves» → «herramientas». ¿Qué regla es? {
+=Generalizar
+~Suprimir
+~Construir
+~Reformular
+}
+
+::B4-31:: «Llegó, abrió el cuadro, midió y cambió la pieza» → «reparó la avería». ¿Qué regla es? {
+=Construir
+~Generalizar
+~Suprimir
+~Reformular
+}
+
+::B4-32:: ¿Qué NO puede llevar un resumen? {
+=Tu opinión, frases como «el texto dice que» ni nada que no esté en el original
+~Las ideas principales
+~Tus propias palabras
+~Los datos importantes
+}
+
+::B4-33:: ¿Cuánto ocupa un resumen respecto al original? {
+=Entre un cuarto y un tercio
+~La mitad exacta
+~Tres cuartas partes
+~Lo que haga falta
+}
+
+// ---------- Sesión 24 · Subrayado, esquema y notas ----------
+
+::B4-34:: ¿Cuánto se puede subrayar de un texto? {
+=Menos del 20 %
+~Menos del 60 %
+~La mitad
+~Lo que parezca importante, sin límite
+}
+
+::B4-35:: ¿Cuándo se subraya un párrafo? {
+=Después de haberlo leído entero
+~Mientras se lee por primera vez
+~Antes de leerlo, por los títulos
+~Al acabar todo el texto
+}
+
+::B4-36:: ¿Qué se hace con las palabras que no entiendes al subrayar? {
+=Se rodean con un círculo, porque son otra cosa
+~Se subrayan como lo demás
+~Se tachan
+~Se dejan en blanco
+}
+
+::B4-37:: ¿Cuántos colores se usan como máximo al subrayar? {
+=Dos
+~Cinco
+~Uno solo
+~Tantos como ideas haya
+}
+
+::B4-38:: ¿Qué hace un esquema? {
+=Ordena el contenido de lo general a lo particular, por jerarquía
+~Muestra las relaciones entre conceptos con flechas
+~Resume el texto en un párrafo
+~Copia el texto con otras palabras
+}
+
+::B4-39:: ¿Qué hace un mapa conceptual? {
+=Muestra las relaciones entre conceptos con flechas que llevan una palabra encima
+~Ordena el contenido por jerarquía
+~Resume el texto en diez líneas
+~Subraya lo importante
+}
+
+::B4-40:: ¿Para qué sirve mejor un esquema y para qué un mapa conceptual? {
+=El esquema para clasificaciones y el mapa conceptual para procesos
+~El esquema para procesos y el mapa conceptual para clasificaciones
+~Los dos sirven exactamente para lo mismo
+~El esquema para textos largos y el mapa para textos cortos
+}
+
+::B4-41:: Al tomar notas de una explicación oral, ¿qué se escribe? {
+=Ideas, no frases
+~Todo lo que se dice, literalmente
+~Solo el título
+~Nada\: hay que escuchar sin escribir
+}
+
+::B4-42:: ¿Para qué se deja el margen derecho libre al tomar notas? {
+=Para completarlas al acabar, mientras todavía te acuerdas
+~Para que quede más bonito
+~Para escribir la fecha
+~Para las faltas de ortografía
+}
+
+::B4-43:: Las abreviaturas al tomar notas sirven si son siempre las mismas. {TRUE#Da igual cuáles sean\: lo importante es ser constante para poder releerlas.}
+
+// ---------- Sesión 25 · Los géneros de los medios ----------
+
+::B4-44:: ¿Cuáles son los cinco géneros periodísticos básicos? {
+=La noticia, la crónica, el reportaje, la entrevista y el artículo de opinión
+~La narrativa, la descriptiva, la dialogada, la instructiva y la expositiva
+~El titular, la entradilla, el cuerpo, la foto y el pie
+~La información, la publicidad, el anuncio, el cartel y el folleto
+}
+
+::B4-45:: ¿Qué es la noticia? {
+=Un hecho nuevo contado sin valoración
+~Un tema tratado a fondo con varias fuentes
+~Un texto en el que alguien defiende una postura
+~Un hecho contado por alguien que estuvo allí
+}
+
+::B4-46:: ¿Qué es la crónica? {
+=Un hecho contado por alguien que ha estado allí, en orden temporal
+~Un hecho nuevo sin valoración
+~Un texto de preguntas y respuestas
+~Un texto de opinión firmado
+}
+
+::B4-47:: ¿Qué es el reportaje? {
+=Un tema tratado a fondo, sin urgencia y con varias fuentes
+~Un hecho de última hora
+~Una entrevista escrita
+~Una columna de opinión
+}
+
+::B4-48:: ¿Qué género lleva opinión de principio a fin? {
+=El artículo de opinión
+~La noticia
+~La crónica
+~El reportaje
+}
+
+::B4-49:: ¿Qué es la pirámide invertida? {
+=Escribir la noticia con lo más importante primero y lo menos importante al final
+~Empezar por los detalles y acabar con lo importante
+~Un tipo de titular
+~La estructura de un artículo de opinión
+}
+
+::B4-50:: ¿Cuáles son las seis preguntas que contesta la entradilla de una noticia? {
+=Qué, quién, cuándo, dónde, cómo y por qué
+~Quién, qué, cuánto, cuál, cómo y cuándo
+~Tesis, razón, prueba, ejemplo, dato y cierre
+~Emisor, receptor, mensaje, canal, código y contexto
+}
+
+::B4-51:: ¿Cuáles son los tres tipos de titular? {
+=El informativo, el de declaración y el de gancho
+~El corto, el medio y el largo
+~El positivo, el negativo y el neutro
+~El de portada, el interior y el digital
+}
+
+::B4-52:: Que alguien diga algo entre comillas convierte lo que dice en verdad. {FALSE#No\: un titular de declaración solo dice que alguien lo ha dicho, no que sea cierto.}
+
+::B4-53:: «No te vas a creer lo que ha pasado en este pueblo.» ¿Qué tipo de titular es? {
+=De gancho\: esconde la información a propósito
+~Informativo
+~De declaración
+~Un titular de crónica
+}
+
+::B4-54:: ¿Qué tres cosas hay que mirar antes de creerse algo que llega por el móvil? {
+=Qué medio lo publica, en qué sección y de qué fecha es
+~Quién te lo ha enviado, cuántos lo han compartido y si tiene fotos
+~La longitud, el idioma y los comentarios
+~Nada\: si lo publica un medio, es verdad
+}
+
+// ---------- Sesión 26 · Información y opinión ----------
+
+::B4-55:: ¿Cuál es la prueba que separa un hecho de una opinión? {
+=Que se pueda comprobar si es verdad o mentira
+~Que sea verdad
+~Que lo diga un medio serio
+~Que no lleve adjetivos
+}
+
+::B4-56:: ¿Qué significa que algo sea un hecho? {
+=Que es comprobable, aunque pueda ser falso
+~Que es verdad necesariamente
+~Que lo ha dicho un experto
+~Que está en un periódico
+}
+
+::B4-57:: «Los accidentes subieron un 12 % en 2026.» ¿Qué es? {
+=Un hecho\: es un dato y se puede verificar en la fuente
+~Una opinión
+~Una valoración
+~Una hipérbole
+}
+
+::B4-58:: «Los accidentes están disparados.» ¿Qué es? {
+=Una opinión\: «disparados» valora la cantidad, no la mide
+~Un hecho, porque habla de accidentes
+~Un hecho falso
+~Un titular de declaración
+}
+
+::B4-59:: ¿Cuáles son las marcas de subjetividad? {
+=Adjetivos valorativos, verbos de opinión, primera persona, verbos con carga y cuantificadores vagos
+~Las comillas y los paréntesis
+~Las cifras y las fechas
+~Los conectores y los signos de puntuación
+}
+
+::B4-60:: «Amenazó con subirlo» en vez de «dijo que lo subiría». ¿Qué marca de subjetividad es? {
+=Un verbo con carga
+~Un adjetivo valorativo
+~Un cuantificador vago
+~La primera persona
+}
+
+::B4-61:: «Todo el mundo lo sabe» es un dato. {FALSE#Es un cuantificador vago, y por tanto una marca de subjetividad\: no es un dato.}
+
+::B4-62:: ¿De qué cuatro maneras se puede opinar sin escribir ninguna opinión? {
+=Seleccionando qué se cuenta, ordenando, eligiendo la foto y eligiendo el titular
+~Usando muchos adjetivos, exagerando, mintiendo y repitiendo
+~Escribiendo en primera persona solamente
+~No se puede
+}
+
+::B4-63:: Un texto puede estar lleno de hechos ciertos y aun así estar opinando. {TRUE#Contar tres hechos ciertos y callarse el cuarto es opinar por selección\: todo lo escrito es verdad y el resultado es falso.}
+
+// ---------- Sesión 27 · Bulos y desinformación ----------
+
+::B4-64:: ¿Qué es el error o misinformación? {
+=Información falsa difundida sin querer hacer daño
+~Información falsa difundida a propósito para hacer daño
+~Información verdadera difundida para hacer daño
+~Información sin fuente
+}
+
+::B4-65:: ¿Qué es la desinformación? {
+=Información falsa difundida a propósito para hacer daño
+~Información falsa difundida sin mala intención
+~Información verdadera difundida para hacer daño
+~Cualquier noticia sin fecha
+}
+
+::B4-66:: ¿Qué es la mala información? {
+=Información verdadera difundida para hacer daño
+~Información falsa difundida sin querer
+~Información falsa difundida a propósito
+~Una noticia mal escrita
+}
+
+::B4-67:: Una foto real de una riada, pero de hace ocho años y de otro país. ¿Qué formato de bulo es? {
+=Contexto falso
+~Contenido inventado
+~Suplantación
+~Sátira
+}
+
+::B4-68:: ¿Cuál es el formato de contenido engañoso más frecuente? {
+=El contexto falso\: contenido verdadero con la fecha o el lugar cambiados
+~El contenido totalmente inventado
+~La sátira
+~La suplantación de un medio
+}
+
+::B4-69:: ¿Qué es el sesgo de confirmación? {
+=Que creemos con más facilidad lo que ya encaja con lo que pensábamos
+~Que confirmamos los datos antes de compartirlos
+~Que preferimos las noticias largas
+~Que nos fiamos más de los medios conocidos
+}
+
+::B4-70:: ¿Qué tipo de contenido se comparte más rápido? {
+=El que da miedo o indignación
+~El que informa con datos
+~El que es más largo
+~El que tiene menos fotos
+}
+
+::B4-71:: Lees algo que te indigna y te dan ganas inmediatas de compartirlo. ¿Qué haces? {
+=Paras\: esa reacción es la que el mensaje buscaba, y toca comprobarlo antes
+~Lo compartes deprisa, para que la gente se entere
+~Lo compartes solo con la familia
+~Lo borras sin más
+}
+
+::B4-72:: ¿Cuáles son los cinco pasos de la comprobación de dos minutos? {
+=La fuente, la fecha, el autor, otra fuente y la imagen
+~Leer, dudar, buscar, opinar y compartir
+~Titular, entradilla, cuerpo, foto y pie
+~Qué, quién, cuándo, dónde y por qué
+}
+
+::B4-73:: ¿Qué paso de la comprobación caza más bulos y es el que menos se hace? {
+=Mirar la fecha
+~Mirar el número de comentarios
+~Mirar la longitud del texto
+~Mirar quién te lo ha enviado
+}
+
+::B4-74:: Si no has comprobado algo, ¿qué hay que hacer? {
+=No reenviarlo
+~Reenviarlo avisando de que no lo has comprobado
+~Reenviarlo solo a los amigos
+~Reenviarlo y borrarlo después si es falso
+}
+
+
+$CATEGORY: Temario MFG1/05 Escribir bien
+
+// ---------- Sesión 30 · Planificar ----------
+
+::B5-01:: ¿Cuáles son las cuatro fases de la escritura? {
+=Planificar, redactar, revisar y editar
+~Pensar, escribir y entregar
+~Leer, subrayar, resumir y copiar
+~Introducción, desarrollo, cierre y firma
+}
+
+::B5-02:: ¿Qué se hace en la fase de planificar? {
+=Decidir qué se va a decir y a quién; no se escribe el texto
+~Escribir el primer borrador
+~Corregir las faltas
+~Dar formato al documento
+}
+
+::B5-03:: ¿Qué NO se hace mientras se redacta? {
+=Corregir\: se escribe entero aunque salga feo
+~Seguir el guion
+~Hacer párrafos
+~Escribir deprisa
+}
+
+::B5-04:: ¿Por qué no se corrige mientras se redacta? {
+=Porque quien se para a arreglar la primera frase no llega nunca a la segunda
+~Porque el corrector no funciona todavía
+~Porque las faltas no importan
+~Porque hay que entregarlo enseguida
+}
+
+::B5-05:: ¿Cuáles son las cuatro preguntas de la planificación? {
+=A quién, para qué, por qué canal y cuánto
+~Qué, cómo, cuándo y dónde
+~Quién, qué, cuándo y por qué
+~Tesis, razón, prueba y conclusión
+}
+
+::B5-06:: ¿Cuál es la pregunta que más cambia un texto? {
+=Qué quiero que haga la persona que lo lea
+~Cuántas palabras tiene que tener
+~Qué tipo de letra voy a usar
+~Cuándo lo voy a entregar
+}
+
+::B5-07:: ¿Qué es una lluvia de ideas? {
+=Apuntar todo lo que se te ocurra, en sucio, sin ordenar y sin juzgar
+~Escribir el texto entero de un tirón
+~Copiar ideas de otros textos
+~Hacer un esquema definitivo
+}
+
+::B5-08:: ¿Cómo se hace el guion a partir de la lluvia de ideas? {
+=Numerando las ideas en orden y tachando las que sobran
+~Copiándolas todas tal cual
+~Ordenándolas alfabéticamente
+~Escribiendo un párrafo por idea sin elegir
+}
+
+::B5-09:: ¿Cuáles son los tres órdenes más útiles? {
+=El cronológico, el de importancia y el de problema y solución
+~El alfabético, el numérico y el temático
+~El de causa, el de efecto y el de ejemplo
+~El corto, el medio y el largo
+}
+
+::B5-10:: ¿Cuántas ideas lleva un párrafo? {
+=Una
+~Dos o tres
+~Las que quepan en cinco líneas
+~No hay regla
+}
+
+::B5-11:: ¿Cuándo se hace punto y aparte? {
+=Cuando se cambia de idea
+~Cada cinco líneas
+~Cuando se acaba la página
+~Cuando se repite una palabra
+}
+
+// ---------- Sesión 31 · Coherència, cohesió i adequació (en català) ----------
+
+::B5-12:: [CATALÀ] Quines són les tres propietats d'un text? {
+=La coherència, la cohesió i l'adequació
+~L'ortografia, la gramàtica i el lèxic
+~Planificar, redactar i revisar
+~El registre, el nivell i la gerga
+}
+
+::B5-13:: [CATALÀ] Què és la coherència? {
+=Que les idees tinguin sentit juntes i estiguin ordenades
+~Que les frases estiguin cosides les unes amb les altres
+~Que el text encaixi amb qui el llegirà
+~Que no hi hagi faltes d'ortografia
+}
+
+::B5-14:: [CATALÀ] Quan falla la coherència? {
+=Quan hi ha salts de tema, contradiccions o informació que sobra o que falta
+~Quan totes les frases són curtes i soltes
+~Quan es tuteja una administració
+~Quan hi ha faltes d'ortografia
+}
+
+::B5-15:: [CATALÀ] Què és la cohesió? {
+=Que les frases estiguin cosides les unes amb les altres
+~Que les idees tinguin sentit juntes
+~Que el text sigui curt
+~Que el text no tingui faltes
+}
+
+::B5-16:: [CATALÀ] Quins són els mecanismes de cohesió? {
+=Els connectors, els pronoms, els sinònims, l'el·lipsi i els determinants
+~Les comes, els punts i els punts i coma
+~La tesi, la raó i la prova
+~El títol, l'entradeta i el cos
+}
+
+::B5-17:: [CATALÀ] Què és l'el·lipsi? {
+=Eliminar del text allò que ja s'entén sense dir-ho
+~Repetir una paraula per donar-hi èmfasi
+~Substituir una paraula per un sinònim
+~Fer servir punts suspensius
+}
+
+::B5-18:: [CATALÀ] Què és l'adequació? {
+=Que el text encaixi amb qui el llegirà i amb el canal
+~Que les frases estiguin ben cosides
+~Que les idees estiguin ordenades
+~Que no hi hagi faltes
+}
+
+::B5-19:: [CATALÀ] Com es comprova l'adequació d'un text? {
+=Mirant el tractament, el vocabulari, la llargada i el format
+~Comptant les paraules
+~Buscant les faltes d'ortografia
+~Llegint-lo en veu alta
+}
+
+::B5-20:: [CATALÀ] Un text on totes les frases són curtes i soltes, sense connectors. Quina propietat li falla? {
+=La cohesió
+~La coherència
+~L'adequació
+~Cap\: està bé
+}
+
+::B5-21:: [CATALÀ] Barrejar el tu i el vostè dins d'un mateix text és l'error d'adequació més visible. {TRUE#Es nota de seguida i dóna sensació de descuit.}
+
+// ---------- Sesión 32 · Els connectors (en català) ----------
+
+::B5-22:: [CATALÀ] Què és un connector? {
+=Una paraula o expressió que diu quina relació hi ha entre el que s'ha llegit i el que ve ara
+~Una paraula tècnica d'un ofici
+~Un signe de puntuació
+~Una paraula que es repeteix
+}
+
+::B5-23:: [CATALÀ] Quins són els set grups de connectors? {
+=Addició, oposició, causa, conseqüència, ordre, exemple i resum
+~Narratiu, descriptiu, dialogat, instructiu, expositiu i argumentatiu
+~Coherència, cohesió i adequació
+~Subjecte, verb i objecte
+}
+
+::B5-24:: [CATALÀ] Quins connectors són d'oposició? {
+=Però, en canvi, tanmateix, no obstant això
+~A més, també, d'altra banda
+~Perquè, com que, ja que
+~Per tant, així doncs, per això
+}
+
+::B5-25:: [CATALÀ] Quins connectors són de conseqüència? {
+=Per tant, així doncs, per això, en conseqüència
+~Però, en canvi, tanmateix
+~Perquè, com que, atès que
+~Per exemple, com ara, és a dir
+}
+
+::B5-26:: [CATALÀ] «Va ploure molt; _______, es va suspendre el partit.» Quin connector hi va? {
+=per tant
+~en canvi
+~per exemple
+~a més
+}
+
+::B5-27:: [CATALÀ] En català, «doncs» és un connector causal. {FALSE#És consecutiu, no causal. No es diu «no vaig venir doncs estava malalt»\: es diu «perquè estava malalt».}
+
+::B5-28:: [CATALÀ] Quina frase és correcta? {
+=No vaig venir perquè estava malalt
+~No vaig venir doncs estava malalt
+~No vaig venir degut a que estava malalt
+~No vaig venir, doncs estava malalt
+}
+
+::B5-29:: [CATALÀ] «Degut a la pluja, es va suspendre.» Com es diu correctament? {
+=A causa de la pluja, es va suspendre
+~Està bé tal com és
+~Degut de la pluja, es va suspendre
+~Per doncs la pluja, es va suspendre
+}
+
+::B5-30:: [CATALÀ] Quina és la proporció sana de connectors? {
+=Un cada dues o tres frases
+~Un a cada frase
+~Un per paràgraf com a màxim
+~Com més, millor
+}
+
+::B5-31:: [CATALÀ] Quins són els tres errors amb els connectors? {
+=Abusar-ne, fer-los servir al revés i repetir sempre els mateixos
+~Escriure'ls en majúscules, posar-los al final i traduir-los
+~No posar-ne cap, posar-ne dos i posar-ne tres
+~Fer-los servir en català, en castellà i en anglès
+}
+
+// ---------- Sesión 33 · Els signes de puntuació (en català) ----------
+
+::B5-32:: [CATALÀ] Què fa el punt? {
+=Tanca una idea
+~Separa dins de la frase
+~Anuncia el que ve
+~Marca una pausa curta
+}
+
+::B5-33:: [CATALÀ] Per a què serveixen els dos punts? {
+=Per anunciar el que ve\: una llista, una citació, una explicació o una conseqüència
+~Per separar els elements d'una enumeració
+~Per marcar on es respira
+~Per tancar una idea
+}
+
+::B5-34:: [CATALÀ] Quan es fa servir el punt i coma? {
+=Entre dues frases molt relacionades i per separar elements d'una llista que ja porten comes
+~Al final de cada paràgraf
+~Davant de qualsevol connector
+~Per tancar una citació
+}
+
+::B5-35:: [CATALÀ] Quines són les cinc regles de la coma? {
+=Enumeracions, incisos, vocatius, connectors al començament i quan es capgira l'ordre de la frase
+~Una coma cada cinc paraules
+~Allà on es respira
+~Abans de cada verb
+}
+
+::B5-36:: [CATALÀ] Entre el subjecte i el verb, hi va coma? {
+=Mai
+~Sempre
+~Només si el subjecte és llarg
+~Només en els textos formals
+}
+
+::B5-37:: [CATALÀ] Davant de la «i» final d'una enumeració, hi va coma? {
+=No
+~Sí, sempre
+~Només si hi ha més de tres elements
+~Només en català
+}
+
+::B5-38:: [CATALÀ] Has escrit set comes i cap punt. Què et passa? {
+=Que et falten punts
+~Que et falten més comes
+~Que has de posar punt i coma
+~Res\: és correcte
+}
+
+::B5-39:: [CATALÀ] Si un incís s'obre amb coma... {
+=S'ha de tancar amb coma
+~No cal tancar-lo
+~S'ha de tancar amb punt
+~S'ha de tancar amb parèntesi
+}
+
+::B5-40:: [CATALÀ] La coma es posa allà on es respira. {FALSE#És el consell més repetit i el més fals\: molta gent respira entre el subjecte i el verb, que és justament on no va. La coma marca com s'agrupen les paraules.}
+
+::B5-41:: [CATALÀ] «Els companys, que van arribar tard, no van cobrar.» Què vol dir? {
+=Que tots els companys van arribar tard
+~Que només alguns van arribar tard
+~Que cap no va arribar tard
+~Vol dir el mateix amb comes o sense
+}
+
+// ---------- Sesión 34 · Precisió lèxica (en català) ----------
+
+::B5-42:: [CATALÀ] Què és una paraula comodí? {
+=La que serveix per a tot i per això no diu res\: cosa, fer, tema, posar, bo
+~Una paraula tècnica d'un ofici
+~Una paraula que es repeteix molt
+~Un sinònim perfecte
+}
+
+::B5-43:: [CATALÀ] Què és un hiperònim? {
+=Una paraula més general que n'engloba unes quantes
+~Una paraula que vol dir el contrari
+~Una paraula molt llarga
+~Una paraula tècnica
+}
+
+::B5-44:: [CATALÀ] «Eina» respecte de «martell», què és? {
+=Un hiperònim
+~Un hipònim
+~Un sinònim
+~Un antònim
+}
+
+::B5-45:: [CATALÀ] Els sinònims perfectes... {
+=Gairebé no existeixen\: prim i escanyolit volen dir el mateix i no signifiquen el mateix
+~Són la majoria de les paraules
+~Existeixen en tots els diccionaris
+~Són els que surten primer al diccionari de sinònims
+}
+
+::B5-46:: [CATALÀ] En un text tècnic o legal, què mana? {
+=La precisió mana sobre l'elegància\: la repetició és obligatòria
+~L'elegància mana sobre la precisió
+~Cal variar sempre el vocabulari
+~S'han de fer servir pronoms sempre que es pugui
+}
+
+::B5-47:: [CATALÀ] En unes instruccions, la mateixa peça... {
+=S'ha d'anomenar sempre exactament igual
+~S'ha d'anomenar de maneres diferents perquè no quedi repetitiu
+~S'ha de substituir per pronoms
+~S'ha d'escriure només la primera vegada
+}
+
+::B5-48:: [CATALÀ] Quines quatre informacions dóna una entrada de diccionari? {
+=La definició amb les accepcions, la categoria, els exemples d'ús i les marques
+~El sinònim, l'antònim, l'origen i la traducció
+~La pronunciació, la sil·labació, el gènere i el nombre
+~El significat només
+}
+
+::B5-49:: [CATALÀ] Què són les marques d'una entrada de diccionari? {
+=Indicacions com col·loquial, vulgar, antic o tècnic, que diuen on es pot fer servir la paraula
+~Els accents i els apòstrofs
+~Les paraules en negreta
+~Els sinònims del final
+}
+
+::B5-50:: [CATALÀ] Quins són els diccionaris de referència del català? {
+=El DIEC i l'Optimot, tots dos gratuïts
+~Només el diccionari de sinònims
+~Els diccionaris en paper de l'escola
+~Els traductors automàtics
+}
+
+// ---------- Sesión 35 · Revisar y corregir ----------
+
+::B5-51:: ¿Cuáles son las cuatro pasadas de la revisión? {
+=Contenido, frases y párrafos, palabras, y ortografía y puntuación
+~Ortografía, gramática, léxico y estilo
+~Leer, subrayar, resumir y copiar
+~Planificar, redactar, revisar y editar
+}
+
+::B5-52:: ¿Por qué se revisa una cosa cada vez? {
+=Porque el cerebro lee lo que espera leer, no lo que hay
+~Porque es más rápido
+~Porque lo dice el corrector
+~Para no cansarse
+}
+
+::B5-53:: ¿En qué pasada se corrige la ortografía? {
+=En la cuarta, la última
+~En la primera
+~En todas a la vez
+~En ninguna\: lo hace el corrector
+}
+
+::B5-54:: ¿Cuál es el truco más barato para detectar frases mal construidas? {
+=Leer el texto en voz alta\: donde te trabas, hay un problema
+~Contar las palabras
+~Pasar el corrector dos veces
+~Escribirlo otra vez desde cero
+}
+
+::B5-55:: ¿Por qué conviene dejar reposar un texto antes de revisarlo? {
+=Porque un texto recién escrito se lee con lo que tenías en la cabeza, no con lo que pusiste en el papel
+~Porque la tinta tiene que secarse
+~Porque el corrector tarda en actualizarse
+~Porque así se olvida el tema
+}
+
+::B5-56:: ¿Cuál es la forma correcta? {
+=Había muchas personas
+~Habían muchas personas
+~Habíamos muchas personas
+~Hubieron muchas personas
+}
+
+::B5-57:: ¿Cómo se escriben los días, los meses y los idiomas en castellano? {
+=En minúscula, al revés que en inglés
+~En mayúscula, igual que en inglés
+~Los meses en mayúscula y los días en minúscula
+~Siempre en cursiva
+}
+
+::B5-58:: ¿Cuál es correcta? {
+=Pienso que no es buena idea
+~Pienso de que no es buena idea
+~Me acuerdo que vino
+~Delante mío había una cola
+}
+
+::B5-59:: ¿Qué NO detecta un corrector automático? {
+=Palabras que existen pero no son la que querías, como «vaya» por «valla»
+~Palabras mal escritas que no existen
+~Los dobles espacios
+~Muchas tildes
+}
+
+::B5-60:: El corrector automático es la cuarta pasada, no las cuatro. {TRUE#Un texto pasado por el corrector puede no tener ni una falta y no decir nada.}
+
+$CATEGORY: Temario MFG1/06 Inglés II
+
+// ---------- Sesión 37 · The language of my trade ----------
+
+::B6-01:: ¿Cuántas palabras son, aproximadamente, el vocabulario técnico de un oficio en inglés? {
+=Unas ciento cincuenta, y muchas se parecen al castellano
+~Más de dos mil
+~Unas veinte
+~No se puede calcular
+}
+
+::B6-02:: ¿En qué idioma llegan muchas veces los manuales de las máquinas y las fichas de seguridad? {
+=Solo en inglés
+~Siempre en catalán
+~Siempre traducidos
+~En el idioma del fabricante únicamente
+}
+
+::B6-03:: ¿Qué significa «toolbox»? {
+=Caja de herramientas
+~Herramienta eléctrica
+~Taller
+~Banco de trabajo
+}
+
+::B6-04:: ¿Qué significa «screwdriver»? {
+=Destornillador
+~Martillo
+~Alicates
+~Llave inglesa
+}
+
+::B6-05:: ¿Qué significa «pliers»? {
+=Alicates
+~Sierra
+~Taladro
+~Nivel
+}
+
+::B6-06:: ¿Qué significa «socket» en electricidad? {
+=Enchufe de pared (hembra)
+~Interruptor
+~Fusible
+~Cable
+}
+
+::B6-07:: ¿Qué significa «circuit breaker»? {
+=Magnetotérmico
+~Fusible
+~Toma de tierra
+~Enchufe
+}
+
+::B6-08:: ¿Qué significa «chopping board»? {
+=Tabla de cortar
+~Bandeja
+~Sartén
+~Horno
+}
+
+::B6-09:: ¿Qué significa «to tighten»? {
+=Apretar
+~Aflojar
+~Quitar
+~Sustituir
+}
+
+::B6-10:: ¿Qué significa «to loosen»? {
+=Aflojar
+~Apretar
+~Conectar
+~Limpiar
+}
+
+::B6-11:: ¿Qué significan «turn on» y «turn off»? {
+=Encender y apagar
+~Enchufar y desenchufar
+~Abrir y cerrar
+~Subir y bajar
+}
+
+::B6-12:: ¿Qué significa «to replace»? {
+=Sustituir
+~Colocar
+~Reparar
+~Repetir
+}
+
+::B6-13:: ¿Qué significa «actually»? {
+=En realidad
+~Actualmente
+~De momento
+~Activamente
+}
+
+::B6-14:: ¿Qué significa «fabric»? {
+=Tejido o tela
+~Fábrica
+~Fabricante
+~Fabricación
+}
+
+::B6-15:: ¿Qué significa «sensible» en inglés? {
+=Sensato
+~Sensible
+~Sensitivo
+~Sensorial
+}
+
+::B6-16:: «Hay tres cables en la caja», ¿cómo se dice? {
+=There are three cables in the box
+~There is three cables in the box
+~It has three cables in the box
+~Have three cables in the box
+}
+
+::B6-17:: «No hay corriente», ¿cómo se dice? {
+=There isn't any current
+~There aren't any current
+~It hasn't current
+~No current there is
+}
+
+::B6-18:: ¿Cómo se dice «mide dos metros de largo»? {
+=It's two metres long
+~It's long two metres
+~It has two metres of long
+~It's two metres of length
+}
+
+// ---------- Sesión 38 · Instructions, orders and help ----------
+
+::B6-19:: ¿Cómo se forma el imperativo en inglés? {
+=Con el verbo solo, sin sujeto\: turn off the machine
+~Con «you» delante del verbo
+~Con «to» delante del verbo
+~Con «-ing» al final
+}
+
+::B6-20:: ¿Cómo se forma el imperativo negativo? {
+=Con don't delante del verbo\: don't touch the wire
+~Con not detrás del verbo
+~Con no delante del verbo
+~Con doesn't delante del verbo
+}
+
+::B6-21:: ¿Cuáles son los conectores de orden en inglés? {
+=First, then, next, after that y finally
+~And, but, or, so y because
+~Must, mustn't, can y can't
+~Here, there, now y later
+}
+
+::B6-22:: ¿Qué expresa «must»? {
+=Obligación fuerte\: you must wear a helmet
+~Que algo no hace falta
+~Una posibilidad
+~Un deseo
+}
+
+::B6-23:: ¿Qué significa «mustn't»? {
+=Prohibido
+~Que no hace falta
+~Que se puede
+~Que es opcional
+}
+
+::B6-24:: ¿Qué significa «don't have to»? {
+=Que no hace falta, pero se puede
+~Que está prohibido
+~Que es obligatorio
+~Que no se sabe hacer
+}
+
+::B6-25:: «You mustn't smoke here» significa... {
+=Está prohibido fumar aquí
+~No hace falta que fumes aquí
+~Puedes fumar aquí
+~No sabes fumar aquí
+}
+
+::B6-26:: «You don't have to come on Saturday» significa... {
+=No hace falta que vengas el sábado
+~Tienes prohibido venir el sábado
+~Tienes que venir el sábado
+~No puedes venir el sábado
+}
+
+::B6-27:: Confundir «mustn't» con «don't have to» en una norma de seguridad puede provocar un accidente. {TRUE#Uno significa «prohibido» y el otro «no hace falta»\: no se parecen en nada.}
+
+::B6-28:: ¿Qué significa el cartel «DANGER»? {
+=Peligro
+~Precaución
+~Prohibido el paso
+~Salida
+}
+
+::B6-29:: ¿Qué significa el cartel «FLAMMABLE»? {
+=Inflamable
+~Tóxico
+~Resbaladizo
+~Alta tensión
+}
+
+::B6-30:: ¿Qué significa «HIGH VOLTAGE»? {
+=Alta tensión
+~Voltaje bajo
+~Cable con tensión
+~Corriente continua
+}
+
+::B6-31:: ¿Qué significa «EMERGENCY EXIT»? {
+=Salida de emergencia
+~Extintor
+~Primeros auxilios
+~No pasar
+}
+
+::B6-32:: ¿Qué significa «KEEP OUT»? {
+=No pasar
+~Mantener frío
+~Guardar fuera
+~Salida
+}
+
+::B6-33:: ¿Qué significa «FIRE EXTINGUISHER»? {
+=Extintor
+~Salida de incendios
+~Alarma
+~Manguera
+}
+
+::B6-34:: ¿Cómo se pide ayuda de forma cortés? {
+=Could you give me a hand with this?
+~Help me now
+~I need help you
+~Give me hand
+}
+
+::B6-35:: ¿Cuál es la frase más útil cuando no sabes hacer algo en el trabajo? {
+=I'm sorry, I don't know how to do this. Can you show me?
+~I can do everything, thank you
+~It's not my job
+~I don't understand anything
+}
+
+// ---------- Sesión 39 · Sounds, stress and intonation ----------
+
+::B6-36:: En inglés, ¿una misma letra suena siempre igual? {
+=No\: una misma letra puede sonar de maneras distintas, y un mismo sonido se escribe de maneras distintas
+~Sí, igual que en castellano
+~Sí, salvo en las palabras extranjeras
+~Solo cambia en las vocales
+}
+
+::B6-37:: ¿Qué tienen en común «knife», «write», «hour» y «listen»? {
+=Todas tienen una letra que no se pronuncia
+~Todas son verbos
+~Todas se acentúan en la última sílaba
+~Todas acaban en consonante
+}
+
+::B6-38:: Cuando aprendes una palabra nueva en inglés, ¿qué hay que apuntar además de cómo se escribe? {
+=Cómo suena
+~Cuántas letras tiene
+~De qué idioma viene
+~Su sinónimo
+}
+
+::B6-39:: ¿Qué pasa si pones el acento de palabra donde no va? {
+=No te entienden, aunque los sonidos sean correctos
+~Se entiende igual
+~Suena más educado
+~Solo importa al escribir
+}
+
+::B6-40:: ¿Por qué parece que en inglés hablan «pegado»? {
+=Porque estiran las palabras con contenido y se comen las pequeñas
+~Porque hablan más rápido que en castellano
+~Porque no pronuncian las consonantes
+~Porque no hacen pausas
+}
+
+::B6-41:: ¿Cómo acaba la entonación de una afirmación o una orden? {
+=Baja
+~Sube
+~Sube y baja
+~Se queda plana
+}
+
+::B6-42:: «Are you ready?» ¿Cómo acaba la entonación? {
+=Sube\: es una pregunta de sí o no
+~Baja, como todas las preguntas
+~Sube y baja
+~Se queda plana
+}
+
+::B6-43:: ¿Hace falta entender todas las palabras para entender un mensaje en inglés? {
+=No\: hay que cazar las palabras con contenido y reconstruir el resto
+~Sí, todas
+~Sí, al menos el noventa por ciento
+~Solo si es por teléfono
+}
+
+::B6-44:: No entiendes una frase entera en inglés. ¿Qué haces primero? {
+=Cazar las palabras que conoces y usar el contexto
+~Decir que sí y seguir
+~Pedir que te lo traduzcan todo
+~Dejar de escuchar
+}
+
+::B6-45:: ¿Cómo se confirma en inglés que has entendido bien una instrucción? {
+=So, I have to turn off the machine first, right?
+~Yes, yes, OK
+~I understand everything
+~Repeat, please
+}
+
+
+$CATEGORY: Temario MFG1/07 Documentos de la vida real
+
+// ---------- Sesión 41 · Currículum y carta ----------
+
+::B7-01:: ¿Para qué sirve un currículum? {
+=Para que te llamen a la entrevista
+~Para que te den el trabajo
+~Para sustituir a la entrevista
+~Para contar toda tu vida
+}
+
+::B7-02:: ¿Cuánto ocupa un currículum? {
+=Una página
+~Dos o tres páginas
+~Lo que haga falta
+~Media página siempre
+}
+
+::B7-03:: ¿Cuáles son las partes de un currículum? {
+=Datos de contacto, perfil, formación, experiencia, e idiomas y otros datos
+~Exposición, petición y firma
+~Introducción, desarrollo y cierre
+~Saludo, cuerpo y despedida
+}
+
+::B7-04:: ¿Qué es el perfil de un currículum? {
+=Tres líneas que dicen quién eres, qué sabes hacer y qué buscas
+~La foto de la primera página
+~La lista de estudios
+~El nombre y el teléfono
+}
+
+::B7-05:: ¿Cómo se ordenan la formación y la experiencia? {
+=De lo más reciente a lo más antiguo
+~De lo más antiguo a lo más reciente
+~Por orden alfabético
+~Por importancia personal
+}
+
+::B7-06:: En la experiencia del currículum, ¿qué hay que escribir? {
+=Qué sabes hacer, no solo dónde has estado
+~Solo el nombre de la empresa y las fechas
+~El sueldo que cobrabas
+~El motivo por el que lo dejaste
+}
+
+::B7-07:: ¿Qué cuenta como experiencia si no has tenido un trabajo formal? {
+=Las prácticas del PFI, el voluntariado, el trabajo familiar o llevar un equipo
+~Nada\: el apartado se deja vacío
+~Solo los trabajos con contrato
+~Solo los trabajos de más de un año
+}
+
+::B7-08:: ¿Qué tres cosas hunden un currículum antes de leerlo? {
+=Un correo poco serio, una falta de ortografía y una mentira
+~La falta de foto, el color del papel y el tipo de letra
+~Que sea de una sola página
+~Poner las prácticas del PFI
+}
+
+::B7-09:: ¿Cuántos párrafos tiene una carta de motivación y qué dicen? {
+=Tres\: por qué escribes, por qué tú y por qué esa empresa
+~Dos\: quién eres y qué quieres
+~Uno solo, largo
+~Cinco, como un currículum
+}
+
+::B7-10:: ¿Cuál es el párrafo de la carta de motivación que casi nadie escribe? {
+=El de por qué esa empresa en concreto
+~El del saludo
+~El de por qué escribes
+~El del cierre
+}
+
+::B7-11:: ¿Cuánto ocupa una carta de motivación? {
+=Media página como máximo, y una distinta para cada sitio
+~Dos páginas
+~Lo mismo que el currículum
+~Una línea
+}
+
+// ---------- Sesión 42 · Instància i reclamació (en català) ----------
+
+::B7-12:: [CATALÀ] Què és una instància? {
+=Un escrit per demanar formalment una cosa a una administració pública
+~Un escrit per dir que una cosa ha anat malament
+~Una carta a una empresa privada
+~Un currículum ampliat
+}
+
+::B7-13:: [CATALÀ] Per a què serveix una reclamació? {
+=Per dir que una cosa ha anat malament i demanar que s'arregli
+~Per demanar una beca
+~Per presentar-se a una feina
+~Per informar d'una cosa
+}
+
+::B7-14:: [CATALÀ] Per què aquests documents tenen estructura fixa? {
+=Perquè qui els rep busca la informació sempre al mateix lloc
+~Perquè ho mana una llei antiga
+~Perquè així són més llargs
+~Perquè no es puguin copiar
+}
+
+::B7-15:: [CATALÀ] Què va a l'apartat EXPOSO? {
+=Els fets, amb dates i dades concretes, un fet per paràgraf
+~El que demanes
+~Els documents que adjuntes
+~La teva opinió sobre el que ha passat
+}
+
+::B7-16:: [CATALÀ] Quantes coses es demanen a l'apartat DEMANO? {
+=Una, clara i concreta
+~Totes les que se t'acudeixin
+~Tres com a mínim
+~Cap\: només s'exposen els fets
+}
+
+::B7-17:: [CATALÀ] Quin és l'error que fa que no et contestin? {
+=Barrejar els fets amb la petició
+~Escriure massa curt
+~Posar la data
+~Signar el document
+}
+
+::B7-18:: [CATALÀ] Què ha de portar una reclamació? {
+=Les dates i els números, què demanes i un termini de resposta
+~Adjectius que expressin el teu enuig
+~Una amenaça de denúncia
+~La teva opinió sobre l'empresa
+}
+
+::B7-19:: [CATALÀ] Els fulls oficials de reclamació... {
+=Els ha de tenir qualsevol comerç i te'ls han de donar si els demanes
+~Només els té l'ajuntament
+~S'han de comprar
+~Ja no existeixen
+}
+
+::B7-20:: [CATALÀ] En un escrit formal, on és la fermesa? {
+=En la concreció\: una data i un número pesen més que tres adjectius
+~En el to\: com més enfadat, millor
+~En la llargada del text
+~En amenaçar amb una denúncia
+}
+
+::B7-21:: [CATALÀ] Una reclamació escrita amb molts adjectius d'indignació és més efectiva. {FALSE#Els adjectius són opinions i no serveixen de prova. El que compta són els fets concrets\: dates, números i què demanes.}
+
+// ---------- Sesión 43 · Llegir per gust (en català) ----------
+
+::B7-22:: [CATALÀ] Què diu el criteri 2.3 del currículum sobre la lectura? {
+=Que cal llegir textos triats segons els gustos i els interessos propis, com a font de plaer
+~Que cal llegir dos llibres obligatoris cada trimestre
+~Que cal fer un examen de cada lectura
+~Que només es poden llegir clàssics
+}
+
+::B7-23:: [CATALÀ] Quines són cinc portes d'entrada a la lectura? {
+=El còmic, el relat curt, el teatre, la poesia i la no-ficció
+~La novel·la, l'assaig, la tesi, l'article i l'informe
+~El diari, la revista, el blog, el fòrum i la xarxa social
+~El manual, l'apunt, el resum, l'esquema i la fitxa
+}
+
+::B7-24:: [CATALÀ] Una lletra de cançó... {
+=És un poema
+~No té res a veure amb la literatura
+~És un text instructiu
+~És un text expositiu
+}
+
+::B7-25:: [CATALÀ] Què és la prova de les dues pàgines? {
+=Llegir-ne dues i deixar el llibre si no t'ha enganxat gens
+~Llegir només dues pàgines al dia
+~Escriure un resum de dues pàgines
+~Llegir les dues últimes pàgines primer
+}
+
+::B7-26:: [CATALÀ] Abandonar un llibre que no t'enganxa és... {
+=Una decisió de lector, no un fracàs
+~Una falta de respecte a l'autor
+~Un fracàs
+~Impossible\: s'ha d'acabar sempre
+}
+
+::B7-27:: [CATALÀ] Sense què no hi ha història? {
+=Sense conflicte
+~Sense descripcions
+~Sense diàleg
+~Sense final feliç
+}
+
+::B7-28:: [CATALÀ] Com es coneix un personatge? {
+=Pel que fa i pel que diu
+~Pel que se'n diu al principi
+~Per la seva edat
+~Pel nom que porta
+}
+
+::B7-29:: [CATALÀ] Com es reconeix un símbol dins d'una història? {
+=Perquè hi torna més d'una vegada
+~Perquè va en cursiva
+~Perquè l'explica el narrador
+~Perquè apareix al títol
+}
+
+// ---------- Sesión 44 · Recursos retòrics (en català) ----------
+
+::B7-30:: [CATALÀ] «Tenia les mans com pales.» Quin recurs és? {
+=Una comparació
+~Una metàfora
+~Una hipèrbole
+~Una personificació
+}
+
+::B7-31:: [CATALÀ] «Les seves mans eren pales.» Quin recurs és? {
+=Una metàfora
+~Una comparació
+~Una ironia
+~Una antítesi
+}
+
+::B7-32:: [CATALÀ] «El motor es queixava als revolts.» Quin recurs és? {
+=Una personificació
+~Una ironia
+~Una antítesi
+~Una al·literació
+}
+
+::B7-33:: [CATALÀ] Què és una hipèrbole? {
+=Una exageració feta a posta
+~Dir el contrari del que es vol dir
+~Repetir un so
+~Donar qualitats humanes a una cosa
+}
+
+::B7-34:: [CATALÀ] Què és l'antítesi? {
+=Posar dues idees contràries de costat
+~Exagerar molt
+~Repetir una paraula
+~Comparar dues coses
+}
+
+::B7-35:: [CATALÀ] Què és la ironia? {
+=Dir el contrari del que es vol dir
+~Exagerar a posta
+~Repetir un so
+~Comparar dues coses
+}
+
+::B7-36:: [CATALÀ] Què és l'al·literació? {
+=Repetir un so per fer música amb les paraules
+~Repetir una idea
+~Exagerar
+~Fer una comparació
+}
+
+::B7-37:: [CATALÀ] La publicitat fa servir els mateixos recursos que la poesia. {TRUE#Totes dues volen que una frase se't quedi. La diferència és que el poema no et vol vendre res.}
+
+::B7-38:: [CATALÀ] Què és la lectura expressiva? {
+=Llegir en veu alta de manera que qui escolta entengui i senti el text
+~Llegir molt de pressa
+~Llegir en silenci
+~Llegir posant veus estranyes
+}
+
+::B7-39:: [CATALÀ] Es pot llegir bé en veu alta un text que no s'entén? {
+=No\: primer cal entendre'l
+~Sí, si es llegeix a poc a poc
+~Sí, si es llegeix fort
+~Sí, si s'assaja molt
+}
+
+::B7-40:: [CATALÀ] En una lectura en veu alta, què són els signes de puntuació? {
+=Instruccions de lectura\: diuen on s'ha de fer pausa
+~Adorns que es poden ignorar
+~Indicacions del volum de la veu
+~Marques només per a qui escriu
+}
+
+::B7-41:: [CATALÀ] Quin és el truc que fa millorar més una lectura en veu alta? {
+=Llegir la meitat de ràpid del que et sembla normal
+~Llegir més fort
+~Memoritzar-ho tot
+~Posar veus diferents
+}
+
+
+$CATEGORY: Temario MFG1/08 Mundo digital
+
+// ---------- Sesión 47 · Buscar en internet ----------
+
+::B8-01:: ¿Qué se escribe en una búsqueda? {
+=Palabras clave, no frases enteras
+~La pregunta completa con todas sus palabras
+~Una sola palabra siempre
+~El nombre de la web que buscas
+}
+
+::B8-02:: ¿Qué hay que añadir a la búsqueda cuando el dato depende de ello? {
+=El lugar y el año
+~El nombre del buscador
+~Un signo de interrogación
+~El idioma
+}
+
+::B8-03:: ¿Qué palabra conviene usar en una búsqueda? {
+=La que usaría la fuente, no la tuya
+~La más corta posible
+~La más común
+~Siempre en inglés
+}
+
+::B8-04:: ¿Para qué sirven las comillas en una búsqueda? {
+=Para buscar la frase exacta
+~Para excluir una palabra
+~Para buscar solo en una web
+~Para ordenar por fecha
+}
+
+::B8-05:: ¿Qué hace un guion delante de una palabra en una búsqueda? {
+=La excluye de los resultados
+~La busca de forma exacta
+~La marca como obligatoria
+~No hace nada
+}
+
+::B8-06:: ¿Qué hace el operador «site:»? {
+=Busca solo dentro de una web concreta
+~Busca solo un tipo de archivo
+~Busca la frase exacta
+~Excluye una web
+}
+
+::B8-07:: ¿Qué significa que un resultado esté el primero? {
+=Nada sobre su calidad\: puede estar ahí porque alguien ha pagado
+~Que es el más fiable
+~Que es el más reciente
+~Que es oficial
+}
+
+::B8-08:: ¿Qué son los resultados patrocinados? {
+=Publicidad\: están arriba porque alguien ha pagado
+~Los resultados más visitados
+~Los resultados oficiales
+~Los resultados más recientes
+}
+
+::B8-09:: ¿Qué hay que hacer con los resúmenes automáticos que salen arriba en un buscador? {
+=Usarlos para orientarse, no para citarlos\: siempre hay que abrir la fuente
+~Copiarlos tal cual, que ya están comprobados
+~Ignorarlos siempre
+~Citarlos como fuente principal
+}
+
+::B8-10:: ¿En cuántas fuentes se comprueba un dato importante? {
+=En dos independientes, y si es un trámite, una debe ser oficial
+~En una, si es de un medio conocido
+~En cinco como mínimo
+~En ninguna
+}
+
+::B8-11:: Quieres saber los requisitos de un trámite. ¿Qué fuente usas? {
+=La web oficial de la administración que lo gestiona
+~Un foro donde alguien lo explica
+~El resumen automático del buscador
+~Un vídeo de alguien que ya lo hizo
+}
+
+::B8-12:: ¿Qué fiabilidad tiene un foro o un blog sin autor? {
+=Baja\: sirve como pista, nunca como dato final
+~Alta, si tiene muchos comentarios
+~La misma que una web oficial
+~Media-alta
+}
+
+// ---------- Sesión 48 · Guardar y recuperar ----------
+
+::B8-13:: ¿Cuál es la fórmula de un buen nombre de archivo? {
+=Fecha al revés, qué es y de quién o de qué
+~El nombre más corto posible
+~El tema y la palabra «definitivo»
+~El que ponga el programa
+}
+
+::B8-14:: ¿Por qué la fecha se escribe al revés (2026-04-12)? {
+=Para que los archivos se ordenen solos por orden cronológico
+~Porque es el formato obligatorio
+~Para que ocupe menos
+~Para que no se pueda modificar
+}
+
+::B8-15:: ¿Qué no se pone en el nombre de un archivo que va a viajar? {
+=Acentos, eñes ni espacios
+~Números
+~Guiones bajos
+~La fecha
+}
+
+::B8-16:: ¿Cómo se nombran las versiones de un documento? {
+=Con v1, v2, v3; nunca «definitivo»
+~Con «definitivo», «definitivo2» y «este bueno»
+~Con la hora exacta
+~Con el nombre del autor repetido
+}
+
+::B8-17:: ¿Cuántos niveles debe tener una estructura de carpetas? {
+=Dos o tres como máximo
+~Cuantos más, mejor ordenado
+~Uno solo
+~Seis o siete
+}
+
+::B8-18:: ¿Qué es la nube? {
+=El disco duro de otra empresa, al que accedes por internet
+~Una carpeta de tu móvil
+~Una copia de seguridad automática e infalible
+~Un formato de archivo
+}
+
+::B8-19:: ¿Qué pasa con lo que se comparte con un enlace? {
+=Puede acabar en cualquier sitio, porque el enlace se reenvía
+~Solo lo ve quien tú decides, siempre
+~Se borra a los siete días
+~No se puede copiar
+}
+
+::B8-20:: ¿En cuántos sitios debe estar lo importante? {
+=En dos como mínimo, y uno no debe ser el móvil que llevas encima
+~En uno, si es la nube
+~En el móvil, que siempre lo llevas
+~En tantos como sea posible, sin orden
+}
+
+::B8-21:: ¿Cómo se busca un archivo dentro del propio aparato? {
+=Por parte del nombre, filtrando por fecha y mirando también en la papelera
+~Escribiendo el nombre entero y exacto
+~Abriendo todas las carpetas una a una
+~No se puede buscar
+}
+
+// ---------- Sesión 49 · Procesador de textos y plantillas ----------
+
+::B8-22:: ¿Cuáles son las cinco funciones básicas de un procesador de textos? {
+=Los estilos, la alineación y las sangrías, las listas y tablas, insertar imagen y el encabezado con número de página
+~Copiar, cortar, pegar, deshacer y guardar
+~Negrita, cursiva, subrayado, color y tamaño
+~Abrir, cerrar, imprimir, enviar y borrar
+}
+
+::B8-23:: ¿Para qué sirven los estilos? {
+=Para dar formato a todo el documento de golpe y poder hacer un índice automático
+~Para poner negrita en una palabra
+~Para insertar imágenes
+~Para exportar a PDF
+}
+
+::B8-24:: ¿Cómo se pasa a la página siguiente? {
+=Con el salto de página, no con la tecla Intro repetida
+~Dando a Intro hasta llegar abajo
+~Insertando una tabla vacía
+~Cambiando el tamaño de letra
+}
+
+::B8-25:: ¿Cómo se centra un texto? {
+=Con el botón de centrar
+~Con la barra espaciadora
+~Con tabulaciones
+~Con guiones
+}
+
+::B8-26:: ¿Qué es una plantilla? {
+=Un documento que tiene ya todo lo que se repite y solo hay que rellenar lo que cambia
+~Un documento en blanco
+~Un archivo PDF
+~Una copia de seguridad
+}
+
+::B8-27:: ¿Cómo se marca lo variable en una plantilla? {
+=Entre corchetes, para que se vea lo que falta rellenar
+~En negrita
+~En rojo
+~No se marca
+}
+
+::B8-28:: ¿Qué es lo primero que se hace al abrir una plantilla? {
+=«Guardar como», para no perderla
+~Escribir el contenido
+~Imprimirla
+~Cambiarle el tipo de letra
+}
+
+::B8-29:: ¿Cuándo se envía algo en PDF? {
+=Cuando está acabado\: se ve igual en cualquier aparato y no lo puede cambiar quien lo recibe
+~Cuando lo van a seguir trabajando otras personas
+~Nunca
+~Solo si pesa poco
+}
+
+::B8-30:: Un currículum fotografiado con el móvil... {
+=No lo abre nadie\: pesa mucho, se ve mal y da mala impresión
+~Es igual de válido que un PDF
+~Es mejor porque se ve la firma
+~Es el formato recomendado
+}
+
+::B8-31:: ¿Qué hay que hacer con una imagen antes de enviarla? {
+=Reducir su tamaño
+~Ponerla en blanco y negro
+~Cambiarle el nombre a «imagen»
+~Convertirla a PDF siempre
+}
+
+// ---------- Sesión 50 · Presentaciones y propiedad intelectual ----------
+
+::B8-32:: ¿Qué hace el patrón de una presentación? {
+=Define el aspecto de todas las diapositivas a la vez
+~Numera las diapositivas
+~Exporta a PDF
+~Añade las notas del ponente
+}
+
+::B8-33:: ¿Qué son las notas del ponente? {
+=Lo que dirá quien expone, que no se proyecta
+~El texto de la diapositiva
+~La bibliografía final
+~Los comentarios del público
+}
+
+::B8-34:: ¿Por qué se exporta una presentación a PDF? {
+=Para que se vea igual en el ordenador del aula, que nunca es el tuyo
+~Para que pese menos
+~Para poder editarla después
+~Para poder imprimirla en color
+}
+
+::B8-35:: ¿Qué hay que preguntarse antes de publicar algo? {
+=Quién lo va a ver, quién podría verlo y si me parecería bien dentro de cinco años
+~Cuántos «me gusta» tendrá
+~Si es divertido
+~Nada\: siempre se puede borrar
+}
+
+::B8-36:: Lo que se publica en abierto... {
+=Se puede copiar, guardar y volver a publicar aunque tú lo borres
+~Desaparece cuando lo borras
+~Solo lo ven tus contactos
+~Se borra automáticamente al año
+}
+
+::B8-37:: Una imagen de internet sin ningún símbolo de licencia... {
+=Tiene todos los derechos reservados\: no se puede usar sin permiso
+~Es libre porque es gratis
+~Es de dominio público
+~Se puede usar si la recortas
+}
+
+::B8-38:: Gratis significa libre. {FALSE#Gratis no significa libre\: una imagen puede estar colgada gratis y tener todos los derechos reservados.}
+
+::B8-39:: ¿Cuáles son las cuatro condiciones de las licencias Creative Commons? {
+=Reconocimiento, no comercial, sin obra derivada y compartir igual
+~Gratuita, de pago, pública y privada
+~Libre, cerrada, abierta y mixta
+~Personal, educativa, comercial y estatal
+}
+
+::B8-40:: ¿Qué exige la condición BY de una licencia Creative Commons? {
+=Citar al autor
+~No modificar la obra
+~No usarla para ganar dinero
+~Compartirla con la misma licencia
+}
+
+::B8-41:: ¿Qué información lleva una cita? {
+=El autor, el título, dónde está y de qué fecha es
+~Solo la dirección web
+~Solo el nombre del autor
+~El precio de la obra
+}
+
+::B8-42:: Si usas una inteligencia artificial para un trabajo, ¿qué hay que hacer? {
+=Decirlo, comprobar los datos y no darle información personal ni de clientes
+~Nada\: es una herramienta como otra cualquiera
+~Ocultarlo para que no lo sepan
+~Copiarlo tal cual, que ya está comprobado
+}
+
+::B8-43:: Si un texto generado por una IA contiene un dato falso, ¿de quién es el error? {
+=Tuyo\: tú respondes de lo que entregas
+~De la herramienta
+~De quien la programó
+~De nadie
+}
+
+// ---------- Sesión 51 · Correo, redes e identidad digital ----------
+
+::B8-44:: ¿Cuáles son las seis partes de un correo? {
+=El asunto, el saludo, quién eres y qué quieres, el cuerpo, el cierre y la firma
+~El remitente, el destinatario, la fecha, el texto, la firma y el adjunto
+~El título, la entradilla, el cuerpo, la foto, el pie y la fuente
+~EXPOSO, DEMANO, documentos, lugar, fecha y firma
+}
+
+::B8-45:: ¿Cuál es la parte más importante de un correo? {
+=El asunto, porque decide si lo abren
+~La despedida
+~La firma
+~El archivo adjunto
+}
+
+::B8-46:: ¿Dónde va «quién eres y qué quieres» en un correo? {
+=En la primera frase
+~En el último párrafo
+~En el asunto
+~En la firma
+}
+
+::B8-47:: ¿Qué significa escribir en mayúsculas sostenidas? {
+=Gritar
+~Dar importancia
+~Escribir un título
+~Nada en especial
+}
+
+::B8-48:: Escribes a treinta personas que no se conocen entre sí. ¿Dónde pones las direcciones? {
+=En CCO, copia oculta
+~En CC, copia normal
+~En el campo Para
+~Da igual
+}
+
+::B8-49:: ¿Para qué sirve mejor la mensajería instantánea? {
+=Para cosas rápidas y de coordinación
+~Para temas formales y documentos importantes
+~Para dar malas noticias
+~Para que quede constancia
+}
+
+::B8-50:: ¿Cuándo es mejor llamar por teléfono? {
+=Cuando es urgente o cuando hay tensión, porque la voz evita malentendidos
+~Cuando hace falta que quede constancia
+~Cuando hay que enviar un archivo
+~Nunca
+}
+
+::B8-51:: ¿Qué es la netiqueta? {
+=Las normas de educación en la comunicación digital
+~El diseño de una página web
+~La firma de un correo
+~El tiempo de respuesta obligatorio
+}
+
+::B8-52:: ¿Por qué hay que ser más explícito por escrito que en persona? {
+=Porque sin cara ni tono una broma se puede leer como un ataque
+~Porque las pantallas son pequeñas
+~Porque hay que escribir más largo
+~Porque el corrector cambia las palabras
+}
+
+::B8-53:: ¿Qué es la identidad digital? {
+=Lo que se puede saber de ti buscando tu nombre
+~Tu DNI escaneado
+~Tu contraseña
+~El número de seguidores que tienes
+}
+
+::B8-54:: ¿Qué NO controlas de tu identidad digital? {
+=Lo que publican otros sobre ti y lo que alguien guardó antes de que lo borraras
+~La configuración de privacidad de tus cuentas
+~Tu foto de perfil
+~Tu nombre de usuario
+}
+
+::B8-55:: ¿Cuál es la cuenta más importante que hay que proteger con verificación en dos pasos? {
+=El correo, porque es la llave de todo lo demás
+~La red social con más seguidores
+~La del banco solamente
+~La del centro educativo
+}
+
+::B8-56:: Tienes derecho a pedirle a una empresa que te diga qué datos tuyos tiene, que los corrija o que los borre. {TRUE#Y hay una autoridad de protección de datos a la que se puede reclamar.}
+
+
+$CATEGORY: Temario MFG1/09 Inglés III
+
+// ---------- Sesión 53 · The job interview ----------
+
+::B9-01:: «Tell me about yourself» significa... {
+=Háblame de ti
+~¿Qué sabes hacer?
+~¿Por qué quieres este trabajo?
+~¿Cuándo puedes empezar?
+}
+
+::B9-02:: «Do you have any experience?» significa... {
+=¿Tienes experiencia?
+~¿Qué estudias?
+~¿Cuándo puedes empezar?
+~¿Tienes alguna pregunta?
+}
+
+::B9-03:: «What can you do?» ¿Cómo se contesta? {
+=Con «I can...» y cosas concretas que sabes hacer
+~Con tu edad
+~Con el nombre de tu escuela
+~Con «yes, I can» y nada más
+}
+
+::B9-04:: «When can you start?» significa... {
+=¿Cuándo puedes empezar?
+~¿Dónde has trabajado?
+~¿Cuánto quieres cobrar?
+~¿Por qué lo dejaste?
+}
+
+::B9-05:: En una entrevista en un idioma que no dominas, ¿qué vale más? {
+=Tres frases cortas y bien dichas que una larga que se te enreda
+~Una frase muy larga y complicada
+~Hablar lo mínimo posible
+~Contestar siempre que sí
+}
+
+::B9-06:: Todo lo que digas en una entrevista tiene que ser verdad. {TRUE#Si dices que hablas inglés muy bien, la siguiente pregunta será en inglés muy bien.}
+
+::B9-07:: ¿Cómo se forma el pasado de los verbos regulares en inglés? {
+=Añadiendo -ed\: worked, finished, studied
+~Añadiendo -ing
+~Añadiendo -s
+~Poniendo «did» delante siempre
+}
+
+::B9-08:: ¿Cuáles son cinco verbos irregulares básicos en pasado? {
+=Did, was, went, made y had
+~Work, live, study, finish y start
+~Can, must, will, would y should
+~Is, are, am, be y being
+}
+
+::B9-09:: ¿Cómo se hace la negación del pasado? {
+=Con didn't, y el verbo vuelve a su forma base\: I didn't work
+~Con don't, y el verbo mantiene el -ed
+~Con not detrás del verbo
+~Con wasn't siempre
+}
+
+::B9-10:: «Trabajé allí el verano pasado», ¿cómo se dice? {
+=I worked there last summer
+~I work there last summer
+~I am working there last summer
+~I did worked there last summer
+}
+
+::B9-11:: No entiendes una pregunta en la entrevista. ¿Qué haces? {
+=Pides que la repitan más despacio
+~Dices que sí y esperas
+~Te quedas callado
+~Cambias de tema
+}
+
+::B9-12:: «I'm sorry, my English is not very good, but I'm learning.» Esta frase... {
+=Suma, porque demuestra que no te bloqueas
+~Resta, porque reconoces una debilidad
+~No se debe decir nunca
+~Solo vale por escrito
+}
+
+// ---------- Sesión 54 · Customer service and the phone ----------
+
+::B9-13:: ¿Cuáles son las cuatro fases de la atención al cliente? {
+=Greet, understand, solve y close
+~Hello, please, thanks y bye
+~First, then, next y finally
+~Must, mustn't, can y can't
+}
+
+::B9-14:: «How can I help you?» significa... {
+=¿En qué puedo ayudarle?
+~¿Puede ayudarme?
+~¿Qué necesita usted?
+~¿Está buscando algo?
+}
+
+::B9-15:: «Just a moment, please» significa... {
+=Un momento, por favor
+~Ahora mismo se lo doy
+~Espere fuera, por favor
+~Vuelva más tarde
+}
+
+::B9-16:: ¿Qué frase sirve para confirmar que has entendido lo que te piden? {
+=So, you need a..., is that right?
+~Yes, of course
+~Anything else?
+~Have a nice day
+}
+
+::B9-17:: «Anything else?» ¿para qué sirve? {
+=Para cerrar la atención\: ¿alguna cosa más?
+~Para empezar la conversación
+~Para pedir ayuda
+~Para disculparse
+}
+
+::B9-18:: «It's on the second floor» significa... {
+=Está en la segunda planta
+~Está en el segundo pasillo
+~Está a la segunda puerta
+~Cuesta dos euros
+}
+
+::B9-19:: Ante una queja de un cliente, ¿qué es lo primero? {
+=Escuchar, disculparse por la situación y decir qué vas a hacer
+~Explicar por qué no es culpa tuya
+~Llamar al responsable sin decir nada
+~Decir que no se puede hacer nada
+}
+
+::B9-20:: «I'm very sorry about that» al atender una queja... {
+=No es admitir la culpa\: es reconocer el problema
+~Es admitir que la empresa se ha equivocado
+~Es una frase prohibida
+~Solo se dice por escrito
+}
+
+::B9-21:: «Who's calling, please?» significa... {
+=¿De parte de quién?
+~¿A quién llama?
+~¿Quiere dejar un mensaje?
+~¿Puede esperar?
+}
+
+::B9-22:: «Can you hold the line, please?» significa... {
+=¿Puede esperar un momento?
+~¿Puede colgar?
+~¿Puede llamar más tarde?
+~¿Puede hablar más alto?
+}
+
+::B9-23:: «Can I take a message?» significa... {
+=¿Quiere dejar un mensaje?
+~¿Puedo enviarle un mensaje?
+~¿Ha recibido el mensaje?
+~¿Me repite el mensaje?
+}
+
+::B9-24:: ¿Qué tres cosas hay que hacer al teléfono en un idioma que no dominas? {
+=Hablar más despacio, repetir y confirmar los datos importantes, y apuntar mientras hablas
+~Hablar más rápido para acabar antes
+~Decir que sí a todo y colgar
+~Pasar la llamada a otra persona siempre
+}
+
+::B9-25:: ¿Cómo se pide que deletreen un nombre por teléfono? {
+=Could you spell your name, please?
+~What is your name, please?
+~Can you repeat your name?
+~How do you say your name?
+}

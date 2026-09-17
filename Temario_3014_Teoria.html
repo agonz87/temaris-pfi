@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Instalaciones de telecomunicaciones &middot; Teor&iacute;a 3014</title>
+<title>Instal·lacions de telecomunicacions · Teoria 3014</title>
 <style>
 :root{
   --tinta:#1c2024; --tinta-suave:#4a545e; --papel:#ffffff; --fondo:#eef1f4;
@@ -250,10 +250,117 @@ body.solo-ejercicios .barra .modo-ej{background:#fff;color:#14508c;border-color:
 </head>
 <body>
 
+<!-- ============================================================ -->
+<!-- ACCÉS I PERFIL · bloc comú dels temaris                       -->
+<!-- No és seguretat real: és un pany perquè l'alumnat no hi entri -->
+<!-- per curiositat. El codi és visible dins del fitxer.           -->
+<!-- ============================================================ -->
+<style>
+html.acc-bloq,html.acc-bloq body{background:#14508c!important}
+html.acc-bloq body>*:not(#acc-capa){display:none!important}
+#acc-capa{position:fixed;inset:0;z-index:99999;background:#14508c;display:flex;align-items:center;
+  justify-content:center;padding:18px;font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif}
+#acc-caja{background:#fff;border-radius:14px;padding:30px 30px 26px;max-width:430px;width:100%;
+  box-shadow:0 18px 50px rgba(0,0,0,.35);text-align:center;box-sizing:border-box}
+#acc-caja .acc-sello{display:inline-block;border:2px solid #14508c;color:#14508c;border-radius:6px;
+  padding:5px 14px;font-size:11px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase}
+#acc-caja h2{font-size:21px;margin:16px 0 4px;color:#1c2024;line-height:1.25}
+#acc-caja p{font-size:14px;color:#4a545e;margin:6px 0 18px;line-height:1.5}
+#acc-caja input[type=password]{width:100%;padding:11px 13px;border:1.5px solid #d4dae0;border-radius:8px;
+  font-size:16px;font-family:inherit;text-align:center;letter-spacing:1px;box-sizing:border-box}
+#acc-caja input[type=password]:focus{outline:none;border-color:#14508c}
+#acc-caja button.acc-btn{width:100%;margin-top:12px;background:#14508c;color:#fff;border:0;border-radius:8px;
+  padding:11px 14px;font-size:15px;font-weight:600;font-family:inherit;cursor:pointer}
+#acc-caja button.acc-btn:hover{background:#0f3f70}
+#acc-caja .acc-error{color:#b3261e;font-size:13.5px;font-weight:600;margin:10px 0 0;min-height:19px}
+#acc-caja .acc-pie{font-size:12px;color:#8a949e;margin:16px 0 0;font-style:italic}
+.acc-perfiles{display:flex;flex-direction:column;gap:10px;margin-top:6px}
+.acc-perfiles button{background:#fff;border:2px solid #d4dae0;border-radius:10px;padding:13px 16px;
+  font-family:inherit;font-size:14.5px;color:#1c2024;cursor:pointer;text-align:left;line-height:1.35}
+.acc-perfiles button:hover{border-color:#14508c;background:#f4f8fd}
+.acc-perfiles button b{display:block;font-size:12px;letter-spacing:.8px;color:#14508c;margin-bottom:3px}
+.acc-perfiles button.b b{color:#1d6b45}
+.acc-perfiles button.b:hover{border-color:#1d6b45;background:#f3faf6}
+@media print{#acc-capa{display:none!important}html.acc-bloq body>*{display:block!important}}
+</style>
+<script>
+(function(){
+  var CLAVE = "vacances";
+  var K_ACC = "temaris.acceso", K_PERF = "temaris.perfil";
+  function leer(k){ try { return localStorage.getItem(k); } catch(e){ return null; } }
+  function escribir(k,v){ try { localStorage.setItem(k,v); } catch(e){} }
+
+  var okAcceso = leer(K_ACC) === "ok";
+  var okPerfil = leer(K_PERF) === "EE01" || leer(K_PERF) === "HT06";
+  if (okAcceso && okPerfil) return;
+
+  document.documentElement.className += " acc-bloq";
+
+  function montar(){
+    var capa = document.createElement("div");
+    capa.id = "acc-capa";
+    capa.innerHTML = '<div id="acc-caja"></div>';
+    document.body.appendChild(capa);
+    var caja = capa.querySelector("#acc-caja");
+
+    function pantallaClave(){
+      caja.innerHTML =
+        '<div class="acc-sello">PFI &middot; Material del professorat</div>' +
+        '<h2>Temaris d\'aula</h2>' +
+        '<p>Aquest material &eacute;s per al professorat. Introdueix la contrasenya per obrir-lo.</p>' +
+        '<input type="password" id="acc-clave" autocomplete="off" placeholder="Contrasenya" aria-label="Contrasenya">' +
+        '<button type="button" class="acc-btn" id="acc-entrar">Entra</button>' +
+        '<p class="acc-error" id="acc-err"></p>' +
+        '<p class="acc-pie">Es recorda en aquest navegador: no caldr&agrave; tornar-la a escriure.</p>';
+      var inp = caja.querySelector("#acc-clave");
+      var err = caja.querySelector("#acc-err");
+      function probar(){
+        if (inp.value.trim().toLowerCase() === CLAVE) {
+          escribir(K_ACC, "ok");
+          if (leer(K_PERF)) { abrir(); } else { pantallaPerfil(); }
+        } else {
+          err.textContent = "No és aquesta. Torna-ho a provar.";
+          inp.value = ""; inp.focus();
+        }
+      }
+      caja.querySelector("#acc-entrar").addEventListener("click", probar);
+      inp.addEventListener("keydown", function(ev){ if (ev.key === "Enter") probar(); });
+      setTimeout(function(){ inp.focus(); }, 60);
+    }
+
+    function pantallaPerfil(){
+      caja.innerHTML =
+        '<div class="acc-sello">Perfil professional</div>' +
+        '<h2>Amb quin grup treballes?</h2>' +
+        '<p>El seguiment de les sessions es desa <strong>per separat</strong> per a cada perfil. ' +
+        'Es pot canviar quan vulguis des de la barra de dalt.</p>' +
+        '<div class="acc-perfiles">' +
+          '<button type="button" data-perfil="EE01"><b>PFI EE01</b>Auxiliar de muntatges d\'instal&middot;lacions electrot&egrave;cniques en edificis</button>' +
+          '<button type="button" class="b" data-perfil="HT06"><b>PFI HT06</b>Auxiliar de serveis de restauraci&oacute; i cuina</button>' +
+        '</div>';
+      caja.querySelectorAll("[data-perfil]").forEach(function(b){
+        b.addEventListener("click", function(){ escribir(K_PERF, b.getAttribute("data-perfil")); abrir(); });
+      });
+    }
+
+    function abrir(){
+      document.documentElement.className = document.documentElement.className.replace(/\s*acc-bloq/g, "");
+      if (capa.parentNode) capa.parentNode.removeChild(capa);
+      window.dispatchEvent(new Event("temaris:desbloqueado"));
+    }
+
+    if (!okAcceso) pantallaClave(); else pantallaPerfil();
+  }
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", montar);
+  else montar();
+})();
+</script>
+
 <div class="barra">
   <button class="menu-btn" onclick="document.querySelector('aside').classList.toggle('abierto')">&#9776;</button>
   <span class="cod">3014</span>
-  <h1>Instalaciones de telecomunicaciones &mdash; Teor&iacute;a de aula</h1>
+  <h1>Instal·lacions de telecomunicacions &mdash; Teoria d'aula</h1>
   <span class="esp"></span>
   <button class="modo" onclick="document.body.classList.remove('solo-ejercicios');document.body.classList.toggle('solo-dictado')" title="Muestra solo lo que hay que dictar al cuaderno">Modo dictado</button>
   <button class="modo-ej" onclick="document.body.classList.remove('solo-dictado');document.body.classList.toggle('solo-ejercicios')" title="Muestra solo el ejercicio de cada sesión, con su solución">Modo pr&aacute;ctica</button>
@@ -270,7 +377,7 @@ body.solo-ejercicios .barra .modo-ej{background:#fff;color:#14508c;border-color:
 <!-- ================= PORTADA ================= -->
 <section class="hoja portada" id="portada">
   <div class="sello">PFI &middot; EE01 &middot; Electricidad y electr&oacute;nica</div>
-  <h1>Instalaciones de telecomunicaciones</h1>
+  <h1>Instal·lacions de telecomunicacions</h1>
   <h2>M&oacute;dulo 3014 &middot; Programaci&oacute;n de teor&iacute;a de aula<br>
       Auxiliar de montajes de instalaciones electrot&eacute;cnicas en edificios</h2>
   <div class="datos">
@@ -414,7 +521,7 @@ body.solo-ejercicios .barra .modo-ej{background:#fff;color:#14508c;border-color:
 <section class="hoja" id="evaluacion">
 <div class="cab">
   <div class="meta"><span class="num">C&Oacute;MO SE TE EVAL&Uacute;A</span>
-    <span class="bloque">M&oacute;dulo 3014 &middot; Instalaciones de telecomunicaciones</span>
+    <span class="bloque">M&oacute;dulo 3014 &middot; Instal·lacions de telecomunicacions</span>
     <span class="dur">Leer el primer d&iacute;a</span></div>
   <h2>Criterios de evaluaci&oacute;n</h2>
   <p class="entradilla">De d&oacute;nde sale tu nota, qu&eacute; hace falta para aprobar y qu&eacute; se espera de ti.
@@ -9195,7 +9302,7 @@ se ve cuando la instalaci&oacute;n funciona. Todo eso se nota cuando hay que rep
 
 <div class="hoja pie-doc" style="text-align:center">
   <p style="font-size:13px;color:#4a545e;margin:0">
-    <strong>Instalaciones de telecomunicaciones &middot; M&oacute;dulo 3014</strong><br>
+    <strong>Instal·lacions de telecomunicacions &middot; M&oacute;dulo 3014</strong><br>
     Programaci&oacute;n de teor&iacute;a de aula &mdash; 33 sesiones de 1 hora<br>
     PFI EE01 &middot; Auxiliar de montajes de instalaciones electrot&eacute;cnicas en edificios
   </p>
@@ -9348,6 +9455,7 @@ se ve cuando la instalaci&oacute;n funciona. Todo eso se nota cuando hay que rep
 
 <!-- ============================================================ -->
 <!-- SEGUIMIENTO DEL CURSO · se guarda en el navegador (offline)   -->
+<!-- El progreso se guarda POR PERFIL: EE01 y HT06 por separado.   -->
 <!-- ============================================================ -->
 <style>
 .barra .pg-volver{display:inline-flex;align-items:center;gap:5px;background:rgba(255,255,255,.15);
@@ -9361,6 +9469,30 @@ se ve cuando la instalaci&oacute;n funciona. Todo eso se nota cuando hay que rep
 .pg-chip b{font-weight:700;letter-spacing:.2px}
 .pg-chip .pg-mini{width:52px;height:6px;border-radius:3px;background:rgba(255,255,255,.28);overflow:hidden}
 .pg-chip .pg-mini i{display:block;height:100%;background:#8fd3ae;border-radius:3px;transition:width .25s}
+
+/* ---------- Perfil del PFI ---------- */
+.barra .pf-chip{position:relative;display:inline-flex;align-items:center;gap:6px;
+  background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.35);border-radius:6px;
+  padding:4px 10px;font-size:12.5px;color:#fff;cursor:pointer;font-family:inherit;white-space:nowrap}
+.barra .pf-chip:hover{background:rgba(255,255,255,.3)}
+.barra .pf-chip .pf-punto{width:8px;height:8px;border-radius:50%;background:#8fd3ae;flex:0 0 auto}
+.barra .pf-chip.ht06 .pf-punto{background:#ffcf6b}
+.pf-menu{position:fixed;z-index:9000;background:#fff;border:1px solid var(--linea);border-radius:10px;
+  box-shadow:0 12px 34px rgba(0,0,0,.24);padding:8px;min-width:270px;max-width:calc(100vw - 24px)}
+.pf-menu .pf-tit{font-size:10.5px;font-weight:700;letter-spacing:.9px;text-transform:uppercase;
+  color:var(--tinta-suave);padding:6px 10px 8px}
+.pf-menu button{display:block;width:100%;text-align:left;background:#fff;border:1px solid transparent;
+  border-radius:8px;padding:9px 11px;font-family:inherit;font-size:13.4px;color:var(--tinta);cursor:pointer;
+  line-height:1.35}
+.pf-menu button:hover{background:var(--fondo)}
+.pf-menu button b{display:block;font-size:11px;letter-spacing:.7px;color:var(--azul)}
+.pf-menu button.b b{color:var(--verde)}
+.pf-menu button.act{border-color:var(--azul);background:var(--azul-claro)}
+.pf-menu .pf-sep{border-top:1px solid var(--linea);margin:8px 0 6px}
+.pf-menu .pf-cerrar{font-size:12.5px;color:var(--tinta-suave)}
+.pg-panel .pg-perfil{display:inline-block;background:var(--azul-claro);color:var(--azul);border-radius:20px;
+  padding:2px 11px;font-size:11.5px;font-weight:700;letter-spacing:.5px;margin-left:8px}
+.pg-panel .pg-perfil.ht06{background:var(--verde-claro);color:var(--verde)}
 
 .pg-panel{background:var(--papel);border:2px solid var(--azul);border-radius:10px;
   padding:18px 22px;margin:26px 0 8px;text-align:left}
@@ -9413,44 +9545,129 @@ aside a.pg-next::after{content:"AQU\00CD";float:right;font-size:9.5px;font-weigh
 
 section.sesion.pg-hecha > .cab{border-bottom-color:var(--verde)}
 
+/* ---------- Tablas y contenido ancho en pantallas pequeñas ---------- */
+.tabla-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:16px 0;max-width:100%}
+.tabla-scroll > table{margin:0}
+.caja .tabla-scroll{margin:10px 0}
+.caja .tabla-scroll:last-child{margin-bottom:0}
+@media(max-width:760px){
+  .tabla-scroll{border:1px solid var(--linea);border-radius:8px;
+    background:linear-gradient(90deg,#fff 70%,rgba(20,80,140,.06))}
+  .tabla-scroll > table{min-width:540px;border-radius:0}
+  .hoja{padding:20px 14px;margin:10px 8px}
+  .formula{font-size:16px;padding:12px 12px}
+  .textos .t{flex:1 1 100%}
+  table.rubrica{font-size:12.5px}
+  body{overflow-x:hidden}
+  main,.app{max-width:100vw}
+  h3{font-size:17px}
+  .cab h2{font-size:19.5px}
+  pre,code{white-space:pre-wrap;overflow-wrap:anywhere}
+  p,li{overflow-wrap:break-word}
+  td,th{word-break:normal}
+  .dictado,.ejercicio,.actividad,.comprueba,.repaso{padding-left:14px;padding-right:14px}
+}
+
 @media(max-width:900px){
+  .barra{flex-wrap:wrap;row-gap:5px;column-gap:6px;padding:7px 10px}
+  .barra .esp{display:none}
+  .barra button,.barra .pg-chip,.barra .pf-chip,.barra .pg-volver{padding:3px 7px;font-size:11.5px}
   .pg-chip .pg-mini{display:none}
   .pg-marca{margin-left:0}
+  .barra h1{display:none}
+  aside{top:var(--barra-alto,47px);height:calc(100vh - var(--barra-alto,47px))}
+  .sesion{scroll-margin-top:calc(var(--barra-alto,47px) + 12px)}
 }
 @media print{
-  .pg-chip,.pg-marca,.pg-volver,.pg-panel .pg-fila,.pg-panel .pg-nota{display:none!important}
+  .pg-chip,.pg-marca,.pg-volver,.pf-chip,.pf-menu,.pg-panel .pg-fila,.pg-panel .pg-nota{display:none!important}
   .pg-panel{border-width:1px;page-break-inside:avoid}
+  .tabla-scroll{overflow:visible!important;border:0!important;background:none!important}
+  .tabla-scroll > table{min-width:0!important}
 }
 </style>
+
+<script>
+/* ---------- Tablas anchas: envoltorio con scroll horizontal ---------- */
+(function(){
+  function envolver(){
+    var tablas = document.querySelectorAll("main table");
+    Array.prototype.forEach.call(tablas, function(t){
+      var p = t.parentNode;
+      if (p && p.classList && p.classList.contains("tabla-scroll")) return;
+      var w = document.createElement("div");
+      w.className = "tabla-scroll";
+      p.insertBefore(w, t);
+      w.appendChild(t);
+    });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", envolver);
+  else envolver();
+})();
+</script>
+
+<script>
+/* ---------- Altura real de la barra superior (puede tener dos filas) ---------- */
+(function(){
+  var barra = document.querySelector(".barra");
+  if (!barra) return;
+  function medir(){
+    var h = Math.round(barra.getBoundingClientRect().height) || 47;
+    document.documentElement.style.setProperty("--barra-alto", h + "px");
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", medir);
+  else medir();
+  window.addEventListener("resize", medir);
+  window.addEventListener("load", medir);
+  if (window.ResizeObserver) { try { new ResizeObserver(medir).observe(barra); } catch(e){} }
+})();
+</script>
 
 <script>
 (function(){
   var codEl = document.querySelector(".barra .cod");
   if (!codEl) return;
   var COD = codEl.textContent.trim();
-  var KEY = "temaris.v1." + COD;
+  var K_PERF = "temaris.perfil";
+  var PERFILES = {
+    "EE01": { nom: "PFI EE01", desc: "Auxiliar de muntatges d'instal·lacions electrotècniques en edificis" },
+    "HT06": { nom: "PFI HT06", desc: "Auxiliar de serveis de restauració i cuina" }
+  };
+
+  function leerPerfil(){
+    var p = null;
+    try { p = localStorage.getItem(K_PERF); } catch(e){}
+    return (p === "HT06") ? "HT06" : "EE01";
+  }
+  var PERFIL = leerPerfil();
+  function clave(){ return "temaris.v1." + COD + "." + PERFIL; }
 
   var secciones = Array.prototype.slice.call(document.querySelectorAll("section.sesion"));
   var TOTAL = secciones.length;
   if (!TOTAL) return;
 
   // ---- Almacenamiento (tolerante: si el navegador lo bloquea, sigue funcionando en memoria)
-  var memoria = null;
+  var memoria = {};
   function leer(){
-    if (memoria) return memoria;
+    var k = clave();
+    if (memoria[k]) return memoria[k];
     var d = { hechas: [], ts: 0 };
     try {
-      var raw = localStorage.getItem(KEY);
+      var raw = localStorage.getItem(k);
+      if (!raw) {
+        // Migración desde la clave antigua sin perfil (se atribuye al perfil activo)
+        var viejo = localStorage.getItem("temaris.v1." + COD);
+        if (viejo) { raw = viejo; localStorage.setItem(k, viejo); }
+      }
       if (raw) { var p = JSON.parse(raw); if (p && p.hechas) d = p; }
     } catch (e) {}
-    memoria = d;
+    memoria[k] = d;
     return d;
   }
   function guardar(d){
     d.ts = Date.now();
     d.total = TOTAL;
-    memoria = d;
-    try { localStorage.setItem(KEY, JSON.stringify(d)); } catch (e) {}
+    memoria[clave()] = d;
+    try { localStorage.setItem(clave(), JSON.stringify(d)); } catch (e) {}
   }
   function hecha(id){ return leer().hechas.indexOf(id) !== -1; }
 
@@ -9460,23 +9677,69 @@ section.sesion.pg-hecha > .cab{border-bottom-color:var(--verde)}
     var d = leer();
     if (d.total === TOTAL && d.n === n && d.sigNum === sigNum && d.sigTit === sigTit) return;
     d.total = TOTAL; d.n = n; d.sigNum = sigNum; d.sigTit = sigTit;
-    memoria = d;
-    try { localStorage.setItem(KEY, JSON.stringify(d)); } catch (e) {}
+    memoria[clave()] = d;
+    try { localStorage.setItem(clave(), JSON.stringify(d)); } catch (e) {}
   }
 
   // ---- Enlace de vuelta al índice general
   var volver = document.createElement("a");
   volver.className = "pg-volver";
   volver.href = (location.protocol === "file:") ? "index.html" : "./";
-  volver.title = "Volver al índice de temarios";
-  volver.innerHTML = "◀ Índice";
+  volver.title = "Torna a l'índex de temaris";
+  volver.innerHTML = "◀ Índex";
   if (codEl.parentNode) codEl.parentNode.insertBefore(volver, codEl);
 
-  // ---- Chip de la barra superior
+  // ---- Chip del perfil
+  var pfChip = document.createElement("button");
+  pfChip.type = "button";
+  pfChip.className = "pf-chip";
+  pfChip.innerHTML = '<span class="pf-punto"></span><b class="pf-txt"></b>';
+  if (codEl.parentNode) codEl.parentNode.insertBefore(pfChip, codEl.nextSibling);
+
+  var pfMenu = null;
+  function cerrarMenu(){ if (pfMenu && pfMenu.parentNode) pfMenu.parentNode.removeChild(pfMenu); pfMenu = null; }
+  pfChip.addEventListener("click", function(ev){
+    ev.stopPropagation();
+    if (pfMenu) { cerrarMenu(); return; }
+    pfMenu = document.createElement("div");
+    pfMenu.className = "pf-menu";
+    var html = '<div class="pf-tit">Perfil del grup</div>';
+    ["EE01","HT06"].forEach(function(p){
+      html += '<button type="button" data-p="' + p + '" class="' + (p === "HT06" ? "b " : "") +
+              (p === PERFIL ? "act" : "") + '"><b>' + PERFILES[p].nom + '</b>' + PERFILES[p].desc + '</button>';
+    });
+    html += '<div class="pf-sep"></div>' +
+            '<button type="button" class="pf-cerrar" data-bloquear="1">🔒 Bloqueja el temari</button>';
+    pfMenu.innerHTML = html;
+    document.body.appendChild(pfMenu);
+    var r = pfChip.getBoundingClientRect();
+    pfMenu.style.top = (r.bottom + 6) + "px";
+    pfMenu.style.left = Math.max(10, Math.min(r.left, window.innerWidth - pfMenu.offsetWidth - 10)) + "px";
+    pfMenu.addEventListener("click", function(e2){ e2.stopPropagation(); });
+    pfMenu.querySelectorAll("[data-p]").forEach(function(b){
+      b.addEventListener("click", function(){
+        PERFIL = b.getAttribute("data-p");
+        try { localStorage.setItem(K_PERF, PERFIL); } catch(e){}
+        cerrarMenu();
+        pintar();
+      });
+    });
+    var bl = pfMenu.querySelector("[data-bloquear]");
+    if (bl) bl.addEventListener("click", function(){
+      if (!confirm("¿Bloquear el temario?\n\nSe volverá a pedir la contraseña la próxima vez que se abra. El progreso no se pierde.")) return;
+      try { localStorage.removeItem("temaris.acceso"); } catch(e){}
+      cerrarMenu();
+      location.reload();
+    });
+  });
+  document.addEventListener("click", cerrarMenu);
+  window.addEventListener("resize", cerrarMenu);
+
+  // ---- Chip de progreso de la barra superior
   var chip = document.createElement("button");
   chip.type = "button";
   chip.className = "pg-chip";
-  chip.title = "Progreso del curso. Pulsa para ir al panel de seguimiento.";
+  chip.title = "ProgrÃ©s del curs. Prem per anar al panell de seguiment.";
   chip.innerHTML = '<b class="pg-txt"></b><span class="pg-mini"><i></i></span>';
   var esp = document.querySelector(".barra .esp");
   if (esp && esp.parentNode) esp.parentNode.insertBefore(chip, esp.nextSibling);
@@ -9490,7 +9753,7 @@ section.sesion.pg-hecha > .cab{border-bottom-color:var(--verde)}
   panel.className = "pg-panel";
   panel.id = "pg-panel";
   panel.innerHTML =
-    '<div class="pg-tit">Seguimiento del curso<span class="pg-fecha"></span></div>' +
+    '<div class="pg-tit">Seguimiento del curso<span class="pg-perfil"></span><span class="pg-fecha"></span></div>' +
     '<div class="pg-cifras">' +
       '<span class="pg-num"></span>' +
       '<span class="pg-pct"></span>' +
@@ -9505,8 +9768,9 @@ section.sesion.pg-hecha > .cab{border-bottom-color:var(--verde)}
       '<button type="button" class="pg-btn sec" id="pg-reset">Reiniciar</button>' +
     '</div>' +
     '<p class="pg-nota">El progreso se guarda <strong>en este navegador y en este ordenador</strong>, sin ' +
-    'internet y sin cuentas. Cada sesión se puede marcar también una a una con el botón ' +
-    '«Marcar impartida» de su cabecera, por si alguna se salta o se recupera más adelante.</p>';
+    'internet y sin cuentas, y <strong>por separado para cada perfil</strong> (EE01 y HT06): el mismo temario ' +
+    'lleva dos cuentas distintas. El perfil se cambia con el botón de la barra de arriba. Cada sesión se puede ' +
+    'marcar también una a una con el botón «Marcar impartida» de su cabecera.</p>';
 
   var portada = document.getElementById("portada");
   if (portada) {
@@ -9566,7 +9830,7 @@ section.sesion.pg-hecha > .cab{border-bottom-color:var(--verde)}
   });
 
   panel.querySelector("#pg-reset").addEventListener("click", function(){
-    if (!confirm("¿Reiniciar el seguimiento de este módulo?\n\nSe desmarcan todas las sesiones. No afecta al contenido del temario.")) return;
+    if (!confirm("¿Reiniciar el seguimiento de este módulo para el perfil " + PERFIL + "?\n\nSe desmarcan todas las sesiones de ese perfil. El otro perfil no se toca y el contenido del temario tampoco.")) return;
     guardar({ hechas: [] });
     pintar();
   });
@@ -9614,7 +9878,15 @@ section.sesion.pg-hecha > .cab{border-bottom-color:var(--verde)}
     var pct = TOTAL ? Math.round(n * 100 / TOTAL) : 0;
     chip.querySelector(".pg-txt").textContent = n + "/" + TOTAL;
     chip.querySelector(".pg-mini i").style.width = pct + "%";
-    chip.title = "Progreso del curso: " + n + " de " + TOTAL + " sesiones (" + pct + " por ciento). Pulsa para ir al panel.";
+    chip.title = "ProgrÃ©s del curs (" + PERFIL + "): " + n + " de " + TOTAL + " sessions (" + pct + " per cent). Prem per anar al panell.";
+
+    pfChip.querySelector(".pf-txt").textContent = PERFILES[PERFIL].nom;
+    pfChip.classList.toggle("ht06", PERFIL === "HT06");
+    pfChip.title = "Perfil: " + PERFILES[PERFIL].desc + ". Prem per canviar de perfil o bloquejar el temari.";
+
+    var pEt = panel.querySelector(".pg-perfil");
+    pEt.textContent = PERFILES[PERFIL].nom;
+    pEt.classList.toggle("ht06", PERFIL === "HT06");
 
     panel.querySelector(".pg-num").textContent = n + " / " + TOTAL;
     panel.querySelector(".pg-pct").textContent = pct + " %";
@@ -9647,10 +9919,12 @@ section.sesion.pg-hecha > .cab{border-bottom-color:var(--verde)}
 
   pintar();
 
-  // Si se cambia el progreso desde otra pestaña o desde el índice general
+  // Si se cambia el progreso o el perfil desde otra pestaña o desde el índice general
   window.addEventListener("storage", function(ev){
-    if (ev.key === KEY) { memoria = null; pintar(); }
+    if (ev.key === K_PERF) { PERFIL = leerPerfil(); memoria = {}; pintar(); return; }
+    if (ev.key && ev.key.indexOf("temaris.v1." + COD) === 0) { memoria = {}; pintar(); }
   });
+  window.addEventListener("temaris:desbloqueado", function(){ PERFIL = leerPerfil(); memoria = {}; pintar(); });
 })();
 </script>
 </body>
