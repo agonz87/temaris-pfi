@@ -3,9 +3,7 @@
 Programacions de teoria d'aula dels mòduls dels **Programes de Formació i Inserció**, en format
 HTML autònom: es projecten a classe sense internet, sense instal·lar res i sense dependències externes.
 
-**Lloc web:** https://USUARI.github.io/temaris-pfi/
-
-> Substitueix `USUARI` pel teu nom d'usuari de GitHub quan tinguis Pages activat.
+**Lloc web:** https://agonz87.github.io/temaris-pfi/
 
 ## Accés
 
