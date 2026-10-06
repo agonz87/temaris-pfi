@@ -10941,5 +10941,66 @@ section.sesion.pg-hecha > .cab{border-bottom-color:var(--verde)}
   window.addEventListener("temaris:desbloqueado", function(){ PERFIL = leerPerfil(); memoria = {}; pintar(); });
 })();
 </script>
+
+<!-- ============================================================ -->
+<!-- SELECTOR D'IDIOMA · CA / ES                                  -->
+<!-- ============================================================ -->
+<style>
+.barra .lang{display:inline-flex;align-items:center;border:1px solid rgba(255,255,255,.35);
+  border-radius:6px;overflow:hidden;font-family:inherit;white-space:nowrap}
+.barra .lang a,.barra .lang span{display:inline-block;padding:4px 10px;font-size:12px;font-weight:700;
+  letter-spacing:.5px;text-decoration:none;color:#fff;background:transparent;line-height:1.35}
+.barra .lang a:hover{background:rgba(255,255,255,.3)}
+.barra .lang .on{background:#fff;color:#14508c;cursor:default}
+@media print{.barra .lang{display:none!important}}
+</style>
+
+<script>
+(function(){
+  var ruta = location.pathname.split("/").pop() || "";
+  if (!/^Temario_/i.test(ruta)) return;
+
+  var esCA = /_CA\.html$/i.test(ruta);
+  var actual = esCA ? "ca" : "es";
+  var parella = esCA ? ruta.replace(/_CA\.html$/i, ".html")
+                     : ruta.replace(/\.html$/i, "_CA.html");
+
+  var K = "temaris.idioma";
+  function leer(){ try { return localStorage.getItem(K); } catch(e){ return null; } }
+  function escribir(v){ try { localStorage.setItem(K, v); } catch(e){} }
+
+  // Botó de la barra
+  var barra = document.querySelector(".barra");
+  var esp = document.querySelector(".barra .esp");
+  if (barra) {
+    var cont = document.createElement("div");
+    cont.className = "lang";
+    cont.title = esCA ? "Canvia l'idioma del temari" : "Cambia el idioma del temario";
+    cont.innerHTML = esCA
+      ? '<span class="on">CA</span><a href="#" data-ir="es">ES</a>'
+      : '<a href="#" data-ir="ca">CA</a><span class="on">ES</span>';
+    if (esp && esp.parentNode) esp.parentNode.insertBefore(cont, esp.nextSibling);
+    else barra.appendChild(cont);
+
+    cont.addEventListener("click", function(ev){
+      var a = ev.target.closest("a[data-ir]");
+      if (!a) return;
+      ev.preventDefault();
+      escribir(a.getAttribute("data-ir"));
+      location.href = parella + location.hash;
+    });
+  }
+
+  // Si ja hi ha un idioma triat i no és el d'aquest fitxer, hi anem.
+  // Només una vegada per pestanya, per no encadenar redireccions.
+  try {
+    var pref = leer();
+    if (pref && pref !== actual && !sessionStorage.getItem("temaris.idioma.redirigit")) {
+      sessionStorage.setItem("temaris.idioma.redirigit", "1");
+      location.replace(parella + location.hash);
+    }
+  } catch (e) {}
+})();
+</script>
 </body>
 </html>
