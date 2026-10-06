@@ -50,6 +50,25 @@ body{margin:0;background:var(--fondo);color:var(--tinta);
 .perfil.b .pf-act{color:var(--verde)}
 .perfil.act .pf-act{opacity:1}
 
+/* Selector d'idioma */
+.idiomes{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:16px}
+.idiomes .et{font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.9px;
+  color:var(--tinta-suave)}
+.lang{display:inline-flex;border:2px solid var(--linea);border-radius:8px;overflow:hidden;
+  background:var(--fondo)}
+.lang button{background:none;border:0;font-family:inherit;font-size:12.5px;font-weight:700;
+  letter-spacing:.5px;padding:7px 15px;cursor:pointer;color:var(--tinta-suave)}
+.lang button+button{border-left:2px solid var(--linea)}
+.lang button:hover{background:#fff;color:var(--azul)}
+.lang button.on{background:var(--azul);color:#fff;cursor:default}
+.idiomes .nota{font-size:12.3px;color:var(--tinta-suave);margin:0}
+
+/* Distintiu de temari disponible en català */
+.t-ca{display:none;background:var(--azul-claro);color:var(--azul);border-radius:5px;
+  font-size:10.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;
+  padding:3px 8px;white-space:nowrap}
+.tarjeta.bilingue .t-ca{display:inline-block}
+
 /* Tarjetas que no son de este perfil */
 .tarjeta.fuera{opacity:.42;filter:grayscale(.5)}
 .tarjeta.fuera:hover{opacity:.72;transform:none;box-shadow:0 1px 3px rgba(0,0,0,.05)}
@@ -297,6 +316,15 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
         </div>
         <span class="pf-act">&#10003; Actiu</span>
       </button>
+    </div>
+
+    <div class="idiomes">
+      <span class="et">Idioma dels temaris</span>
+      <span class="lang" id="lang">
+        <button type="button" data-idioma="es">Castell&agrave;</button>
+        <button type="button" data-idioma="ca">Catal&agrave;</button>
+      </span>
+      <p class="nota" id="lang-nota"></p>
     </div>
   </div>
 </header>
@@ -555,7 +583,8 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
 
     <!-- MFG4 -->
     <article class="tarjeta" data-cod="MFG4" data-color="morado" data-perfiles="EE01 HT06"
-             data-archivo="Temario_MFG4_Teoria.html" data-total="50">
+             data-archivo="Temario_MFG4_Teoria.html"
+             data-archivo-ca="Temario_MFG4_Teoria_CA.html" data-total="50">
       <a class="t-link" href="Temario_MFG4_Teoria.html">
         <svg viewBox="0 0 420 168" role="img" aria-label="Currículum y recorrido profesional ascendente">
           <rect width="420" height="168" fill="#f4f1fa"/>
@@ -587,6 +616,7 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
         <div class="t-meta">
           <span class="t-cod">MFG4</span>
           <span class="t-perfil">EE01 + HT06</span>
+          <span class="t-ca">CAST + CAT</span>
         </div>
         <h3>Incorporació al món professional</h3>
         <p>Autoconeixement, itinerari, empresa, contracte, cerca de feina i nòmina.</p>
@@ -622,6 +652,12 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
     equip o amb un altre navegador, el comptador comença de zero.</p>
     <p>Els <b>bancs de preguntes</b> són en format GIFT, a punt per importar-los al Moodle des de
     Banc de preguntes &rsaquo; Importa &rsaquo; Format GIFT.</p>
+    <p><b>Idioma.</b> El selector de dalt recorda en quin idioma vols obrir els temaris. De moment
+    només el MFG4 té versió catalana; els altres s'obriran en castellà fins que es tradueixin.
+    Dins del temari també hi ha el botó <b>CA / ES</b> a la barra superior, i el
+    <b>progrés és el mateix</b> en tots dos idiomes.</p>
+    <p><b>Més espai a la pantalla.</b> Dins del temari, el botó <b>«Plega el menú»</b> de la barra
+    amaga l'índex lateral i eixampla el full: va bé per projectar a classe.</p>
     <p style="font-size:12.5px;color:var(--tinta-suave);font-style:italic">La contrasenya d'accés només
     serveix perquè l'alumnat no hi entri per curiositat: no és una protecció real, perquè el codi és
     visible dins del fitxer.</p>
@@ -631,10 +667,12 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
 <script>
 (function(){
   var K_PERF = "temaris.perfil";
+  var K_IDIOMA = "temaris.idioma";
   var PERFILES = { "EE01": "PFI EE01", "HT06": "PFI HT06" };
 
   var tarjetas = Array.prototype.slice.call(document.querySelectorAll(".tarjeta"));
   var botones  = Array.prototype.slice.call(document.querySelectorAll(".perfil[data-perfil]"));
+  var botIdioma = Array.prototype.slice.call(document.querySelectorAll("#lang [data-idioma]"));
   var disponible = true;
   try { localStorage.setItem("temaris.test", "1"); localStorage.removeItem("temaris.test"); }
   catch (e) { disponible = false; }
@@ -643,6 +681,35 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
     var p = null;
     try { p = localStorage.getItem(K_PERF); } catch (e) {}
     return (p === "HT06") ? "HT06" : "EE01";
+  }
+
+  function idiomaActivo(){
+    var i = null;
+    try { i = localStorage.getItem(K_IDIOMA); } catch (e) {}
+    return (i === "ca") ? "ca" : "es";
+  }
+
+  // Fitxer que toca obrir segons l'idioma triat. Si el mòdul encara no té
+  // versió catalana, es queda la castellana.
+  function archivoDe(t, idioma){
+    var es = t.getAttribute("data-archivo");
+    var ca = t.getAttribute("data-archivo-ca");
+    return (idioma === "ca" && ca) ? ca : es;
+  }
+
+  // Reescriu tots els enllaços de la targeta que apunten al temari.
+  function enlazar(t, archivo){
+    var es = t.getAttribute("data-archivo");
+    var ca = t.getAttribute("data-archivo-ca");
+    var enlaces = [t.querySelector(".t-link")].concat(
+      Array.prototype.slice.call(t.querySelectorAll(".t-acciones .t-btn")));
+    enlaces.forEach(function(a){
+      if (!a) return;
+      var h = a.getAttribute("href") || "";
+      var base = h.split("#")[0];
+      if (base !== es && base !== ca) return;          // el banc de preguntes, per exemple
+      a.setAttribute("href", archivo + (h.indexOf("#") >= 0 ? h.slice(h.indexOf("#")) : ""));
+    });
   }
 
   function datos(cod, perfil){
@@ -657,16 +724,26 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
 
   function pintar(){
     var PERFIL = perfilActivo();
+    var IDIOMA = idiomaActivo();
 
     botones.forEach(function(b){
       b.classList.toggle("act", b.getAttribute("data-perfil") === PERFIL);
+    });
+
+    var bilingues = 0;
+    botIdioma.forEach(function(b){
+      b.classList.toggle("on", b.getAttribute("data-idioma") === IDIOMA);
     });
 
     var totalG = 0, hechasG = 0;
 
     tarjetas.forEach(function(t){
       var cod = t.getAttribute("data-cod");
-      var archivo = t.getAttribute("data-archivo");
+      var tieneCa = !!t.getAttribute("data-archivo-ca");
+      if (tieneCa) bilingues++;
+      t.classList.toggle("bilingue", tieneCa);
+      var archivo = archivoDe(t, IDIOMA);
+      enlazar(t, archivo);
       var perfiles = (t.getAttribute("data-perfiles") || "EE01 HT06").split(/\s+/);
       var deEstePerfil = perfiles.indexOf(PERFIL) !== -1;
       var total = parseInt(t.getAttribute("data-total"), 10) || 0;
@@ -711,6 +788,15 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
       }
     });
 
+    var nota = document.getElementById("lang-nota");
+    if (nota) {
+      nota.innerHTML = (IDIOMA !== "ca")
+        ? "Tots els temaris s'obriran en castell&agrave;."
+        : (bilingues === 1
+            ? "De moment nom&eacute;s el <b>MFG4</b> t&eacute; versi&oacute; catalana; la resta s'obriran en castell&agrave;."
+            : "S'obriran en catal&agrave; els <b>" + bilingues + "</b> m&ograve;duls que en tenen versi&oacute;; la resta, en castell&agrave;.");
+    }
+
     var pctG = totalG ? Math.round(hechasG * 100 / totalG) : 0;
     document.getElementById("g-num").textContent = hechasG + " / " + totalG + " sessions";
     document.getElementById("g-pct").textContent = pctG + " %";
@@ -729,6 +815,13 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
   botones.forEach(function(b){
     b.addEventListener("click", function(){
       try { localStorage.setItem(K_PERF, b.getAttribute("data-perfil")); } catch (e) {}
+      pintar();
+    });
+  });
+
+  botIdioma.forEach(function(b){
+    b.addEventListener("click", function(){
+      try { localStorage.setItem(K_IDIOMA, b.getAttribute("data-idioma")); } catch (e) {}
       pintar();
     });
   });

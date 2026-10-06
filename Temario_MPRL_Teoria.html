@@ -7038,5 +7038,65 @@ section.sesion.pg-hecha > .cab{border-bottom-color:var(--verde)}
   window.addEventListener("temaris:desbloqueado", function(){ PERFIL = leerPerfil(); memoria = {}; pintar(); });
 })();
 </script>
+
+<!-- ===== Plegar el menú lateral per guanyar amplada de pantalla ===== -->
+<style>
+.plegar-btn{display:none}
+.plegar-btn .ic{font-size:11px;line-height:1;margin-right:6px;opacity:.85}
+@media(min-width:901px){
+  .plegar-btn{display:inline-block}
+  html.lateral-plegada aside{display:none}
+  html.lateral-plegada .hoja{max-width:1180px;margin-left:auto;margin-right:auto}
+}
+@media print{.plegar-btn{display:none!important}}
+</style>
+
+<script>
+(function(){
+  var barra = document.querySelector(".barra");
+  var aside = document.querySelector("aside");
+  if (!barra || !aside) return;
+
+  var ruta = location.pathname.split("/").pop() || "";
+  var esCA = /_CA\.html$/i.test(ruta);
+
+  var TX = esCA
+    ? { plega: "Plega el menú", desplega: "Desplega el menú",
+        tPlega: "Amaga l'índex lateral i eixampla el temari",
+        tDesplega: "Torna a mostrar l'índex lateral" }
+    : { plega: "Plegar menú", desplega: "Desplegar menú",
+        tPlega: "Oculta el índice lateral y ensancha el temario",
+        tDesplega: "Vuelve a mostrar el índice lateral" };
+
+  var K = "temaris.lateral";
+  function leer(){ try { return localStorage.getItem(K) === "plegada"; } catch (e) { return false; } }
+  function escribir(v){ try { localStorage.setItem(K, v ? "plegada" : "oberta"); } catch (e) {} }
+
+  var btn = document.createElement("button");
+  btn.className = "plegar-btn";
+  btn.type = "button";
+  var menu = barra.querySelector(".menu-btn");
+  if (menu && menu.parentNode) menu.parentNode.insertBefore(btn, menu.nextSibling);
+  else barra.insertBefore(btn, barra.firstChild);
+
+  var plegada = leer();
+
+  function pintar(){
+    document.documentElement.classList.toggle("lateral-plegada", plegada);
+    btn.innerHTML = '<span class="ic">' + (plegada ? "&#9656;" : "&#9666;") + "</span>" +
+                    (plegada ? TX.desplega : TX.plega);
+    btn.title = plegada ? TX.tDesplega : TX.tPlega;
+    btn.setAttribute("aria-expanded", plegada ? "false" : "true");
+  }
+
+  btn.addEventListener("click", function(){
+    plegada = !plegada;
+    escribir(plegada);
+    pintar();
+  });
+
+  pintar();
+})();
+</script>
 </body>
 </html>
