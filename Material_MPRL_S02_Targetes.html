@@ -41,16 +41,21 @@ body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,sans-serif;
   padding:12px 16px;font-size:14px;margin:14px 0}
 .guia .nota b{color:var(--azul)}
 
-/* ---------- Pliegos ---------- */
-.pliego{width:192mm;min-height:277mm;margin:18px auto;background:var(--papel);
-  display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(4,69.25mm);
+/* ---------- Pliegos ----------
+   Medidas con holgura a propósito: 180 x 260 mm caben en un A4 aunque el
+   navegador imponga sus propios márgenes. Pantalla y papel son idénticos. */
+.pliego{width:180mm;margin:18px auto;background:var(--papel);
+  display:grid;grid-template-columns:repeat(2,90mm);grid-template-rows:repeat(4,65mm);
   box-shadow:0 1px 6px rgba(0,0,0,.12)}
-.t{border:1px dashed #9aa4ae;padding:6mm 7mm;display:flex;flex-direction:column;overflow:hidden}
+.t{border:1px dashed #9aa4ae;padding:5mm 6mm;display:flex;flex-direction:column;overflow:hidden}
 
 .t-cab{display:flex;align-items:center;gap:9px;flex:0 0 auto}
-.t-num{background:var(--azul);color:#fff;font-weight:700;font-size:15px;
-  min-width:27px;height:27px;border-radius:5px;display:inline-flex;align-items:center;justify-content:center}
-.t-num.gris{background:var(--fondo);color:var(--tinta-suave);border:1px solid var(--linea)}
+/* Sin relleno de color: así se imprime bien aunque el navegador tenga
+   desactivados los gráficos de fondo, que es lo normal. */
+.t-num{border:2px solid var(--azul);color:var(--azul);background:#fff;
+  font-weight:700;font-size:15px;min-width:27px;height:27px;border-radius:5px;
+  display:inline-flex;align-items:center;justify-content:center}
+.t-num.gris{border-color:var(--linea);color:var(--tinta-suave)}
 .t-mod{font-size:10px;letter-spacing:.9px;text-transform:uppercase;color:var(--tinta-suave);
   font-weight:700;margin-left:auto;display:flex;align-items:center;gap:6px}
 .t-mod .ln{display:inline-block;width:26mm;border-bottom:1px solid var(--linea)}
@@ -70,22 +75,23 @@ body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,sans-serif;
 .raya{display:block;border-bottom:1px solid var(--linea);height:7mm}
 
 /* ---------- Hoja de soluciones ---------- */
-.sol{width:192mm;margin:18px auto;background:var(--papel);padding:14mm 10mm;
+.sol{width:180mm;margin:18px auto;background:var(--papel);padding:10mm 0;
   box-shadow:0 1px 6px rgba(0,0,0,.12)}
 .sol h2{margin:0 0 3px;font-size:19px;color:var(--azul)}
 .sol .sub{margin:0 0 14px;color:var(--tinta-suave);font-size:13px}
 .sol table{width:100%;border-collapse:collapse;font-size:11px}
-.sol th{background:var(--azul);color:#fff;text-align:left;padding:5px 7px;font-size:10.5px;
-  text-transform:uppercase;letter-spacing:.6px}
+.sol th{color:var(--azul);text-align:left;padding:5px 7px;font-size:10.5px;
+  text-transform:uppercase;letter-spacing:.6px;border-bottom:2px solid var(--azul)}
 .sol td{border-bottom:1px solid var(--linea);padding:4px 7px;vertical-align:top}
 .sol td.c{text-align:center;white-space:nowrap}
 .sol td.n{font-weight:700;color:var(--azul)}
-.fam{display:inline-block;border-radius:4px;padding:2px 7px;font-size:10px;font-weight:700;white-space:nowrap}
-.fam.seg{background:var(--rojo-claro);color:var(--rojo)}
-.fam.med{background:var(--azul-claro);color:var(--azul)}
-.fam.erg{background:var(--verde-claro);color:var(--verde)}
-.fam.psi{background:var(--ambar-claro);color:var(--ambar)}
-.sol .aviso{background:var(--ambar-claro);border:1px solid #e8d2a6;border-radius:7px;
+.fam{display:inline-block;border:1.4px solid currentColor;border-radius:4px;
+  padding:1px 6px;font-size:10px;font-weight:700;white-space:nowrap}
+.fam.seg{color:var(--rojo)}
+.fam.med{color:var(--azul)}
+.fam.erg{color:var(--verde)}
+.fam.psi{color:var(--ambar)}
+.sol .aviso{border:1.5px solid #e8d2a6;border-radius:7px;
   padding:10px 14px;font-size:12px;margin:14px 0 0}
 .sol .aviso b{color:var(--ambar)}
 .sol .aviso ul{margin:6px 0 0;padding-left:20px}
@@ -98,12 +104,13 @@ body:not(.con-sol) .sol{display:none}
 /* ---------- Impresión ---------- */
 @page{size:A4 portrait;margin:10mm}
 @media print{
-  body{background:#fff}
+  html,body{background:#fff}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
   .barra,.guia{display:none!important}
-  .pliego,.sol{margin:0;box-shadow:none;width:auto;min-height:auto;
-    break-after:page;page-break-after:always}
-  .pliego{grid-template-rows:repeat(4,1fr);height:277mm}
-  .sol:last-child,.pliego:last-child{break-after:auto;page-break-after:auto}
+  /* El salto va DELANTE de cada pliego, nunca detrás: si fuera detrás, el
+     último forzaría una página en blanco al final. */
+  .pliego,.sol{margin:0 auto;box-shadow:none;padding:0}
+  .pliego+.pliego,.sol{break-before:page;page-break-before:always}
   .t{break-inside:avoid;page-break-inside:avoid}
   .sol tr,.sol .aviso{break-inside:avoid;page-break-inside:avoid}
   .sol thead{display:table-header-group}
@@ -146,9 +153,11 @@ body:not(.con-sol) .sol{display:none}
     <li><b>A una cara</b>: desmarca <b>Reversos</b> y salen solo los 3 pliegos de situaciones. El alumnado
     escribe el da&ntilde;o en el dorso en blanco.</li>
     <li>Imprime a <b>tama&ntilde;o real (100&nbsp;%)</b>, sin «ajustar a la p&aacute;gina»: las tarjetas est&aacute;n
-    calculadas a 96 &times; 69&nbsp;mm.</li>
+    calculadas a 90 &times; 65&nbsp;mm.</li>
     <li>Si el navegador a&ntilde;ade cabeceras y pies con la fecha y la direcci&oacute;n, qu&iacute;talos en
     <i>M&aacute;s ajustes &rsaquo; Encabezados y pies de p&aacute;gina</i>.</li>
+    <li>No hace falta activar los <i>gr&aacute;ficos de fondo</i>: las tarjetas est&aacute;n dibujadas con l&iacute;neas
+    y texto, as&iacute; que salen bien con los ajustes de serie del navegador.</li>
   </ol>
 
   <div class="nota"><b>La hoja de soluciones no se imprime por defecto.</b> Marca la casilla
