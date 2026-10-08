@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tarjetas recortables &middot; MPRL Pr&aacute;ctica 2</title>
+<style>
+:root{
+  --azul:#14508c; --azul-claro:#e7effa; --rojo:#b3261e; --rojo-claro:#fdeceb;
+  --verde:#1d6b45; --verde-claro:#e8f5ee; --ambar:#9c5c00; --ambar-claro:#fdf3e0;
+  --tinta:#1c2024; --tinta-suave:#4a545e; --linea:#d4dae0; --fondo:#f4f5f7; --papel:#fff;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,sans-serif;
+  color:var(--tinta);background:var(--fondo);line-height:1.45}
+
+/* ---------- Barra (solo pantalla) ---------- */
+.barra{position:sticky;top:0;z-index:50;background:var(--azul);color:#fff;
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:10px 18px;
+  box-shadow:0 2px 8px rgba(0,0,0,.18)}
+.barra .cod{background:rgba(255,255,255,.18);border-radius:4px;padding:2px 8px;font-size:12px;font-weight:700}
+.barra h1{font-size:14.5px;margin:0;font-weight:600}
+.barra .esp{flex:1}
+.barra button,.barra a.btn{background:rgba(255,255,255,.15);color:#fff;
+  border:1px solid rgba(255,255,255,.35);border-radius:6px;padding:5px 12px;font-size:13px;
+  cursor:pointer;font-family:inherit;text-decoration:none}
+.barra button:hover,.barra a.btn:hover{background:rgba(255,255,255,.3)}
+.barra label{font-size:12.5px;display:inline-flex;align-items:center;gap:6px;cursor:pointer;
+  background:rgba(255,255,255,.12);border-radius:6px;padding:5px 11px}
+.barra input{accent-color:#fff;margin:0}
+
+/* ---------- Guía (solo pantalla) ---------- */
+.guia{max-width:860px;margin:20px auto;background:var(--papel);border:1px solid var(--linea);
+  border-radius:8px;padding:24px 30px}
+.guia h2{margin:0 0 4px;font-size:21px;color:var(--azul)}
+.guia .sub{margin:0 0 16px;color:var(--tinta-suave);font-size:14.5px}
+.guia h3{font-size:14px;margin:20px 0 6px;color:var(--azul);text-transform:uppercase;letter-spacing:.7px}
+.guia ol,.guia ul{margin:8px 0;padding-left:22px}
+.guia li{margin:5px 0;font-size:14.5px}
+.guia .nota{background:var(--azul-claro);border:1px solid #bcd3ee;border-radius:7px;
+  padding:12px 16px;font-size:14px;margin:14px 0}
+.guia .nota b{color:var(--azul)}
+
+/* ---------- Pliegos ---------- */
+.pliego{width:192mm;min-height:277mm;margin:18px auto;background:var(--papel);
+  display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(4,69.25mm);
+  box-shadow:0 1px 6px rgba(0,0,0,.12)}
+.t{border:1px dashed #9aa4ae;padding:6mm 7mm;display:flex;flex-direction:column;overflow:hidden}
+
+.t-cab{display:flex;align-items:center;gap:9px;flex:0 0 auto}
+.t-num{background:var(--azul);color:#fff;font-weight:700;font-size:15px;
+  min-width:27px;height:27px;border-radius:5px;display:inline-flex;align-items:center;justify-content:center}
+.t-num.gris{background:var(--fondo);color:var(--tinta-suave);border:1px solid var(--linea)}
+.t-mod{font-size:10px;letter-spacing:.9px;text-transform:uppercase;color:var(--tinta-suave);
+  font-weight:700;margin-left:auto;display:flex;align-items:center;gap:6px}
+.t-mod .ln{display:inline-block;width:26mm;border-bottom:1px solid var(--linea)}
+
+.t-sit{flex:1;display:flex;align-items:center;margin:0;font-size:17px;font-weight:600;line-height:1.3}
+.t-pie{flex:0 0 auto;font-size:10.5px;color:var(--tinta-suave);font-style:italic;
+  border-top:1px solid var(--linea);padding-top:4px}
+
+.t-fam{flex:0 0 auto;font-size:10.5px;color:var(--tinta-suave);margin-top:6px;
+  display:grid;grid-template-columns:1fr 1fr;gap:4px 10px}
+.t-fam span.op{display:flex;align-items:center;gap:5px;white-space:nowrap}
+.cas{display:inline-block;width:10px;height:10px;flex:0 0 auto;
+  border:1.4px solid var(--tinta-suave);border-radius:2px}
+.t-dano{flex:1;display:flex;flex-direction:column;justify-content:center;font-size:11px;
+  color:var(--tinta-suave)}
+.t-dano b{color:var(--tinta);font-size:11.5px}
+.raya{display:block;border-bottom:1px solid var(--linea);height:7mm}
+
+/* ---------- Hoja de soluciones ---------- */
+.sol{width:192mm;margin:18px auto;background:var(--papel);padding:14mm 10mm;
+  box-shadow:0 1px 6px rgba(0,0,0,.12)}
+.sol h2{margin:0 0 3px;font-size:19px;color:var(--azul)}
+.sol .sub{margin:0 0 14px;color:var(--tinta-suave);font-size:13px}
+.sol table{width:100%;border-collapse:collapse;font-size:11px}
+.sol th{background:var(--azul);color:#fff;text-align:left;padding:5px 7px;font-size:10.5px;
+  text-transform:uppercase;letter-spacing:.6px}
+.sol td{border-bottom:1px solid var(--linea);padding:4px 7px;vertical-align:top}
+.sol td.c{text-align:center;white-space:nowrap}
+.sol td.n{font-weight:700;color:var(--azul)}
+.fam{display:inline-block;border-radius:4px;padding:2px 7px;font-size:10px;font-weight:700;white-space:nowrap}
+.fam.seg{background:var(--rojo-claro);color:var(--rojo)}
+.fam.med{background:var(--azul-claro);color:var(--azul)}
+.fam.erg{background:var(--verde-claro);color:var(--verde)}
+.fam.psi{background:var(--ambar-claro);color:var(--ambar)}
+.sol .aviso{background:var(--ambar-claro);border:1px solid #e8d2a6;border-radius:7px;
+  padding:10px 14px;font-size:12px;margin:14px 0 0}
+.sol .aviso b{color:var(--ambar)}
+.sol .aviso ul{margin:6px 0 0;padding-left:20px}
+.sol .aviso li{margin:3px 0}
+
+/* ---------- Conmutadores ---------- */
+body.sin-rev .reversos{display:none}
+body:not(.con-sol) .sol{display:none}
+
+/* ---------- Impresión ---------- */
+@page{size:A4 portrait;margin:10mm}
+@media print{
+  body{background:#fff}
+  .barra,.guia{display:none!important}
+  .pliego,.sol{margin:0;box-shadow:none;width:auto;min-height:auto;
+    break-after:page;page-break-after:always}
+  .pliego{grid-template-rows:repeat(4,1fr);height:277mm}
+  .sol:last-child,.pliego:last-child{break-after:auto;page-break-after:auto}
+  .t{break-inside:avoid;page-break-inside:avoid}
+  .sol tr,.sol .aviso{break-inside:avoid;page-break-inside:avoid}
+  .sol thead{display:table-header-group}
+}
+@media(max-width:820px){
+  .pliego{width:auto;max-width:100%;grid-template-columns:1fr;grid-template-rows:none}
+  .t{min-height:50mm}
+  .sol{width:auto;padding:16px}
+}
+</style>
+</head>
+<body>
+
+<div class="barra">
+  <span class="cod">MPRL</span>
+  <h1>Pr&aacute;ctica 2 &middot; Las 24 situaciones, para recortar</h1>
+  <span class="esp"></span>
+  <label><input type="checkbox" id="chk-rev" checked> Reversos</label>
+  <label><input type="checkbox" id="chk-sol"> Soluciones</label>
+  <button onclick="window.print()">Imprimir / PDF</button>
+  <a class="btn" id="volver" href="Temario_MPRL_Teoria.html#s02">Volver al temario</a>
+</div>
+
+<section class="guia">
+  <h2>Las 24 situaciones de la pr&aacute;ctica 2</h2>
+  <p class="sub">Material de aula del m&oacute;dulo de Prevenci&oacute;n de riesgos laborales &middot;
+  Sesi&oacute;n 2: condiciones de trabajo y factores de riesgo.</p>
+
+  <h3>Qu&eacute; es esto</h3>
+  <p>Tres pliegos con las <b>24 tarjetas</b> de situaciones, listas para imprimir y cortar por la l&iacute;nea
+  de puntos. Cada tarjeta lleva delante la situaci&oacute;n y, detr&aacute;s, el espacio para que el grupo marque
+  <b>la familia</b> y escriba <b>el da&ntilde;o que puede producir</b>, que es justo lo que pide el paso 1 de la
+  pr&aacute;ctica.</p>
+
+  <h3>C&oacute;mo imprimirlo</h3>
+  <ol>
+    <li><b>A doble cara</b> (lo normal): deja marcada la casilla <b>Reversos</b> y en el di&aacute;logo de impresi&oacute;n
+    elige <b>doble cara, giro por el borde largo</b>. Los reversos ya van con las columnas invertidas para que
+    cada uno caiga detr&aacute;s de su tarjeta.</li>
+    <li><b>A una cara</b>: desmarca <b>Reversos</b> y salen solo los 3 pliegos de situaciones. El alumnado
+    escribe el da&ntilde;o en el dorso en blanco.</li>
+    <li>Imprime a <b>tama&ntilde;o real (100&nbsp;%)</b>, sin «ajustar a la p&aacute;gina»: las tarjetas est&aacute;n
+    calculadas a 96 &times; 69&nbsp;mm.</li>
+    <li>Si el navegador a&ntilde;ade cabeceras y pies con la fecha y la direcci&oacute;n, qu&iacute;talos en
+    <i>M&aacute;s ajustes &rsaquo; Encabezados y pies de p&aacute;gina</i>.</li>
+  </ol>
+
+  <div class="nota"><b>La hoja de soluciones no se imprime por defecto.</b> Marca la casilla
+  <b>Soluciones</b> solo cuando quieras tu copia: lleva la familia de cada tarjeta, un da&ntilde;o t&iacute;pico y
+  las cuatro tarjetas que conviene discutir en com&uacute;n.</div>
+
+  <h3>Para que funcione en clase</h3>
+  <ul>
+    <li>Un juego de 24 tarjetas da para <b>cuatro grupos de 6</b>. Si tienes m&aacute;s grupos, imprime dos juegos
+    en papeles de color distinto y no se mezclan.</li>
+    <li>Si las pegas en el mural, el da&ntilde;o escrito detr&aacute;s queda oculto: p&eacute;galas
+    <b>solo por el borde de arriba</b>, a modo de solapa, y se pueden levantar para leerlas.</li>
+    <li>Cartulina o papel de 160&nbsp;g aguanta todo el curso; en folio normal conviene plastificar el mural.</li>
+  </ul>
+</section>
+
+<section class="pliego anversos" aria-label="Tarjetas 1 a 8">
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">1</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Suelo mojado en el pasillo</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">2</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Ruido del martillo percutor</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">3</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Cargar un rollo de cable de 30 kg</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">4</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Turnos de noche cambiantes</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">5</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Cuadro el&eacute;ctrico sin tapa</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">6</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Polvo de obra al hacer rozas</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">7</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Trabajar con los brazos en alto tres horas</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">8</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">El encargado grita a la gente</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+</section>
+
+<section class="pliego reversos" aria-label="Reversos de las tarjetas 1 a 8">
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">2</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">1</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">4</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">3</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">6</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">5</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">8</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">7</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+</section>
+
+<section class="pliego anversos" aria-label="Tarjetas 9 a 16">
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">9</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Escalera de mano apoyada en una barandilla</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">10</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Disolvente para limpiar sin ventilaci&oacute;n</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">11</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Silla sin respaldo en el banco de trabajo</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">12</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">No saber nunca a qu&eacute; obra vas ma&ntilde;ana</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">13</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Taladro sin empu&ntilde;adura lateral</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">14</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Almac&eacute;n a 5&nbsp;&deg;C en invierno</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">15</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Teclear datos toda la tarde</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">16</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Trabajar solo, sin contacto con nadie</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+</section>
+
+<section class="pliego reversos" aria-label="Reversos de las tarjetas 9 a 16">
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">10</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">9</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">12</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">11</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">14</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">13</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">16</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">15</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+</section>
+
+<section class="pliego anversos" aria-label="Tarjetas 17 a 24">
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">17</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Cable pelado en un alargador</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">18</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Poca luz en el falso techo</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">19</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Subir y bajar cajas del altillo todo el d&iacute;a</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">20</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Contrato que se renueva cada mes</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">21</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Bombona de gas junto a la soldadura</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">22</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Guantes que no a&iacute;slan bien</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">23</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Vibraci&oacute;n de la rozadora</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+  <div class="t anv">
+    <div class="t-cab"><span class="t-num">24</span><span class="t-mod">MPRL &middot; Pr&aacute;ctica 2</span></div>
+    <p class="t-sit">Agua estancada en la arqueta donde hay que meter la mano</p>
+    <div class="t-pie">&iquest;Qu&eacute; familia de factores de riesgo es?</div>
+  </div>
+</section>
+
+<section class="pliego reversos" aria-label="Reversos de las tarjetas 17 a 24">
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">18</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">17</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">20</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">19</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">22</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">21</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">24</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+  <div class="t rev">
+    <div class="t-cab"><span class="t-num gris">23</span><span class="t-mod">Grupo: <span class="ln"></span></span></div>
+    <div class="t-fam">
+      <span class="op"><span class="cas"></span>Seguridad</span>
+      <span class="op"><span class="cas"></span>Medioambiental</span>
+      <span class="op"><span class="cas"></span>Ergon&oacute;mica</span>
+      <span class="op"><span class="cas"></span>Psicosocial</span>
+    </div>
+    <div class="t-dano"><b>Da&ntilde;o que puede producir:</b>
+      <span class="raya"></span><span class="raya"></span>
+    </div>
+  </div>
+</section>
+
+<section class="sol">
+  <h2>Hoja de soluciones &middot; profesorado</h2>
+  <p class="sub">Clasificaci&oacute;n de las 24 situaciones y da&ntilde;o t&iacute;pico de cada una.
+  No la repartas: es tu copia de correcci&oacute;n.</p>
+  <table>
+    <thead><tr><th style="width:26px">N.&ordm;</th><th style="width:31%">Situaci&oacute;n</th>
+    <th style="width:98px">Familia</th><th>Da&ntilde;o que puede producir</th></tr></thead>
+    <tbody>
+    <tr><td class="c n">1</td><td>Suelo mojado en el pasillo</td><td class="c"><span class="fam seg">Seguridad</span></td><td>Ca&iacute;da al mismo nivel: contusiones, esguince o fractura.</td></tr>
+    <tr><td class="c n">2</td><td>Ruido del martillo percutor</td><td class="c"><span class="fam med">Medioambiental</span></td><td>Hipoacusia o sordera profesional y ac&uacute;fenos.</td></tr>
+    <tr><td class="c n">3</td><td>Cargar un rollo de cable de 30 kg</td><td class="c"><span class="fam erg">Ergon&oacute;mica</span></td><td>Sobreesfuerzo: lumbalgia, hernia discal.</td></tr>
+    <tr><td class="c n">4</td><td>Turnos de noche cambiantes</td><td class="c"><span class="fam psi">Psicosocial</span></td><td>Trastorno del sue&ntilde;o, fatiga cr&oacute;nica, problemas digestivos.</td></tr>
+    <tr><td class="c n">5</td><td>Cuadro el&eacute;ctrico sin tapa</td><td class="c"><span class="fam seg">Seguridad</span></td><td>Contacto el&eacute;ctrico directo: electrocuci&oacute;n y quemaduras.</td></tr>
+    <tr><td class="c n">6</td><td>Polvo de obra al hacer rozas</td><td class="c"><span class="fam med">Medioambiental</span></td><td>Enfermedad respiratoria (silicosis si hay s&iacute;lice) e irritaci&oacute;n ocular.</td></tr>
+    <tr><td class="c n">7</td><td>Trabajar con los brazos en alto tres horas</td><td class="c"><span class="fam erg">Ergon&oacute;mica</span></td><td>Tendinitis de hombro, lesi&oacute;n del manguito rotador.</td></tr>
+    <tr><td class="c n">8</td><td>El encargado grita a la gente</td><td class="c"><span class="fam psi">Psicosocial</span></td><td>Estr&eacute;s y ansiedad; si se repite sobre una persona, acoso laboral.</td></tr>
+    <tr><td class="c n">9</td><td>Escalera de mano apoyada en una barandilla</td><td class="c"><span class="fam seg">Seguridad</span></td><td>Ca&iacute;da de altura: fracturas o lesi&oacute;n grave.</td></tr>
+    <tr><td class="c n">10</td><td>Disolvente para limpiar sin ventilaci&oacute;n</td><td class="c"><span class="fam med">Medioambiental</span></td><td>Intoxicaci&oacute;n, mareo, dermatitis; da&ntilde;o hep&aacute;tico a largo plazo.</td></tr>
+    <tr><td class="c n">11</td><td>Silla sin respaldo en el banco de trabajo</td><td class="c"><span class="fam erg">Ergon&oacute;mica</span></td><td>Dolor lumbar y cervical por mala postura mantenida.</td></tr>
+    <tr><td class="c n">12</td><td>No saber nunca a qu&eacute; obra vas ma&ntilde;ana</td><td class="c"><span class="fam psi">Psicosocial</span></td><td>Incertidumbre, estr&eacute;s y dificultad para conciliar.</td></tr>
+    <tr><td class="c n">13</td><td>Taladro sin empu&ntilde;adura lateral</td><td class="c"><span class="fam seg">Seguridad</span></td><td>P&eacute;rdida de control de la m&aacute;quina: golpe, corte, torsi&oacute;n de mu&ntilde;eca.</td></tr>
+    <tr><td class="c n">14</td><td>Almac&eacute;n a 5&nbsp;&deg;C en invierno</td><td class="c"><span class="fam med">Medioambiental</span></td><td>Estr&eacute;s t&eacute;rmico por fr&iacute;o, dolor articular, resfriados de repetici&oacute;n.</td></tr>
+    <tr><td class="c n">15</td><td>Teclear datos toda la tarde</td><td class="c"><span class="fam erg">Ergon&oacute;mica</span></td><td>Tendinitis de mu&ntilde;eca, s&iacute;ndrome del t&uacute;nel carpiano, fatiga visual.</td></tr>
+    <tr><td class="c n">16</td><td>Trabajar solo, sin contacto con nadie</td><td class="c"><span class="fam psi">Psicosocial</span></td><td>Aislamiento y estr&eacute;s; adem&aacute;s agrava cualquier accidente: nadie auxilia.</td></tr>
+    <tr><td class="c n">17</td><td>Cable pelado en un alargador</td><td class="c"><span class="fam seg">Seguridad</span></td><td>Contacto el&eacute;ctrico e incendio.</td></tr>
+    <tr><td class="c n">18</td><td>Poca luz en el falso techo</td><td class="c"><span class="fam med">Medioambiental</span></td><td>Fatiga visual; golpes y ca&iacute;das por no ver bien.</td></tr>
+    <tr><td class="c n">19</td><td>Subir y bajar cajas del altillo todo el d&iacute;a</td><td class="c"><span class="fam erg">Ergon&oacute;mica</span></td><td>Sobreesfuerzo lumbar; si el altillo no tiene barandilla, ca&iacute;da de altura.</td></tr>
+    <tr><td class="c n">20</td><td>Contrato que se renueva cada mes</td><td class="c"><span class="fam psi">Psicosocial</span></td><td>Inseguridad, estr&eacute;s y miedo a reclamar condiciones de seguridad.</td></tr>
+    <tr><td class="c n">21</td><td>Bombona de gas junto a la soldadura</td><td class="c"><span class="fam seg">Seguridad</span></td><td>Explosi&oacute;n e incendio: quemaduras graves.</td></tr>
+    <tr><td class="c n">22</td><td>Guantes que no a&iacute;slan bien</td><td class="c"><span class="fam seg">Seguridad</span></td><td>Contacto el&eacute;ctrico pese al EPI, con falsa sensaci&oacute;n de seguridad.</td></tr>
+    <tr><td class="c n">23</td><td>Vibraci&oacute;n de la rozadora</td><td class="c"><span class="fam med">Medioambiental</span></td><td>S&iacute;ndrome de vibraci&oacute;n mano-brazo, dedo blanco, lesi&oacute;n articular.</td></tr>
+    <tr><td class="c n">24</td><td>Agua estancada en la arqueta donde hay que meter la mano</td><td class="c"><span class="fam med">Medioambiental</span></td><td>Riesgo biol&oacute;gico (leptospirosis, infecciones); si hay cables, tambi&eacute;n el&eacute;ctrico.</td></tr>
+    </tbody>
+  </table>
+  <div class="aviso"><b>Las cuatro que hay que discutir a prop&oacute;sito</b> &mdash; pertenecen a dos familias
+  a la vez, y ah&iacute; est&aacute; el aprendizaje real:
+    <ul>
+      <li><b>23, vibraci&oacute;n de la rozadora:</b> es un agente f&iacute;sico, o sea medioambiental, pero el da&ntilde;o
+      que produce es musculoesquel&eacute;tico.</li>
+      <li><b>19, cajas del altillo:</b> ergon&oacute;mica por la carga; si el altillo no tiene barandilla, pasa a ser
+      tambi&eacute;n de seguridad, y grave.</li>
+      <li><b>24, arqueta con agua estancada:</b> biol&oacute;gico por el agua; si hay cables dentro, adem&aacute;s
+      el&eacute;ctrico. Anticipa la sesi&oacute;n 11.</li>
+      <li><b>15, teclear toda la tarde:</b> ergon&oacute;mica por la postura repetitiva; si encima hay que cumplir un
+      n&uacute;mero de registros por hora, se vuelve psicosocial.</li>
+    </ul>
+  </div>
+</section>
+
+<script>
+(function(){
+  var rev = document.getElementById("chk-rev");
+  var sol = document.getElementById("chk-sol");
+  function pintar(){
+    document.body.classList.toggle("sin-rev", !rev.checked);
+    document.body.classList.toggle("con-sol", sol.checked);
+  }
+  rev.addEventListener("change", pintar);
+  sol.addEventListener("change", pintar);
+  pintar();
+
+  // Si se abre desde el portal publicado, el enlace de vuelta al temario
+  // funciona igual en local que en el sitio web.
+  var v = document.getElementById("volver");
+  if (v && location.protocol !== "file:") v.href = "./Temario_MPRL_Teoria.html#s02";
+})();
+</script>
+</body>
+</html>
