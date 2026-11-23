@@ -484,7 +484,8 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
 
     <!-- MFG1 -->
     <article class="tarjeta" data-cod="MFG1" data-color="verde" data-perfiles="EE01 HT06"
-             data-archivo="Temario_MFG1_Teoria.html" data-total="55">
+             data-archivo="Temario_MFG1_Teoria.html"
+             data-archivo-ht06="Temario_MFG1_Teoria_HT06.html" data-total="55">
       <a class="t-link" href="Temario_MFG1_Teoria.html">
         <svg viewBox="0 0 420 168" role="img" aria-label="Bocadillos de conversación, un texto escrito y tres lenguas">
           <rect width="420" height="168" fill="#e8f5ee"/>
@@ -588,7 +589,8 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
     <!-- MFG4 -->
     <article class="tarjeta" data-cod="MFG4" data-color="morado" data-perfiles="EE01 HT06"
              data-archivo="Temario_MFG4_Teoria.html"
-             data-archivo-ca="Temario_MFG4_Teoria_CA.html" data-total="50">
+             data-archivo-ca="Temario_MFG4_Teoria_CA.html"
+             data-archivo-ht06="Temario_MFG4_Teoria_HT06.html" data-total="50">
       <a class="t-link" href="Temario_MFG4_Teoria.html">
         <svg viewBox="0 0 420 168" role="img" aria-label="Currículum y recorrido profesional ascendente">
           <rect width="420" height="168" fill="#f4f1fa"/>
@@ -693,25 +695,47 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
     return (i === "ca") ? "ca" : "es";
   }
 
-  // Fitxer que toca obrir segons l'idioma triat. Si el mòdul encara no té
-  // versió catalana, es queda la castellana.
-  function archivoDe(t, idioma){
-    var es = t.getAttribute("data-archivo");
-    var ca = t.getAttribute("data-archivo-ca");
+  // Totes les variants de fitxer que pot tenir una targeta: idioma (castellà o
+  // català) per perfil (comuna o específica d'HT06).
+  var ATRIBUTOS = ["data-archivo", "data-archivo-ca",
+                   "data-archivo-ht06", "data-archivo-ht06-ca"];
+  function variantes(t){
+    return ATRIBUTOS.map(function(a){ return t.getAttribute(a); })
+                    .filter(function(f){ return !!f; });
+  }
+
+  // Fitxer que toca obrir segons l'idioma i el perfil. Si la variant no
+  // existeix es va reculant: HT06 en català → HT06 → català comú → castellà.
+  function archivoDe(t, idioma, perfil){
+    var es   = t.getAttribute("data-archivo");
+    var ca   = t.getAttribute("data-archivo-ca");
+    var ht   = t.getAttribute("data-archivo-ht06");
+    var htCa = t.getAttribute("data-archivo-ht06-ca");
+    if (perfil === "HT06" && (ht || htCa)) {
+      if (idioma === "ca" && htCa) return htCa;
+      if (ht) return ht;
+    }
     return (idioma === "ca" && ca) ? ca : es;
+  }
+
+  // Si el fitxer que s'obrirà té parella en l'altra llengua, la targeta és
+  // bilingüe. Un mòdul pot ser-ho per a un perfil i no per a l'altre.
+  function tieneCatalan(t, perfil){
+    return (perfil === "HT06" && t.getAttribute("data-archivo-ht06"))
+      ? !!t.getAttribute("data-archivo-ht06-ca")
+      : !!t.getAttribute("data-archivo-ca");
   }
 
   // Reescriu tots els enllaços de la targeta que apunten al temari.
   function enlazar(t, archivo){
-    var es = t.getAttribute("data-archivo");
-    var ca = t.getAttribute("data-archivo-ca");
+    var propios = variantes(t);
     var enlaces = [t.querySelector(".t-link")].concat(
       Array.prototype.slice.call(t.querySelectorAll(".t-acciones .t-btn")));
     enlaces.forEach(function(a){
       if (!a) return;
       var h = a.getAttribute("href") || "";
       var base = h.split("#")[0];
-      if (base !== es && base !== ca) return;          // el banc de preguntes, per exemple
+      if (propios.indexOf(base) === -1) return;        // el banc de preguntes, per exemple
       a.setAttribute("href", archivo + (h.indexOf("#") >= 0 ? h.slice(h.indexOf("#")) : ""));
     });
   }
@@ -734,7 +758,6 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
       b.classList.toggle("act", b.getAttribute("data-perfil") === PERFIL);
     });
 
-    var bilingues = 0;
     botIdioma.forEach(function(b){
       b.classList.toggle("on", b.getAttribute("data-idioma") === IDIOMA);
     });
@@ -743,10 +766,9 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
 
     tarjetas.forEach(function(t){
       var cod = t.getAttribute("data-cod");
-      var tieneCa = !!t.getAttribute("data-archivo-ca");
-      if (tieneCa) bilingues++;
+      var tieneCa = tieneCatalan(t, PERFIL);
       t.classList.toggle("bilingue", tieneCa);
-      var archivo = archivoDe(t, IDIOMA);
+      var archivo = archivoDe(t, IDIOMA, PERFIL);
       enlazar(t, archivo);
       var perfiles = (t.getAttribute("data-perfiles") || "EE01 HT06").split(/\s+/);
       var deEstePerfil = perfiles.indexOf(PERFIL) !== -1;
@@ -794,11 +816,15 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
 
     var nota = document.getElementById("lang-nota");
     if (nota) {
+      var ambCa = tarjetas.filter(function(t){ return tieneCatalan(t, PERFIL); })
+                          .map(function(t){ return t.getAttribute("data-cod"); });
       nota.innerHTML = (IDIOMA !== "ca")
         ? "Tots els temaris s'obriran en castell&agrave;."
-        : (bilingues === 1
-            ? "De moment nom&eacute;s el <b>MFG4</b> t&eacute; versi&oacute; catalana; la resta s'obriran en castell&agrave;."
-            : "S'obriran en catal&agrave; els <b>" + bilingues + "</b> m&ograve;duls que en tenen versi&oacute;; la resta, en castell&agrave;.");
+        : (ambCa.length === 0
+            ? "Cap temari d'aquest perfil t&eacute; encara versi&oacute; catalana: s'obriran tots en castell&agrave;."
+            : ambCa.length === 1
+              ? "De moment nom&eacute;s el <b>" + ambCa[0] + "</b> t&eacute; versi&oacute; catalana; la resta s'obriran en castell&agrave;."
+              : "S'obriran en catal&agrave; els <b>" + ambCa.length + "</b> m&ograve;duls que en tenen versi&oacute;; la resta, en castell&agrave;.");
     }
 
     var pctG = totalG ? Math.round(hechasG * 100 / totalG) : 0;
