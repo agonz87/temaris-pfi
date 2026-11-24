@@ -485,7 +485,8 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
     <!-- MFG1 -->
     <article class="tarjeta" data-cod="MFG1" data-color="verde" data-perfiles="EE01 HT06"
              data-archivo="Temario_MFG1_Teoria.html"
-             data-archivo-ht06="Temario_MFG1_Teoria_HT06.html" data-total="55">
+             data-archivo-ht06="Temario_MFG1_Teoria_HT06.html"
+             data-banco-ht06="Banco_preguntas_MFG1_HT06_GIFT.txt" data-total="55">
       <a class="t-link" href="Temario_MFG1_Teoria.html">
         <svg viewBox="0 0 420 168" role="img" aria-label="Bocadillos de conversación, un texto escrito y tres lenguas">
           <rect width="420" height="168" fill="#e8f5ee"/>
@@ -591,7 +592,8 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
              data-archivo="Temario_MFG4_Teoria.html"
              data-archivo-ca="Temario_MFG4_Teoria_CA.html"
              data-archivo-ht06="Temario_MFG4_Teoria_HT06.html"
-             data-archivo-ht06-ca="Temario_MFG4_Teoria_HT06_CA.html" data-total="50">
+             data-archivo-ht06-ca="Temario_MFG4_Teoria_HT06_CA.html"
+             data-banco-ht06="Banco_preguntas_MFG4_HT06_GIFT.txt" data-total="50">
       <a class="t-link" href="Temario_MFG4_Teoria.html">
         <svg viewBox="0 0 420 168" role="img" aria-label="Currículum y recorrido profesional ascendente">
           <rect width="420" height="168" fill="#f4f1fa"/>
@@ -727,6 +729,16 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
       : !!t.getAttribute("data-archivo-ca");
   }
 
+  // El banc de preguntes també pot tenir versió pròpia del perfil HT06. El
+  // fitxer comú es guarda a data-banco el primer cop, per poder tornar-hi.
+  function enlazarBanco(t, perfil){
+    var a = t.querySelector('.t-acciones a[href^="Banco_preguntas_"]');
+    if (!a) return;
+    if (!a.getAttribute("data-banco")) a.setAttribute("data-banco", a.getAttribute("href"));
+    var ht = t.getAttribute("data-banco-ht06");
+    a.setAttribute("href", (perfil === "HT06" && ht) ? ht : a.getAttribute("data-banco"));
+  }
+
   // Reescriu tots els enllaços de la targeta que apunten al temari.
   function enlazar(t, archivo){
     var propios = variantes(t);
@@ -771,6 +783,7 @@ html.acc-bloq body>*:not(#acc-capa){display:none!important}
       t.classList.toggle("bilingue", tieneCa);
       var archivo = archivoDe(t, IDIOMA, PERFIL);
       enlazar(t, archivo);
+      enlazarBanco(t, PERFIL);
       var perfiles = (t.getAttribute("data-perfiles") || "EE01 HT06").split(/\s+/);
       var deEstePerfil = perfiles.indexOf(PERFIL) !== -1;
       var total = parseInt(t.getAttribute("data-total"), 10) || 0;
